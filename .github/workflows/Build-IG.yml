@@ -7,27 +7,27 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - name: Set up java
-        uses: actions/setup-java@v1
-        with:
-          java-version: "11"
-          java-package: jre
-          architecture: x64
-      - name: Set up node
-        uses: actions/setup-node@v1
-        with:
-          node-version: "12.12"
-      - name: Set up ruby
-        uses: actions/setup-ruby@v1
-        with:
-          ruby-version: "2.6"
-      - name: Install jekyll
-        run: gem install jekyll --no-document
-      - name: Install dependencies
-        run: npm install fsh-sushi --no-save
-      - name: Run fsh-sushi
-        run: ./node_modules/.bin/sushi .
+      #- uses: actions/checkout@v1
+      #- name: Set up java
+      #  uses: actions/setup-java@v1
+      #  with:
+      #    java-version: "11"
+      #    java-package: jre
+      #    architecture: x64
+      #- name: Set up node
+      #  uses: actions/setup-node@v1
+      #  with:
+      #    node-version: "12.12"
+      #- name: Set up ruby
+      #  uses: actions/setup-ruby@v1
+      #  with:
+      #    ruby-version: "2.6"
+      #- name: Install jekyll
+      #  run: gem install jekyll --no-document
+      #- name: Install dependencies
+      #  run: npm install fsh-sushi --no-save
+      #- name: Run fsh-sushi
+      #  run: ./node_modules/.bin/sushi .
       # - name: Update ig-publisher
       #   run: ./_updatePublisher.sh
       # - name: Run ig-publisher
