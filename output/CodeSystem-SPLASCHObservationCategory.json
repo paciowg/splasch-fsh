@@ -1,0 +1,75 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SPLASCHObservationCategory",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategory defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">spoken-language-comprehension<a name=\"SPLASCHObservationCategory-spoken-language-comprehension\"> </a></td><td>Spoken language comprehension</td><td>todo definition</td></tr><tr><td style=\"white-space:nowrap\">spoken-language-expression<a name=\"SPLASCHObservationCategory-spoken-language-expression\"> </a></td><td>Spoken language expression</td><td>todo definition</td></tr><tr><td style=\"white-space:nowrap\">swallowing<a name=\"SPLASCHObservationCategory-swallowing\"> </a></td><td>Swallowing</td><td>todo definition</td></tr></table></div>"
+  },
+  "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategory",
+  "version": "0.1.0",
+  "name": "SPLASCHObservationCategory",
+  "title": "SPLASCH Observation Category",
+  "status": "active",
+  "date": "2021-11-24T16:16:20-05:00",
+  "publisher": "HL7 Patient Care Working Group",
+  "contact": [
+    {
+      "name": "HL7 Patient Care Working Group",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientcare"
+        },
+        {
+          "system": "email",
+          "value": "patients@lists.HL7.org"
+        }
+      ]
+    },
+    {
+      "name": "PACIO project",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientcare"
+        },
+        {
+          "system": "email",
+          "value": "info@pacioproject.org"
+        }
+      ]
+    }
+  ],
+  "description": "todo",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
+        }
+      ]
+    }
+  ],
+  "copyright": "This CodeSystem is not copyrighted.",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "spoken-language-comprehension",
+      "display": "Spoken language comprehension",
+      "definition": "todo definition"
+    },
+    {
+      "code": "spoken-language-expression",
+      "display": "Spoken language expression",
+      "definition": "todo definition"
+    },
+    {
+      "code": "swallowing",
+      "display": "Swallowing",
+      "definition": "todo definition"
+    }
+  ]
+}

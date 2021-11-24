@@ -1,0 +1,23 @@
+[
+  {
+    "id": "SPLASCHObservationCategory",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategory",
+    "version": "0.1.0",
+    "name": "SPLASCHObservationCategory"
+  },
+  {
+    "id": "hl7.fhir.us.pacio-splasch",
+    "type": "ImplementationGuide",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ImplementationGuide/hl7.fhir.us.pacio-splasch",
+    "version": "0.1.0",
+    "name": "PACIOReAssessmentTimepoints"
+  },
+  {
+    "id": "splasch-SpokenLanguageComprehension",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageComprehension",
+    "version": "0.1.0",
+    "name": "SpokenLanguageComprehension"
+  }
+]

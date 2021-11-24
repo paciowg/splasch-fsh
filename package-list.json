@@ -1,0 +1,16 @@
+{
+    "package-id": "hl7.fhir.us.pacio-splasch",
+    "canonical": "http://hl7.org/fhir/us/pacio-splasch",
+    "title": "PACIO Re-Assessment Timepoints Implementation Guide",
+    "introduction": "This implementation guide describes a means to break up extended Post-Acute admissions into consumable blocks that can reflect the evolution of care over time of the encounter or episode of care.",
+    "category": "Clinical Documents",
+    "list": [
+      {
+        "version": "current",
+        "desc": "PACIO Re-Assessment Timepoints Implementation Guide CI Build",
+        "path": "http://build.fhir.org/ig/HL7/fhir-pacio-reassessment-timepoints",
+        "status": "ci-build",
+        "current": true
+      }
+    ]
+  }
