@@ -1,4 +1,4 @@
-This PACIO SPASCH implementation guide describes .... (TK)
+This PACIO SPASCH implementation guide describes .... coming soon (todo)
 
 ### Introduction 
 
@@ -32,7 +32,7 @@ The Post-Acute Care Interoperability (PACIO) community has a strong interest in 
 
 ### Background
 
-(tk)
+(todo)
 
 
 ![PACIO logo](./pacio.png)
