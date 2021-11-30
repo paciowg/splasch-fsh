@@ -9,6 +9,14 @@
       {
         "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageComprehension",
         "title": "Spoken Language Comprehension"
+      },
+      {
+        "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageExpression",
+        "title": "Spoken Language Expression"
+      },
+      {
+        "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-Swallowing",
+        "title": "Swallowing"
       }
     ]
   },

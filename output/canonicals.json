@@ -19,5 +19,19 @@
     "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageComprehension",
     "version": "0.1.0",
     "name": "SpokenLanguageComprehension"
+  },
+  {
+    "id": "splasch-SpokenLanguageExpression",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageExpression",
+    "version": "0.1.0",
+    "name": "SpokenLanguageExpression"
+  },
+  {
+    "id": "splasch-Swallowing",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-Swallowing",
+    "version": "0.1.0",
+    "name": "Swallowing"
   }
 ]

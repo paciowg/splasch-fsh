@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOReAssessmentTimepoints"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-11-24T17:18:22-05:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-11-30T03:26:11-05:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Patient Care Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -347,10 +347,38 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/splasch-SpokenLanguageComprehension" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Spoken Language Comprehension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An exchange of cognitive status data for a patient." ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An exchange of spoken language comprehension data for a patient." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageExpression>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/splasch-SpokenLanguageExpression" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Spoken Language Expression" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An exchange of spoken language expression data for a patient." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-Swallowing>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/splasch-Swallowing" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Swallowing" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An exchange of swallowing data for a patient." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -444,6 +472,10 @@
   ] .
 
 <http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageComprehension> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageExpression> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-Swallowing> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategory> a fhir:us .
 

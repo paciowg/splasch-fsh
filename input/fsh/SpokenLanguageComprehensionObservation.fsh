@@ -9,7 +9,7 @@ Profile:        SpokenLanguageComprehension
 Parent:         Observation
 Id:             splasch-SpokenLanguageComprehension
 Title:          "Spoken Language Comprehension"
-Description:    "An exchange of cognitive status data for a patient."
+Description:    "An exchange of spoken language comprehension data for a patient."
 
 * category 1..* MS
 * category ^slicing.discriminator.path = "$this"

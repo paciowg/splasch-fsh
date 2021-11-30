@@ -239,6 +239,8 @@
 <artifact deprecated="true" id="Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-28" key="Observation-SNF-SC-IP-MDS-IPA-1D-Ob-Question-28" name="SNF-SC-IP-MDS-IPA-1D-Ob-Question-28"/>
 <artifact id="CodeSystem/SPLASCHObservationCategory" key="CodeSystem-SPLASCHObservationCategory" name="SPLASCH Observation Category"/>
 <artifact id="StructureDefinition/splasch-SpokenLanguageComprehension" key="StructureDefinition-splasch-SpokenLanguageComprehension" name="Spoken Language Comprehension"/>
+<artifact id="StructureDefinition/splasch-SpokenLanguageExpression" key="StructureDefinition-splasch-SpokenLanguageExpression" name="Spoken Language Expression"/>
+<artifact id="StructureDefinition/splasch-Swallowing" key="StructureDefinition-splasch-Swallowing" name="Swallowing"/>
 <artifact deprecated="true" id="CodeSystem/timepoint-class-cs" key="CodeSystem-timepoint-class-cs" name="Timepoint Class Code System"/>
 <artifact deprecated="true" id="ValueSet/timepoint-class-vs" key="ValueSet-timepoint-class-vs" name="Timepoint Class Value Set"/>
 <artifact deprecated="true" id="CodeSystem/timepoint-entity-cs" key="CodeSystem-timepoint-entity-cs" name="Timepoint Entity Code System"/>

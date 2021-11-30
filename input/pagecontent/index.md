@@ -1,6 +1,6 @@
 This PACIO SPASCH implementation guide describes .... coming soon (todo)
 
-This is a test.
+Hello world.
 
 ### Introduction 
 

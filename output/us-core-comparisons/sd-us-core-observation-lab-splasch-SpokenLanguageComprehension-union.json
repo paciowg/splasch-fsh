@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "b4d1c36a-90ca-4f2f-bd43-40ac666effba-35",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/b4d1c36a-90ca-4f2f-bd43-40ac666effba-35",
+  "id" : "09a43e98-1e77-474f-948b-c0ef8b9dd8a1-35",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/09a43e98-1e77-474f-948b-c0ef8b9dd8a1-35",
   "name" : "UnionUSCoreLaboratoryResultObservationProfileAndSpokenLanguageComprehension",
   "title" : "Union of US Core Laboratory Result Observation Profile And Spoken Language Comprehension",
   "status" : "active",
-  "date" : "2021-11-24T17:19:23-05:00",
+  "date" : "2021-11-30T03:27:07-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

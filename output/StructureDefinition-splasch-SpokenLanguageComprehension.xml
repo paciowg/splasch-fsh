@@ -25,7 +25,7 @@
   <name value="SpokenLanguageComprehension"/>
   <title value="Spoken Language Comprehension"/>
   <status value="active"/>
-  <date value="2021-11-24T17:18:22-05:00"/>
+  <date value="2021-11-30T03:26:11-05:00"/>
   <publisher value="HL7 Patient Care Working Group"/>
   <contact>
     <name value="HL7 Patient Care Working Group"/>
@@ -49,7 +49,7 @@
       <value value="info@pacioproject.org"/>
     </telecom>
   </contact>
-  <description value="An exchange of cognitive status data for a patient."/>
+  <description value="An exchange of spoken language comprehension data for a patient."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

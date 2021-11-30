@@ -11,7 +11,7 @@
   <name value="PACIOReAssessmentTimepoints"/>
   <title value="PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-11-24T17:18:22-05:00"/>
+  <date value="2021-11-30T03:26:11-05:00"/>
   <publisher value="HL7 Patient Care Working Group"/>
   <contact>
     <name value="HL7 Patient Care Working Group"/>
@@ -235,7 +235,29 @@
         <reference value="StructureDefinition/splasch-SpokenLanguageComprehension"/>
       </reference>
       <name value="Spoken Language Comprehension"/>
-      <description value="An exchange of cognitive status data for a patient."/>
+      <description value="An exchange of spoken language comprehension data for a patient."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/splasch-SpokenLanguageExpression"/>
+      </reference>
+      <name value="Spoken Language Expression"/>
+      <description value="An exchange of spoken language expression data for a patient."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/splasch-Swallowing"/>
+      </reference>
+      <name value="Swallowing"/>
+      <description value="An exchange of swallowing data for a patient."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

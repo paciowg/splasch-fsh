@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "SpokenLanguageComprehension"];
   fhir:StructureDefinition.title [ fhir:value "Spoken Language Comprehension"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-11-24T17:18:22-05:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-11-30T03:26:11-05:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 Patient Care Working Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -53,7 +53,7 @@
        fhir:ContactPoint.value [ fhir:value "info@pacioproject.org" ]
      ]
   ];
-  fhir:StructureDefinition.description [ fhir:value "An exchange of cognitive status data for a patient."];
+  fhir:StructureDefinition.description [ fhir:value "An exchange of spoken language comprehension data for a patient."];
   fhir:StructureDefinition.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
