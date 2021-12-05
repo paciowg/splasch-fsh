@@ -5,11 +5,16 @@ Alias: USCoreObLab = http://hl7.org/fhir/us/core/StructureDefinition/us-core-obs
 Alias: USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient
 **********/
 
-Profile:        Swallowing
+Profile:        SwallowingObservation
 Parent:         Observation
-Id:             splasch-Swallowing
-Title:          "Swallowing"
+Id:             splasch-SwallowingObservation
+Title:          "Swallowing Observation"
 Description:    "An exchange of swallowing data for a patient."
+
+* obeys Observation-frequency-code-value-type 
+* obeys Observation-solids-code-value-type 
+* obeys Observation-liquids-code-value-type 
+* obeys Observation-calorie-percentage-code-value-type 
 
 * category 1..* MS
 * category ^slicing.discriminator.path = "$this"
@@ -21,12 +26,17 @@ Description:    "An exchange of swallowing data for a patient."
 * category contains 
     type 1..1 MS
 
-* category[type] = SPLASCHObservationCategory#swallowing
+* category[type] = SPLASCHObservationCategoryCS#swallowing
 
 * subject 1..1
 * subject only Reference($USCorePatient)
 
+* code 1..1 MS
+* code from SPLASCHSwallowingObservationVS (required)
+
 * value[x] only CodeableConcept
+* valueCodeableConcept from SPLASCHSwallowingObservationValueVS (required)
+
 
 * effective[x] 1..1 MS
 
@@ -53,3 +63,25 @@ Description:    "An exchange of swallowing data for a patient."
 
 * category[type] ^short = "The type of SPLASCH observation"
 
+
+
+
+Invariant:  Observation-frequency-code-value-type 
+Description: "Observation with codes indicating of a frequency value type have a frequency value"
+Expression: "where(code.memberOf('http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHFrequencyTypeObservationVS')).exists() implies where(value.memberOf('http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHFrequencyObservationVS')).exists()"
+Severity:   #error
+
+Invariant:  Observation-solids-code-value-type 
+Description: "Observation with codes indicating of a solid diet modifier value type have a solid diet modifier value"
+Expression: "where(code.memberOf('http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSolidDietModifierTypeObservationVS')).exists() implies valueCodeableConcept.where(coding.system ='http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS').exists()"
+Severity:   #error
+
+Invariant:  Observation-liquids-code-value-type 
+Description: "Observation with codes indicating of a liquid diet modifier value type have a liquid diet modifier value"
+Expression: "where(code.memberOf('http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHLiquidDietModifierTypeObservationVS')).exists() implies valueCodeableConcept.where(coding.system ='http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS').exists()"
+Severity:   #error
+
+Invariant:  Observation-calorie-percentage-code-value-type 
+Description: "Observation with codes indicating of a calorie percentage value type have a calorie percentage value"
+Expression: "where(code.memberOf('http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHCaloriePercentageTypeObservationVS')).exists() implies valueCodeableConcept.where(coding.system ='http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS').exists()"
+Severity:   #error

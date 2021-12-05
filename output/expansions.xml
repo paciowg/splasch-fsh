@@ -1,9 +1,1970 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="eb326c32-3d8d-4749-8e8c-0f19b9effee5"/>
+  <id value="7c719ac7-911f-4f70-b859-03db1b10c973"/>
   <meta>
-    <lastUpdated value="2021-11-30T03:26:11.214-05:00"/>
+    <lastUpdated value="2021-12-04T23:26:25.258-08:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSpeechExpressionObservationVS"/>
+    <resource>
+      <ValueSet>
+        <id value="SPLASCHSpeechExpressionObservationVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 7 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-SPLASCHSpeechExpressionObservationCS.html">Speech Expression Observation Codes v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-SPLASCHSpeechExpressionObservationCS.html">
+                <code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechExpressionObservationCS-exhibit-distracting-expression-difficulties"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechExpressionObservationCS.html#SPLASCHSpeechExpressionObservationCS-exhibit-distracting-expression-difficulties">exhibit-distracting-expression-difficulties</a>
+                </td>
+                <td>Expression of distracting spoken language expression difficulties</td>
+                <td>How often does the individual exhibit spoken language expression difficulties that are noticeable or distracting to the listener? Note: consider message content, form, pauses, extra time.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechExpressionObservationCS-simple-meaningful-word-expression"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechExpressionObservationCS.html#SPLASCHSpeechExpressionObservationCS-simple-meaningful-word-expression">simple-meaningful-word-expression</a>
+                </td>
+                <td>Expression of simple meaningful word or phrases</td>
+                <td>How often does the individual produce simple spoken word and phrases that are meaningful?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechExpressionObservationCS-verbal-form-low-demand"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechExpressionObservationCS.html#SPLASCHSpeechExpressionObservationCS-verbal-form-low-demand">verbal-form-low-demand</a>
+                </td>
+                <td>Produce verbal messages with appropriate form in low demand situations</td>
+                <td>How often does the individual produce verbal messages with appropriate FORM in LOW demand situations? Note: consider phonology, morphology and syntax when assessing functional level.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechExpressionObservationCS-verbal-content-low-demand"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechExpressionObservationCS.html#SPLASCHSpeechExpressionObservationCS-verbal-content-low-demand">verbal-content-low-demand</a>
+                </td>
+                <td>Produce verbal messages with appropriate content in low demand situations</td>
+                <td>How often does the individual produce verbal messages with appropriate CONTENT in LOW demand situations? Note: consider semantic meaning when assessing functional level.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechExpressionObservationCS-verbal-form-high-demand"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechExpressionObservationCS.html#SPLASCHSpeechExpressionObservationCS-verbal-form-high-demand">verbal-form-high-demand</a>
+                </td>
+                <td>Produce verbal messages with appropriate form in high demand situations</td>
+                <td>How often does the individual produce verbal messages with appropriate FORM in HIGH demand situations (e.g., academic or work-related tasks)? Note: consider phonology, morphology and syntax when assessing functional level.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechExpressionObservationCS-verbal-content-high-demand"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechExpressionObservationCS.html#SPLASCHSpeechExpressionObservationCS-verbal-content-high-demand">verbal-content-high-demand</a>
+                </td>
+                <td>Produce verbal messages with appropriate content in high demand situations</td>
+                <td>How often does the individual produce verbal messages with appropriate CONTENT in HIGH demand situations (e.g., academic or work-related tasks)? Note: consider semantic meaning when assessing functional level.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechExpressionObservationCS-communicate-without-assistance"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechExpressionObservationCS.html#SPLASCHSpeechExpressionObservationCS-communicate-without-assistance">communicate-without-assistance</a>
+                </td>
+                <td>Participate in communication without assistance</td>
+                <td>How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSpeechExpressionObservationVS"/>
+        <version value="0.1.0"/>
+        <name value="SPLASCHSpeechExpressionObservationVS"/>
+        <title value="Speech Expression Observation"/>
+        <status value="active"/>
+        <date value="2021-12-04T23:26:25-08:00"/>
+        <publisher value="HL7 Patient Care Working Group"/>
+        <contact>
+          <name value="HL7 Patient Care Working Group"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="patients@lists.HL7.org"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="PACIO project"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="info@pacioproject.org"/>
+          </telecom>
+        </contact>
+        <description value="todo"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="This CodeSystem is not copyrighted."/>
+        <expansion>
+          <identifier value="urn:uuid:2c86ad2f-63ed-4018-aa14-21497849adf2"/>
+          <timestamp value="2021-12-04T23:26:58-08:00"/>
+          <total value="7"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS"/>
+            <code value="exhibit-distracting-expression-difficulties"/>
+            <display value="Expression of distracting spoken language expression difficulties"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS"/>
+            <code value="simple-meaningful-word-expression"/>
+            <display value="Expression of simple meaningful word or phrases"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS"/>
+            <code value="verbal-form-low-demand"/>
+            <display value="Produce verbal messages with appropriate form in low demand situations"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS"/>
+            <code value="verbal-content-low-demand"/>
+            <display value="Produce verbal messages with appropriate content in low demand situations"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS"/>
+            <code value="verbal-form-high-demand"/>
+            <display value="Produce verbal messages with appropriate form in high demand situations"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS"/>
+            <code value="verbal-content-high-demand"/>
+            <display value="Produce verbal messages with appropriate content in high demand situations"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS"/>
+            <code value="communicate-without-assistance"/>
+            <display value="Participate in communication without assistance"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHFrequencyObservationVS"/>
+    <resource>
+      <ValueSet>
+        <id value="SPLASCHFrequencyObservationVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 10 concepts</p>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html">Observation Value Frequency Codes v0.1.0 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="CodeSystem-SPLASCHTimePercentageCategoryCS.html">Observation Value Time Percentage Category Codes v0.1.0 (CodeSystem)</a>
+                </li>
+              </ul>
+            </div>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-0-25-percent"> </a>
+                  <a href="CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-0-25-percent">0-25-percent</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td>
+                <td>0-25% of the time</td>
+                <td>0% to 25% of the time</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-26-49-percent"> </a>
+                  <a href="CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-26-49-percent">26-49-percent</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td>
+                <td>26-49% of the time</td>
+                <td>26% to 49% of the time</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-50-75-percent"> </a>
+                  <a href="CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-50-75-percent">50-75-percent</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td>
+                <td>50-75% of the time</td>
+                <td>50% to 75% of the time</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-76-90-percent"> </a>
+                  <a href="CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-76-90-percent">76-90-percent</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td>
+                <td>76-90% of the time</td>
+                <td>76% to 90% of the time</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-91-100-percent"> </a>
+                  <a href="CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-91-100-percent">91-100-percent</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td>
+                <td>91-100% of the time</td>
+                <td>91% to 100% of the time</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-never"> </a>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-never">never</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td>
+                <td>Never</td>
+                <td>Never</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-rarely"> </a>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-rarely">rarely</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td>
+                <td>Rarely</td>
+                <td>Rarely</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-sometimes"> </a>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-sometimes">sometimes</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td>
+                <td>Sometimes</td>
+                <td>Sometimes</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-often"> </a>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-often">often</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td>
+                <td>Often</td>
+                <td>Often</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-always"> </a>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-always">always</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td>
+                <td>Always</td>
+                <td>Always</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHFrequencyObservationVS"/>
+        <version value="0.1.0"/>
+        <name value="SPLASCHFrequencyObservationVS"/>
+        <title value="SPLASCH Frequency Observation Values"/>
+        <status value="active"/>
+        <date value="2021-12-04T23:26:25-08:00"/>
+        <publisher value="HL7 Patient Care Working Group"/>
+        <contact>
+          <name value="HL7 Patient Care Working Group"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="patients@lists.HL7.org"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="PACIO project"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="info@pacioproject.org"/>
+          </telecom>
+        </contact>
+        <description value="todo"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="This CodeSystem is not copyrighted."/>
+        <expansion>
+          <identifier value="urn:uuid:24b4e4b5-a577-4a00-bfd4-a98bfe895fbe"/>
+          <timestamp value="2021-12-04T23:26:59-08:00"/>
+          <total value="10"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS|0.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS"/>
+            <code value="0-25-percent"/>
+            <display value="0-25% of the time"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS"/>
+            <code value="26-49-percent"/>
+            <display value="26-49% of the time"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS"/>
+            <code value="50-75-percent"/>
+            <display value="50-75% of the time"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS"/>
+            <code value="76-90-percent"/>
+            <display value="76-90% of the time"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS"/>
+            <code value="91-100-percent"/>
+            <display value="91-100% of the time"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
+            <code value="never"/>
+            <display value="Never"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
+            <code value="rarely"/>
+            <display value="Rarely"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
+            <code value="sometimes"/>
+            <display value="Sometimes"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
+            <code value="often"/>
+            <display value="Often"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
+            <code value="always"/>
+            <display value="Always"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHLiquidDietModifierTypeObservationVS"/>
+    <resource>
+      <ValueSet>
+        <id value="SPLASCHLiquidDietModifierTypeObservationVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-SPLASCHSwallowingObservationCS.html">Swallowing Observation Codes v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-SPLASCHSwallowingObservationCS.html">
+                <code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSwallowingObservationCS-modified-liquid-diet"> </a>
+                  <a href="CodeSystem-SPLASCHSwallowingObservationCS.html#SPLASCHSwallowingObservationCS-modified-liquid-diet">modified-liquid-diet</a>
+                </td>
+                <td>Recommended modified liquids diet</td>
+                <td>What modified liquid is recommended for the individual to swallow safely?</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHLiquidDietModifierTypeObservationVS"/>
+        <version value="0.1.0"/>
+        <name value="SPLASCHLiquidDietModifierTypeObservationVS"/>
+        <title value="Liquid Diet Modifier Type Observation"/>
+        <status value="active"/>
+        <date value="2021-12-04T23:26:25-08:00"/>
+        <publisher value="HL7 Patient Care Working Group"/>
+        <contact>
+          <name value="HL7 Patient Care Working Group"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="patients@lists.HL7.org"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="PACIO project"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="info@pacioproject.org"/>
+          </telecom>
+        </contact>
+        <description value="ValueSet identifying observation codes that have a liquid diet modifier value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation."/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="This CodeSystem is not copyrighted."/>
+        <expansion>
+          <identifier value="urn:uuid:4b0a2796-3856-4918-994c-aae33d1ba571"/>
+          <timestamp value="2021-12-04T23:26:59-08:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS"/>
+            <code value="modified-liquid-diet"/>
+            <display value="Recommended modified liquids diet"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSwallowingObservationVS"/>
+    <resource>
+      <ValueSet>
+        <id value="SPLASCHSwallowingObservationVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 5 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-SPLASCHSwallowingObservationCS.html">Swallowing Observation Codes v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-SPLASCHSwallowingObservationCS.html">
+                <code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSwallowingObservationCS-modified-solid-diet"> </a>
+                  <a href="CodeSystem-SPLASCHSwallowingObservationCS.html#SPLASCHSwallowingObservationCS-modified-solid-diet">modified-solid-diet</a>
+                </td>
+                <td>Recommended modified solids diet</td>
+                <td>What modified diet is recommended for the individual to swallow solids safely?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSwallowingObservationCS-modified-liquid-diet"> </a>
+                  <a href="CodeSystem-SPLASCHSwallowingObservationCS.html#SPLASCHSwallowingObservationCS-modified-liquid-diet">modified-liquid-diet</a>
+                </td>
+                <td>Recommended modified liquids diet</td>
+                <td>What modified liquid is recommended for the individual to swallow safely?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSwallowingObservationCS-non-oral-diet-sustenance"> </a>
+                  <a href="CodeSystem-SPLASCHSwallowingObservationCS.html#SPLASCHSwallowingObservationCS-non-oral-diet-sustenance">non-oral-diet-sustenance</a>
+                </td>
+                <td>Nutrition and hydration diet delivered through non-oral means</td>
+                <td>What percentage of the individual&#39;s daily diet is delivered through non-oral means in order to maintain adequate nutrition and hydration?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSwallowingObservationCS-oral-containment-secretion-difficulty"> </a>
+                  <a href="CodeSystem-SPLASCHSwallowingObservationCS.html#SPLASCHSwallowingObservationCS-oral-containment-secretion-difficulty">oral-containment-secretion-difficulty</a>
+                </td>
+                <td>Difficulties with oral containment or secretion management</td>
+                <td>How often does the individual exhibit difficulties with oral containment or secretion management?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSwallowingObservationCS-assistance-swallowing-safety"> </a>
+                  <a href="CodeSystem-SPLASCHSwallowingObservationCS.html#SPLASCHSwallowingObservationCS-assistance-swallowing-safety">assistance-swallowing-safety</a>
+                </td>
+                <td>Require assistance or supervision for swallowing safety</td>
+                <td>How often does the individual require supervision/assistance at meal time due to swallowing safety (e.g., risk of aspiration, pocketing)? Note: If individual is NPO, rate supervision/assistance as 91-100% of the time.</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSwallowingObservationVS"/>
+        <version value="0.1.0"/>
+        <name value="SPLASCHSwallowingObservationVS"/>
+        <title value="Swallowing Observation"/>
+        <status value="active"/>
+        <date value="2021-12-04T23:26:25-08:00"/>
+        <publisher value="HL7 Patient Care Working Group"/>
+        <contact>
+          <name value="HL7 Patient Care Working Group"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="patients@lists.HL7.org"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="PACIO project"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="info@pacioproject.org"/>
+          </telecom>
+        </contact>
+        <description value="todo"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="This CodeSystem is not copyrighted."/>
+        <expansion>
+          <identifier value="urn:uuid:c3719bf8-4c64-4d54-86c7-5c88c259699f"/>
+          <timestamp value="2021-12-04T23:26:59-08:00"/>
+          <total value="5"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS"/>
+            <code value="modified-solid-diet"/>
+            <display value="Recommended modified solids diet"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS"/>
+            <code value="modified-liquid-diet"/>
+            <display value="Recommended modified liquids diet"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS"/>
+            <code value="non-oral-diet-sustenance"/>
+            <display value="Nutrition and hydration diet delivered through non-oral means"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS"/>
+            <code value="oral-containment-secretion-difficulty"/>
+            <display value="Difficulties with oral containment or secretion management"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS"/>
+            <code value="assistance-swallowing-safety"/>
+            <display value="Require assistance or supervision for swallowing safety"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHObservationCategoryVS"/>
+    <resource>
+      <ValueSet>
+        <id value="SPLASCHObservationCategoryVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-SPLASCHObservationCategoryCS.html">SPLASCH Observation Category Codes v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-SPLASCHObservationCategoryCS.html">
+                <code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHObservationCategoryCS-spoken-language-comprehension"> </a>
+                  <a href="CodeSystem-SPLASCHObservationCategoryCS.html#SPLASCHObservationCategoryCS-spoken-language-comprehension">spoken-language-comprehension</a>
+                </td>
+                <td>Spoken language comprehension</td>
+                <td>todo definition</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHObservationCategoryCS-spoken-language-expression"> </a>
+                  <a href="CodeSystem-SPLASCHObservationCategoryCS.html#SPLASCHObservationCategoryCS-spoken-language-expression">spoken-language-expression</a>
+                </td>
+                <td>Spoken language expression</td>
+                <td>todo definition</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHObservationCategoryCS-swallowing"> </a>
+                  <a href="CodeSystem-SPLASCHObservationCategoryCS.html#SPLASCHObservationCategoryCS-swallowing">swallowing</a>
+                </td>
+                <td>Swallowing</td>
+                <td>todo definition</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHObservationCategoryVS"/>
+        <version value="0.1.0"/>
+        <name value="SPLASCHObservationCategoryVS"/>
+        <title value="SPLASCH Observation Category"/>
+        <status value="active"/>
+        <date value="2021-12-04T23:26:25-08:00"/>
+        <publisher value="HL7 Patient Care Working Group"/>
+        <contact>
+          <name value="HL7 Patient Care Working Group"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="patients@lists.HL7.org"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="PACIO project"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="info@pacioproject.org"/>
+          </telecom>
+        </contact>
+        <description value="todo"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="This CodeSystem is not copyrighted."/>
+        <expansion>
+          <identifier value="urn:uuid:1555a355-1a21-4c03-8bd4-90d921c0f362"/>
+          <timestamp value="2021-12-04T23:26:59-08:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS"/>
+            <code value="spoken-language-comprehension"/>
+            <display value="Spoken language comprehension"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS"/>
+            <code value="spoken-language-expression"/>
+            <display value="Spoken language expression"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS"/>
+            <code value="swallowing"/>
+            <display value="Swallowing"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSolidDietModifierTypeObservationVS"/>
+    <resource>
+      <ValueSet>
+        <id value="SPLASCHSolidDietModifierTypeObservationVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-SPLASCHSwallowingObservationCS.html">Swallowing Observation Codes v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-SPLASCHSwallowingObservationCS.html">
+                <code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSwallowingObservationCS-modified-solid-diet"> </a>
+                  <a href="CodeSystem-SPLASCHSwallowingObservationCS.html#SPLASCHSwallowingObservationCS-modified-solid-diet">modified-solid-diet</a>
+                </td>
+                <td>Recommended modified solids diet</td>
+                <td>What modified diet is recommended for the individual to swallow solids safely?</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSolidDietModifierTypeObservationVS"/>
+        <version value="0.1.0"/>
+        <name value="SPLASCHSolidDietModifierTypeObservationVS"/>
+        <title value="Solid Diet Modifier Type Observation"/>
+        <status value="active"/>
+        <date value="2021-12-04T23:26:25-08:00"/>
+        <publisher value="HL7 Patient Care Working Group"/>
+        <contact>
+          <name value="HL7 Patient Care Working Group"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="patients@lists.HL7.org"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="PACIO project"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="info@pacioproject.org"/>
+          </telecom>
+        </contact>
+        <description value="ValueSet identifying observation codes that have a solid diet modifier value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation."/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="This CodeSystem is not copyrighted."/>
+        <expansion>
+          <identifier value="urn:uuid:98eb6ba6-8fca-4f5f-bf4e-df41607ceb2a"/>
+          <timestamp value="2021-12-04T23:26:59-08:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS"/>
+            <code value="modified-solid-diet"/>
+            <display value="Recommended modified solids diet"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHFrequencyTypeObservationVS"/>
+    <resource>
+      <ValueSet>
+        <id value="SPLASCHFrequencyTypeObservationVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 15 concepts</p>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>
+                  <a href="CodeSystem-SPLASCHSpeechExpressionObservationCS.html">Speech Expression Observation Codes v0.1.0 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="CodeSystem-SPLASCHSwallowingObservationCS.html">Swallowing Observation Codes v0.1.0 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="CodeSystem-SPLASCHSpeechComprehensionObservationCS.html">Speech Comprehension Observation Codes v0.1.0 (CodeSystem)</a>
+                </li>
+              </ul>
+            </div>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechComprehensionObservationCS-understand-simple-routine-low-demand"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechComprehensionObservationCS.html#SPLASCHSpeechComprehensionObservationCS-understand-simple-routine-low-demand">understand-simple-routine-low-demand</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS</td>
+                <td>Understand simple messages in routine low demand situations</td>
+                <td>How often does the individual understand simple messages/conversations related to routine daily activities in LOW demand situations (e.g., following simple directions)?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechComprehensionObservationCS-understand-complex-low-demand"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechComprehensionObservationCS.html#SPLASCHSpeechComprehensionObservationCS-understand-complex-low-demand">understand-complex-low-demand</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS</td>
+                <td>Understand complex messages in low demand situations</td>
+                <td>How often does the individual understand complex messages, as expected for chronological age, in LOW demand situations (e.g., story/lecture, sequencing of events, drawing appropriate conclusions, inferences, humor, subtle references)?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechComprehensionObservationCS-understand-simple-routine-high-demand"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechComprehensionObservationCS.html#SPLASCHSpeechComprehensionObservationCS-understand-simple-routine-high-demand">understand-simple-routine-high-demand</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS</td>
+                <td>Understand simple messages in routine high demand situations</td>
+                <td>How often does the individual understand simple messages/conversations related to routine daily activities in HIGH demand situations (e.g., following simple directions)?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechComprehensionObservationCS-understand-complex-high-demand"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechComprehensionObservationCS.html#SPLASCHSpeechComprehensionObservationCS-understand-complex-high-demand">understand-complex-high-demand</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS</td>
+                <td>Understand complex messages in high demand situations</td>
+                <td>How often does the individual understand complex messages, as expected for chronological age, in HIGH demand situations (e.g., story/lecture, sequencing of events, drawing appropriate conclusions, inferences, humor, subtle references)?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechComprehensionObservationCS-function-comprehension-without-assistance"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechComprehensionObservationCS.html#SPLASCHSpeechComprehensionObservationCS-function-comprehension-without-assistance">function-comprehension-without-assistance</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS</td>
+                <td>Function without assistance due to comprehension deficit</td>
+                <td>How often does the individual function safely WITHOUT additional supervision/assistance (in excess of chronological age expectations) due to comprehension deficits?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechComprehensionObservationCS-communicate-without-assistance"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechComprehensionObservationCS.html#SPLASCHSpeechComprehensionObservationCS-communicate-without-assistance">communicate-without-assistance</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS</td>
+                <td>Participate in communication without assistance</td>
+                <td>How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechExpressionObservationCS-exhibit-distracting-expression-difficulties"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechExpressionObservationCS.html#SPLASCHSpeechExpressionObservationCS-exhibit-distracting-expression-difficulties">exhibit-distracting-expression-difficulties</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS</td>
+                <td>Expression of distracting spoken language expression difficulties</td>
+                <td>How often does the individual exhibit spoken language expression difficulties that are noticeable or distracting to the listener? Note: consider message content, form, pauses, extra time.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechExpressionObservationCS-simple-meaningful-word-expression"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechExpressionObservationCS.html#SPLASCHSpeechExpressionObservationCS-simple-meaningful-word-expression">simple-meaningful-word-expression</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS</td>
+                <td>Expression of simple meaningful word or phrases</td>
+                <td>How often does the individual produce simple spoken word and phrases that are meaningful?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechExpressionObservationCS-verbal-form-low-demand"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechExpressionObservationCS.html#SPLASCHSpeechExpressionObservationCS-verbal-form-low-demand">verbal-form-low-demand</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS</td>
+                <td>Produce verbal messages with appropriate form in low demand situations</td>
+                <td>How often does the individual produce verbal messages with appropriate FORM in LOW demand situations? Note: consider phonology, morphology and syntax when assessing functional level.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechExpressionObservationCS-verbal-content-low-demand"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechExpressionObservationCS.html#SPLASCHSpeechExpressionObservationCS-verbal-content-low-demand">verbal-content-low-demand</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS</td>
+                <td>Produce verbal messages with appropriate content in low demand situations</td>
+                <td>How often does the individual produce verbal messages with appropriate CONTENT in LOW demand situations? Note: consider semantic meaning when assessing functional level.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechExpressionObservationCS-verbal-form-high-demand"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechExpressionObservationCS.html#SPLASCHSpeechExpressionObservationCS-verbal-form-high-demand">verbal-form-high-demand</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS</td>
+                <td>Produce verbal messages with appropriate form in high demand situations</td>
+                <td>How often does the individual produce verbal messages with appropriate FORM in HIGH demand situations (e.g., academic or work-related tasks)? Note: consider phonology, morphology and syntax when assessing functional level.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechExpressionObservationCS-verbal-content-high-demand"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechExpressionObservationCS.html#SPLASCHSpeechExpressionObservationCS-verbal-content-high-demand">verbal-content-high-demand</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS</td>
+                <td>Produce verbal messages with appropriate content in high demand situations</td>
+                <td>How often does the individual produce verbal messages with appropriate CONTENT in HIGH demand situations (e.g., academic or work-related tasks)? Note: consider semantic meaning when assessing functional level.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechExpressionObservationCS-communicate-without-assistance"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechExpressionObservationCS.html#SPLASCHSpeechExpressionObservationCS-communicate-without-assistance">communicate-without-assistance</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS</td>
+                <td>Participate in communication without assistance</td>
+                <td>How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSwallowingObservationCS-oral-containment-secretion-difficulty"> </a>
+                  <a href="CodeSystem-SPLASCHSwallowingObservationCS.html#SPLASCHSwallowingObservationCS-oral-containment-secretion-difficulty">oral-containment-secretion-difficulty</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS</td>
+                <td>Difficulties with oral containment or secretion management</td>
+                <td>How often does the individual exhibit difficulties with oral containment or secretion management?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSwallowingObservationCS-assistance-swallowing-safety"> </a>
+                  <a href="CodeSystem-SPLASCHSwallowingObservationCS.html#SPLASCHSwallowingObservationCS-assistance-swallowing-safety">assistance-swallowing-safety</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS</td>
+                <td>Require assistance or supervision for swallowing safety</td>
+                <td>How often does the individual require supervision/assistance at meal time due to swallowing safety (e.g., risk of aspiration, pocketing)? Note: If individual is NPO, rate supervision/assistance as 91-100% of the time.</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHFrequencyTypeObservationVS"/>
+        <version value="0.1.0"/>
+        <name value="SPLASCHFrequencyTypeObservationVS"/>
+        <title value="Frequency Type Observation"/>
+        <status value="active"/>
+        <date value="2021-12-04T23:26:25-08:00"/>
+        <publisher value="HL7 Patient Care Working Group"/>
+        <contact>
+          <name value="HL7 Patient Care Working Group"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="patients@lists.HL7.org"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="PACIO project"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="info@pacioproject.org"/>
+          </telecom>
+        </contact>
+        <description value="ValueSet identifying observation codes that have a frequency value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation."/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="This CodeSystem is not copyrighted."/>
+        <expansion>
+          <identifier value="urn:uuid:2845720d-1e63-4ddb-a5df-fa8e19ff951e"/>
+          <timestamp value="2021-12-04T23:27:04-08:00"/>
+          <total value="15"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS|0.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS|0.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS"/>
+            <code value="understand-simple-routine-low-demand"/>
+            <display value="Understand simple messages in routine low demand situations"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS"/>
+            <code value="understand-complex-low-demand"/>
+            <display value="Understand complex messages in low demand situations"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS"/>
+            <code value="understand-simple-routine-high-demand"/>
+            <display value="Understand simple messages in routine high demand situations"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS"/>
+            <code value="understand-complex-high-demand"/>
+            <display value="Understand complex messages in high demand situations"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS"/>
+            <code value="function-comprehension-without-assistance"/>
+            <display value="Function without assistance due to comprehension deficit"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS"/>
+            <code value="communicate-without-assistance"/>
+            <display value="Participate in communication without assistance"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS"/>
+            <code value="exhibit-distracting-expression-difficulties"/>
+            <display value="Expression of distracting spoken language expression difficulties"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS"/>
+            <code value="simple-meaningful-word-expression"/>
+            <display value="Expression of simple meaningful word or phrases"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS"/>
+            <code value="verbal-form-low-demand"/>
+            <display value="Produce verbal messages with appropriate form in low demand situations"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS"/>
+            <code value="verbal-content-low-demand"/>
+            <display value="Produce verbal messages with appropriate content in low demand situations"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS"/>
+            <code value="verbal-form-high-demand"/>
+            <display value="Produce verbal messages with appropriate form in high demand situations"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS"/>
+            <code value="verbal-content-high-demand"/>
+            <display value="Produce verbal messages with appropriate content in high demand situations"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS"/>
+            <code value="communicate-without-assistance"/>
+            <display value="Participate in communication without assistance"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS"/>
+            <code value="oral-containment-secretion-difficulty"/>
+            <display value="Difficulties with oral containment or secretion management"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS"/>
+            <code value="assistance-swallowing-safety"/>
+            <display value="Require assistance or supervision for swallowing safety"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSwallowingObservationValueVS"/>
+    <resource>
+      <ValueSet>
+        <id value="SPLASCHSwallowingObservationValueVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 26 concepts</p>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html">Observation Value Frequency Codes v0.1.0 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="CodeSystem-SPLASCHSolidDietCS.html">Observation Value Solid Diet Codes v0.1.0 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="CodeSystem-SPLASCHCaloriePercentageCategoryCS.html">Observation Value Calorie Percentage Category Codes v0.1.0 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="ValueSet-SPLASCHFrequencyObservationVS.html">SPLASCH Frequency Observation Values v0.1.0 (ValueSet)</a>
+                </li>
+                <li>
+                  <a href="CodeSystem-SPLASCHTimePercentageCategoryCS.html">Observation Value Time Percentage Category Codes v0.1.0 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="CodeSystem-SPLASCHLiquidDietCS.html">Observation Value Liquid Diet Codes v0.1.0 (CodeSystem)</a>
+                </li>
+              </ul>
+            </div>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-0-25-percent"> </a>
+                  <a href="CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-0-25-percent">0-25-percent</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td>
+                <td>0-25% of the time</td>
+                <td>0% to 25% of the time</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-26-49-percent"> </a>
+                  <a href="CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-26-49-percent">26-49-percent</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td>
+                <td>26-49% of the time</td>
+                <td>26% to 49% of the time</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-50-75-percent"> </a>
+                  <a href="CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-50-75-percent">50-75-percent</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td>
+                <td>50-75% of the time</td>
+                <td>50% to 75% of the time</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-76-90-percent"> </a>
+                  <a href="CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-76-90-percent">76-90-percent</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td>
+                <td>76-90% of the time</td>
+                <td>76% to 90% of the time</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-91-100-percent"> </a>
+                  <a href="CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-91-100-percent">91-100-percent</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td>
+                <td>91-100% of the time</td>
+                <td>91% to 100% of the time</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-never"> </a>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-never">never</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td>
+                <td>Never</td>
+                <td>Never</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-rarely"> </a>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-rarely">rarely</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td>
+                <td>Rarely</td>
+                <td>Rarely</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-sometimes"> </a>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-sometimes">sometimes</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td>
+                <td>Sometimes</td>
+                <td>Sometimes</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-often"> </a>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-often">often</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td>
+                <td>Often</td>
+                <td>Often</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-always"> </a>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-always">always</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td>
+                <td>Always</td>
+                <td>Always</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSolidDietCS-regular"> </a>
+                  <a href="CodeSystem-SPLASCHSolidDietCS.html#SPLASCHSolidDietCS-regular">regular</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS</td>
+                <td>Regular</td>
+                <td>Regular</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSolidDietCS-soft"> </a>
+                  <a href="CodeSystem-SPLASCHSolidDietCS.html#SPLASCHSolidDietCS-soft">soft</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS</td>
+                <td>Soft and bite-sized</td>
+                <td>Soft and bite-sized</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSolidDietCS-minced"> </a>
+                  <a href="CodeSystem-SPLASCHSolidDietCS.html#SPLASCHSolidDietCS-minced">minced</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS</td>
+                <td>Minced and moist</td>
+                <td>Minced and moist</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSolidDietCS-pureed"> </a>
+                  <a href="CodeSystem-SPLASCHSolidDietCS.html#SPLASCHSolidDietCS-pureed">pureed</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS</td>
+                <td>Pureed</td>
+                <td>Pureed</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSolidDietCS-liquidized"> </a>
+                  <a href="CodeSystem-SPLASCHSolidDietCS.html#SPLASCHSolidDietCS-liquidized">liquidized</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS</td>
+                <td>Liquidized</td>
+                <td>Liquidized</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSolidDietCS-no-solids"> </a>
+                  <a href="CodeSystem-SPLASCHSolidDietCS.html#SPLASCHSolidDietCS-no-solids">no-solids</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS</td>
+                <td>No solids</td>
+                <td>No solids</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHLiquidDietCS-thin"> </a>
+                  <a href="CodeSystem-SPLASCHLiquidDietCS.html#SPLASCHLiquidDietCS-thin">thin</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS</td>
+                <td>Regular</td>
+                <td>Regular</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHLiquidDietCS-slightly-thick"> </a>
+                  <a href="CodeSystem-SPLASCHLiquidDietCS.html#SPLASCHLiquidDietCS-slightly-thick">slightly-thick</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS</td>
+                <td>Slightly thick</td>
+                <td>Slightly thick</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHLiquidDietCS-mildly-thick"> </a>
+                  <a href="CodeSystem-SPLASCHLiquidDietCS.html#SPLASCHLiquidDietCS-mildly-thick">mildly-thick</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS</td>
+                <td>Mildly thick</td>
+                <td>Mildly thick</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHLiquidDietCS-moderately-thick"> </a>
+                  <a href="CodeSystem-SPLASCHLiquidDietCS.html#SPLASCHLiquidDietCS-moderately-thick">moderately-thick</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS</td>
+                <td>Moderately thick</td>
+                <td>Moderately thick</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHLiquidDietCS-extremely-thick"> </a>
+                  <a href="CodeSystem-SPLASCHLiquidDietCS.html#SPLASCHLiquidDietCS-extremely-thick">extremely-thick</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS</td>
+                <td>Extremely thick</td>
+                <td>Extremely thick</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHLiquidDietCS-no-liquids"> </a>
+                  <a href="CodeSystem-SPLASCHLiquidDietCS.html#SPLASCHLiquidDietCS-no-liquids">no-liquids</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS</td>
+                <td>No liquids</td>
+                <td>No liquids</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHCaloriePercentageCategoryCS-0-25-percent"> </a>
+                  <a href="CodeSystem-SPLASCHCaloriePercentageCategoryCS.html#SPLASCHCaloriePercentageCategoryCS-0-25-percent">0-25-percent</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS</td>
+                <td>0-25% of caloric intake</td>
+                <td>0% to 25% of caloric intake</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHCaloriePercentageCategoryCS-26-49-percent"> </a>
+                  <a href="CodeSystem-SPLASCHCaloriePercentageCategoryCS.html#SPLASCHCaloriePercentageCategoryCS-26-49-percent">26-49-percent</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS</td>
+                <td>26-49% of caloric intake</td>
+                <td>26% to 49% of caloric intake</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHCaloriePercentageCategoryCS-50-75-percent"> </a>
+                  <a href="CodeSystem-SPLASCHCaloriePercentageCategoryCS.html#SPLASCHCaloriePercentageCategoryCS-50-75-percent">50-75-percent</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS</td>
+                <td>50-75% of caloric intake</td>
+                <td>50% to 75% of caloric intake</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHCaloriePercentageCategoryCS-76-100-percent"> </a>
+                  <a href="CodeSystem-SPLASCHCaloriePercentageCategoryCS.html#SPLASCHCaloriePercentageCategoryCS-76-100-percent">76-100-percent</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS</td>
+                <td>76-100% of caloric intake</td>
+                <td>76% to 100% of caloric intake</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSwallowingObservationValueVS"/>
+        <version value="0.1.0"/>
+        <name value="SPLASCHSwallowingObservationValueVS"/>
+        <title value="Swallowing Observation Value"/>
+        <status value="active"/>
+        <date value="2021-12-04T23:26:25-08:00"/>
+        <publisher value="HL7 Patient Care Working Group"/>
+        <contact>
+          <name value="HL7 Patient Care Working Group"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="patients@lists.HL7.org"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="PACIO project"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="info@pacioproject.org"/>
+          </telecom>
+        </contact>
+        <description value="todo"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="This CodeSystem is not copyrighted."/>
+        <expansion>
+          <identifier value="urn:uuid:2902558c-81b8-4b0a-bbd1-3c8800d5122f"/>
+          <timestamp value="2021-12-04T23:27:04-08:00"/>
+          <total value="26"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHFrequencyObservationVS|0.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS|0.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS|0.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS|0.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS|0.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="0-25-percent"/>
+            <display value="0-25% of the time"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="26-49-percent"/>
+            <display value="26-49% of the time"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="50-75-percent"/>
+            <display value="50-75% of the time"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="76-90-percent"/>
+            <display value="76-90% of the time"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="91-100-percent"/>
+            <display value="91-100% of the time"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="never"/>
+            <display value="Never"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="rarely"/>
+            <display value="Rarely"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="sometimes"/>
+            <display value="Sometimes"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="often"/>
+            <display value="Often"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="always"/>
+            <display value="Always"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS"/>
+            <code value="regular"/>
+            <display value="Regular"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS"/>
+            <code value="soft"/>
+            <display value="Soft and bite-sized"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS"/>
+            <code value="minced"/>
+            <display value="Minced and moist"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS"/>
+            <code value="pureed"/>
+            <display value="Pureed"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS"/>
+            <code value="liquidized"/>
+            <display value="Liquidized"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS"/>
+            <code value="no-solids"/>
+            <display value="No solids"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS"/>
+            <code value="thin"/>
+            <display value="Regular"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS"/>
+            <code value="slightly-thick"/>
+            <display value="Slightly thick"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS"/>
+            <code value="mildly-thick"/>
+            <display value="Mildly thick"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS"/>
+            <code value="moderately-thick"/>
+            <display value="Moderately thick"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS"/>
+            <code value="extremely-thick"/>
+            <display value="Extremely thick"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS"/>
+            <code value="no-liquids"/>
+            <display value="No liquids"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS"/>
+            <code value="0-25-percent"/>
+            <display value="0-25% of caloric intake"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS"/>
+            <code value="26-49-percent"/>
+            <display value="26-49% of caloric intake"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS"/>
+            <code value="50-75-percent"/>
+            <display value="50-75% of caloric intake"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS"/>
+            <code value="76-100-percent"/>
+            <display value="76-100% of caloric intake"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSpeechComprehensionObservationVS"/>
+    <resource>
+      <ValueSet>
+        <id value="SPLASCHSpeechComprehensionObservationVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 6 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-SPLASCHSpeechComprehensionObservationCS.html">Speech Comprehension Observation Codes v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-SPLASCHSpeechComprehensionObservationCS.html">
+                <code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechComprehensionObservationCS-understand-simple-routine-low-demand"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechComprehensionObservationCS.html#SPLASCHSpeechComprehensionObservationCS-understand-simple-routine-low-demand">understand-simple-routine-low-demand</a>
+                </td>
+                <td>Understand simple messages in routine low demand situations</td>
+                <td>How often does the individual understand simple messages/conversations related to routine daily activities in LOW demand situations (e.g., following simple directions)?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechComprehensionObservationCS-understand-complex-low-demand"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechComprehensionObservationCS.html#SPLASCHSpeechComprehensionObservationCS-understand-complex-low-demand">understand-complex-low-demand</a>
+                </td>
+                <td>Understand complex messages in low demand situations</td>
+                <td>How often does the individual understand complex messages, as expected for chronological age, in LOW demand situations (e.g., story/lecture, sequencing of events, drawing appropriate conclusions, inferences, humor, subtle references)?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechComprehensionObservationCS-understand-simple-routine-high-demand"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechComprehensionObservationCS.html#SPLASCHSpeechComprehensionObservationCS-understand-simple-routine-high-demand">understand-simple-routine-high-demand</a>
+                </td>
+                <td>Understand simple messages in routine high demand situations</td>
+                <td>How often does the individual understand simple messages/conversations related to routine daily activities in HIGH demand situations (e.g., following simple directions)?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechComprehensionObservationCS-understand-complex-high-demand"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechComprehensionObservationCS.html#SPLASCHSpeechComprehensionObservationCS-understand-complex-high-demand">understand-complex-high-demand</a>
+                </td>
+                <td>Understand complex messages in high demand situations</td>
+                <td>How often does the individual understand complex messages, as expected for chronological age, in HIGH demand situations (e.g., story/lecture, sequencing of events, drawing appropriate conclusions, inferences, humor, subtle references)?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechComprehensionObservationCS-function-comprehension-without-assistance"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechComprehensionObservationCS.html#SPLASCHSpeechComprehensionObservationCS-function-comprehension-without-assistance">function-comprehension-without-assistance</a>
+                </td>
+                <td>Function without assistance due to comprehension deficit</td>
+                <td>How often does the individual function safely WITHOUT additional supervision/assistance (in excess of chronological age expectations) due to comprehension deficits?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSpeechComprehensionObservationCS-communicate-without-assistance"> </a>
+                  <a href="CodeSystem-SPLASCHSpeechComprehensionObservationCS.html#SPLASCHSpeechComprehensionObservationCS-communicate-without-assistance">communicate-without-assistance</a>
+                </td>
+                <td>Participate in communication without assistance</td>
+                <td>How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSpeechComprehensionObservationVS"/>
+        <version value="0.1.0"/>
+        <name value="SPLASCHSpeechComprehensionObservationVS"/>
+        <title value="Speech Comprehension Observation"/>
+        <status value="active"/>
+        <date value="2021-12-04T23:26:25-08:00"/>
+        <publisher value="HL7 Patient Care Working Group"/>
+        <contact>
+          <name value="HL7 Patient Care Working Group"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="patients@lists.HL7.org"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="PACIO project"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="info@pacioproject.org"/>
+          </telecom>
+        </contact>
+        <description value="todo"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="This CodeSystem is not copyrighted."/>
+        <expansion>
+          <identifier value="urn:uuid:d0d3c58a-fe32-481d-b65c-4f903f8abdc0"/>
+          <timestamp value="2021-12-04T23:27:04-08:00"/>
+          <total value="6"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS"/>
+            <code value="understand-simple-routine-low-demand"/>
+            <display value="Understand simple messages in routine low demand situations"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS"/>
+            <code value="understand-complex-low-demand"/>
+            <display value="Understand complex messages in low demand situations"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS"/>
+            <code value="understand-simple-routine-high-demand"/>
+            <display value="Understand simple messages in routine high demand situations"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS"/>
+            <code value="understand-complex-high-demand"/>
+            <display value="Understand complex messages in high demand situations"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS"/>
+            <code value="function-comprehension-without-assistance"/>
+            <display value="Function without assistance due to comprehension deficit"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS"/>
+            <code value="communicate-without-assistance"/>
+            <display value="Participate in communication without assistance"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHCaloriePercentageTypeObservationVS"/>
+    <resource>
+      <ValueSet>
+        <id value="SPLASCHCaloriePercentageTypeObservationVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-SPLASCHSwallowingObservationCS.html">Swallowing Observation Codes v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-SPLASCHSwallowingObservationCS.html">
+                <code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSwallowingObservationCS-non-oral-diet-sustenance"> </a>
+                  <a href="CodeSystem-SPLASCHSwallowingObservationCS.html#SPLASCHSwallowingObservationCS-non-oral-diet-sustenance">non-oral-diet-sustenance</a>
+                </td>
+                <td>Nutrition and hydration diet delivered through non-oral means</td>
+                <td>What percentage of the individual&#39;s daily diet is delivered through non-oral means in order to maintain adequate nutrition and hydration?</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHCaloriePercentageTypeObservationVS"/>
+        <version value="0.1.0"/>
+        <name value="SPLASCHCaloriePercentageTypeObservationVS"/>
+        <title value="Calorie Percentage Type Observation"/>
+        <status value="active"/>
+        <date value="2021-12-04T23:26:25-08:00"/>
+        <publisher value="HL7 Patient Care Working Group"/>
+        <contact>
+          <name value="HL7 Patient Care Working Group"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="patients@lists.HL7.org"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="PACIO project"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="info@pacioproject.org"/>
+          </telecom>
+        </contact>
+        <description value="ValueSet identifying observation codes that have a calorie percentage value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation."/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="This CodeSystem is not copyrighted."/>
+        <expansion>
+          <identifier value="urn:uuid:6ed02680-1d5a-4fb9-b3d3-53fe08a9d4d1"/>
+          <timestamp value="2021-12-04T23:27:04-08:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS"/>
+            <code value="non-oral-diet-sustenance"/>
+            <display value="Nutrition and hydration diet delivered through non-oral means"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
 </Bundle>

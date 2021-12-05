@@ -10,7 +10,7 @@
   "name": "PACIOReAssessmentTimepoints",
   "title": "PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide",
   "status": "draft",
-  "date": "2021-11-30T03:26:11-05:00",
+  "date": "2021-12-04T23:26:25-08:00",
   "publisher": "HL7 Patient Care Working Group",
   "contact": [
     {
@@ -362,9 +362,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/splasch-SpokenLanguageComprehension"
+          "reference": "StructureDefinition/splasch-SpokenLanguageComprehensionObservation"
         },
-        "name": "Spoken Language Comprehension",
+        "name": "Spoken Language Comprehension Observation",
         "description": "An exchange of spoken language comprehension data for a patient.",
         "exampleBoolean": false
       },
@@ -376,9 +376,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/splasch-SpokenLanguageExpression"
+          "reference": "StructureDefinition/splasch-SpokenLanguageExpressionObservation"
         },
-        "name": "Spoken Language Expression",
+        "name": "Spoken Language Expression Observation",
         "description": "An exchange of spoken language expression data for a patient.",
         "exampleBoolean": false
       },
@@ -390,10 +390,150 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/splasch-Swallowing"
+          "reference": "StructureDefinition/splasch-SwallowingObservation"
         },
-        "name": "Swallowing",
+        "name": "Swallowing Observation",
         "description": "An exchange of swallowing data for a patient.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/SPLASCHCaloriePercentageTypeObservationVS"
+        },
+        "name": "Calorie Percentage Type Observation",
+        "description": "ValueSet identifying observation codes that have a calorie percentage value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/SPLASCHFrequencyObservationVS"
+        },
+        "name": "SPLASCH Frequency Observation Values",
+        "description": "todo",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/SPLASCHFrequencyTypeObservationVS"
+        },
+        "name": "Frequency Type Observation",
+        "description": "ValueSet identifying observation codes that have a frequency value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/SPLASCHLiquidDietModifierTypeObservationVS"
+        },
+        "name": "Liquid Diet Modifier Type Observation",
+        "description": "ValueSet identifying observation codes that have a liquid diet modifier value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/SPLASCHObservationCategoryVS"
+        },
+        "name": "SPLASCH Observation Category",
+        "description": "todo",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/SPLASCHSolidDietModifierTypeObservationVS"
+        },
+        "name": "Solid Diet Modifier Type Observation",
+        "description": "ValueSet identifying observation codes that have a solid diet modifier value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/SPLASCHSpeechComprehensionObservationVS"
+        },
+        "name": "Speech Comprehension Observation",
+        "description": "todo",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/SPLASCHSpeechExpressionObservationVS"
+        },
+        "name": "Speech Expression Observation",
+        "description": "todo",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/SPLASCHSwallowingObservationVS"
+        },
+        "name": "Swallowing Observation",
+        "description": "todo",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/SPLASCHSwallowingObservationValueVS"
+        },
+        "name": "Swallowing Observation Value",
+        "description": "todo",
         "exampleBoolean": false
       },
       {
@@ -404,9 +544,121 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/SPLASCHObservationCategory"
+          "reference": "CodeSystem/SPLASCHCaloriePercentageCategoryCS"
         },
-        "name": "SPLASCH Observation Category",
+        "name": "Observation Value Calorie Percentage Category Codes",
+        "description": "todo",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/SPLASCHFrequencyCS"
+        },
+        "name": "Observation Value Frequency Codes",
+        "description": "todo",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/SPLASCHLiquidDietCS"
+        },
+        "name": "Observation Value Liquid Diet Codes",
+        "description": "todo",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/SPLASCHObservationCategoryCS"
+        },
+        "name": "SPLASCH Observation Category Codes",
+        "description": "todo",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/SPLASCHSolidDietCS"
+        },
+        "name": "Observation Value Solid Diet Codes",
+        "description": "todo",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/SPLASCHSpeechComprehensionObservationCS"
+        },
+        "name": "Speech Comprehension Observation Codes",
+        "description": "todo",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/SPLASCHSpeechExpressionObservationCS"
+        },
+        "name": "Speech Expression Observation Codes",
+        "description": "todo",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/SPLASCHSwallowingObservationCS"
+        },
+        "name": "Swallowing Observation Codes",
+        "description": "todo",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/SPLASCHTimePercentageCategoryCS"
+        },
+        "name": "Observation Value Time Percentage Category Codes",
         "description": "todo",
         "exampleBoolean": false
       }

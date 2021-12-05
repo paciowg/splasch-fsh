@@ -1,0 +1,90 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SPLASCHLiquidDietCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">thin<a name=\"SPLASCHLiquidDietCS-thin\"> </a></td><td>Regular</td><td>Regular</td></tr><tr><td style=\"white-space:nowrap\">slightly-thick<a name=\"SPLASCHLiquidDietCS-slightly-thick\"> </a></td><td>Slightly thick</td><td>Slightly thick</td></tr><tr><td style=\"white-space:nowrap\">mildly-thick<a name=\"SPLASCHLiquidDietCS-mildly-thick\"> </a></td><td>Mildly thick</td><td>Mildly thick</td></tr><tr><td style=\"white-space:nowrap\">moderately-thick<a name=\"SPLASCHLiquidDietCS-moderately-thick\"> </a></td><td>Moderately thick</td><td>Moderately thick</td></tr><tr><td style=\"white-space:nowrap\">extremely-thick<a name=\"SPLASCHLiquidDietCS-extremely-thick\"> </a></td><td>Extremely thick</td><td>Extremely thick</td></tr><tr><td style=\"white-space:nowrap\">no-liquids<a name=\"SPLASCHLiquidDietCS-no-liquids\"> </a></td><td>No liquids</td><td>No liquids</td></tr></table></div>"
+  },
+  "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS",
+  "version": "0.1.0",
+  "name": "SPLASCHLiquidDietCS",
+  "title": "Observation Value Liquid Diet Codes",
+  "status": "active",
+  "date": "2021-12-04T23:26:25-08:00",
+  "publisher": "HL7 Patient Care Working Group",
+  "contact": [
+    {
+      "name": "HL7 Patient Care Working Group",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientcare"
+        },
+        {
+          "system": "email",
+          "value": "patients@lists.HL7.org"
+        }
+      ]
+    },
+    {
+      "name": "PACIO project",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientcare"
+        },
+        {
+          "system": "email",
+          "value": "info@pacioproject.org"
+        }
+      ]
+    }
+  ],
+  "description": "todo",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
+        }
+      ]
+    }
+  ],
+  "copyright": "This CodeSystem is not copyrighted.",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 6,
+  "concept": [
+    {
+      "code": "thin",
+      "display": "Regular",
+      "definition": "Regular"
+    },
+    {
+      "code": "slightly-thick",
+      "display": "Slightly thick",
+      "definition": "Slightly thick"
+    },
+    {
+      "code": "mildly-thick",
+      "display": "Mildly thick",
+      "definition": "Mildly thick"
+    },
+    {
+      "code": "moderately-thick",
+      "display": "Moderately thick",
+      "definition": "Moderately thick"
+    },
+    {
+      "code": "extremely-thick",
+      "display": "Extremely thick",
+      "definition": "Extremely thick"
+    },
+    {
+      "code": "no-liquids",
+      "display": "No liquids",
+      "definition": "No liquids"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "SPLASCHSpeechExpressionObservationCS"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">exhibit-distracting-expression-difficulties<a name=\"SPLASCHSpeechExpressionObservationCS-exhibit-distracting-expression-difficulties\"> </a></td><td>Expression of distracting spoken language expression difficulties</td><td>How often does the individual exhibit spoken language expression difficulties that are noticeable or distracting to the listener? Note: consider message content, form, pauses, extra time.</td></tr><tr><td style=\"white-space:nowrap\">simple-meaningful-word-expression<a name=\"SPLASCHSpeechExpressionObservationCS-simple-meaningful-word-expression\"> </a></td><td>Expression of simple meaningful word or phrases</td><td>How often does the individual produce simple spoken word and phrases that are meaningful?</td></tr><tr><td style=\"white-space:nowrap\">verbal-form-low-demand<a name=\"SPLASCHSpeechExpressionObservationCS-verbal-form-low-demand\"> </a></td><td>Produce verbal messages with appropriate form in low demand situations</td><td>How often does the individual produce verbal messages with appropriate FORM in LOW demand situations? Note: consider phonology, morphology and syntax when assessing functional level.</td></tr><tr><td style=\"white-space:nowrap\">verbal-content-low-demand<a name=\"SPLASCHSpeechExpressionObservationCS-verbal-content-low-demand\"> </a></td><td>Produce verbal messages with appropriate content in low demand situations</td><td>How often does the individual produce verbal messages with appropriate CONTENT in LOW demand situations? Note: consider semantic meaning when assessing functional level.</td></tr><tr><td style=\"white-space:nowrap\">verbal-form-high-demand<a name=\"SPLASCHSpeechExpressionObservationCS-verbal-form-high-demand\"> </a></td><td>Produce verbal messages with appropriate form in high demand situations</td><td>How often does the individual produce verbal messages with appropriate FORM in HIGH demand situations (e.g., academic or work-related tasks)? Note: consider phonology, morphology and syntax when assessing functional level.</td></tr><tr><td style=\"white-space:nowrap\">verbal-content-high-demand<a name=\"SPLASCHSpeechExpressionObservationCS-verbal-content-high-demand\"> </a></td><td>Produce verbal messages with appropriate content in high demand situations</td><td>How often does the individual produce verbal messages with appropriate CONTENT in HIGH demand situations (e.g., academic or work-related tasks)? Note: consider semantic meaning when assessing functional level.</td></tr><tr><td style=\"white-space:nowrap\">communicate-without-assistance<a name=\"SPLASCHSpeechExpressionObservationCS-communicate-without-assistance\"> </a></td><td>Participate in communication without assistance</td><td>How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "SPLASCHSpeechExpressionObservationCS"];
+  fhir:CodeSystem.title [ fhir:value "Speech Expression Observation Codes"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2021-12-04T23:26:25-08:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "HL7 Patient Care Working Group"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "HL7 Patient Care Working Group" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/patientcare" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "patients@lists.HL7.org" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "PACIO project" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/patientcare" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "info@pacioproject.org" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "todo"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "US" ]
+     ]
+  ];
+  fhir:CodeSystem.copyright [ fhir:value "This CodeSystem is not copyrighted."];
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "7"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "exhibit-distracting-expression-difficulties" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Expression of distracting spoken language expression difficulties" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "How often does the individual exhibit spoken language expression difficulties that are noticeable or distracting to the listener? Note: consider message content, form, pauses, extra time." ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "simple-meaningful-word-expression" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Expression of simple meaningful word or phrases" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "How often does the individual produce simple spoken word and phrases that are meaningful?" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "verbal-form-low-demand" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Produce verbal messages with appropriate form in low demand situations" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "How often does the individual produce verbal messages with appropriate FORM in LOW demand situations? Note: consider phonology, morphology and syntax when assessing functional level." ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "verbal-content-low-demand" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Produce verbal messages with appropriate content in low demand situations" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "How often does the individual produce verbal messages with appropriate CONTENT in LOW demand situations? Note: consider semantic meaning when assessing functional level." ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "verbal-form-high-demand" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Produce verbal messages with appropriate form in high demand situations" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "How often does the individual produce verbal messages with appropriate FORM in HIGH demand situations (e.g., academic or work-related tasks)? Note: consider phonology, morphology and syntax when assessing functional level." ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "verbal-content-high-demand" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Produce verbal messages with appropriate content in high demand situations" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "How often does the individual produce verbal messages with appropriate CONTENT in HIGH demand situations (e.g., academic or work-related tasks)? Note: consider semantic meaning when assessing functional level." ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "communicate-without-assistance" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Participate in communication without assistance" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS.ttl> .
+
+# -------------------------------------------------------------------------------------
+

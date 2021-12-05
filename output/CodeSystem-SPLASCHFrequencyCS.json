@@ -1,0 +1,85 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SPLASCHFrequencyCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">never<a name=\"SPLASCHFrequencyCS-never\"> </a></td><td>Never</td><td>Never</td></tr><tr><td style=\"white-space:nowrap\">rarely<a name=\"SPLASCHFrequencyCS-rarely\"> </a></td><td>Rarely</td><td>Rarely</td></tr><tr><td style=\"white-space:nowrap\">sometimes<a name=\"SPLASCHFrequencyCS-sometimes\"> </a></td><td>Sometimes</td><td>Sometimes</td></tr><tr><td style=\"white-space:nowrap\">often<a name=\"SPLASCHFrequencyCS-often\"> </a></td><td>Often</td><td>Often</td></tr><tr><td style=\"white-space:nowrap\">always<a name=\"SPLASCHFrequencyCS-always\"> </a></td><td>Always</td><td>Always</td></tr></table></div>"
+  },
+  "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS",
+  "version": "0.1.0",
+  "name": "SPLASCHFrequencyCS",
+  "title": "Observation Value Frequency Codes",
+  "status": "active",
+  "date": "2021-12-04T23:26:25-08:00",
+  "publisher": "HL7 Patient Care Working Group",
+  "contact": [
+    {
+      "name": "HL7 Patient Care Working Group",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientcare"
+        },
+        {
+          "system": "email",
+          "value": "patients@lists.HL7.org"
+        }
+      ]
+    },
+    {
+      "name": "PACIO project",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientcare"
+        },
+        {
+          "system": "email",
+          "value": "info@pacioproject.org"
+        }
+      ]
+    }
+  ],
+  "description": "todo",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
+        }
+      ]
+    }
+  ],
+  "copyright": "This CodeSystem is not copyrighted.",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 5,
+  "concept": [
+    {
+      "code": "never",
+      "display": "Never",
+      "definition": "Never"
+    },
+    {
+      "code": "rarely",
+      "display": "Rarely",
+      "definition": "Rarely"
+    },
+    {
+      "code": "sometimes",
+      "display": "Sometimes",
+      "definition": "Sometimes"
+    },
+    {
+      "code": "often",
+      "display": "Often",
+      "definition": "Often"
+    },
+    {
+      "code": "always",
+      "display": "Always",
+      "definition": "Always"
+    }
+  ]
+}

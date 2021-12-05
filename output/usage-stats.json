@@ -7,16 +7,16 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageComprehension",
-        "title": "Spoken Language Comprehension"
+        "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageComprehensionObservation",
+        "title": "Spoken Language Comprehension Observation"
       },
       {
-        "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageExpression",
-        "title": "Spoken Language Expression"
+        "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageExpressionObservation",
+        "title": "Spoken Language Expression Observation"
       },
       {
-        "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-Swallowing",
-        "title": "Swallowing"
+        "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SwallowingObservation",
+        "title": "Swallowing Observation"
       }
     ]
   },

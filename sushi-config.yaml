@@ -47,13 +47,13 @@ menu:
   #  General Guidance: general_guidance.html
   #  Security: security.html
   FHIR Artifacts:
-    Capability Statement: CapabilityStatement-rt-cs.html
-    Search Parameters: artifacts.html#2
-    Profiles: artifacts.html#3
-    Extensions: artifacts.html#4
-    Value Sets: artifacts.html#5
-    Code Systems: artifacts.html#6
-    Examples: artifacts.html#7
+    #Capability Statement: CapabilityStatement-rt-cs.html
+    #Search Parameters: artifacts.html#2
+    Profiles: artifacts.html#1
+    #Extensions: artifacts.html#4
+    Value Sets: artifacts.html#2
+    Code Systems: artifacts.html#3
+    #Examples: artifacts.html#7
   Downloads: downloads.html
 
 # ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮

@@ -1,0 +1,80 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SPLASCHCaloriePercentageCategoryCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">0-25-percent<a name=\"SPLASCHCaloriePercentageCategoryCS-0-25-percent\"> </a></td><td>0-25% of caloric intake</td><td>0% to 25% of caloric intake</td></tr><tr><td style=\"white-space:nowrap\">26-49-percent<a name=\"SPLASCHCaloriePercentageCategoryCS-26-49-percent\"> </a></td><td>26-49% of caloric intake</td><td>26% to 49% of caloric intake</td></tr><tr><td style=\"white-space:nowrap\">50-75-percent<a name=\"SPLASCHCaloriePercentageCategoryCS-50-75-percent\"> </a></td><td>50-75% of caloric intake</td><td>50% to 75% of caloric intake</td></tr><tr><td style=\"white-space:nowrap\">76-100-percent<a name=\"SPLASCHCaloriePercentageCategoryCS-76-100-percent\"> </a></td><td>76-100% of caloric intake</td><td>76% to 100% of caloric intake</td></tr></table></div>"
+  },
+  "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS",
+  "version": "0.1.0",
+  "name": "SPLASCHCaloriePercentageCategoryCS",
+  "title": "Observation Value Calorie Percentage Category Codes",
+  "status": "active",
+  "date": "2021-12-04T23:26:25-08:00",
+  "publisher": "HL7 Patient Care Working Group",
+  "contact": [
+    {
+      "name": "HL7 Patient Care Working Group",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientcare"
+        },
+        {
+          "system": "email",
+          "value": "patients@lists.HL7.org"
+        }
+      ]
+    },
+    {
+      "name": "PACIO project",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientcare"
+        },
+        {
+          "system": "email",
+          "value": "info@pacioproject.org"
+        }
+      ]
+    }
+  ],
+  "description": "todo",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
+        }
+      ]
+    }
+  ],
+  "copyright": "This CodeSystem is not copyrighted.",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "0-25-percent",
+      "display": "0-25% of caloric intake",
+      "definition": "0% to 25% of caloric intake"
+    },
+    {
+      "code": "26-49-percent",
+      "display": "26-49% of caloric intake",
+      "definition": "26% to 49% of caloric intake"
+    },
+    {
+      "code": "50-75-percent",
+      "display": "50-75% of caloric intake",
+      "definition": "50% to 75% of caloric intake"
+    },
+    {
+      "code": "76-100-percent",
+      "display": "76-100% of caloric intake",
+      "definition": "76% to 100% of caloric intake"
+    }
+  ]
+}

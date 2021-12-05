@@ -5,10 +5,10 @@ Alias: USCoreObLab = http://hl7.org/fhir/us/core/StructureDefinition/us-core-obs
 Alias: USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient
 **********/
 
-Profile:        SpokenLanguageExpression
+Profile:        SpokenLanguageExpressionObservation
 Parent:         Observation
-Id:             splasch-SpokenLanguageExpression
-Title:          "Spoken Language Expression"
+Id:             splasch-SpokenLanguageExpressionObservation
+Title:          "Spoken Language Expression Observation"
 Description:    "An exchange of spoken language expression data for a patient."
 
 * category 1..* MS
@@ -21,12 +21,17 @@ Description:    "An exchange of spoken language expression data for a patient."
 * category contains 
     type 1..1 MS
 
-* category[type] = SPLASCHObservationCategory#spoken-language-expression
+* category[type] = SPLASCHObservationCategoryCS#spoken-language-expression
 
 * subject 1..1
 * subject only Reference($USCorePatient)
 
+
+* code 1..1 MS
+* code from SPLASCHSpeechComprehensionObservationVS (required)
+
 * value[x] only CodeableConcept
+* valueCodeableConcept from SPLASCHFrequencyObservationVS (required)
 
 * effective[x] 1..1 MS
 

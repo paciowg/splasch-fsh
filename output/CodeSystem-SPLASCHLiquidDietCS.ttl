@@ -1,0 +1,99 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "SPLASCHLiquidDietCS"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">thin<a name=\"SPLASCHLiquidDietCS-thin\"> </a></td><td>Regular</td><td>Regular</td></tr><tr><td style=\"white-space:nowrap\">slightly-thick<a name=\"SPLASCHLiquidDietCS-slightly-thick\"> </a></td><td>Slightly thick</td><td>Slightly thick</td></tr><tr><td style=\"white-space:nowrap\">mildly-thick<a name=\"SPLASCHLiquidDietCS-mildly-thick\"> </a></td><td>Mildly thick</td><td>Mildly thick</td></tr><tr><td style=\"white-space:nowrap\">moderately-thick<a name=\"SPLASCHLiquidDietCS-moderately-thick\"> </a></td><td>Moderately thick</td><td>Moderately thick</td></tr><tr><td style=\"white-space:nowrap\">extremely-thick<a name=\"SPLASCHLiquidDietCS-extremely-thick\"> </a></td><td>Extremely thick</td><td>Extremely thick</td></tr><tr><td style=\"white-space:nowrap\">no-liquids<a name=\"SPLASCHLiquidDietCS-no-liquids\"> </a></td><td>No liquids</td><td>No liquids</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "SPLASCHLiquidDietCS"];
+  fhir:CodeSystem.title [ fhir:value "Observation Value Liquid Diet Codes"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2021-12-04T23:26:25-08:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "HL7 Patient Care Working Group"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "HL7 Patient Care Working Group" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/patientcare" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "patients@lists.HL7.org" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "PACIO project" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/patientcare" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "info@pacioproject.org" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "todo"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "US" ]
+     ]
+  ];
+  fhir:CodeSystem.copyright [ fhir:value "This CodeSystem is not copyrighted."];
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "6"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "thin" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Regular" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Regular" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "slightly-thick" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Slightly thick" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Slightly thick" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "mildly-thick" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Mildly thick" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Mildly thick" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "moderately-thick" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Moderately thick" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Moderately thick" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "extremely-thick" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Extremely thick" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Extremely thick" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "no-liquids" ];
+     fhir:CodeSystem.concept.display [ fhir:value "No liquids" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "No liquids" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS.ttl> .
+
+# -------------------------------------------------------------------------------------
+

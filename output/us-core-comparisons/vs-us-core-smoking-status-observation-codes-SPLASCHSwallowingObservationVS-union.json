@@ -1,0 +1,55 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "c9bda960-c4b7-44ac-b128-43567295e4fc-212",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/c9bda960-c4b7-44ac-b128-43567295e4fc-212",
+  "name" : "UnionUSCoreSmokingStatusObservationCodesAndSPLASCHSwallowingObservationVS",
+  "title" : "Union of US Core Smoking Status Observation Codes And Swallowing Observation",
+  "status" : "active",
+  "date" : "2021-12-04T23:26:52-08:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "72166-2",
+        "display" : "Tobacco smoking status NHIS"
+      }]
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "72166-2",
+      "display" : "Tobacco smoking status"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS",
+      "code" : "modified-solid-diet",
+      "display" : "Recommended modified solids diet"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS",
+      "code" : "modified-liquid-diet",
+      "display" : "Recommended modified liquids diet"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS",
+      "code" : "non-oral-diet-sustenance",
+      "display" : "Nutrition and hydration diet delivered through non-oral means"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS",
+      "code" : "oral-containment-secretion-difficulty",
+      "display" : "Difficulties with oral containment or secretion management"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS",
+      "code" : "assistance-swallowing-safety",
+      "display" : "Require assistance or supervision for swallowing safety"
+    }]
+  }
+}

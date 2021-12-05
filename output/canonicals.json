@@ -1,10 +1,66 @@
 [
   {
-    "id": "SPLASCHObservationCategory",
+    "id": "SPLASCHCaloriePercentageCategoryCS",
     "type": "CodeSystem",
-    "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategory",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS",
     "version": "0.1.0",
-    "name": "SPLASCHObservationCategory"
+    "name": "SPLASCHCaloriePercentageCategoryCS"
+  },
+  {
+    "id": "SPLASCHFrequencyCS",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS",
+    "version": "0.1.0",
+    "name": "SPLASCHFrequencyCS"
+  },
+  {
+    "id": "SPLASCHLiquidDietCS",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS",
+    "version": "0.1.0",
+    "name": "SPLASCHLiquidDietCS"
+  },
+  {
+    "id": "SPLASCHObservationCategoryCS",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS",
+    "version": "0.1.0",
+    "name": "SPLASCHObservationCategoryCS"
+  },
+  {
+    "id": "SPLASCHSolidDietCS",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS",
+    "version": "0.1.0",
+    "name": "SPLASCHSolidDietCS"
+  },
+  {
+    "id": "SPLASCHSpeechComprehensionObservationCS",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS",
+    "version": "0.1.0",
+    "name": "SPLASCHSpeechComprehensionObservationCS"
+  },
+  {
+    "id": "SPLASCHSpeechExpressionObservationCS",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS",
+    "version": "0.1.0",
+    "name": "SPLASCHSpeechExpressionObservationCS"
+  },
+  {
+    "id": "SPLASCHSwallowingObservationCS",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS",
+    "version": "0.1.0",
+    "name": "SPLASCHSwallowingObservationCS"
+  },
+  {
+    "id": "SPLASCHTimePercentageCategoryCS",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS",
+    "version": "0.1.0",
+    "name": "SPLASCHTimePercentageCategoryCS"
   },
   {
     "id": "hl7.fhir.us.pacio-splasch",
@@ -14,24 +70,94 @@
     "name": "PACIOReAssessmentTimepoints"
   },
   {
-    "id": "splasch-SpokenLanguageComprehension",
+    "id": "splasch-SpokenLanguageComprehensionObservation",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageComprehension",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageComprehensionObservation",
     "version": "0.1.0",
-    "name": "SpokenLanguageComprehension"
+    "name": "SpokenLanguageComprehensionObservation"
   },
   {
-    "id": "splasch-SpokenLanguageExpression",
+    "id": "splasch-SpokenLanguageExpressionObservation",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageExpression",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageExpressionObservation",
     "version": "0.1.0",
-    "name": "SpokenLanguageExpression"
+    "name": "SpokenLanguageExpressionObservation"
   },
   {
-    "id": "splasch-Swallowing",
+    "id": "splasch-SwallowingObservation",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-Swallowing",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SwallowingObservation",
     "version": "0.1.0",
-    "name": "Swallowing"
+    "name": "SwallowingObservation"
+  },
+  {
+    "id": "SPLASCHCaloriePercentageTypeObservationVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHCaloriePercentageTypeObservationVS",
+    "version": "0.1.0",
+    "name": "SPLASCHCaloriePercentageTypeObservationVS"
+  },
+  {
+    "id": "SPLASCHFrequencyObservationVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHFrequencyObservationVS",
+    "version": "0.1.0",
+    "name": "SPLASCHFrequencyObservationVS"
+  },
+  {
+    "id": "SPLASCHFrequencyTypeObservationVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHFrequencyTypeObservationVS",
+    "version": "0.1.0",
+    "name": "SPLASCHFrequencyTypeObservationVS"
+  },
+  {
+    "id": "SPLASCHLiquidDietModifierTypeObservationVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHLiquidDietModifierTypeObservationVS",
+    "version": "0.1.0",
+    "name": "SPLASCHLiquidDietModifierTypeObservationVS"
+  },
+  {
+    "id": "SPLASCHObservationCategoryVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHObservationCategoryVS",
+    "version": "0.1.0",
+    "name": "SPLASCHObservationCategoryVS"
+  },
+  {
+    "id": "SPLASCHSolidDietModifierTypeObservationVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSolidDietModifierTypeObservationVS",
+    "version": "0.1.0",
+    "name": "SPLASCHSolidDietModifierTypeObservationVS"
+  },
+  {
+    "id": "SPLASCHSpeechComprehensionObservationVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSpeechComprehensionObservationVS",
+    "version": "0.1.0",
+    "name": "SPLASCHSpeechComprehensionObservationVS"
+  },
+  {
+    "id": "SPLASCHSpeechExpressionObservationVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSpeechExpressionObservationVS",
+    "version": "0.1.0",
+    "name": "SPLASCHSpeechExpressionObservationVS"
+  },
+  {
+    "id": "SPLASCHSwallowingObservationVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSwallowingObservationVS",
+    "version": "0.1.0",
+    "name": "SPLASCHSwallowingObservationVS"
+  },
+  {
+    "id": "SPLASCHSwallowingObservationValueVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSwallowingObservationValueVS",
+    "version": "0.1.0",
+    "name": "SPLASCHSwallowingObservationValueVS"
   }
 ]
