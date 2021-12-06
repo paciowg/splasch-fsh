@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOReAssessmentTimepoints"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-11-30T03:26:11-05:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-12-06T15:18:55-05:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Patient Care Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -382,13 +382,27 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/ValueSet/pacio-splasch-vs>;
+         fhir:Reference.reference [ fhir:value "ValueSet/pacio-splasch-vs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SPLASCH Observation Category Value Set" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "todo" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategory>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/SPLASCHObservationCategory" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/CodeSystem/pacio-splasch-cs>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/pacio-splasch-cs" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SPLASCH Observation Category" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SPLASCH Observation Category Code System" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "todo" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ];
@@ -477,7 +491,9 @@
 
 <http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-Swallowing> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategory> a fhir:us .
+<http://hl7.org/fhir/us/pacio-splasch/ValueSet/pacio-splasch-vs> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/pacio-splasch-cs> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 

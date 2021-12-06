@@ -21,7 +21,7 @@ Description:    "An exchange of spoken language expression data for a patient."
 * category contains 
     type 1..1 MS
 
-* category[type] = SPLASCHObservationCategory#spoken-language-expression
+* category[type] = SPLASCHObservationCategoryCS#spoken-language-expression
 
 * subject 1..1
 * subject only Reference($USCorePatient)

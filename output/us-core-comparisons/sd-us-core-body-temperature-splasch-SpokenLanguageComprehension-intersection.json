@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "09a43e98-1e77-474f-948b-c0ef8b9dd8a1-24",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/09a43e98-1e77-474f-948b-c0ef8b9dd8a1-24",
+  "id" : "dcdad774-67be-4419-b22a-d753696d22f8-24",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/dcdad774-67be-4419-b22a-d753696d22f8-24",
   "name" : "IntersectionUSCoreBodyTemperatureProfileAndSpokenLanguageComprehension",
   "title" : "Intersection of US Core Body Temperature Profile And Spoken Language Comprehension",
   "status" : "active",
-  "date" : "2021-11-30T03:27:07-05:00",
+  "date" : "2021-12-06T15:20:00-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

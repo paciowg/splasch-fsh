@@ -1,16 +1,16 @@
 {
   "resourceType": "CodeSystem",
-  "id": "SPLASCHObservationCategory",
+  "id": "pacio-splasch-cs",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategory defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">spoken-language-comprehension<a name=\"SPLASCHObservationCategory-spoken-language-comprehension\"> </a></td><td>Spoken language comprehension</td><td>todo definition</td></tr><tr><td style=\"white-space:nowrap\">spoken-language-expression<a name=\"SPLASCHObservationCategory-spoken-language-expression\"> </a></td><td>Spoken language expression</td><td>todo definition</td></tr><tr><td style=\"white-space:nowrap\">swallowing<a name=\"SPLASCHObservationCategory-swallowing\"> </a></td><td>Swallowing</td><td>todo definition</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/pacio-splasch-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">spoken-language-comprehension<a name=\"pacio-splasch-cs-spoken-language-comprehension\"> </a></td><td>Spoken language comprehension</td><td>todo definition</td></tr><tr><td style=\"white-space:nowrap\">spoken-language-expression<a name=\"pacio-splasch-cs-spoken-language-expression\"> </a></td><td>Spoken language expression</td><td>todo definition</td></tr><tr><td style=\"white-space:nowrap\">swallowing<a name=\"pacio-splasch-cs-swallowing\"> </a></td><td>Swallowing</td><td>todo definition</td></tr></table></div>"
   },
-  "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategory",
+  "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/pacio-splasch-cs",
   "version": "0.1.0",
-  "name": "SPLASCHObservationCategory",
-  "title": "SPLASCH Observation Category",
+  "name": "SPLASCHObservationCategoryCS",
+  "title": "SPLASCH Observation Category Code System",
   "status": "active",
-  "date": "2021-11-30T03:26:11-05:00",
+  "date": "2021-12-06T15:18:55-05:00",
   "publisher": "HL7 Patient Care Working Group",
   "contact": [
     {

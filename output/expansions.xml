@@ -1,9 +1,223 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="eb326c32-3d8d-4749-8e8c-0f19b9effee5"/>
+  <id value="d2b4ad77-9231-434c-9712-572b0fd0d6a6"/>
   <meta>
-    <lastUpdated value="2021-11-30T03:26:11.214-05:00"/>
+    <lastUpdated value="2021-12-06T15:18:55.113-05:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/pacio-splasch-vs"/>
+    <resource>
+      <ValueSet>
+        <id value="pacio-splasch-vs"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 10 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html">ActCode v6.0.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html">
+                <code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-never"> </a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html#v3-ActCode-never">never</a>
+                </td>
+                <td>never</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-rarely"> </a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html#v3-ActCode-rarely">rarely</a>
+                </td>
+                <td>rarely</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-sometimes"> </a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html#v3-ActCode-sometimes">sometimes</a>
+                </td>
+                <td>sometimes</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-often"> </a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html#v3-ActCode-often">often</a>
+                </td>
+                <td>often</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-always"> </a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html#v3-ActCode-always">always</a>
+                </td>
+                <td>always</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-0to25"> </a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html#v3-ActCode-0to25">0to25</a>
+                </td>
+                <td>0-25% of the time</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-26to49"> </a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html#v3-ActCode-26to49">26to49</a>
+                </td>
+                <td>26-49% of the time</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-50to75"> </a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html#v3-ActCode-50to75">50to75</a>
+                </td>
+                <td>50-75% of the time</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-76to90"> </a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html#v3-ActCode-76to90">76to90</a>
+                </td>
+                <td>76-90% of the time</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-91to100"> </a>
+                  <a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html#v3-ActCode-91to100">91to100</a>
+                </td>
+                <td>91-100% of the time</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/pacio-splasch-vs"/>
+        <version value="0.1.0"/>
+        <name value="SPLASCHObservationCategoryVS"/>
+        <title value="SPLASCH Observation Category Value Set"/>
+        <status value="active"/>
+        <date value="2021-12-06T15:18:55-05:00"/>
+        <publisher value="HL7 Patient Care Working Group"/>
+        <contact>
+          <name value="HL7 Patient Care Working Group"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="patients@lists.HL7.org"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="PACIO project"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="info@pacioproject.org"/>
+          </telecom>
+        </contact>
+        <description value="todo"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:58a4049a-d68b-4900-91a4-7decda7037bf"/>
+          <timestamp value="2021-12-06T15:20:23-05:00"/>
+          <total value="10"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/v3-ActCode|6.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+            <code value="never"/>
+            <display value="never"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+            <code value="rarely"/>
+            <display value="rarely"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+            <code value="sometimes"/>
+            <display value="sometimes"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+            <code value="often"/>
+            <display value="often"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+            <code value="always"/>
+            <display value="always"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+            <code value="0to25"/>
+            <display value="0-25% of the time"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+            <code value="26to49"/>
+            <display value="26-49% of the time"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+            <code value="50to75"/>
+            <display value="50-75% of the time"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+            <code value="76to90"/>
+            <display value="76-90% of the time"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+            <code value="91to100"/>
+            <display value="91-100% of the time"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
 </Bundle>

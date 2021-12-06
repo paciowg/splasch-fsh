@@ -21,7 +21,7 @@ Description:    "An exchange of swallowing data for a patient."
 * category contains 
     type 1..1 MS
 
-* category[type] = SPLASCHObservationCategory#swallowing
+* category[type] = SPLASCHObservationCategoryCS#swallowing
 
 * subject 1..1
 * subject only Reference($USCorePatient)

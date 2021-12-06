@@ -21,7 +21,7 @@ Description:    "An exchange of spoken language comprehension data for a patient
 * category contains 
     type 1..1 MS
 
-* category[type] = SPLASCHObservationCategory#spoken-language-comprehension
+* category[type] = SPLASCHObservationCategoryCS#spoken-language-comprehension
 
 * subject 1..1
 * subject only Reference($USCorePatient)

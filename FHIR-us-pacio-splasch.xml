@@ -237,7 +237,8 @@
 <artifact deprecated="true" id="Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-26" key="Observation-SNF-SC-IP-MDS-IPA-1D-Ob-Question-26" name="SNF-SC-IP-MDS-IPA-1D-Ob-Question-26"/>
 <artifact deprecated="true" id="Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-27" key="Observation-SNF-SC-IP-MDS-IPA-1D-Ob-Question-27" name="SNF-SC-IP-MDS-IPA-1D-Ob-Question-27"/>
 <artifact deprecated="true" id="Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-28" key="Observation-SNF-SC-IP-MDS-IPA-1D-Ob-Question-28" name="SNF-SC-IP-MDS-IPA-1D-Ob-Question-28"/>
-<artifact id="CodeSystem/SPLASCHObservationCategory" key="CodeSystem-SPLASCHObservationCategory" name="SPLASCH Observation Category"/>
+<artifact id="CodeSystem/pacio-splasch-cs" key="CodeSystem-pacio-splasch-cs" name="SPLASCH Observation Category Code System"/>
+<artifact id="ValueSet/pacio-splasch-vs" key="ValueSet-pacio-splasch-vs" name="SPLASCH Observation Category Value Set"/>
 <artifact id="StructureDefinition/splasch-SpokenLanguageComprehension" key="StructureDefinition-splasch-SpokenLanguageComprehension" name="Spoken Language Comprehension"/>
 <artifact id="StructureDefinition/splasch-SpokenLanguageExpression" key="StructureDefinition-splasch-SpokenLanguageExpression" name="Spoken Language Expression"/>
 <artifact id="StructureDefinition/splasch-Swallowing" key="StructureDefinition-splasch-Swallowing" name="Swallowing"/>

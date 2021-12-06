@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>HL7.FHIR.US.PACIO-SPLASCH\SPLASCH Observation Category - TTL Representation - FHIR v4.0.1</title>
+    <title>HL7.FHIR.US.PACIO-SPLASCH\SPLASCH Observation Category Value Set - TTL Representation - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -101,7 +101,7 @@
       <li>
         <a href="artifacts.html#2">Search Parameters</a>
       </li>
-      <li><a name="l185">​</a>
+      <li>
         <a href="artifacts.html#3">Profiles</a>
       </li>
       <li><a name="l191">​</a>
@@ -133,7 +133,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>SPLASCH Observation Category</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>SPLASCH Observation Category Value Set</b></li>
 
         </ul>
       </div>    <!-- /container -->
@@ -157,20 +157,20 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="CodeSystem-SPLASCHObservationCategory.html">Narrative Content</a>
+    <a href="ValueSet-pacio-splasch-vs.html">Narrative Content</a>
   </li>
 
 
   
     <li>
-      <a href="CodeSystem-SPLASCHObservationCategory.xml.html">XML</a>
+      <a href="ValueSet-pacio-splasch-vs.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="CodeSystem-SPLASCHObservationCategory.json.html">JSON</a>
+      <a href="ValueSet-pacio-splasch-vs.json.html">JSON</a>
     </li>
   
 
@@ -189,9 +189,9 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: SPLASCH Observation Category - TTL Representation</h2>
+<h2 id="root">: SPLASCH Observation Category Value Set - TTL Representation</h2>
 
-<p><a href="CodeSystem-SPLASCHObservationCategory.ttl" no-download="true">Raw ttl</a> | <a download="null" href="CodeSystem-SPLASCHObservationCategory.ttl">Download</a></p>
+<p><a href="ValueSet-pacio-splasch-vs.ttl" no-download="true">Raw ttl</a> | <a download="null" href="ValueSet-pacio-splasch-vs.ttl">Download</a></p>
 
     <!-- insert intro if present -->
   
@@ -206,21 +206,21 @@
 
 # - resource -------------------------------------------------------------------
 
- a fhir:CodeSystem;
+ a fhir:ValueSet;
   <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "SPLASCHObservationCategory"];
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">fhir:DomainResource.text</a> [
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "pacio-splasch-vs"];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">fhir:DomainResource.text</a> [
      <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "generated" ];
-     fhir:Narrative.div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategory defines the following codes:&lt;/p&gt;&lt;table class=\"codes\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;spoken-language-comprehension&lt;a name=\"SPLASCHObservationCategory-spoken-language-comprehension\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Spoken language comprehension&lt;/td&gt;&lt;td&gt;todo definition&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;spoken-language-expression&lt;a name=\"SPLASCHObservationCategory-spoken-language-expression\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Spoken language expression&lt;/td&gt;&lt;td&gt;todo definition&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;swallowing&lt;a name=\"SPLASCHObservationCategory-swallowing\"&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Swallowing&lt;/td&gt;&lt;td&gt;todo definition&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+     fhir:Narrative.div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html\"&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActCode&lt;/code&gt;&lt;/a&gt;&lt;table class=\"none\"&gt;&lt;tr&gt;&lt;td style=\"white-space:nowrap\"&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html#v3-ActCode-never\"&gt;never&lt;/a&gt;&lt;/td&gt;&lt;td&gt;never&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html#v3-ActCode-rarely\"&gt;rarely&lt;/a&gt;&lt;/td&gt;&lt;td&gt;rarely&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html#v3-ActCode-sometimes\"&gt;sometimes&lt;/a&gt;&lt;/td&gt;&lt;td&gt;sometimes&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html#v3-ActCode-often\"&gt;often&lt;/a&gt;&lt;/td&gt;&lt;td&gt;often&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html#v3-ActCode-always\"&gt;always&lt;/a&gt;&lt;/td&gt;&lt;td&gt;always&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html#v3-ActCode-0to25\"&gt;0to25&lt;/a&gt;&lt;/td&gt;&lt;td&gt;0-25% of the time&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html#v3-ActCode-26to49\"&gt;26to49&lt;/a&gt;&lt;/td&gt;&lt;td&gt;26-49% of the time&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html#v3-ActCode-50to75\"&gt;50to75&lt;/a&gt;&lt;/td&gt;&lt;td&gt;50-75% of the time&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html#v3-ActCode-76to90\"&gt;76to90&lt;/a&gt;&lt;/td&gt;&lt;td&gt;76-90% of the time&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html#v3-ActCode-91to100\"&gt;91to100&lt;/a&gt;&lt;/td&gt;&lt;td&gt;91-100% of the time&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"
   ];
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">fhir:CodeSystem.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategory"];
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">fhir:CodeSystem.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "0.1.0"];
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">fhir:CodeSystem.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "SPLASCHObservationCategory"];
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">fhir:CodeSystem.title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "SPLASCH Observation Category"];
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">fhir:CodeSystem.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "active"];
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">fhir:CodeSystem.date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> "2021-11-30T03:26:11-05:00"^^xsd:dateTime];
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">fhir:CodeSystem.publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "HL7 Patient Care Working Group"];
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">fhir:CodeSystem.contact</a> [
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">fhir:ValueSet.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> "http://hl7.org/fhir/us/pacio-splasch/ValueSet/pacio-splasch-vs"];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">fhir:ValueSet.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "0.1.0"];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">fhir:ValueSet.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "SPLASCHObservationCategoryVS"];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">fhir:ValueSet.title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "SPLASCH Observation Category Value Set"];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">fhir:ValueSet.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "active"];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">fhir:ValueSet.date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> "2021-12-06T15:18:55-05:00"^^xsd:dateTime];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">fhir:ValueSet.publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "HL7 Patient Care Working Group"];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">fhir:ValueSet.contact</a> [
      <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
      <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:ContactDetail.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "HL7 Patient Care Working Group" ];
      <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:ContactDetail.telecom</a> [
@@ -241,33 +241,49 @@
        <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:ContactPoint.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "email" ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:ContactPoint.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "info@pacioproject.org" ]     ]
   ];
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">fhir:CodeSystem.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> "todo"];
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">fhir:CodeSystem.jurisdiction</a> [
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">fhir:ValueSet.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> "todo"];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.jurisdiction">fhir:ValueSet.jurisdiction</a> [
      <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
      <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
        <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
        <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> "urn:iso:std:iso:3166" ];
        <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "US" ]     ]
   ];
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.copyright">fhir:CodeSystem.copyright</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> "This CodeSystem is not copyrighted."];
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.caseSensitive">fhir:CodeSystem.caseSensitive</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:value</a> "true"^^xsd:boolean];
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">fhir:CodeSystem.content</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "complete"];
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">fhir:CodeSystem.count</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">fhir:value</a> "3"^^xsd:nonNegativeInteger];
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">fhir:CodeSystem.concept</a> [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "spoken-language-comprehension" ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "Spoken language comprehension" ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "todo definition" ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "spoken-language-expression" ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "Spoken language expression" ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "todo definition" ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "swallowing" ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "Swallowing" ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "todo definition" ]
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">fhir:ValueSet.compose</a> [
+     <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">fhir:ValueSet.compose.include</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">fhir:ValueSet.compose.include.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> "http://terminology.hl7.org/CodeSystem/v3-ActCode" ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">fhir:ValueSet.compose.include.concept</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "never" ];
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "never" ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "rarely" ];
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "rarely" ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "sometimes" ];
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "sometimes" ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "often" ];
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "often" ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 4;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "always" ];
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "always" ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 5;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "0to25" ];
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "0-25% of the time" ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 6;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "26to49" ];
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "26-49% of the time" ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 7;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "50to75" ];
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "50-75% of the time" ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 8;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "76to90" ];
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "76-90% of the time" ]       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 9;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "91to100" ];
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "91-100% of the time" ]       ]     ]
   ].
 
 # - ontology header ------------------------------------------------------------
@@ -306,7 +322,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/patientcare">HL7 Patient Care Working Group</a>.  Package hl7.fhir.us.pacio-splasch#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Nov 30, 2021 03:26-0500">2021-11-30</span>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/patientcare">HL7 Patient Care Working Group</a>.  Package hl7.fhir.us.pacio-splasch#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 6, 2021 15:18-0500">2021-12-06</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

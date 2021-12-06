@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <CodeSystem xmlns="http://hl7.org/fhir">
-  <id value="SPLASCHObservationCategory"/>
+  <id value="pacio-splasch-cs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategory defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">spoken-language-comprehension<a name="SPLASCHObservationCategory-spoken-language-comprehension"> </a></td><td>Spoken language comprehension</td><td>todo definition</td></tr><tr><td style="white-space:nowrap">spoken-language-expression<a name="SPLASCHObservationCategory-spoken-language-expression"> </a></td><td>Spoken language expression</td><td>todo definition</td></tr><tr><td style="white-space:nowrap">swallowing<a name="SPLASCHObservationCategory-swallowing"> </a></td><td>Swallowing</td><td>todo definition</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/pacio-splasch-cs defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">spoken-language-comprehension<a name="pacio-splasch-cs-spoken-language-comprehension"> </a></td><td>Spoken language comprehension</td><td>todo definition</td></tr><tr><td style="white-space:nowrap">spoken-language-expression<a name="pacio-splasch-cs-spoken-language-expression"> </a></td><td>Spoken language expression</td><td>todo definition</td></tr><tr><td style="white-space:nowrap">swallowing<a name="pacio-splasch-cs-swallowing"> </a></td><td>Swallowing</td><td>todo definition</td></tr></table></div>
   </text>
-  <url value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategory"/>
+  <url value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/pacio-splasch-cs"/>
   <version value="0.1.0"/>
-  <name value="SPLASCHObservationCategory"/>
-  <title value="SPLASCH Observation Category"/>
+  <name value="SPLASCHObservationCategoryCS"/>
+  <title value="SPLASCH Observation Category Code System"/>
   <status value="active"/>
-  <date value="2021-11-30T03:26:11-05:00"/>
+  <date value="2021-12-06T15:18:55-05:00"/>
   <publisher value="HL7 Patient Care Working Group"/>
   <contact>
     <name value="HL7 Patient Care Working Group"/>

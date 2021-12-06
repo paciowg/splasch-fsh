@@ -1,10 +1,10 @@
 [
   {
-    "id": "SPLASCHObservationCategory",
+    "id": "pacio-splasch-cs",
     "type": "CodeSystem",
-    "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategory",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/pacio-splasch-cs",
     "version": "0.1.0",
-    "name": "SPLASCHObservationCategory"
+    "name": "SPLASCHObservationCategoryCS"
   },
   {
     "id": "hl7.fhir.us.pacio-splasch",
@@ -33,5 +33,12 @@
     "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-Swallowing",
     "version": "0.1.0",
     "name": "Swallowing"
+  },
+  {
+    "id": "pacio-splasch-vs",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/pacio-splasch-vs",
+    "version": "0.1.0",
+    "name": "SPLASCHObservationCategoryVS"
   }
 ]

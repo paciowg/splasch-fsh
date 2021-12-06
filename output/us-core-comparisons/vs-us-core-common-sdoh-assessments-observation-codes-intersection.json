@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "dcdad774-67be-4419-b22a-d753696d22f8-51",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/dcdad774-67be-4419-b22a-d753696d22f8-51",
+  "name" : "IntersectionUSCoreCommonSDOHAssessmentsAndLOINCCodes",
+  "title" : "Intersection of US Core Common SDOH Assessments ValueSet And LOINC Codes",
+  "status" : "active",
+  "date" : "2021-12-06T15:20:00-05:00"
+}

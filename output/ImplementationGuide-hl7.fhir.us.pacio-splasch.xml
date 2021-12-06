@@ -11,7 +11,7 @@
   <name value="PACIOReAssessmentTimepoints"/>
   <title value="PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-11-30T03:26:11-05:00"/>
+  <date value="2021-12-06T15:18:55-05:00"/>
   <publisher value="HL7 Patient Care Working Group"/>
   <contact>
     <name value="HL7 Patient Care Working Group"/>
@@ -262,12 +262,23 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/pacio-splasch-vs"/>
+      </reference>
+      <name value="SPLASCH Observation Category Value Set"/>
+      <description value="todo"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/SPLASCHObservationCategory"/>
+        <reference value="CodeSystem/pacio-splasch-cs"/>
       </reference>
-      <name value="SPLASCH Observation Category"/>
+      <name value="SPLASCH Observation Category Code System"/>
       <description value="todo"/>
       <exampleBoolean value="false"/>
     </resource>
