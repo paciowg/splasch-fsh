@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="SPLASCHSwallowingObservationValueVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href="ValueSet-SPLASCHFrequencyObservationVS.html">http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHFrequencyObservationVS</a></li><li>Include all codes defined in <a href="CodeSystem-SPLASCHSolidDietCS.html"><code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS</code></a></li><li>Include all codes defined in <a href="CodeSystem-SPLASCHLiquidDietCS.html"><code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS</code></a></li><li>Include all codes defined in <a href="CodeSystem-SPLASCHCaloriePercentageCategoryCS.html"><code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS</code></a></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSwallowingObservationValueVS"/>
+  <version value="0.1.0"/>
+  <name value="SPLASCHSwallowingObservationValueVS"/>
+  <title value="Swallowing Observation Value"/>
+  <status value="active"/>
+  <date value="2021-12-06T21:00:04-05:00"/>
+  <publisher value="HL7 Patient Care Working Group"/>
+  <contact>
+    <name value="HL7 Patient Care Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patients@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="PACIO project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@pacioproject.org"/>
+    </telecom>
+  </contact>
+  <description value="todo"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This CodeSystem is not copyrighted."/>
+  <compose>
+    <include>
+      <valueSet value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHFrequencyObservationVS"/>
+    </include>
+    <include>
+      <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS"/>
+    </include>
+    <include>
+      <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS"/>
+    </include>
+    <include>
+      <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS"/>
+    </include>
+  </compose>
+</ValueSet>

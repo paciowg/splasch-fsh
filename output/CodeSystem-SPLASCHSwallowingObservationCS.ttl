@@ -1,0 +1,94 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "SPLASCHSwallowingObservationCS"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">modified-solid-diet<a name=\"SPLASCHSwallowingObservationCS-modified-solid-diet\"> </a></td><td>Recommended modified solids diet</td><td>What modified diet is recommended for the individual to swallow solids safely?</td></tr><tr><td style=\"white-space:nowrap\">modified-liquid-diet<a name=\"SPLASCHSwallowingObservationCS-modified-liquid-diet\"> </a></td><td>Recommended modified liquids diet</td><td>What modified liquid is recommended for the individual to swallow safely?</td></tr><tr><td style=\"white-space:nowrap\">non-oral-diet-sustenance<a name=\"SPLASCHSwallowingObservationCS-non-oral-diet-sustenance\"> </a></td><td>Nutrition and hydration diet delivered through non-oral means</td><td>What percentage of the individual's daily diet is delivered through non-oral means in order to maintain adequate nutrition and hydration?</td></tr><tr><td style=\"white-space:nowrap\">oral-containment-secretion-difficulty<a name=\"SPLASCHSwallowingObservationCS-oral-containment-secretion-difficulty\"> </a></td><td>Difficulties with oral containment or secretion management</td><td>How often does the individual exhibit difficulties with oral containment or secretion management?</td></tr><tr><td style=\"white-space:nowrap\">assistance-swallowing-safety<a name=\"SPLASCHSwallowingObservationCS-assistance-swallowing-safety\"> </a></td><td>Require assistance or supervision for swallowing safety</td><td>How often does the individual require supervision/assistance at meal time due to swallowing safety (e.g., risk of aspiration, pocketing)? Note: If individual is NPO, rate supervision/assistance as 91-100% of the time.</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "SPLASCHSwallowingObservationCS"];
+  fhir:CodeSystem.title [ fhir:value "Swallowing Observation Codes"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2021-12-06T21:00:04-05:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "HL7 Patient Care Working Group"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "HL7 Patient Care Working Group" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/patientcare" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "patients@lists.HL7.org" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "PACIO project" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/patientcare" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "info@pacioproject.org" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "todo"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "US" ]
+     ]
+  ];
+  fhir:CodeSystem.copyright [ fhir:value "This CodeSystem is not copyrighted."];
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "5"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "modified-solid-diet" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Recommended modified solids diet" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "What modified diet is recommended for the individual to swallow solids safely?" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "modified-liquid-diet" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Recommended modified liquids diet" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "What modified liquid is recommended for the individual to swallow safely?" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "non-oral-diet-sustenance" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Nutrition and hydration diet delivered through non-oral means" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "What percentage of the individual's daily diet is delivered through non-oral means in order to maintain adequate nutrition and hydration?" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "oral-containment-secretion-difficulty" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Difficulties with oral containment or secretion management" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "How often does the individual exhibit difficulties with oral containment or secretion management?" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "assistance-swallowing-safety" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Require assistance or supervision for swallowing safety" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "How often does the individual require supervision/assistance at meal time due to swallowing safety (e.g., risk of aspiration, pocketing)? Note: If individual is NPO, rate supervision/assistance as 91-100% of the time." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS.ttl> .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="SPLASCHSwallowingObservationCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">modified-solid-diet<a name="SPLASCHSwallowingObservationCS-modified-solid-diet"> </a></td><td>Recommended modified solids diet</td><td>What modified diet is recommended for the individual to swallow solids safely?</td></tr><tr><td style="white-space:nowrap">modified-liquid-diet<a name="SPLASCHSwallowingObservationCS-modified-liquid-diet"> </a></td><td>Recommended modified liquids diet</td><td>What modified liquid is recommended for the individual to swallow safely?</td></tr><tr><td style="white-space:nowrap">non-oral-diet-sustenance<a name="SPLASCHSwallowingObservationCS-non-oral-diet-sustenance"> </a></td><td>Nutrition and hydration diet delivered through non-oral means</td><td>What percentage of the individual's daily diet is delivered through non-oral means in order to maintain adequate nutrition and hydration?</td></tr><tr><td style="white-space:nowrap">oral-containment-secretion-difficulty<a name="SPLASCHSwallowingObservationCS-oral-containment-secretion-difficulty"> </a></td><td>Difficulties with oral containment or secretion management</td><td>How often does the individual exhibit difficulties with oral containment or secretion management?</td></tr><tr><td style="white-space:nowrap">assistance-swallowing-safety<a name="SPLASCHSwallowingObservationCS-assistance-swallowing-safety"> </a></td><td>Require assistance or supervision for swallowing safety</td><td>How often does the individual require supervision/assistance at meal time due to swallowing safety (e.g., risk of aspiration, pocketing)? Note: If individual is NPO, rate supervision/assistance as 91-100% of the time.</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS"/>
+  <version value="0.1.0"/>
+  <name value="SPLASCHSwallowingObservationCS"/>
+  <title value="Swallowing Observation Codes"/>
+  <status value="active"/>
+  <date value="2021-12-06T21:00:04-05:00"/>
+  <publisher value="HL7 Patient Care Working Group"/>
+  <contact>
+    <name value="HL7 Patient Care Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patients@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="PACIO project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@pacioproject.org"/>
+    </telecom>
+  </contact>
+  <description value="todo"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This CodeSystem is not copyrighted."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="modified-solid-diet"/>
+    <display value="Recommended modified solids diet"/>
+    <definition value="What modified diet is recommended for the individual to swallow solids safely?"/>
+  </concept>
+  <concept>
+    <code value="modified-liquid-diet"/>
+    <display value="Recommended modified liquids diet"/>
+    <definition value="What modified liquid is recommended for the individual to swallow safely?"/>
+  </concept>
+  <concept>
+    <code value="non-oral-diet-sustenance"/>
+    <display value="Nutrition and hydration diet delivered through non-oral means"/>
+    <definition value="What percentage of the individual&#39;s daily diet is delivered through non-oral means in order to maintain adequate nutrition and hydration?"/>
+  </concept>
+  <concept>
+    <code value="oral-containment-secretion-difficulty"/>
+    <display value="Difficulties with oral containment or secretion management"/>
+    <definition value="How often does the individual exhibit difficulties with oral containment or secretion management?"/>
+  </concept>
+  <concept>
+    <code value="assistance-swallowing-safety"/>
+    <display value="Require assistance or supervision for swallowing safety"/>
+    <definition value="How often does the individual require supervision/assistance at meal time due to swallowing safety (e.g., risk of aspiration, pocketing)? Note: If individual is NPO, rate supervision/assistance as 91-100% of the time."/>
+  </concept>
+</CodeSystem>

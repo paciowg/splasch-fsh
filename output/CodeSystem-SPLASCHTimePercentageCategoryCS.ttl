@@ -1,0 +1,94 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "SPLASCHTimePercentageCategoryCS"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">0-25-percent<a name=\"SPLASCHTimePercentageCategoryCS-0-25-percent\"> </a></td><td>0-25% of the time</td><td>0% to 25% of the time</td></tr><tr><td style=\"white-space:nowrap\">26-49-percent<a name=\"SPLASCHTimePercentageCategoryCS-26-49-percent\"> </a></td><td>26-49% of the time</td><td>26% to 49% of the time</td></tr><tr><td style=\"white-space:nowrap\">50-75-percent<a name=\"SPLASCHTimePercentageCategoryCS-50-75-percent\"> </a></td><td>50-75% of the time</td><td>50% to 75% of the time</td></tr><tr><td style=\"white-space:nowrap\">76-90-percent<a name=\"SPLASCHTimePercentageCategoryCS-76-90-percent\"> </a></td><td>76-90% of the time</td><td>76% to 90% of the time</td></tr><tr><td style=\"white-space:nowrap\">91-100-percent<a name=\"SPLASCHTimePercentageCategoryCS-91-100-percent\"> </a></td><td>91-100% of the time</td><td>91% to 100% of the time</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "SPLASCHTimePercentageCategoryCS"];
+  fhir:CodeSystem.title [ fhir:value "Observation Value Time Percentage Category Codes"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2021-12-06T21:00:04-05:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "HL7 Patient Care Working Group"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "HL7 Patient Care Working Group" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/patientcare" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "patients@lists.HL7.org" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "PACIO project" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/patientcare" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "info@pacioproject.org" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "todo"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "US" ]
+     ]
+  ];
+  fhir:CodeSystem.copyright [ fhir:value "This CodeSystem is not copyrighted."];
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "5"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "0-25-percent" ];
+     fhir:CodeSystem.concept.display [ fhir:value "0-25% of the time" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "0% to 25% of the time" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "26-49-percent" ];
+     fhir:CodeSystem.concept.display [ fhir:value "26-49% of the time" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "26% to 49% of the time" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "50-75-percent" ];
+     fhir:CodeSystem.concept.display [ fhir:value "50-75% of the time" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "50% to 75% of the time" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "76-90-percent" ];
+     fhir:CodeSystem.concept.display [ fhir:value "76-90% of the time" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "76% to 90% of the time" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "91-100-percent" ];
+     fhir:CodeSystem.concept.display [ fhir:value "91-100% of the time" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "91% to 100% of the time" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS.ttl> .
+
+# -------------------------------------------------------------------------------------
+

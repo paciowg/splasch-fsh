@@ -1,0 +1,85 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SPLASCHTimePercentageCategoryCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">0-25-percent<a name=\"SPLASCHTimePercentageCategoryCS-0-25-percent\"> </a></td><td>0-25% of the time</td><td>0% to 25% of the time</td></tr><tr><td style=\"white-space:nowrap\">26-49-percent<a name=\"SPLASCHTimePercentageCategoryCS-26-49-percent\"> </a></td><td>26-49% of the time</td><td>26% to 49% of the time</td></tr><tr><td style=\"white-space:nowrap\">50-75-percent<a name=\"SPLASCHTimePercentageCategoryCS-50-75-percent\"> </a></td><td>50-75% of the time</td><td>50% to 75% of the time</td></tr><tr><td style=\"white-space:nowrap\">76-90-percent<a name=\"SPLASCHTimePercentageCategoryCS-76-90-percent\"> </a></td><td>76-90% of the time</td><td>76% to 90% of the time</td></tr><tr><td style=\"white-space:nowrap\">91-100-percent<a name=\"SPLASCHTimePercentageCategoryCS-91-100-percent\"> </a></td><td>91-100% of the time</td><td>91% to 100% of the time</td></tr></table></div>"
+  },
+  "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS",
+  "version": "0.1.0",
+  "name": "SPLASCHTimePercentageCategoryCS",
+  "title": "Observation Value Time Percentage Category Codes",
+  "status": "active",
+  "date": "2021-12-06T21:00:04-05:00",
+  "publisher": "HL7 Patient Care Working Group",
+  "contact": [
+    {
+      "name": "HL7 Patient Care Working Group",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientcare"
+        },
+        {
+          "system": "email",
+          "value": "patients@lists.HL7.org"
+        }
+      ]
+    },
+    {
+      "name": "PACIO project",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientcare"
+        },
+        {
+          "system": "email",
+          "value": "info@pacioproject.org"
+        }
+      ]
+    }
+  ],
+  "description": "todo",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
+        }
+      ]
+    }
+  ],
+  "copyright": "This CodeSystem is not copyrighted.",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 5,
+  "concept": [
+    {
+      "code": "0-25-percent",
+      "display": "0-25% of the time",
+      "definition": "0% to 25% of the time"
+    },
+    {
+      "code": "26-49-percent",
+      "display": "26-49% of the time",
+      "definition": "26% to 49% of the time"
+    },
+    {
+      "code": "50-75-percent",
+      "display": "50-75% of the time",
+      "definition": "50% to 75% of the time"
+    },
+    {
+      "code": "76-90-percent",
+      "display": "76-90% of the time",
+      "definition": "76% to 90% of the time"
+    },
+    {
+      "code": "91-100-percent",
+      "display": "91-100% of the time",
+      "definition": "91% to 100% of the time"
+    }
+  ]
+}

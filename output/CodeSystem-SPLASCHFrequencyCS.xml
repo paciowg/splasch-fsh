@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="SPLASCHFrequencyCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">never<a name="SPLASCHFrequencyCS-never"> </a></td><td>Never</td><td>Never</td></tr><tr><td style="white-space:nowrap">rarely<a name="SPLASCHFrequencyCS-rarely"> </a></td><td>Rarely</td><td>Rarely</td></tr><tr><td style="white-space:nowrap">sometimes<a name="SPLASCHFrequencyCS-sometimes"> </a></td><td>Sometimes</td><td>Sometimes</td></tr><tr><td style="white-space:nowrap">often<a name="SPLASCHFrequencyCS-often"> </a></td><td>Often</td><td>Often</td></tr><tr><td style="white-space:nowrap">always<a name="SPLASCHFrequencyCS-always"> </a></td><td>Always</td><td>Always</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
+  <version value="0.1.0"/>
+  <name value="SPLASCHFrequencyCS"/>
+  <title value="Observation Value Frequency Codes"/>
+  <status value="active"/>
+  <date value="2021-12-06T21:00:04-05:00"/>
+  <publisher value="HL7 Patient Care Working Group"/>
+  <contact>
+    <name value="HL7 Patient Care Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patients@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="PACIO project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@pacioproject.org"/>
+    </telecom>
+  </contact>
+  <description value="todo"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This CodeSystem is not copyrighted."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="never"/>
+    <display value="Never"/>
+    <definition value="Never"/>
+  </concept>
+  <concept>
+    <code value="rarely"/>
+    <display value="Rarely"/>
+    <definition value="Rarely"/>
+  </concept>
+  <concept>
+    <code value="sometimes"/>
+    <display value="Sometimes"/>
+    <definition value="Sometimes"/>
+  </concept>
+  <concept>
+    <code value="often"/>
+    <display value="Often"/>
+    <definition value="Often"/>
+  </concept>
+  <concept>
+    <code value="always"/>
+    <display value="Always"/>
+    <definition value="Always"/>
+  </concept>
+</CodeSystem>

@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOReAssessmentTimepoints"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-12-06T15:18:55-05:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-12-06T21:00:04-05:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Patient Care Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -343,10 +343,10 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageComprehension>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/splasch-SpokenLanguageComprehension" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageComprehensionObservation>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/splasch-SpokenLanguageComprehensionObservation" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Spoken Language Comprehension" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Spoken Language Comprehension Observation" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An exchange of spoken language comprehension data for a patient." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -357,10 +357,10 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageExpression>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/splasch-SpokenLanguageExpression" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageExpressionObservation>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/splasch-SpokenLanguageExpressionObservation" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Spoken Language Expression" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Spoken Language Expression Observation" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An exchange of spoken language expression data for a patient." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -371,10 +371,10 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-Swallowing>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/splasch-Swallowing" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SwallowingObservation>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/splasch-SwallowingObservation" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Swallowing" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Swallowing Observation" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An exchange of swallowing data for a patient." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -385,24 +385,262 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-splasch/ValueSet/pacio-splasch-vs>;
-         fhir:Reference.reference [ fhir:value "ValueSet/pacio-splasch-vs" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHCaloriePercentageTypeObservationVS>;
+         fhir:Reference.reference [ fhir:value "ValueSet/SPLASCHCaloriePercentageTypeObservationVS" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SPLASCH Observation Category Value Set" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "todo" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Calorie Percentage Type Observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet identifying observation codes that have a calorie percentage value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHFrequencyObservationVS>;
+         fhir:Reference.reference [ fhir:value "ValueSet/SPLASCHFrequencyObservationVS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SPLASCH Frequency Observation Values" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "todo" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHFrequencyTypeObservationVS>;
+         fhir:Reference.reference [ fhir:value "ValueSet/SPLASCHFrequencyTypeObservationVS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Frequency Type Observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet identifying observation codes that have a frequency value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHLiquidDietModifierTypeObservationVS>;
+         fhir:Reference.reference [ fhir:value "ValueSet/SPLASCHLiquidDietModifierTypeObservationVS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Liquid Diet Modifier Type Observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet identifying observation codes that have a liquid diet modifier value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHObservationCategoryVS>;
+         fhir:Reference.reference [ fhir:value "ValueSet/SPLASCHObservationCategoryVS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SPLASCH Observation Category" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "todo" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSolidDietModifierTypeObservationVS>;
+         fhir:Reference.reference [ fhir:value "ValueSet/SPLASCHSolidDietModifierTypeObservationVS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Solid Diet Modifier Type Observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet identifying observation codes that have a solid diet modifier value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSpeechComprehensionObservationVS>;
+         fhir:Reference.reference [ fhir:value "ValueSet/SPLASCHSpeechComprehensionObservationVS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Speech Comprehension Observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "todo" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSpeechExpressionObservationVS>;
+         fhir:Reference.reference [ fhir:value "ValueSet/SPLASCHSpeechExpressionObservationVS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Speech Expression Observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "todo" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSwallowingObservationVS>;
+         fhir:Reference.reference [ fhir:value "ValueSet/SPLASCHSwallowingObservationVS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Swallowing Observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "todo" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSwallowingObservationValueVS>;
+         fhir:Reference.reference [ fhir:value "ValueSet/SPLASCHSwallowingObservationValueVS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Swallowing Observation Value" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "todo" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-splasch/CodeSystem/pacio-splasch-cs>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/pacio-splasch-cs" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/SPLASCHCaloriePercentageCategoryCS" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SPLASCH Observation Category Code System" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation Value Calorie Percentage Category Codes" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "todo" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/SPLASCHFrequencyCS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation Value Frequency Codes" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "todo" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/SPLASCHLiquidDietCS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation Value Liquid Diet Codes" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "todo" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/SPLASCHObservationCategoryCS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SPLASCH Observation Category Codes" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "todo" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/SPLASCHSolidDietCS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation Value Solid Diet Codes" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "todo" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/SPLASCHSpeechComprehensionObservationCS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Speech Comprehension Observation Codes" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "todo" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/SPLASCHSpeechExpressionObservationCS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Speech Expression Observation Codes" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "todo" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 20;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/SPLASCHSwallowingObservationCS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Swallowing Observation Codes" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "todo" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 21;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/SPLASCHTimePercentageCategoryCS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation Value Time Percentage Category Codes" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "todo" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ];
@@ -485,15 +723,49 @@
      ]
   ] .
 
-<http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageComprehension> a fhir:us .
+<http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageComprehensionObservation> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageExpression> a fhir:us .
+<http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageExpressionObservation> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-Swallowing> a fhir:us .
+<http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SwallowingObservation> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-splasch/ValueSet/pacio-splasch-vs> a fhir:us .
+<http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHCaloriePercentageTypeObservationVS> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/pacio-splasch-cs> a fhir:us .
+<http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHFrequencyObservationVS> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHFrequencyTypeObservationVS> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHLiquidDietModifierTypeObservationVS> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHObservationCategoryVS> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSolidDietModifierTypeObservationVS> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSpeechComprehensionObservationVS> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSpeechExpressionObservationVS> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSwallowingObservationVS> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSwallowingObservationValueVS> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 

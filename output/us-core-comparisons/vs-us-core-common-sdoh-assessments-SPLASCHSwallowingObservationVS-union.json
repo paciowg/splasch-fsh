@@ -1,0 +1,183 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "a3484d23-5dfb-464d-95ca-3cceab5b4105-194",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/a3484d23-5dfb-464d-95ca-3cceab5b4105-194",
+  "name" : "UnionUSCoreCommonSDOHAssessmentsAndSPLASCHSwallowingObservationVS",
+  "title" : "Union of US Core Common SDOH Assessments ValueSet And Swallowing Observation",
+  "status" : "active",
+  "date" : "2021-12-06T21:01:13-05:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "88123-5"
+      },
+      {
+        "code" : "88122-7"
+      },
+      {
+        "code" : "96779-4"
+      },
+      {
+        "code" : "71802-3"
+      },
+      {
+        "code" : "93029-7"
+      },
+      {
+        "code" : "76437-3"
+      },
+      {
+        "code" : "81375-8"
+      },
+      {
+        "code" : "93038-8"
+      },
+      {
+        "code" : "96780-2"
+      },
+      {
+        "code" : "67875-5"
+      },
+      {
+        "code" : "95618-5"
+      },
+      {
+        "code" : "93031-3"
+      },
+      {
+        "code" : "93030-5"
+      },
+      {
+        "code" : "63586-2"
+      },
+      {
+        "code" : "93031-3"
+      },
+      {
+        "code" : "93031-3"
+      },
+      {
+        "code" : "93031-3"
+      },
+      {
+        "code" : "96782-8"
+      },
+      {
+        "code" : "93677-3"
+      }]
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "88123-5",
+      "display" : "Within the past 12 months the food we bought just didn't last and we didn't have money to get more [U.S. FSS]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "88122-7",
+      "display" : "Within the past 12 months we worried whether our food would run out before we got money to buy more [U.S. FSS]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "96779-4",
+      "display" : "Has the electric, gas, oil, or water company threatened to shut off services in your home in past 12 months"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "71802-3",
+      "display" : "Housing status"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "93029-7",
+      "display" : "How often do you see or talk to people that you care about and feel close to [PRAPARE]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "76437-3",
+      "display" : "Primary insurance"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "81375-8",
+      "display" : "Self assessment of health status [Reported]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "93038-8",
+      "display" : "Stress level"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "96780-2",
+      "display" : "Wants help finding or keeping work or a job"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "67875-5",
+      "display" : "Employment status - current"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "95618-5",
+      "display" : "Physically hurt you [HITS]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "93031-3",
+      "display" : "Have you or any family members you live with been unable to get any of the following when it was really needed in past 1 year [PRAPARE]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "93030-5",
+      "display" : "Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "63586-2",
+      "display" : "What was your best estimate of the total income of all family members from all sources, before taxes, in last year [PhenX]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "96782-8",
+      "display" : "Wants help with school or training"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "93677-3",
+      "display" : "Do you need help with legal issues [WellRx]"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS",
+      "code" : "modified-solid-diet",
+      "display" : "Recommended modified solids diet"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS",
+      "code" : "modified-liquid-diet",
+      "display" : "Recommended modified liquids diet"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS",
+      "code" : "non-oral-diet-sustenance",
+      "display" : "Nutrition and hydration diet delivered through non-oral means"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS",
+      "code" : "oral-containment-secretion-difficulty",
+      "display" : "Difficulties with oral containment or secretion management"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS",
+      "code" : "assistance-swallowing-safety",
+      "display" : "Require assistance or supervision for swallowing safety"
+    }]
+  }
+}

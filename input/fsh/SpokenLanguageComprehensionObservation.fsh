@@ -5,10 +5,10 @@ Alias: USCoreObLab = http://hl7.org/fhir/us/core/StructureDefinition/us-core-obs
 Alias: USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient
 **********/
 
-Profile:        SpokenLanguageComprehension
+Profile:        SpokenLanguageComprehensionObservation
 Parent:         Observation
-Id:             splasch-SpokenLanguageComprehension
-Title:          "Spoken Language Comprehension"
+Id:             splasch-SpokenLanguageComprehensionObservation
+Title:          "Spoken Language Comprehension Observation"
 Description:    "An exchange of spoken language comprehension data for a patient."
 
 * category 1..* MS
@@ -22,11 +22,16 @@ Description:    "An exchange of spoken language comprehension data for a patient
     type 1..1 MS
 
 * category[type] = SPLASCHObservationCategoryCS#spoken-language-comprehension
+* category[type] ^short = "The type of SPLASCH observation"
 
 * subject 1..1
 * subject only Reference($USCorePatient)
 
+* code 1..1 MS
+* code from SPLASCHSpeechComprehensionObservationVS (required)
+
 * value[x] only CodeableConcept
+* valueCodeableConcept from SPLASCHFrequencyObservationVS (required)
 
 * effective[x] 1..1 MS
 
@@ -50,6 +55,4 @@ Description:    "An exchange of spoken language comprehension data for a patient
 * referenceRange ^short = "Currently not used in CognitiveStatus."
 * hasMember ^short = "Currently not used in CognitiveStatus."
 */
-
-* category[type] ^short = "The type of SPLASCH observation"
 

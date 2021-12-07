@@ -1,0 +1,60 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "a3484d23-5dfb-464d-95ca-3cceab5b4105-77",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/a3484d23-5dfb-464d-95ca-3cceab5b4105-77",
+  "name" : "UnionUSCoreSmokingStatusObservationCodesAndSPLASCHSpeechComprehensionObservationVS",
+  "title" : "Union of US Core Smoking Status Observation Codes And Speech Comprehension Observation",
+  "status" : "active",
+  "date" : "2021-12-06T21:01:12-05:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "72166-2",
+        "display" : "Tobacco smoking status NHIS"
+      }]
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "72166-2",
+      "display" : "Tobacco smoking status"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS",
+      "code" : "understand-simple-routine-low-demand",
+      "display" : "Understand simple messages in routine low demand situations"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS",
+      "code" : "understand-complex-low-demand",
+      "display" : "Understand complex messages in low demand situations"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS",
+      "code" : "understand-simple-routine-high-demand",
+      "display" : "Understand simple messages in routine high demand situations"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS",
+      "code" : "understand-complex-high-demand",
+      "display" : "Understand complex messages in high demand situations"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS",
+      "code" : "function-comprehension-without-assistance",
+      "display" : "Function without assistance due to comprehension deficit"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS",
+      "code" : "communicate-without-assistance",
+      "display" : "Participate in communication without assistance"
+    }]
+  }
+}

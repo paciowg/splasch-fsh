@@ -7,12 +7,14 @@
 <artifact deprecated="true" id="Condition/BSJ-Diagnosis1" key="Condition-BSJ-Diagnosis1" name="BSJ-Diagnosis1"/>
 <artifact deprecated="true" id="Condition/BSJ-Diagnosis2" key="Condition-BSJ-Diagnosis2" name="BSJ-Diagnosis2"/>
 <artifact deprecated="true" id="StructureDefinition/clinicalImpression" key="StructureDefinition-clinicalImpression" name="BasedOnClinicalImpression"/>
+<artifact id="ValueSet/SPLASCHCaloriePercentageTypeObservationVS" key="ValueSet-SPLASCHCaloriePercentageTypeObservationVS" name="Calorie Percentage Type Observation"/>
 <artifact deprecated="true" id="ClinicalImpression/ClinicalImpression-1" key="ClinicalImpression-ClinicalImpression-1" name="ClinicalImpression-1"/>
 <artifact deprecated="true" id="ClinicalImpression/ClinicalImpression-2" key="ClinicalImpression-ClinicalImpression-2" name="ClinicalImpression-2"/>
 <artifact deprecated="true" id="Encounter/Encounter-1-SNF-Stay" key="Encounter-Encounter-1-SNF-Stay" name="Encounter-1-SNF-Stay"/>
 <artifact deprecated="true" id="Encounter/Encounter-2-HHA-Stay" key="Encounter-Encounter-2-HHA-Stay" name="Encounter-2-HHA-Stay"/>
 <artifact deprecated="true" id="EpisodeOfCare/Episodecare-1-SNF-Stay" key="EpisodeOfCare-Episodecare-1-SNF-Stay" name="Episodecare-1-SNF-Stay"/>
 <artifact deprecated="true" id="EpisodeOfCare/Episodecare-2-HHA-Stay" key="EpisodeOfCare-Episodecare-2-HHA-Stay" name="Episodecare-2-HHA-Stay"/>
+<artifact id="ValueSet/SPLASCHFrequencyTypeObservationVS" key="ValueSet-SPLASCHFrequencyTypeObservationVS" name="Frequency Type Observation"/>
 <artifact deprecated="true" id="Observation/HHA-MOB-DC-OASIS-2E" key="Observation-HHA-MOB-DC-OASIS-2E" name="HHA-MOB-DC-OASIS-2E"/>
 <artifact deprecated="true" id="Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-12" key="Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-12" name="HHA-MOB-DC-OASIS-2E-Ob-Question-12"/>
 <artifact deprecated="true" id="Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-16" key="Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-16" name="HHA-MOB-DC-OASIS-2E-Ob-Question-16"/>
@@ -127,11 +129,17 @@
 <artifact deprecated="true" id="Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-5" key="Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-5" name="HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-5"/>
 <artifact deprecated="true" id="Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-7" key="Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-7" name="HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-7"/>
 <artifact deprecated="true" id="Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-9" key="Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-9" name="HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-9"/>
+<artifact id="ValueSet/SPLASCHLiquidDietModifierTypeObservationVS" key="ValueSet-SPLASCHLiquidDietModifierTypeObservationVS" name="Liquid Diet Modifier Type Observation"/>
 <artifact deprecated="true" id="Encounter/MDS-Re-assessment-Timepoint-1" key="Encounter-MDS-Re-assessment-Timepoint-1" name="MDS-Re-assessment-Timepoint-1"/>
 <artifact deprecated="true" id="Encounter/MDS-Re-assessment-Timepoint-2" key="Encounter-MDS-Re-assessment-Timepoint-2" name="MDS-Re-assessment-Timepoint-2"/>
 <artifact deprecated="true" id="Encounter/OASIS-Re-assessment-Timepoint-1" key="Encounter-OASIS-Re-assessment-Timepoint-1" name="OASIS-Re-assessment-Timepoint-1"/>
 <artifact deprecated="true" id="Encounter/OASIS-Re-assessment-Timepoint-2" key="Encounter-OASIS-Re-assessment-Timepoint-2" name="OASIS-Re-assessment-Timepoint-2"/>
 <artifact deprecated="true" id="Encounter/OASIS-Re-assessment-Timepoint-3" key="Encounter-OASIS-Re-assessment-Timepoint-3" name="OASIS-Re-assessment-Timepoint-3"/>
+<artifact id="CodeSystem/SPLASCHCaloriePercentageCategoryCS" key="CodeSystem-SPLASCHCaloriePercentageCategoryCS" name="Observation Value Calorie Percentage Category Codes"/>
+<artifact id="CodeSystem/SPLASCHFrequencyCS" key="CodeSystem-SPLASCHFrequencyCS" name="Observation Value Frequency Codes"/>
+<artifact id="CodeSystem/SPLASCHLiquidDietCS" key="CodeSystem-SPLASCHLiquidDietCS" name="Observation Value Liquid Diet Codes"/>
+<artifact id="CodeSystem/SPLASCHSolidDietCS" key="CodeSystem-SPLASCHSolidDietCS" name="Observation Value Solid Diet Codes"/>
+<artifact id="CodeSystem/SPLASCHTimePercentageCategoryCS" key="CodeSystem-SPLASCHTimePercentageCategoryCS" name="Observation Value Time Percentage Category Codes"/>
 <artifact deprecated="true" id="Practitioner/Practitioner-DanielGranger" key="Practitioner-Practitioner-DanielGranger" name="Practitioner-DanielGranger"/>
 <artifact deprecated="true" id="Practitioner/Practitioner-JacobHartwell" key="Practitioner-Practitioner-JacobHartwell" name="Practitioner-JacobHartwell"/>
 <artifact deprecated="true" id="Practitioner/Practitioner-JenCadbury" key="Practitioner-Practitioner-JenCadbury" name="Practitioner-JenCadbury"/>
@@ -237,11 +245,20 @@
 <artifact deprecated="true" id="Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-26" key="Observation-SNF-SC-IP-MDS-IPA-1D-Ob-Question-26" name="SNF-SC-IP-MDS-IPA-1D-Ob-Question-26"/>
 <artifact deprecated="true" id="Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-27" key="Observation-SNF-SC-IP-MDS-IPA-1D-Ob-Question-27" name="SNF-SC-IP-MDS-IPA-1D-Ob-Question-27"/>
 <artifact deprecated="true" id="Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-28" key="Observation-SNF-SC-IP-MDS-IPA-1D-Ob-Question-28" name="SNF-SC-IP-MDS-IPA-1D-Ob-Question-28"/>
-<artifact id="CodeSystem/pacio-splasch-cs" key="CodeSystem-pacio-splasch-cs" name="SPLASCH Observation Category Code System"/>
-<artifact id="ValueSet/pacio-splasch-vs" key="ValueSet-pacio-splasch-vs" name="SPLASCH Observation Category Value Set"/>
-<artifact id="StructureDefinition/splasch-SpokenLanguageComprehension" key="StructureDefinition-splasch-SpokenLanguageComprehension" name="Spoken Language Comprehension"/>
-<artifact id="StructureDefinition/splasch-SpokenLanguageExpression" key="StructureDefinition-splasch-SpokenLanguageExpression" name="Spoken Language Expression"/>
-<artifact id="StructureDefinition/splasch-Swallowing" key="StructureDefinition-splasch-Swallowing" name="Swallowing"/>
+<artifact id="ValueSet/SPLASCHFrequencyObservationVS" key="ValueSet-SPLASCHFrequencyObservationVS" name="SPLASCH Frequency Observation Values"/>
+<artifact id="ValueSet/SPLASCHObservationCategoryVS" key="ValueSet-SPLASCHObservationCategoryVS" name="SPLASCH Observation Category"/>
+<artifact id="CodeSystem/SPLASCHObservationCategoryCS" key="CodeSystem-SPLASCHObservationCategoryCS" name="SPLASCH Observation Category Codes"/>
+<artifact id="ValueSet/SPLASCHSolidDietModifierTypeObservationVS" key="ValueSet-SPLASCHSolidDietModifierTypeObservationVS" name="Solid Diet Modifier Type Observation"/>
+<artifact id="ValueSet/SPLASCHSpeechComprehensionObservationVS" key="ValueSet-SPLASCHSpeechComprehensionObservationVS" name="Speech Comprehension Observation"/>
+<artifact id="CodeSystem/SPLASCHSpeechComprehensionObservationCS" key="CodeSystem-SPLASCHSpeechComprehensionObservationCS" name="Speech Comprehension Observation Codes"/>
+<artifact id="ValueSet/SPLASCHSpeechExpressionObservationVS" key="ValueSet-SPLASCHSpeechExpressionObservationVS" name="Speech Expression Observation"/>
+<artifact id="CodeSystem/SPLASCHSpeechExpressionObservationCS" key="CodeSystem-SPLASCHSpeechExpressionObservationCS" name="Speech Expression Observation Codes"/>
+<artifact id="StructureDefinition/splasch-SpokenLanguageComprehensionObservation" key="StructureDefinition-splasch-SpokenLanguageComprehensionObservation" name="Spoken Language Comprehension Observation"/>
+<artifact id="StructureDefinition/splasch-SpokenLanguageExpressionObservation" key="StructureDefinition-splasch-SpokenLanguageExpressionObservation" name="Spoken Language Expression Observation"/>
+<artifact id="StructureDefinition/splasch-SwallowingObservation" key="StructureDefinition-splasch-SwallowingObservation" name="Swallowing Observation"/>
+<artifact id="ValueSet/SPLASCHSwallowingObservationVS" key="ValueSet-SPLASCHSwallowingObservationVS" name="Swallowing Observation"/>
+<artifact id="CodeSystem/SPLASCHSwallowingObservationCS" key="CodeSystem-SPLASCHSwallowingObservationCS" name="Swallowing Observation Codes"/>
+<artifact id="ValueSet/SPLASCHSwallowingObservationValueVS" key="ValueSet-SPLASCHSwallowingObservationValueVS" name="Swallowing Observation Value"/>
 <artifact deprecated="true" id="CodeSystem/timepoint-class-cs" key="CodeSystem-timepoint-class-cs" name="Timepoint Class Code System"/>
 <artifact deprecated="true" id="ValueSet/timepoint-class-vs" key="ValueSet-timepoint-class-vs" name="Timepoint Class Value Set"/>
 <artifact deprecated="true" id="CodeSystem/timepoint-entity-cs" key="CodeSystem-timepoint-entity-cs" name="Timepoint Entity Code System"/>
