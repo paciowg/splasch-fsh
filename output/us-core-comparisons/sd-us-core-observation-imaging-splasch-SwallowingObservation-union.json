@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "abae8d88-26c7-4338-9d22-cf96b5feb443-182",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/abae8d88-26c7-4338-9d22-cf96b5feb443-182",
+  "id" : "bb6f164a-fa74-4260-ae22-4c77b34de38c-182",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/bb6f164a-fa74-4260-ae22-4c77b34de38c-182",
   "name" : "UnionUSCoreImagingResultObservationProfileAndSwallowingObservation",
   "title" : "Union of US Core Imaging Result Observation Profile And Swallowing Observation",
   "status" : "active",
-  "date" : "2021-12-08T13:28:27-05:00",
+  "date" : "2021-12-08T13:44:52-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -560,7 +560,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/abae8d88-26c7-4338-9d22-cf96b5feb443-179"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/bb6f164a-fa74-4260-ae22-4c77b34de38c-179"
       },
       "mapping" : [{
         "identity" : "workflow",

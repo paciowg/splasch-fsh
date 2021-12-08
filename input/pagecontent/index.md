@@ -18,7 +18,9 @@ This project will identify the data elements regarding eating, swallowing, and f
 * Performing self-care activities related to eating and drinking
     * Patient requires supervision, assistance, and/or diet modification with all meals related to the patient’s ability to swallow independently.
 
-To achieve these objectives, this project will:
+### Background
+
+To achieve objectives listed above, this project will:
 * Develop FHIR implementation guide(s) (multiple guides may be necessary depending upon what data is identified as required and how that data should be organized for best capture and exchange),
 * Develop reference implementations, as needed,
 * Coordinate updates of existing PACIO IGs or suggest revisions for other related IGs, as needed, and
@@ -26,10 +28,7 @@ To achieve these objectives, this project will:
 
 The areas of functional information referenced above is patient focused and can be collected and assessed by members of the interdisciplinary health care team, including but not limited to speech language pathologists, occupational therapists, physical therapists, physicians, nurses, social workers, case managers, or dieticians.
 
-### Background
-
 The Post-Acute Care Interoperability (PACIO) community has a strong interest in the exchange of this data and will support the community engagement as needed in order to help develop a standard mechanism for EHR interoperability to improve patient care management. Many stakeholders (both clinical and technical) support PACIO, including MITRE, Centers for Medicare and Medicaid Services (CMS), Office of the National Coordinator (ONC), and over 30 representatives from the health care industry.
-
 
 ![PACIO logo](./pacio.png)
 

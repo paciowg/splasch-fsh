@@ -1,9 +1,9 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "abae8d88-26c7-4338-9d22-cf96b5feb443-189",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/abae8d88-26c7-4338-9d22-cf96b5feb443-189",
+  "id" : "bb6f164a-fa74-4260-ae22-4c77b34de38c-189",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/bb6f164a-fa74-4260-ae22-4c77b34de38c-189",
   "name" : "IntersectionLOINCCodesAndSPLASCHSwallowingObservationVS",
   "title" : "Intersection of LOINC Codes And Swallowing Observation",
   "status" : "draft",
-  "date" : "2021-12-08T13:28:27-05:00"
+  "date" : "2021-12-08T13:44:52-05:00"
 }

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "abae8d88-26c7-4338-9d22-cf96b5feb443-198",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/abae8d88-26c7-4338-9d22-cf96b5feb443-198",
+  "id" : "bb6f164a-fa74-4260-ae22-4c77b34de38c-198",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/bb6f164a-fa74-4260-ae22-4c77b34de38c-198",
   "name" : "IntersectionUSCoreSexualOrientationObservationProfileAndSwallowingObservation",
   "title" : "Intersection of US Core Sexual Orientation Observation Profile And Swallowing Observation",
   "status" : "active",
-  "date" : "2021-12-08T13:28:27-05:00",
+  "date" : "2021-12-08T13:44:52-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
