@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "a3484d23-5dfb-464d-95ca-3cceab5b4105-201",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/a3484d23-5dfb-464d-95ca-3cceab5b4105-201",
+  "id" : "38a8a840-5b24-4c1b-b8c7-1147f97ea0d1-201",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/38a8a840-5b24-4c1b-b8c7-1147f97ea0d1-201",
   "name" : "IntersectionUSCoreObservationSocialHistoryAssessmentAndSwallowingObservation",
   "title" : "Intersection of US Core Social History Assessment Observation Profile And Swallowing Observation",
   "status" : "active",
-  "date" : "2021-12-06T21:01:13-05:00",
+  "date" : "2021-12-08T12:49:23-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

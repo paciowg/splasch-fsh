@@ -1,6 +1,4 @@
-This PACIO SPASCH implementation guide describes .... coming soon (todo)
-
-Hello world.
+This PACIO SPLASCH implementation guide describes a means for exchanging observations related to patients' Speech, Language, Swallowing, Cognitive Communication, and Hearing abilities across various care settings.
 
 ### Introduction 
 
