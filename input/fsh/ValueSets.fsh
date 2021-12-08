@@ -1,42 +1,47 @@
 ValueSet: SPLASCHObservationCategoryVS
 Title: "SPLASCH Observation Category"
-Description: "todo"
+Description: "Categories for SPLASCH observation profiles"
 * codes from system SPLASCHObservationCategoryCS
 * ^copyright = "This CodeSystem is not copyrighted."
 
 
 ValueSet: SPLASCHFrequencyObservationVS
 Title: "SPLASCH Frequency Observation Values"
-Description: "todo"
+Description: "Frequency values for SPLASCH observations"
 * codes from system SPLASCHTimePercentageCategoryCS
-* codes from system SPLASCHFrequencyCS
+* include $LOINC#LA6270-8 "Never"
+* include $LOINC#LA10066-1 "Rarely"
+* include $LOINC#LA10082-8 "Sometimes"
+* include $LOINC#LA10044-8 "Often"
+* include $LOINC#LA9933-8 "Always"
+//* codes from system SPLASCHFrequencyCS
 * ^copyright = "This CodeSystem is not copyrighted."
 
 
 ValueSet: SPLASCHSpeechComprehensionObservationVS
 Title: "Speech Comprehension Observation"
-Description: "todo"
+Description: "SPLASCH spoken language comprehension observation profile"
 * codes from system SPLASCHSpeechComprehensionObservationCS
 * ^copyright = "This CodeSystem is not copyrighted."
 
 
 ValueSet: SPLASCHSpeechExpressionObservationVS
 Title: "Speech Expression Observation"
-Description: "todo"
+Description: "SPLASCH spoken language expression observation profile"
 * codes from system SPLASCHSpeechExpressionObservationCS
 * ^copyright = "This CodeSystem is not copyrighted."
 
 
 ValueSet: SPLASCHSwallowingObservationVS
 Title: "Swallowing Observation"
-Description: "todo"
+Description: "SPLASCH swallowing observation profile"
 * codes from system SPLASCHSwallowingObservationCS
 * ^copyright = "This CodeSystem is not copyrighted."
 
 
 ValueSet: SPLASCHSwallowingObservationValueVS
 Title: "Swallowing Observation Value"
-Description: "todo"
+Description: "Values for swallowing observations"
 * codes from valueset SPLASCHFrequencyObservationVS
 * codes from system SPLASCHSolidDietCS
 * codes from system SPLASCHLiquidDietCS

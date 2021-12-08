@@ -3,14 +3,14 @@
   "id": "SPLASCHObservationCategoryCS",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">spoken-language-comprehension<a name=\"SPLASCHObservationCategoryCS-spoken-language-comprehension\"> </a></td><td>Spoken language comprehension</td><td>todo definition</td></tr><tr><td style=\"white-space:nowrap\">spoken-language-expression<a name=\"SPLASCHObservationCategoryCS-spoken-language-expression\"> </a></td><td>Spoken language expression</td><td>todo definition</td></tr><tr><td style=\"white-space:nowrap\">swallowing<a name=\"SPLASCHObservationCategoryCS-swallowing\"> </a></td><td>Swallowing</td><td>todo definition</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">spoken-language-comprehension<a name=\"SPLASCHObservationCategoryCS-spoken-language-comprehension\"> </a></td><td>Spoken language comprehension</td><td>Category code for spoken language comprehension observation</td></tr><tr><td style=\"white-space:nowrap\">spoken-language-expression<a name=\"SPLASCHObservationCategoryCS-spoken-language-expression\"> </a></td><td>Spoken language expression</td><td>Category code for spoken language expression observation</td></tr><tr><td style=\"white-space:nowrap\">swallowing<a name=\"SPLASCHObservationCategoryCS-swallowing\"> </a></td><td>Swallowing</td><td>Category code for swallowing observation</td></tr></table></div>"
   },
   "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS",
   "version": "0.1.0",
   "name": "SPLASCHObservationCategoryCS",
   "title": "SPLASCH Observation Category Codes",
   "status": "active",
-  "date": "2021-12-08T12:48:12-05:00",
+  "date": "2021-12-08T13:27:26-05:00",
   "publisher": "HL7 Patient Care Working Group",
   "contact": [
     {
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "description": "todo",
+  "description": "Categories for SPLASCH observations",
   "jurisdiction": [
     {
       "coding": [
@@ -59,17 +59,17 @@
     {
       "code": "spoken-language-comprehension",
       "display": "Spoken language comprehension",
-      "definition": "todo definition"
+      "definition": "Category code for spoken language comprehension observation"
     },
     {
       "code": "spoken-language-expression",
       "display": "Spoken language expression",
-      "definition": "todo definition"
+      "definition": "Category code for spoken language expression observation"
     },
     {
       "code": "swallowing",
       "display": "Swallowing",
-      "definition": "todo definition"
+      "definition": "Category code for swallowing observation"
     }
   ]
 }

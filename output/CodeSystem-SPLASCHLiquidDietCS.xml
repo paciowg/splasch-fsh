@@ -10,7 +10,7 @@
   <name value="SPLASCHLiquidDietCS"/>
   <title value="Observation Value Liquid Diet Codes"/>
   <status value="active"/>
-  <date value="2021-12-08T12:48:12-05:00"/>
+  <date value="2021-12-08T13:27:26-05:00"/>
   <publisher value="HL7 Patient Care Working Group"/>
   <contact>
     <name value="HL7 Patient Care Working Group"/>
@@ -34,7 +34,7 @@
       <value value="info@pacioproject.org"/>
     </telecom>
   </contact>
-  <description value="todo"/>
+  <description value="Category codes for liquid diet observations"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

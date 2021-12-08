@@ -136,7 +136,6 @@
 <artifact deprecated="true" id="Encounter/OASIS-Re-assessment-Timepoint-2" key="Encounter-OASIS-Re-assessment-Timepoint-2" name="OASIS-Re-assessment-Timepoint-2"/>
 <artifact deprecated="true" id="Encounter/OASIS-Re-assessment-Timepoint-3" key="Encounter-OASIS-Re-assessment-Timepoint-3" name="OASIS-Re-assessment-Timepoint-3"/>
 <artifact id="CodeSystem/SPLASCHCaloriePercentageCategoryCS" key="CodeSystem-SPLASCHCaloriePercentageCategoryCS" name="Observation Value Calorie Percentage Category Codes"/>
-<artifact id="CodeSystem/SPLASCHFrequencyCS" key="CodeSystem-SPLASCHFrequencyCS" name="Observation Value Frequency Codes"/>
 <artifact id="CodeSystem/SPLASCHLiquidDietCS" key="CodeSystem-SPLASCHLiquidDietCS" name="Observation Value Liquid Diet Codes"/>
 <artifact id="CodeSystem/SPLASCHSolidDietCS" key="CodeSystem-SPLASCHSolidDietCS" name="Observation Value Solid Diet Codes"/>
 <artifact id="CodeSystem/SPLASCHTimePercentageCategoryCS" key="CodeSystem-SPLASCHTimePercentageCategoryCS" name="Observation Value Time Percentage Category Codes"/>

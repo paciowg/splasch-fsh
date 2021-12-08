@@ -10,7 +10,7 @@
   "name": "PACIOReAssessmentTimepoints",
   "title": "PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide",
   "status": "draft",
-  "date": "2021-12-08T12:48:12-05:00",
+  "date": "2021-12-08T13:27:26-05:00",
   "publisher": "HL7 Patient Care Working Group",
   "contact": [
     {
@@ -421,7 +421,7 @@
           "reference": "ValueSet/SPLASCHFrequencyObservationVS"
         },
         "name": "SPLASCH Frequency Observation Values",
-        "description": "todo",
+        "description": "Frequency values for SPLASCH observations",
         "exampleBoolean": false
       },
       {
@@ -463,7 +463,7 @@
           "reference": "ValueSet/SPLASCHObservationCategoryVS"
         },
         "name": "SPLASCH Observation Category",
-        "description": "todo",
+        "description": "Categories for SPLASCH observation profiles",
         "exampleBoolean": false
       },
       {
@@ -491,7 +491,7 @@
           "reference": "ValueSet/SPLASCHSpeechComprehensionObservationVS"
         },
         "name": "Speech Comprehension Observation",
-        "description": "todo",
+        "description": "SPLASCH spoken language comprehension observation profile",
         "exampleBoolean": false
       },
       {
@@ -505,7 +505,7 @@
           "reference": "ValueSet/SPLASCHSpeechExpressionObservationVS"
         },
         "name": "Speech Expression Observation",
-        "description": "todo",
+        "description": "SPLASCH spoken language expression observation profile",
         "exampleBoolean": false
       },
       {
@@ -519,7 +519,7 @@
           "reference": "ValueSet/SPLASCHSwallowingObservationVS"
         },
         "name": "Swallowing Observation",
-        "description": "todo",
+        "description": "SPLASCH swallowing observation profile",
         "exampleBoolean": false
       },
       {
@@ -533,7 +533,7 @@
           "reference": "ValueSet/SPLASCHSwallowingObservationValueVS"
         },
         "name": "Swallowing Observation Value",
-        "description": "todo",
+        "description": "Values for swallowing observations",
         "exampleBoolean": false
       },
       {
@@ -547,21 +547,7 @@
           "reference": "CodeSystem/SPLASCHCaloriePercentageCategoryCS"
         },
         "name": "Observation Value Calorie Percentage Category Codes",
-        "description": "todo",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/SPLASCHFrequencyCS"
-        },
-        "name": "Observation Value Frequency Codes",
-        "description": "todo",
+        "description": "Category codes for calorie percentage observations",
         "exampleBoolean": false
       },
       {
@@ -575,7 +561,7 @@
           "reference": "CodeSystem/SPLASCHLiquidDietCS"
         },
         "name": "Observation Value Liquid Diet Codes",
-        "description": "todo",
+        "description": "Category codes for liquid diet observations",
         "exampleBoolean": false
       },
       {
@@ -589,7 +575,7 @@
           "reference": "CodeSystem/SPLASCHObservationCategoryCS"
         },
         "name": "SPLASCH Observation Category Codes",
-        "description": "todo",
+        "description": "Categories for SPLASCH observations",
         "exampleBoolean": false
       },
       {
@@ -603,7 +589,7 @@
           "reference": "CodeSystem/SPLASCHSolidDietCS"
         },
         "name": "Observation Value Solid Diet Codes",
-        "description": "todo",
+        "description": "Category codes for solid diet observations",
         "exampleBoolean": false
       },
       {
@@ -617,7 +603,7 @@
           "reference": "CodeSystem/SPLASCHSpeechComprehensionObservationCS"
         },
         "name": "Speech Comprehension Observation Codes",
-        "description": "todo",
+        "description": "Observation codes for spoken language comprehension",
         "exampleBoolean": false
       },
       {
@@ -631,7 +617,7 @@
           "reference": "CodeSystem/SPLASCHSpeechExpressionObservationCS"
         },
         "name": "Speech Expression Observation Codes",
-        "description": "todo",
+        "description": "Observation codes for spoken language expression",
         "exampleBoolean": false
       },
       {
@@ -645,7 +631,7 @@
           "reference": "CodeSystem/SPLASCHSwallowingObservationCS"
         },
         "name": "Swallowing Observation Codes",
-        "description": "todo",
+        "description": "Observation codes for swallowing",
         "exampleBoolean": false
       },
       {
@@ -659,7 +645,7 @@
           "reference": "CodeSystem/SPLASCHTimePercentageCategoryCS"
         },
         "name": "Observation Value Time Percentage Category Codes",
-        "description": "todo",
+        "description": "Catgegory codes for time percentage observations",
         "exampleBoolean": false
       }
     ],

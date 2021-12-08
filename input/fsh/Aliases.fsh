@@ -7,5 +7,6 @@ Alias:   $ENSTATUS = http://hl7.org/fhir/encounter-status
 Alias:   $ActEncounterCode = http://terminology.hl7.org/ValueSet/v3-ActEncounterCode
 Alias:   $V3ACTCODE = http://terminology.hl7.org/CodeSystem/v3-ActCode
 Alias:   $SplaschCodeSystem = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/pacio-splasch-cs
+Alias:   $LOINC = http://loinc.org
 //Alias:   BundledFunctionalStatus = http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-bfs
 //Alias:   FunctionalStatus = http://paciowg.github.io/functional-status-ig/StructureDefinition/pacio-fs

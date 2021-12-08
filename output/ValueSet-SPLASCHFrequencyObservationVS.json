@@ -3,14 +3,14 @@
   "id": "SPLASCHFrequencyObservationVS",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html\"><code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</code></a></li><li>Include all codes defined in <a href=\"CodeSystem-SPLASCHFrequencyCS.html\"><code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</code></a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html\"><code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</code></a></li><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/LA6270-8.html\">LA6270-8</a></td><td>Never</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/LA10066-1.html\">LA10066-1</a></td><td>Rarely</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/LA10082-8.html\">LA10082-8</a></td><td>Sometimes</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/LA10044-8.html\">LA10044-8</a></td><td>Often</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/LA9933-8.html\">LA9933-8</a></td><td>Always</td></tr></table></li></ul></div>"
   },
   "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHFrequencyObservationVS",
   "version": "0.1.0",
   "name": "SPLASCHFrequencyObservationVS",
   "title": "SPLASCH Frequency Observation Values",
   "status": "active",
-  "date": "2021-12-08T12:48:12-05:00",
+  "date": "2021-12-08T13:27:26-05:00",
   "publisher": "HL7 Patient Care Working Group",
   "contact": [
     {
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "description": "todo",
+  "description": "Frequency values for SPLASCH observations",
   "jurisdiction": [
     {
       "coding": [
@@ -58,7 +58,29 @@
         "system": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS"
       },
       {
-        "system": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "LA6270-8",
+            "display": "Never"
+          },
+          {
+            "code": "LA10066-1",
+            "display": "Rarely"
+          },
+          {
+            "code": "LA10082-8",
+            "display": "Sometimes"
+          },
+          {
+            "code": "LA10044-8",
+            "display": "Often"
+          },
+          {
+            "code": "LA9933-8",
+            "display": "Always"
+          }
+        ]
       }
     ]
   }

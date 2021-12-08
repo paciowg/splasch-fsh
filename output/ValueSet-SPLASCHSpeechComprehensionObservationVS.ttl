@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "SPLASCHSpeechComprehensionObservationVS"];
   fhir:ValueSet.title [ fhir:value "Speech Comprehension Observation"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-12-08T12:48:12-05:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-12-08T13:27:26-05:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "HL7 Patient Care Working Group"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -44,7 +44,7 @@
        fhir:ContactPoint.value [ fhir:value "info@pacioproject.org" ]
      ]
   ];
-  fhir:ValueSet.description [ fhir:value "todo"];
+  fhir:ValueSet.description [ fhir:value "SPLASCH spoken language comprehension observation profile"];
   fhir:ValueSet.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [

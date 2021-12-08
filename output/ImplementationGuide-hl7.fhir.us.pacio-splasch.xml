@@ -11,7 +11,7 @@
   <name value="PACIOReAssessmentTimepoints"/>
   <title value="PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-12-08T12:48:12-05:00"/>
+  <date value="2021-12-08T13:27:26-05:00"/>
   <publisher value="HL7 Patient Care Working Group"/>
   <contact>
     <name value="HL7 Patient Care Working Group"/>
@@ -279,7 +279,7 @@
         <reference value="ValueSet/SPLASCHFrequencyObservationVS"/>
       </reference>
       <name value="SPLASCH Frequency Observation Values"/>
-      <description value="todo"/>
+      <description value="Frequency values for SPLASCH observations"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -312,7 +312,7 @@
         <reference value="ValueSet/SPLASCHObservationCategoryVS"/>
       </reference>
       <name value="SPLASCH Observation Category"/>
-      <description value="todo"/>
+      <description value="Categories for SPLASCH observation profiles"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -334,7 +334,7 @@
         <reference value="ValueSet/SPLASCHSpeechComprehensionObservationVS"/>
       </reference>
       <name value="Speech Comprehension Observation"/>
-      <description value="todo"/>
+      <description value="SPLASCH spoken language comprehension observation profile"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -345,7 +345,7 @@
         <reference value="ValueSet/SPLASCHSpeechExpressionObservationVS"/>
       </reference>
       <name value="Speech Expression Observation"/>
-      <description value="todo"/>
+      <description value="SPLASCH spoken language expression observation profile"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -356,7 +356,7 @@
         <reference value="ValueSet/SPLASCHSwallowingObservationVS"/>
       </reference>
       <name value="Swallowing Observation"/>
-      <description value="todo"/>
+      <description value="SPLASCH swallowing observation profile"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -367,7 +367,7 @@
         <reference value="ValueSet/SPLASCHSwallowingObservationValueVS"/>
       </reference>
       <name value="Swallowing Observation Value"/>
-      <description value="todo"/>
+      <description value="Values for swallowing observations"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -378,18 +378,7 @@
         <reference value="CodeSystem/SPLASCHCaloriePercentageCategoryCS"/>
       </reference>
       <name value="Observation Value Calorie Percentage Category Codes"/>
-      <description value="todo"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/SPLASCHFrequencyCS"/>
-      </reference>
-      <name value="Observation Value Frequency Codes"/>
-      <description value="todo"/>
+      <description value="Category codes for calorie percentage observations"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -400,7 +389,7 @@
         <reference value="CodeSystem/SPLASCHLiquidDietCS"/>
       </reference>
       <name value="Observation Value Liquid Diet Codes"/>
-      <description value="todo"/>
+      <description value="Category codes for liquid diet observations"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -411,7 +400,7 @@
         <reference value="CodeSystem/SPLASCHObservationCategoryCS"/>
       </reference>
       <name value="SPLASCH Observation Category Codes"/>
-      <description value="todo"/>
+      <description value="Categories for SPLASCH observations"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -422,7 +411,7 @@
         <reference value="CodeSystem/SPLASCHSolidDietCS"/>
       </reference>
       <name value="Observation Value Solid Diet Codes"/>
-      <description value="todo"/>
+      <description value="Category codes for solid diet observations"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -433,7 +422,7 @@
         <reference value="CodeSystem/SPLASCHSpeechComprehensionObservationCS"/>
       </reference>
       <name value="Speech Comprehension Observation Codes"/>
-      <description value="todo"/>
+      <description value="Observation codes for spoken language comprehension"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -444,7 +433,7 @@
         <reference value="CodeSystem/SPLASCHSpeechExpressionObservationCS"/>
       </reference>
       <name value="Speech Expression Observation Codes"/>
-      <description value="todo"/>
+      <description value="Observation codes for spoken language expression"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -455,7 +444,7 @@
         <reference value="CodeSystem/SPLASCHSwallowingObservationCS"/>
       </reference>
       <name value="Swallowing Observation Codes"/>
-      <description value="todo"/>
+      <description value="Observation codes for swallowing"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -466,7 +455,7 @@
         <reference value="CodeSystem/SPLASCHTimePercentageCategoryCS"/>
       </reference>
       <name value="Observation Value Time Percentage Category Codes"/>
-      <description value="todo"/>
+      <description value="Catgegory codes for time percentage observations"/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

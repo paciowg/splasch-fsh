@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "8b53b2f9-d344-4e29-8cab-901729228d86",
+  "id" : "82ff8dae-6ece-498e-826b-3525c0aaa5eb",
   "meta" : {
-    "lastUpdated" : "2021-12-08T12:48:12.622-05:00"
+    "lastUpdated" : "2021-12-08T13:27:26.055-05:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "name" : "SPLASCHCaloriePercentageTypeObservationVS",
       "title" : "Calorie Percentage Type Observation",
       "status" : "active",
-      "date" : "2021-12-08T12:48:12-05:00",
+      "date" : "2021-12-08T13:27:26-05:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -52,8 +52,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:5f68eb11-2863-4375-b475-e1e475dcc83b",
-        "timestamp" : "2021-12-08T12:49:49-05:00",
+        "identifier" : "urn:uuid:368cb81d-212f-4544-ac01-67a08a0495c4",
+        "timestamp" : "2021-12-08T13:28:54-05:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -78,14 +78,14 @@
       "id" : "SPLASCHFrequencyObservationVS",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 10 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-SPLASCHFrequencyCS.html\">Observation Value Frequency Codes v0.1.0 (CodeSystem)</a></li><li><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html\">Observation Value Time Percentage Category Codes v0.1.0 (CodeSystem)</a></li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-0-25-percent\"> </a><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-0-25-percent\">0-25-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td><td>0-25% of the time</td><td>0% to 25% of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-26-49-percent\"> </a><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-26-49-percent\">26-49-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td><td>26-49% of the time</td><td>26% to 49% of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-50-75-percent\"> </a><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-50-75-percent\">50-75-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td><td>50-75% of the time</td><td>50% to 75% of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-76-90-percent\"> </a><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-76-90-percent\">76-90-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td><td>76-90% of the time</td><td>76% to 90% of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-91-100-percent\"> </a><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-91-100-percent\">91-100-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td><td>91-100% of the time</td><td>91% to 100% of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-never\"> </a><a href=\"CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-never\">never</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td><td>Never</td><td>Never</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-rarely\"> </a><a href=\"CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-rarely\">rarely</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td><td>Rarely</td><td>Rarely</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-sometimes\"> </a><a href=\"CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-sometimes\">sometimes</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td><td>Sometimes</td><td>Sometimes</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-often\"> </a><a href=\"CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-often\">often</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td><td>Often</td><td>Often</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-always\"> </a><a href=\"CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-always\">always</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td><td>Always</td><td>Always</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 10 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li>Loinc v2.71</li><li><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html\">Observation Value Time Percentage Category Codes v0.1.0 (CodeSystem)</a></li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-0-25-percent\"> </a><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-0-25-percent\">0-25-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td><td>0-25% of the time</td><td>0% to 25% of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-26-49-percent\"> </a><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-26-49-percent\">26-49-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td><td>26-49% of the time</td><td>26% to 49% of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-50-75-percent\"> </a><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-50-75-percent\">50-75-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td><td>50-75% of the time</td><td>50% to 75% of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-76-90-percent\"> </a><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-76-90-percent\">76-90-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td><td>76-90% of the time</td><td>76% to 90% of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-91-100-percent\"> </a><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-91-100-percent\">91-100-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td><td>91-100% of the time</td><td>91% to 100% of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA6270-8\"> </a><a href=\"http://details.loinc.org/LOINC/LA6270-8.html\">LA6270-8</a></td><td>http://loinc.org</td><td>Never</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10066-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA10066-1.html\">LA10066-1</a></td><td>http://loinc.org</td><td>Rarely</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10082-8\"> </a><a href=\"http://details.loinc.org/LOINC/LA10082-8.html\">LA10082-8</a></td><td>http://loinc.org</td><td>Sometimes</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10044-8\"> </a><a href=\"http://details.loinc.org/LOINC/LA10044-8.html\">LA10044-8</a></td><td>http://loinc.org</td><td>Often</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA9933-8\"> </a><a href=\"http://details.loinc.org/LOINC/LA9933-8.html\">LA9933-8</a></td><td>http://loinc.org</td><td>Always</td><td/></tr></table></div>"
       },
       "url" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHFrequencyObservationVS",
       "version" : "0.1.0",
       "name" : "SPLASCHFrequencyObservationVS",
       "title" : "SPLASCH Frequency Observation Values",
       "status" : "active",
-      "date" : "2021-12-08T12:48:12-05:00",
+      "date" : "2021-12-08T13:27:26-05:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -109,7 +109,7 @@
           "value" : "info@pacioproject.org"
         }]
       }],
-      "description" : "todo",
+      "description" : "Frequency values for SPLASCH observations",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -118,8 +118,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:9ab6b47a-7b34-4313-aaab-74cb38684754",
-        "timestamp" : "2021-12-08T12:49:49-05:00",
+        "identifier" : "urn:uuid:82f7d3fd-d3e2-4e47-a766-2ad6b13a735e",
+        "timestamp" : "2021-12-08T13:28:54-05:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -130,8 +130,16 @@
           "valueUri" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS|0.1.0"
         },
         {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : true
+        },
+        {
           "name" : "version",
-          "valueUri" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS|0.1.0"
+          "valueUri" : "http://loinc.org|2.71"
         }],
         "contains" : [{
           "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS",
@@ -159,28 +167,28 @@
           "display" : "91-100% of the time"
         },
         {
-          "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS",
-          "code" : "never",
+          "system" : "http://loinc.org",
+          "code" : "LA6270-8",
           "display" : "Never"
         },
         {
-          "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS",
-          "code" : "rarely",
+          "system" : "http://loinc.org",
+          "code" : "LA10066-1",
           "display" : "Rarely"
         },
         {
-          "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS",
-          "code" : "sometimes",
+          "system" : "http://loinc.org",
+          "code" : "LA10082-8",
           "display" : "Sometimes"
         },
         {
-          "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS",
-          "code" : "often",
+          "system" : "http://loinc.org",
+          "code" : "LA10044-8",
           "display" : "Often"
         },
         {
-          "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS",
-          "code" : "always",
+          "system" : "http://loinc.org",
+          "code" : "LA9933-8",
           "display" : "Always"
         }]
       }
@@ -200,7 +208,7 @@
       "name" : "SPLASCHFrequencyTypeObservationVS",
       "title" : "Frequency Type Observation",
       "status" : "active",
-      "date" : "2021-12-08T12:48:12-05:00",
+      "date" : "2021-12-08T13:27:26-05:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -233,8 +241,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:cd9d1946-2d1d-437b-b371-8e9a3049f505",
-        "timestamp" : "2021-12-08T12:49:49-05:00",
+        "identifier" : "urn:uuid:848ce4b9-8aae-4af7-9fbe-e94071da61ec",
+        "timestamp" : "2021-12-08T13:28:54-05:00",
         "total" : 15,
         "parameter" : [{
           "name" : "excludeNested",
@@ -344,7 +352,7 @@
       "name" : "SPLASCHLiquidDietModifierTypeObservationVS",
       "title" : "Liquid Diet Modifier Type Observation",
       "status" : "active",
-      "date" : "2021-12-08T12:48:12-05:00",
+      "date" : "2021-12-08T13:27:26-05:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -377,8 +385,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:49bba28f-edb4-449c-be9b-6aaddfbabb13",
-        "timestamp" : "2021-12-08T12:49:49-05:00",
+        "identifier" : "urn:uuid:216b697c-1c8b-4431-9507-600c9557442e",
+        "timestamp" : "2021-12-08T13:28:54-05:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -403,14 +411,14 @@
       "id" : "SPLASCHObservationCategoryVS",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-SPLASCHObservationCategoryCS.html\">SPLASCH Observation Category Codes v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-SPLASCHObservationCategoryCS.html\"><code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHObservationCategoryCS-spoken-language-comprehension\"> </a><a href=\"CodeSystem-SPLASCHObservationCategoryCS.html#SPLASCHObservationCategoryCS-spoken-language-comprehension\">spoken-language-comprehension</a></td><td>Spoken language comprehension</td><td>todo definition</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHObservationCategoryCS-spoken-language-expression\"> </a><a href=\"CodeSystem-SPLASCHObservationCategoryCS.html#SPLASCHObservationCategoryCS-spoken-language-expression\">spoken-language-expression</a></td><td>Spoken language expression</td><td>todo definition</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHObservationCategoryCS-swallowing\"> </a><a href=\"CodeSystem-SPLASCHObservationCategoryCS.html#SPLASCHObservationCategoryCS-swallowing\">swallowing</a></td><td>Swallowing</td><td>todo definition</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-SPLASCHObservationCategoryCS.html\">SPLASCH Observation Category Codes v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-SPLASCHObservationCategoryCS.html\"><code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHObservationCategoryCS-spoken-language-comprehension\"> </a><a href=\"CodeSystem-SPLASCHObservationCategoryCS.html#SPLASCHObservationCategoryCS-spoken-language-comprehension\">spoken-language-comprehension</a></td><td>Spoken language comprehension</td><td>Category code for spoken language comprehension observation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHObservationCategoryCS-spoken-language-expression\"> </a><a href=\"CodeSystem-SPLASCHObservationCategoryCS.html#SPLASCHObservationCategoryCS-spoken-language-expression\">spoken-language-expression</a></td><td>Spoken language expression</td><td>Category code for spoken language expression observation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHObservationCategoryCS-swallowing\"> </a><a href=\"CodeSystem-SPLASCHObservationCategoryCS.html#SPLASCHObservationCategoryCS-swallowing\">swallowing</a></td><td>Swallowing</td><td>Category code for swallowing observation</td></tr></table></div>"
       },
       "url" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHObservationCategoryVS",
       "version" : "0.1.0",
       "name" : "SPLASCHObservationCategoryVS",
       "title" : "SPLASCH Observation Category",
       "status" : "active",
-      "date" : "2021-12-08T12:48:12-05:00",
+      "date" : "2021-12-08T13:27:26-05:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -434,7 +442,7 @@
           "value" : "info@pacioproject.org"
         }]
       }],
-      "description" : "todo",
+      "description" : "Categories for SPLASCH observation profiles",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -443,8 +451,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:e11e65e2-2a60-45ff-869d-8613f6950a39",
-        "timestamp" : "2021-12-08T12:49:49-05:00",
+        "identifier" : "urn:uuid:afa8e2e4-7151-4f64-ba57-47c1ccf165f2",
+        "timestamp" : "2021-12-08T13:28:55-05:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -486,7 +494,7 @@
       "name" : "SPLASCHSolidDietModifierTypeObservationVS",
       "title" : "Solid Diet Modifier Type Observation",
       "status" : "active",
-      "date" : "2021-12-08T12:48:12-05:00",
+      "date" : "2021-12-08T13:27:26-05:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -519,8 +527,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:a1de2064-a51a-4789-95ef-48f89fbf65f0",
-        "timestamp" : "2021-12-08T12:49:49-05:00",
+        "identifier" : "urn:uuid:677bdb6b-3fe7-460f-a6d5-9bf67613bcc2",
+        "timestamp" : "2021-12-08T13:28:55-05:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -552,7 +560,7 @@
       "name" : "SPLASCHSpeechComprehensionObservationVS",
       "title" : "Speech Comprehension Observation",
       "status" : "active",
-      "date" : "2021-12-08T12:48:12-05:00",
+      "date" : "2021-12-08T13:27:26-05:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -576,7 +584,7 @@
           "value" : "info@pacioproject.org"
         }]
       }],
-      "description" : "todo",
+      "description" : "SPLASCH spoken language comprehension observation profile",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -585,8 +593,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:7a964b02-e123-488e-a651-5eddd4e1e226",
-        "timestamp" : "2021-12-08T12:49:49-05:00",
+        "identifier" : "urn:uuid:24b2842a-4716-4e64-a9df-a1b53ea79f86",
+        "timestamp" : "2021-12-08T13:28:55-05:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -643,7 +651,7 @@
       "name" : "SPLASCHSpeechExpressionObservationVS",
       "title" : "Speech Expression Observation",
       "status" : "active",
-      "date" : "2021-12-08T12:48:12-05:00",
+      "date" : "2021-12-08T13:27:26-05:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -667,7 +675,7 @@
           "value" : "info@pacioproject.org"
         }]
       }],
-      "description" : "todo",
+      "description" : "SPLASCH spoken language expression observation profile",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -676,8 +684,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:51df9fb3-7ff3-44d3-a4e6-7e2a521f3f98",
-        "timestamp" : "2021-12-08T12:49:50-05:00",
+        "identifier" : "urn:uuid:31d2bec2-e177-4480-bcb9-972529127e56",
+        "timestamp" : "2021-12-08T13:28:56-05:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -732,14 +740,14 @@
       "id" : "SPLASCHSwallowingObservationValueVS",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 26 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-SPLASCHFrequencyCS.html\">Observation Value Frequency Codes v0.1.0 (CodeSystem)</a></li><li><a href=\"CodeSystem-SPLASCHSolidDietCS.html\">Observation Value Solid Diet Codes v0.1.0 (CodeSystem)</a></li><li><a href=\"CodeSystem-SPLASCHCaloriePercentageCategoryCS.html\">Observation Value Calorie Percentage Category Codes v0.1.0 (CodeSystem)</a></li><li><a href=\"ValueSet-SPLASCHFrequencyObservationVS.html\">SPLASCH Frequency Observation Values v0.1.0 (ValueSet)</a></li><li><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html\">Observation Value Time Percentage Category Codes v0.1.0 (CodeSystem)</a></li><li><a href=\"CodeSystem-SPLASCHLiquidDietCS.html\">Observation Value Liquid Diet Codes v0.1.0 (CodeSystem)</a></li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-0-25-percent\"> </a><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-0-25-percent\">0-25-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td><td>0-25% of the time</td><td>0% to 25% of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-26-49-percent\"> </a><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-26-49-percent\">26-49-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td><td>26-49% of the time</td><td>26% to 49% of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-50-75-percent\"> </a><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-50-75-percent\">50-75-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td><td>50-75% of the time</td><td>50% to 75% of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-76-90-percent\"> </a><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-76-90-percent\">76-90-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td><td>76-90% of the time</td><td>76% to 90% of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-91-100-percent\"> </a><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-91-100-percent\">91-100-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td><td>91-100% of the time</td><td>91% to 100% of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-never\"> </a><a href=\"CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-never\">never</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td><td>Never</td><td>Never</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-rarely\"> </a><a href=\"CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-rarely\">rarely</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td><td>Rarely</td><td>Rarely</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-sometimes\"> </a><a href=\"CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-sometimes\">sometimes</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td><td>Sometimes</td><td>Sometimes</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-often\"> </a><a href=\"CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-often\">often</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td><td>Often</td><td>Often</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-always\"> </a><a href=\"CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-always\">always</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td><td>Always</td><td>Always</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSolidDietCS-regular\"> </a><a href=\"CodeSystem-SPLASCHSolidDietCS.html#SPLASCHSolidDietCS-regular\">regular</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS</td><td>Regular</td><td>Regular</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSolidDietCS-soft\"> </a><a href=\"CodeSystem-SPLASCHSolidDietCS.html#SPLASCHSolidDietCS-soft\">soft</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS</td><td>Soft and bite-sized</td><td>Soft and bite-sized</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSolidDietCS-minced\"> </a><a href=\"CodeSystem-SPLASCHSolidDietCS.html#SPLASCHSolidDietCS-minced\">minced</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS</td><td>Minced and moist</td><td>Minced and moist</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSolidDietCS-pureed\"> </a><a href=\"CodeSystem-SPLASCHSolidDietCS.html#SPLASCHSolidDietCS-pureed\">pureed</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS</td><td>Pureed</td><td>Pureed</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSolidDietCS-liquidized\"> </a><a href=\"CodeSystem-SPLASCHSolidDietCS.html#SPLASCHSolidDietCS-liquidized\">liquidized</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS</td><td>Liquidized</td><td>Liquidized</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSolidDietCS-no-solids\"> </a><a href=\"CodeSystem-SPLASCHSolidDietCS.html#SPLASCHSolidDietCS-no-solids\">no-solids</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS</td><td>No solids</td><td>No solids</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHLiquidDietCS-thin\"> </a><a href=\"CodeSystem-SPLASCHLiquidDietCS.html#SPLASCHLiquidDietCS-thin\">thin</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS</td><td>Regular</td><td>Regular</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHLiquidDietCS-slightly-thick\"> </a><a href=\"CodeSystem-SPLASCHLiquidDietCS.html#SPLASCHLiquidDietCS-slightly-thick\">slightly-thick</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS</td><td>Slightly thick</td><td>Slightly thick</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHLiquidDietCS-mildly-thick\"> </a><a href=\"CodeSystem-SPLASCHLiquidDietCS.html#SPLASCHLiquidDietCS-mildly-thick\">mildly-thick</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS</td><td>Mildly thick</td><td>Mildly thick</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHLiquidDietCS-moderately-thick\"> </a><a href=\"CodeSystem-SPLASCHLiquidDietCS.html#SPLASCHLiquidDietCS-moderately-thick\">moderately-thick</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS</td><td>Moderately thick</td><td>Moderately thick</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHLiquidDietCS-extremely-thick\"> </a><a href=\"CodeSystem-SPLASCHLiquidDietCS.html#SPLASCHLiquidDietCS-extremely-thick\">extremely-thick</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS</td><td>Extremely thick</td><td>Extremely thick</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHLiquidDietCS-no-liquids\"> </a><a href=\"CodeSystem-SPLASCHLiquidDietCS.html#SPLASCHLiquidDietCS-no-liquids\">no-liquids</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS</td><td>No liquids</td><td>No liquids</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHCaloriePercentageCategoryCS-0-25-percent\"> </a><a href=\"CodeSystem-SPLASCHCaloriePercentageCategoryCS.html#SPLASCHCaloriePercentageCategoryCS-0-25-percent\">0-25-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS</td><td>0-25% of caloric intake</td><td>0% to 25% of caloric intake</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHCaloriePercentageCategoryCS-26-49-percent\"> </a><a href=\"CodeSystem-SPLASCHCaloriePercentageCategoryCS.html#SPLASCHCaloriePercentageCategoryCS-26-49-percent\">26-49-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS</td><td>26-49% of caloric intake</td><td>26% to 49% of caloric intake</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHCaloriePercentageCategoryCS-50-75-percent\"> </a><a href=\"CodeSystem-SPLASCHCaloriePercentageCategoryCS.html#SPLASCHCaloriePercentageCategoryCS-50-75-percent\">50-75-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS</td><td>50-75% of caloric intake</td><td>50% to 75% of caloric intake</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHCaloriePercentageCategoryCS-76-100-percent\"> </a><a href=\"CodeSystem-SPLASCHCaloriePercentageCategoryCS.html#SPLASCHCaloriePercentageCategoryCS-76-100-percent\">76-100-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS</td><td>76-100% of caloric intake</td><td>76% to 100% of caloric intake</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 26 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-SPLASCHSolidDietCS.html\">Observation Value Solid Diet Codes v0.1.0 (CodeSystem)</a></li><li><a href=\"CodeSystem-SPLASCHCaloriePercentageCategoryCS.html\">Observation Value Calorie Percentage Category Codes v0.1.0 (CodeSystem)</a></li><li><a href=\"ValueSet-SPLASCHFrequencyObservationVS.html\">SPLASCH Frequency Observation Values v0.1.0 (ValueSet)</a></li><li>Loinc v2.71</li><li><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html\">Observation Value Time Percentage Category Codes v0.1.0 (CodeSystem)</a></li><li><a href=\"CodeSystem-SPLASCHLiquidDietCS.html\">Observation Value Liquid Diet Codes v0.1.0 (CodeSystem)</a></li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-0-25-percent\"> </a><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-0-25-percent\">0-25-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td><td>0-25% of the time</td><td>0% to 25% of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-26-49-percent\"> </a><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-26-49-percent\">26-49-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td><td>26-49% of the time</td><td>26% to 49% of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-50-75-percent\"> </a><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-50-75-percent\">50-75-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td><td>50-75% of the time</td><td>50% to 75% of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-76-90-percent\"> </a><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-76-90-percent\">76-90-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td><td>76-90% of the time</td><td>76% to 90% of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHTimePercentageCategoryCS-91-100-percent\"> </a><a href=\"CodeSystem-SPLASCHTimePercentageCategoryCS.html#SPLASCHTimePercentageCategoryCS-91-100-percent\">91-100-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS</td><td>91-100% of the time</td><td>91% to 100% of the time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA6270-8\"> </a><a href=\"http://details.loinc.org/LOINC/LA6270-8.html\">LA6270-8</a></td><td>http://loinc.org</td><td>Never</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10066-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA10066-1.html\">LA10066-1</a></td><td>http://loinc.org</td><td>Rarely</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10082-8\"> </a><a href=\"http://details.loinc.org/LOINC/LA10082-8.html\">LA10082-8</a></td><td>http://loinc.org</td><td>Sometimes</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10044-8\"> </a><a href=\"http://details.loinc.org/LOINC/LA10044-8.html\">LA10044-8</a></td><td>http://loinc.org</td><td>Often</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA9933-8\"> </a><a href=\"http://details.loinc.org/LOINC/LA9933-8.html\">LA9933-8</a></td><td>http://loinc.org</td><td>Always</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSolidDietCS-regular\"> </a><a href=\"CodeSystem-SPLASCHSolidDietCS.html#SPLASCHSolidDietCS-regular\">regular</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS</td><td>Regular</td><td>Regular</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSolidDietCS-soft\"> </a><a href=\"CodeSystem-SPLASCHSolidDietCS.html#SPLASCHSolidDietCS-soft\">soft</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS</td><td>Soft and bite-sized</td><td>Soft and bite-sized</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSolidDietCS-minced\"> </a><a href=\"CodeSystem-SPLASCHSolidDietCS.html#SPLASCHSolidDietCS-minced\">minced</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS</td><td>Minced and moist</td><td>Minced and moist</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSolidDietCS-pureed\"> </a><a href=\"CodeSystem-SPLASCHSolidDietCS.html#SPLASCHSolidDietCS-pureed\">pureed</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS</td><td>Pureed</td><td>Pureed</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSolidDietCS-liquidized\"> </a><a href=\"CodeSystem-SPLASCHSolidDietCS.html#SPLASCHSolidDietCS-liquidized\">liquidized</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS</td><td>Liquidized</td><td>Liquidized</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHSolidDietCS-no-solids\"> </a><a href=\"CodeSystem-SPLASCHSolidDietCS.html#SPLASCHSolidDietCS-no-solids\">no-solids</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS</td><td>No solids</td><td>No solids</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHLiquidDietCS-thin\"> </a><a href=\"CodeSystem-SPLASCHLiquidDietCS.html#SPLASCHLiquidDietCS-thin\">thin</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS</td><td>Regular</td><td>Regular</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHLiquidDietCS-slightly-thick\"> </a><a href=\"CodeSystem-SPLASCHLiquidDietCS.html#SPLASCHLiquidDietCS-slightly-thick\">slightly-thick</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS</td><td>Slightly thick</td><td>Slightly thick</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHLiquidDietCS-mildly-thick\"> </a><a href=\"CodeSystem-SPLASCHLiquidDietCS.html#SPLASCHLiquidDietCS-mildly-thick\">mildly-thick</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS</td><td>Mildly thick</td><td>Mildly thick</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHLiquidDietCS-moderately-thick\"> </a><a href=\"CodeSystem-SPLASCHLiquidDietCS.html#SPLASCHLiquidDietCS-moderately-thick\">moderately-thick</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS</td><td>Moderately thick</td><td>Moderately thick</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHLiquidDietCS-extremely-thick\"> </a><a href=\"CodeSystem-SPLASCHLiquidDietCS.html#SPLASCHLiquidDietCS-extremely-thick\">extremely-thick</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS</td><td>Extremely thick</td><td>Extremely thick</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHLiquidDietCS-no-liquids\"> </a><a href=\"CodeSystem-SPLASCHLiquidDietCS.html#SPLASCHLiquidDietCS-no-liquids\">no-liquids</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS</td><td>No liquids</td><td>No liquids</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHCaloriePercentageCategoryCS-0-25-percent\"> </a><a href=\"CodeSystem-SPLASCHCaloriePercentageCategoryCS.html#SPLASCHCaloriePercentageCategoryCS-0-25-percent\">0-25-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS</td><td>0-25% of caloric intake</td><td>0% to 25% of caloric intake</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHCaloriePercentageCategoryCS-26-49-percent\"> </a><a href=\"CodeSystem-SPLASCHCaloriePercentageCategoryCS.html#SPLASCHCaloriePercentageCategoryCS-26-49-percent\">26-49-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS</td><td>26-49% of caloric intake</td><td>26% to 49% of caloric intake</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHCaloriePercentageCategoryCS-50-75-percent\"> </a><a href=\"CodeSystem-SPLASCHCaloriePercentageCategoryCS.html#SPLASCHCaloriePercentageCategoryCS-50-75-percent\">50-75-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS</td><td>50-75% of caloric intake</td><td>50% to 75% of caloric intake</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHCaloriePercentageCategoryCS-76-100-percent\"> </a><a href=\"CodeSystem-SPLASCHCaloriePercentageCategoryCS.html#SPLASCHCaloriePercentageCategoryCS-76-100-percent\">76-100-percent</a></td><td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS</td><td>76-100% of caloric intake</td><td>76% to 100% of caloric intake</td></tr></table></div>"
       },
       "url" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSwallowingObservationValueVS",
       "version" : "0.1.0",
       "name" : "SPLASCHSwallowingObservationValueVS",
       "title" : "Swallowing Observation Value",
       "status" : "active",
-      "date" : "2021-12-08T12:48:12-05:00",
+      "date" : "2021-12-08T13:27:26-05:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -763,7 +771,7 @@
           "value" : "info@pacioproject.org"
         }]
       }],
-      "description" : "todo",
+      "description" : "Values for swallowing observations",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -772,8 +780,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:f0be248b-589d-4355-9afa-67c2b5bed6bc",
-        "timestamp" : "2021-12-08T12:49:50-05:00",
+        "identifier" : "urn:uuid:9b4c8256-ca8c-410b-a960-236dff118221",
+        "timestamp" : "2021-12-08T13:28:56-05:00",
         "total" : 26,
         "parameter" : [{
           "name" : "excludeNested",
@@ -788,8 +796,16 @@
           "valueUri" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS|0.1.0"
         },
         {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : true
+        },
+        {
           "name" : "version",
-          "valueUri" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS|0.1.0"
+          "valueUri" : "http://loinc.org|2.71"
         },
         {
           "name" : "version",
@@ -839,38 +855,38 @@
           "display" : "91-100% of the time"
         },
         {
-          "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS",
+          "system" : "http://loinc.org",
           "abstract" : false,
           "inactive" : false,
-          "code" : "never",
+          "code" : "LA6270-8",
           "display" : "Never"
         },
         {
-          "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS",
+          "system" : "http://loinc.org",
           "abstract" : false,
           "inactive" : false,
-          "code" : "rarely",
+          "code" : "LA10066-1",
           "display" : "Rarely"
         },
         {
-          "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS",
+          "system" : "http://loinc.org",
           "abstract" : false,
           "inactive" : false,
-          "code" : "sometimes",
+          "code" : "LA10082-8",
           "display" : "Sometimes"
         },
         {
-          "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS",
+          "system" : "http://loinc.org",
           "abstract" : false,
           "inactive" : false,
-          "code" : "often",
+          "code" : "LA10044-8",
           "display" : "Often"
         },
         {
-          "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS",
+          "system" : "http://loinc.org",
           "abstract" : false,
           "inactive" : false,
-          "code" : "always",
+          "code" : "LA9933-8",
           "display" : "Always"
         },
         {
@@ -970,7 +986,7 @@
       "name" : "SPLASCHSwallowingObservationVS",
       "title" : "Swallowing Observation",
       "status" : "active",
-      "date" : "2021-12-08T12:48:12-05:00",
+      "date" : "2021-12-08T13:27:26-05:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -994,7 +1010,7 @@
           "value" : "info@pacioproject.org"
         }]
       }],
-      "description" : "todo",
+      "description" : "SPLASCH swallowing observation profile",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -1003,8 +1019,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:19e893fc-e03d-48f3-8072-0b4fb0c3a541",
-        "timestamp" : "2021-12-08T12:49:50-05:00",
+        "identifier" : "urn:uuid:94e43b72-fd12-44c3-bb15-27059b3a56d4",
+        "timestamp" : "2021-12-08T13:28:56-05:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",

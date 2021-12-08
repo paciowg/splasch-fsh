@@ -7,13 +7,6 @@
     "name": "SPLASCHCaloriePercentageCategoryCS"
   },
   {
-    "id": "SPLASCHFrequencyCS",
-    "type": "CodeSystem",
-    "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS",
-    "version": "0.1.0",
-    "name": "SPLASCHFrequencyCS"
-  },
-  {
     "id": "SPLASCHLiquidDietCS",
     "type": "CodeSystem",
     "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS",

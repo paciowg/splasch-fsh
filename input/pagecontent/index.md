@@ -26,13 +26,9 @@ To achieve these objectives, this project will:
 
 The areas of functional information referenced above is patient focused and can be collected and assessed by members of the interdisciplinary health care team, including but not limited to speech language pathologists, occupational therapists, physical therapists, physicians, nurses, social workers, case managers, or dieticians.
 
-The Post-Acute Care Interoperability (PACIO) community has a strong interest in the exchange of this data and will support the community engagement as needed in order to help develop a standard mechanism for EHR interoperability to improve patient care management. Many stakeholders (both clinical and technical) support PACIO, including MITRE, Centers for Medicare and Medicaid Services (CMS), Office of the National Coordinator (ONC), and over 30 representatives from the health care industry.
-
-
-
 ### Background
 
-(todo)
+The Post-Acute Care Interoperability (PACIO) community has a strong interest in the exchange of this data and will support the community engagement as needed in order to help develop a standard mechanism for EHR interoperability to improve patient care management. Many stakeholders (both clinical and technical) support PACIO, including MITRE, Centers for Medicare and Medicaid Services (CMS), Office of the National Coordinator (ONC), and over 30 representatives from the health care industry.
 
 
 ![PACIO logo](./pacio.png)
@@ -45,9 +41,7 @@ The PACIO Project is a collaborative effort to advance interoperable health data
 The primary goal of the PACIO Project is to establish a framework for the development of Fast Healthcare Interoperability Resource (FHIR) technical implementation guides and reference implementations that will facilitate health data exchange through standards-based use case-driven application programming interfaces (APIs).
 
 
-### Audience/Expected Users
-
-(review)
+### Audience / Expected Users
 
 The audience for this IG includes architects and developers of healthcare information technology (HIT) systems in the US Realm that exchange clinical and non-clinical data. Business analysts and policy managers can also benefit from a basic understanding of the use of FHIR profiles across multiple implementation use cases. Finally, Quality Reporting Agencies, Standards Development Organizations (SDOs), Payors, Providers and Patients will benefit from this IG.
 
