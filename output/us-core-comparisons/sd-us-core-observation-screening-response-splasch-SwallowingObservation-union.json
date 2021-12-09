@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "bb6f164a-fa74-4260-ae22-4c77b34de38c-191",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/bb6f164a-fa74-4260-ae22-4c77b34de38c-191",
+  "id" : "d467d4ad-72da-40b6-bab5-e063a0f9a4ba-191",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/d467d4ad-72da-40b6-bab5-e063a0f9a4ba-191",
   "name" : "UnionUSCoreObservationScreeningResponseAndSwallowingObservation",
   "title" : "Union of US Core Screening Response Observation Profile And Swallowing Observation",
   "status" : "active",
-  "date" : "2021-12-08T13:44:52-05:00",
+  "date" : "2021-12-09T02:53:43-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -560,7 +560,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/bb6f164a-fa74-4260-ae22-4c77b34de38c-194"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/d467d4ad-72da-40b6-bab5-e063a0f9a4ba-194"
       },
       "mapping" : [{
         "identity" : "workflow",

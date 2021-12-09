@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "bb6f164a-fa74-4260-ae22-4c77b34de38c-188",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/bb6f164a-fa74-4260-ae22-4c77b34de38c-188",
+  "id" : "d467d4ad-72da-40b6-bab5-e063a0f9a4ba-188",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/d467d4ad-72da-40b6-bab5-e063a0f9a4ba-188",
   "name" : "UnionLOINCCodesAndSPLASCHSwallowingObservationVS",
   "title" : "Union of LOINC Codes And Swallowing Observation",
   "status" : "draft",
-  "date" : "2021-12-08T13:44:52-05:00",
+  "date" : "2021-12-09T02:53:43-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

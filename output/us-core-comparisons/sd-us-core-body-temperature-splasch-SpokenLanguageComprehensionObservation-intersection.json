@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "bb6f164a-fa74-4260-ae22-4c77b34de38c-27",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/bb6f164a-fa74-4260-ae22-4c77b34de38c-27",
+  "id" : "d467d4ad-72da-40b6-bab5-e063a0f9a4ba-27",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/d467d4ad-72da-40b6-bab5-e063a0f9a4ba-27",
   "name" : "IntersectionUSCoreBodyTemperatureProfileAndSpokenLanguageComprehensionObservation",
   "title" : "Intersection of US Core Body Temperature Profile And Spoken Language Comprehension Observation",
   "status" : "active",
-  "date" : "2021-12-08T13:44:50-05:00",
+  "date" : "2021-12-09T02:53:42-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/bb6f164a-fa74-4260-ae22-4c77b34de38c-6"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/d467d4ad-72da-40b6-bab5-e063a0f9a4ba-6"
       },
       "mapping" : [{
         "identity" : "workflow",
