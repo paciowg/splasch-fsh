@@ -1,0 +1,15 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68e9763a-f307-4fd6-a7ab-a119130f8c6c-120",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68e9763a-f307-4fd6-a7ab-a119130f8c6c-120",
+  "name" : "IntersectionUSCoreDiagnosticReportReportAndNoteCodesAndSPLASCHSpeechExpressionObservationVS",
+  "title" : "Intersection of US Core DiagnosticReport Report And Note Codes And Speech Expression Observation",
+  "status" : "active",
+  "date" : "2021-12-10T12:08:09-05:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }]
+}

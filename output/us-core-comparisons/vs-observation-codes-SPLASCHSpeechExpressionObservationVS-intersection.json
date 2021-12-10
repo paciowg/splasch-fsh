@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68e9763a-f307-4fd6-a7ab-a119130f8c6c-129",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68e9763a-f307-4fd6-a7ab-a119130f8c6c-129",
+  "name" : "IntersectionLOINCCodesAndSPLASCHSpeechExpressionObservationVS",
+  "title" : "Intersection of LOINC Codes And Speech Expression Observation",
+  "status" : "draft",
+  "date" : "2021-12-10T12:08:10-05:00"
+}

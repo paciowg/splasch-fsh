@@ -1,0 +1,202 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "68e9763a-f307-4fd6-a7ab-a119130f8c6c-86",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/68e9763a-f307-4fd6-a7ab-a119130f8c6c-86",
+  "name" : "UnionUsCoreVitalSignsAndSPLASCHSpeechExpressionObservationVS",
+  "title" : "Union of US Core Vital Signs ValueSet And Speech Expression Observation",
+  "status" : "active",
+  "date" : "2021-12-10T12:08:09-05:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "59576-9"
+      },
+      {
+        "code" : "8289-1"
+      },
+      {
+        "code" : "77606-2"
+      },
+      {
+        "code" : "59408-5"
+      },
+      {
+        "code" : "3150-0"
+      },
+      {
+        "code" : "3151-8"
+      }]
+    },
+    {
+      "valueSet" : ["http://hl7.org/fhir/ValueSet/observation-vitalsignresult"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS"
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "59576-9",
+      "display" : "Body mass index (BMI) [Percentile] Per age and sex"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8289-1",
+      "display" : "Head Occipital-frontal circumference Percentile"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "77606-2",
+      "display" : "Weight-for-length Per age and sex"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "59408-5",
+      "display" : "Oxygen saturation in Arterial blood by Pulse oximetry"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "3150-0",
+      "display" : "Inhaled oxygen concentration"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "3151-8",
+      "display" : "Inhaled oxygen flow rate"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "85353-1",
+      "display" : "Vital signs, weight, height, head circumference, oxygen saturation and BMI panel"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "9279-1",
+      "display" : "Respiratory rate"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "8867-4",
+      "display" : "Heart rate"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "2708-6",
+      "display" : "Oxygen saturation in Arterial blood"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "8310-5",
+      "display" : "Body temperature"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "8302-2",
+      "display" : "Body height"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "9843-4",
+      "display" : "Head Occipital-frontal circumference"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "29463-7",
+      "display" : "Body weight"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "39156-5",
+      "display" : "Body mass index (BMI) [Ratio]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "85354-9",
+      "display" : "Blood pressure panel with all children optional"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "8480-6",
+      "display" : "Systolic blood pressure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "8462-4",
+      "display" : "Diastolic blood pressure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "8478-0",
+      "display" : "Mean blood pressure"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS",
+      "code" : "exhibit-distracting-expression-difficulties",
+      "display" : "Expression of distracting spoken language expression difficulties"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS",
+      "code" : "simple-meaningful-word-expression",
+      "display" : "Expression of simple meaningful word or phrases"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS",
+      "code" : "verbal-form-low-demand",
+      "display" : "Produce verbal messages with appropriate form in low demand situations"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS",
+      "code" : "verbal-content-low-demand",
+      "display" : "Produce verbal messages with appropriate content in low demand situations"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS",
+      "code" : "verbal-form-high-demand",
+      "display" : "Produce verbal messages with appropriate form in high demand situations"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS",
+      "code" : "verbal-content-high-demand",
+      "display" : "Produce verbal messages with appropriate content in high demand situations"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS",
+      "code" : "communicate-without-assistance",
+      "display" : "Participate in communication without assistance"
+    }]
+  }
+}

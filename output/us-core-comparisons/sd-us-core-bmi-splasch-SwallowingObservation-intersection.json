@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "d467d4ad-72da-40b6-bab5-e063a0f9a4ba-159",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/d467d4ad-72da-40b6-bab5-e063a0f9a4ba-159",
+  "id" : "68e9763a-f307-4fd6-a7ab-a119130f8c6c-174",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/68e9763a-f307-4fd6-a7ab-a119130f8c6c-174",
   "name" : "IntersectionUSCoreBMIProfileAndSwallowingObservation",
   "title" : "Intersection of US Core BMI Profile And Swallowing Observation",
   "status" : "active",
-  "date" : "2021-12-09T02:53:43-05:00",
+  "date" : "2021-12-10T12:08:10-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/d467d4ad-72da-40b6-bab5-e063a0f9a4ba-147"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/68e9763a-f307-4fd6-a7ab-a119130f8c6c-162"
       },
       "mapping" : [{
         "identity" : "workflow",

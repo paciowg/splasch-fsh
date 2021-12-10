@@ -28,7 +28,7 @@ Description:    "An exchange of spoken language expression data for a patient."
 * subject only Reference($USCorePatient)
 
 * code 1..1 MS
-* code from SPLASCHSpeechComprehensionObservationVS (required)
+* code from SPLASCHSpeechExpressionObservationVS (required)
 
 * value[x] only CodeableConcept
 * valueCodeableConcept from SPLASCHFrequencyObservationVS (required)

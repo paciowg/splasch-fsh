@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "d467d4ad-72da-40b6-bab5-e063a0f9a4ba-38",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/d467d4ad-72da-40b6-bab5-e063a0f9a4ba-38",
+  "id" : "68e9763a-f307-4fd6-a7ab-a119130f8c6c-38",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/68e9763a-f307-4fd6-a7ab-a119130f8c6c-38",
   "name" : "UnionUSCoreClinicalTestResultObservationProfileAndSpokenLanguageComprehensionObservation",
   "title" : "Union of US Core Clinical Test Result Observation Profile And Spoken Language Comprehension Observation",
   "status" : "active",
-  "date" : "2021-12-09T02:53:42-05:00",
+  "date" : "2021-12-10T12:08:09-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -560,7 +560,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/d467d4ad-72da-40b6-bab5-e063a0f9a4ba-41"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/68e9763a-f307-4fd6-a7ab-a119130f8c6c-41"
       },
       "mapping" : [{
         "identity" : "workflow",
