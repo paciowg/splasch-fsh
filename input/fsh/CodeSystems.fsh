@@ -89,7 +89,7 @@ Description: "Category codes for solid diet observations"
 CodeSystem: SPLASCHLiquidDietCS
 Title: "Observation Value Liquid Diet Codes"
 Description: "Category codes for liquid diet observations"
-* #thin "Regular" "Regular"
+* #thin "Thin" "Thin"
 * #slightly-thick "Slightly thick" "Slightly thick"
 * #mildly-thick "Mildly thick" "Mildly thick"
 * #moderately-thick "Moderately thick" "Moderately thick"

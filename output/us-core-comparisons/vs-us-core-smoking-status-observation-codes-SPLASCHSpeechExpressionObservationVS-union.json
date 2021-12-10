@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "68e9763a-f307-4fd6-a7ab-a119130f8c6c-152",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/68e9763a-f307-4fd6-a7ab-a119130f8c6c-152",
+  "id" : "21384384-339a-4624-8d8b-5a0f2215e0a6-152",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/21384384-339a-4624-8d8b-5a0f2215e0a6-152",
   "name" : "UnionUSCoreSmokingStatusObservationCodesAndSPLASCHSpeechExpressionObservationVS",
   "title" : "Union of US Core Smoking Status Observation Codes And Speech Expression Observation",
   "status" : "active",
-  "date" : "2021-12-10T12:08:10-05:00",
+  "date" : "2021-12-10T13:12:23-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

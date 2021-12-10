@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "68e9763a-f307-4fd6-a7ab-a119130f8c6c-102",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/68e9763a-f307-4fd6-a7ab-a119130f8c6c-102",
+  "id" : "21384384-339a-4624-8d8b-5a0f2215e0a6-102",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/21384384-339a-4624-8d8b-5a0f2215e0a6-102",
   "name" : "IntersectionUSCoreBodyHeightProfileAndSpokenLanguageExpressionObservation",
   "title" : "Intersection of US Core Body Height Profile And Spoken Language Expression Observation",
   "status" : "active",
-  "date" : "2021-12-10T12:08:09-05:00",
+  "date" : "2021-12-10T13:12:23-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/68e9763a-f307-4fd6-a7ab-a119130f8c6c-87"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/21384384-339a-4624-8d8b-5a0f2215e0a6-87"
       },
       "mapping" : [{
         "identity" : "workflow",

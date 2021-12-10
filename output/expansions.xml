@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="c8d0a2c1-bd10-44fd-8ab0-8a0f48f4b2cb"/>
+  <id value="cf4a8c05-5765-46ba-abad-b61fd2dd5eb8"/>
   <meta>
-    <lastUpdated value="2021-12-10T12:07:05.687-05:00"/>
+    <lastUpdated value="2021-12-10T13:11:15.492-05:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -51,7 +51,7 @@
         <name value="SPLASCHCaloriePercentageTypeObservationVS"/>
         <title value="Calorie Percentage Type Observation"/>
         <status value="active"/>
-        <date value="2021-12-10T12:07:05-05:00"/>
+        <date value="2021-12-10T13:11:15-05:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -84,8 +84,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:aca5c66e-e43b-4871-b2c9-8065cc9568de"/>
-          <timestamp value="2021-12-10T12:08:34-05:00"/>
+          <identifier value="urn:uuid:b4836166-67b7-42c7-bfd8-113a5d41a6b3"/>
+          <timestamp value="2021-12-10T13:12:46-05:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -235,7 +235,7 @@
         <name value="SPLASCHFrequencyObservationVS"/>
         <title value="SPLASCH Frequency Observation Values"/>
         <status value="active"/>
-        <date value="2021-12-10T12:07:05-05:00"/>
+        <date value="2021-12-10T13:11:15-05:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -268,8 +268,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:d9287926-3120-4bf5-acba-a0b42fc66081"/>
-          <timestamp value="2021-12-10T12:08:35-05:00"/>
+          <identifier value="urn:uuid:9b92f37c-632d-471f-8ac4-5faa3d1a7113"/>
+          <timestamp value="2021-12-10T13:12:46-05:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -526,7 +526,7 @@
         <name value="SPLASCHFrequencyTypeObservationVS"/>
         <title value="Frequency Type Observation"/>
         <status value="active"/>
-        <date value="2021-12-10T12:07:05-05:00"/>
+        <date value="2021-12-10T13:11:15-05:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -559,8 +559,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:f80af47a-47ec-4682-b18d-1c0484f2a3e3"/>
-          <timestamp value="2021-12-10T12:08:35-05:00"/>
+          <identifier value="urn:uuid:7e2f2add-4e2a-4bcb-a3a7-1913d93f990e"/>
+          <timestamp value="2021-12-10T13:12:46-05:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -702,7 +702,7 @@
         <name value="SPLASCHLiquidDietModifierTypeObservationVS"/>
         <title value="Liquid Diet Modifier Type Observation"/>
         <status value="active"/>
-        <date value="2021-12-10T12:07:05-05:00"/>
+        <date value="2021-12-10T13:11:15-05:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -735,8 +735,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:4bf82a5f-4bac-4a4c-86f6-86c71ae576bd"/>
-          <timestamp value="2021-12-10T12:08:35-05:00"/>
+          <identifier value="urn:uuid:265570c7-3d1b-4b29-9e8e-138ad0963c79"/>
+          <timestamp value="2021-12-10T13:12:46-05:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -816,7 +816,7 @@
         <name value="SPLASCHObservationCategoryVS"/>
         <title value="SPLASCH Observation Category"/>
         <status value="active"/>
-        <date value="2021-12-10T12:07:05-05:00"/>
+        <date value="2021-12-10T13:11:15-05:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -849,8 +849,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:1743599a-12a8-4026-8238-c5c1ace48efd"/>
-          <timestamp value="2021-12-10T12:08:35-05:00"/>
+          <identifier value="urn:uuid:88954545-5807-455e-a390-609a641bb55d"/>
+          <timestamp value="2021-12-10T13:12:46-05:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -924,7 +924,7 @@
         <name value="SPLASCHSolidDietModifierTypeObservationVS"/>
         <title value="Solid Diet Modifier Type Observation"/>
         <status value="active"/>
-        <date value="2021-12-10T12:07:05-05:00"/>
+        <date value="2021-12-10T13:11:15-05:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -957,8 +957,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:64cc6ac4-bc32-471e-9671-14058c40c9fd"/>
-          <timestamp value="2021-12-10T12:08:35-05:00"/>
+          <identifier value="urn:uuid:a2ccb6f7-ca44-4689-8e8f-2097281ce8fa"/>
+          <timestamp value="2021-12-10T13:12:46-05:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1062,7 +1062,7 @@
         <name value="SPLASCHSpeechComprehensionObservationVS"/>
         <title value="Speech Comprehension Observation"/>
         <status value="active"/>
-        <date value="2021-12-10T12:07:05-05:00"/>
+        <date value="2021-12-10T13:11:15-05:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -1095,8 +1095,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:0d8b5852-e016-4e00-a5bd-29d6f9ecbebe"/>
-          <timestamp value="2021-12-10T12:08:36-05:00"/>
+          <identifier value="urn:uuid:4b7027f9-cca7-4167-b0a9-231560a0cd5f"/>
+          <timestamp value="2021-12-10T13:12:47-05:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1233,7 +1233,7 @@
         <name value="SPLASCHSpeechExpressionObservationVS"/>
         <title value="Speech Expression Observation"/>
         <status value="active"/>
-        <date value="2021-12-10T12:07:05-05:00"/>
+        <date value="2021-12-10T13:11:15-05:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -1266,8 +1266,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:16d2cee1-fef5-4d86-9b6d-9090008f2a46"/>
-          <timestamp value="2021-12-10T12:08:36-05:00"/>
+          <identifier value="urn:uuid:da3c2b82-df00-4ca9-8c27-548509116b0a"/>
+          <timestamp value="2021-12-10T13:12:47-05:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1511,8 +1511,8 @@
                   <a href="CodeSystem-SPLASCHLiquidDietCS.html#SPLASCHLiquidDietCS-thin">thin</a>
                 </td>
                 <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS</td>
-                <td>Regular</td>
-                <td>Regular</td>
+                <td>Thin</td>
+                <td>Thin</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -1603,7 +1603,7 @@
         <name value="SPLASCHSwallowingObservationValueVS"/>
         <title value="Swallowing Observation Value"/>
         <status value="active"/>
-        <date value="2021-12-10T12:07:05-05:00"/>
+        <date value="2021-12-10T13:11:15-05:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -1636,8 +1636,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:abdf2eb5-4c69-4725-ae1f-b883d1e7b492"/>
-          <timestamp value="2021-12-10T12:08:36-05:00"/>
+          <identifier value="urn:uuid:ce88e32b-e74b-4b9a-83a7-19c5eab5c3f4"/>
+          <timestamp value="2021-12-10T13:12:47-05:00"/>
           <total value="26"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1778,7 +1778,7 @@
           <contains>
             <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS"/>
             <code value="thin"/>
-            <display value="Regular"/>
+            <display value="Thin"/>
           </contains>
           <contains>
             <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS"/>
@@ -1906,7 +1906,7 @@
         <name value="SPLASCHSwallowingObservationVS"/>
         <title value="Swallowing Observation"/>
         <status value="active"/>
-        <date value="2021-12-10T12:07:05-05:00"/>
+        <date value="2021-12-10T13:11:15-05:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -1939,8 +1939,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:ff710f9b-2e56-48de-8a99-fa326ea50811"/>
-          <timestamp value="2021-12-10T12:08:36-05:00"/>
+          <identifier value="urn:uuid:ab822533-f273-4753-8131-13a8e66ce3e8"/>
+          <timestamp value="2021-12-10T13:12:47-05:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>

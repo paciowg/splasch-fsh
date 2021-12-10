@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "68e9763a-f307-4fd6-a7ab-a119130f8c6c-48",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/68e9763a-f307-4fd6-a7ab-a119130f8c6c-48",
+  "id" : "21384384-339a-4624-8d8b-5a0f2215e0a6-48",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/21384384-339a-4624-8d8b-5a0f2215e0a6-48",
   "name" : "IntersectionUSCoreLaboratoryResultObservationProfileAndSpokenLanguageComprehensionObservation",
   "title" : "Intersection of US Core Laboratory Result Observation Profile And Spoken Language Comprehension Observation",
   "status" : "active",
-  "date" : "2021-12-10T12:08:09-05:00",
+  "date" : "2021-12-10T13:12:23-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -591,7 +591,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "LOINC codes",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/68e9763a-f307-4fd6-a7ab-a119130f8c6c-51"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/21384384-339a-4624-8d8b-5a0f2215e0a6-51"
       },
       "mapping" : [{
         "identity" : "workflow",

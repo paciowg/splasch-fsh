@@ -3,14 +3,14 @@
   "id": "SPLASCHLiquidDietCS",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">thin<a name=\"SPLASCHLiquidDietCS-thin\"> </a></td><td>Regular</td><td>Regular</td></tr><tr><td style=\"white-space:nowrap\">slightly-thick<a name=\"SPLASCHLiquidDietCS-slightly-thick\"> </a></td><td>Slightly thick</td><td>Slightly thick</td></tr><tr><td style=\"white-space:nowrap\">mildly-thick<a name=\"SPLASCHLiquidDietCS-mildly-thick\"> </a></td><td>Mildly thick</td><td>Mildly thick</td></tr><tr><td style=\"white-space:nowrap\">moderately-thick<a name=\"SPLASCHLiquidDietCS-moderately-thick\"> </a></td><td>Moderately thick</td><td>Moderately thick</td></tr><tr><td style=\"white-space:nowrap\">extremely-thick<a name=\"SPLASCHLiquidDietCS-extremely-thick\"> </a></td><td>Extremely thick</td><td>Extremely thick</td></tr><tr><td style=\"white-space:nowrap\">no-liquids<a name=\"SPLASCHLiquidDietCS-no-liquids\"> </a></td><td>No liquids</td><td>No liquids</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">thin<a name=\"SPLASCHLiquidDietCS-thin\"> </a></td><td>Thin</td><td>Thin</td></tr><tr><td style=\"white-space:nowrap\">slightly-thick<a name=\"SPLASCHLiquidDietCS-slightly-thick\"> </a></td><td>Slightly thick</td><td>Slightly thick</td></tr><tr><td style=\"white-space:nowrap\">mildly-thick<a name=\"SPLASCHLiquidDietCS-mildly-thick\"> </a></td><td>Mildly thick</td><td>Mildly thick</td></tr><tr><td style=\"white-space:nowrap\">moderately-thick<a name=\"SPLASCHLiquidDietCS-moderately-thick\"> </a></td><td>Moderately thick</td><td>Moderately thick</td></tr><tr><td style=\"white-space:nowrap\">extremely-thick<a name=\"SPLASCHLiquidDietCS-extremely-thick\"> </a></td><td>Extremely thick</td><td>Extremely thick</td></tr><tr><td style=\"white-space:nowrap\">no-liquids<a name=\"SPLASCHLiquidDietCS-no-liquids\"> </a></td><td>No liquids</td><td>No liquids</td></tr></table></div>"
   },
   "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS",
   "version": "0.1.0",
   "name": "SPLASCHLiquidDietCS",
   "title": "Observation Value Liquid Diet Codes",
   "status": "active",
-  "date": "2021-12-10T12:07:05-05:00",
+  "date": "2021-12-10T13:11:15-05:00",
   "publisher": "HL7 Patient Care Working Group",
   "contact": [
     {
@@ -58,8 +58,8 @@
   "concept": [
     {
       "code": "thin",
-      "display": "Regular",
-      "definition": "Regular"
+      "display": "Thin",
+      "definition": "Thin"
     },
     {
       "code": "slightly-thick",
