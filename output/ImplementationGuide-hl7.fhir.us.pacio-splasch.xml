@@ -11,7 +11,7 @@
   <name value="PACIOReAssessmentTimepoints"/>
   <title value="PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-12-10T13:11:15-05:00"/>
+  <date value="2021-12-15T22:58:34-05:00"/>
   <publisher value="HL7 Patient Care Working Group"/>
   <contact>
     <name value="HL7 Patient Care Working Group"/>
@@ -457,6 +457,1183 @@
       <name value="Observation Value Time Percentage Category Codes"/>
       <description value="Catgegory codes for time percentage observations"/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-01"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-01"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-01"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-02"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-02"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-02"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-03"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-03"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-03"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-04"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-04"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-04"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-05"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-05"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-05"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-06"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-06"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-06"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-07"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-07"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-07"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-08"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-08"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-08"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-09"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-09"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-09"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-10"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-10"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-10"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-11"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-11"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-11"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-12"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-12"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-12"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-13"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-13"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-13"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-14"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-14"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-14"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-15"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-15"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-15"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-16"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-16"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-16"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-17"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-17"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-17"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-18"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-18"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-18"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-19"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-19"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-19"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-20"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-20"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-20"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-21"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-21"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-21"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-22"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-22"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-22"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-23"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-23"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-23"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-24"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-24"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-24"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-25"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-25"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-25"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-26"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-26"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-26"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-27"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-27"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-27"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-28"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-28"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-28"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-29"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-29"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-29"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-30"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-30"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-30"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-31"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-31"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-31"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-32"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-32"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-32"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-33"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-33"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-33"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-34"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-34"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-34"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-35"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-35"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-35"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-36"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-36"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-36"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-37"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-37"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-37"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-38"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-38"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-38"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-39"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-39"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-39"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-40"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-40"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-40"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-41"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-41"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-41"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-42"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-42"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-42"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-43"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-43"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-43"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-44"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-44"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-44"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-45"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-45"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-45"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-46"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-46"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-46"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-47"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-47"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-47"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-48"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-48"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-48"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-49"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-49"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-49"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-50"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-50"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-50"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-51"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-51"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-51"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-52"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-52"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-52"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-53"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-53"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-53"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-54"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-54"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-54"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-55"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-55"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-55"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-56"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-56"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-56"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-57"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-57"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-57"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-58"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-58"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-58"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-59"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-59"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-59"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-60"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-60"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-60"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-61"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-61"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-61"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-62"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-62"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-62"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-63"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-63"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-63"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-64"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-64"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-64"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-65"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-65"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-65"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-66"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-66"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-66"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-67"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-67"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-67"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-68"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-68"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-68"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-69"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-69"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-69"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-70"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-70"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-70"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-71"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-71"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-71"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-72"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-72"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-72"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-73"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-73"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-73"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-74"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-74"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-74"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-75"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-75"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-75"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-76"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-76"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-76"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-77"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-77"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-77"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-78"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-78"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-78"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-79"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-79"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-79"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-80"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-80"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-80"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-81"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-81"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-81"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-82"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-82"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-82"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-83"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-83"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-83"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-84"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-84"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-84"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-85"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-85"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-85"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-86"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-86"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-86"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-87"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-87"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-87"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-88"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-88"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-88"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-89"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-89"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-89"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-90"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-90"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-90"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-91"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-91"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-91"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-92"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-92"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-92"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-93"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-93"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-93"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-94"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-94"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-94"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-95"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-95"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-95"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-96"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-96"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-96"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/BSJ-patientBSJ1"/>
+      </reference>
+      <name value="BSJ-patientBSJ1"/>
+      <description value="An instance of USCorePatientProfile"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-AndyLavande"/>
+      </reference>
+      <name value="Practitioner-AndyLavande"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-HarryPutter"/>
+      </reference>
+      <name value="Practitioner-HarryPutter"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-HoneyJones"/>
+      </reference>
+      <name value="Practitioner-HoneyJones"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-JenniferWhite"/>
+      </reference>
+      <name value="Practitioner-JenniferWhite"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-JennyGrant"/>
+      </reference>
+      <name value="Practitioner-JennyGrant"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-JohnSmith"/>
+      </reference>
+      <name value="Practitioner-JohnSmith"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-LaylaRobbins"/>
+      </reference>
+      <name value="Practitioner-LaylaRobbins"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-LunaBaskins"/>
+      </reference>
+      <name value="Practitioner-LunaBaskins"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-NoraOlogist"/>
+      </reference>
+      <name value="Practitioner-NoraOlogist"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-ShaunLongbottom"/>
+      </reference>
+      <name value="Practitioner-ShaunLongbottom"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

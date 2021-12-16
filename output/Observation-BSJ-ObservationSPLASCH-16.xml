@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="BSJ-ObservationSPLASCH-16"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "BSJ-ObservationSPLASCH-16" </p></div><p><b>status</b>: final</p><p><b>category</b>: Swallowing <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-SPLASCHObservationCategoryCS.html">SPLASCH Observation Category Codes</a>#swallowing)</span></p><p><b>code</b>: Require assistance or supervision for swallowing safety <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-SPLASCHSwallowingObservationCS.html">Swallowing Observation Codes</a>#assistance-swallowing-safety)</span></p><p><b>subject</b>: <a href="Patient-BSJ-patientBSJ1.html">Patient/BSJ-patientBSJ1</a> " SMITH-JOHNSON"</p><p><b>effective</b>: 2021-12-02T12:28:00-05:00</p><p><b>performer</b>: <a href="Practitioner-Practitioner-LunaBaskins.html">Practitioner/Practitioner-LunaBaskins</a> " BASKINS"</p><p><b>value</b>: 0-25% of the time <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-SPLASCHTimePercentageCategoryCS.html">Observation Value Time Percentage Category Codes</a>#0-25-percent)</span></p></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS"/>
+      <code value="swallowing"/>
+      <display value="Swallowing"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS"/>
+      <code value="assistance-swallowing-safety"/>
+      <display value="Require assistance or supervision for swallowing safety"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/BSJ-patientBSJ1"/>
+  </subject>
+  <effectiveDateTime value="2021-12-02T12:28:00-05:00"/>
+  <performer>
+    <reference value="Practitioner/Practitioner-LunaBaskins"/>
+  </performer>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS"/>
+      <code value="0-25-percent"/>
+      <display value="0-25% of the time"/>
+    </coding>
+  </valueCodeableConcept>
+</Observation>

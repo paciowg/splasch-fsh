@@ -6,6 +6,103 @@
 <artifactPageExtension value="-mappings"/>
 <artifact deprecated="true" id="Condition/BSJ-Diagnosis1" key="Condition-BSJ-Diagnosis1" name="BSJ-Diagnosis1"/>
 <artifact deprecated="true" id="Condition/BSJ-Diagnosis2" key="Condition-BSJ-Diagnosis2" name="BSJ-Diagnosis2"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-01" key="Observation-BSJ-ObservationSPLASCH-01" name="BSJ-ObservationSPLASCH-01"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-02" key="Observation-BSJ-ObservationSPLASCH-02" name="BSJ-ObservationSPLASCH-02"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-03" key="Observation-BSJ-ObservationSPLASCH-03" name="BSJ-ObservationSPLASCH-03"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-04" key="Observation-BSJ-ObservationSPLASCH-04" name="BSJ-ObservationSPLASCH-04"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-05" key="Observation-BSJ-ObservationSPLASCH-05" name="BSJ-ObservationSPLASCH-05"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-06" key="Observation-BSJ-ObservationSPLASCH-06" name="BSJ-ObservationSPLASCH-06"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-07" key="Observation-BSJ-ObservationSPLASCH-07" name="BSJ-ObservationSPLASCH-07"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-08" key="Observation-BSJ-ObservationSPLASCH-08" name="BSJ-ObservationSPLASCH-08"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-09" key="Observation-BSJ-ObservationSPLASCH-09" name="BSJ-ObservationSPLASCH-09"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-10" key="Observation-BSJ-ObservationSPLASCH-10" name="BSJ-ObservationSPLASCH-10"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-11" key="Observation-BSJ-ObservationSPLASCH-11" name="BSJ-ObservationSPLASCH-11"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-12" key="Observation-BSJ-ObservationSPLASCH-12" name="BSJ-ObservationSPLASCH-12"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-13" key="Observation-BSJ-ObservationSPLASCH-13" name="BSJ-ObservationSPLASCH-13"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-14" key="Observation-BSJ-ObservationSPLASCH-14" name="BSJ-ObservationSPLASCH-14"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-15" key="Observation-BSJ-ObservationSPLASCH-15" name="BSJ-ObservationSPLASCH-15"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-16" key="Observation-BSJ-ObservationSPLASCH-16" name="BSJ-ObservationSPLASCH-16"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-17" key="Observation-BSJ-ObservationSPLASCH-17" name="BSJ-ObservationSPLASCH-17"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-18" key="Observation-BSJ-ObservationSPLASCH-18" name="BSJ-ObservationSPLASCH-18"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-19" key="Observation-BSJ-ObservationSPLASCH-19" name="BSJ-ObservationSPLASCH-19"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-20" key="Observation-BSJ-ObservationSPLASCH-20" name="BSJ-ObservationSPLASCH-20"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-21" key="Observation-BSJ-ObservationSPLASCH-21" name="BSJ-ObservationSPLASCH-21"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-22" key="Observation-BSJ-ObservationSPLASCH-22" name="BSJ-ObservationSPLASCH-22"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-23" key="Observation-BSJ-ObservationSPLASCH-23" name="BSJ-ObservationSPLASCH-23"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-24" key="Observation-BSJ-ObservationSPLASCH-24" name="BSJ-ObservationSPLASCH-24"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-25" key="Observation-BSJ-ObservationSPLASCH-25" name="BSJ-ObservationSPLASCH-25"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-26" key="Observation-BSJ-ObservationSPLASCH-26" name="BSJ-ObservationSPLASCH-26"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-27" key="Observation-BSJ-ObservationSPLASCH-27" name="BSJ-ObservationSPLASCH-27"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-28" key="Observation-BSJ-ObservationSPLASCH-28" name="BSJ-ObservationSPLASCH-28"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-29" key="Observation-BSJ-ObservationSPLASCH-29" name="BSJ-ObservationSPLASCH-29"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-30" key="Observation-BSJ-ObservationSPLASCH-30" name="BSJ-ObservationSPLASCH-30"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-31" key="Observation-BSJ-ObservationSPLASCH-31" name="BSJ-ObservationSPLASCH-31"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-32" key="Observation-BSJ-ObservationSPLASCH-32" name="BSJ-ObservationSPLASCH-32"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-33" key="Observation-BSJ-ObservationSPLASCH-33" name="BSJ-ObservationSPLASCH-33"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-34" key="Observation-BSJ-ObservationSPLASCH-34" name="BSJ-ObservationSPLASCH-34"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-35" key="Observation-BSJ-ObservationSPLASCH-35" name="BSJ-ObservationSPLASCH-35"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-36" key="Observation-BSJ-ObservationSPLASCH-36" name="BSJ-ObservationSPLASCH-36"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-37" key="Observation-BSJ-ObservationSPLASCH-37" name="BSJ-ObservationSPLASCH-37"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-38" key="Observation-BSJ-ObservationSPLASCH-38" name="BSJ-ObservationSPLASCH-38"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-39" key="Observation-BSJ-ObservationSPLASCH-39" name="BSJ-ObservationSPLASCH-39"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-40" key="Observation-BSJ-ObservationSPLASCH-40" name="BSJ-ObservationSPLASCH-40"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-41" key="Observation-BSJ-ObservationSPLASCH-41" name="BSJ-ObservationSPLASCH-41"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-42" key="Observation-BSJ-ObservationSPLASCH-42" name="BSJ-ObservationSPLASCH-42"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-43" key="Observation-BSJ-ObservationSPLASCH-43" name="BSJ-ObservationSPLASCH-43"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-44" key="Observation-BSJ-ObservationSPLASCH-44" name="BSJ-ObservationSPLASCH-44"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-45" key="Observation-BSJ-ObservationSPLASCH-45" name="BSJ-ObservationSPLASCH-45"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-46" key="Observation-BSJ-ObservationSPLASCH-46" name="BSJ-ObservationSPLASCH-46"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-47" key="Observation-BSJ-ObservationSPLASCH-47" name="BSJ-ObservationSPLASCH-47"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-48" key="Observation-BSJ-ObservationSPLASCH-48" name="BSJ-ObservationSPLASCH-48"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-49" key="Observation-BSJ-ObservationSPLASCH-49" name="BSJ-ObservationSPLASCH-49"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-50" key="Observation-BSJ-ObservationSPLASCH-50" name="BSJ-ObservationSPLASCH-50"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-51" key="Observation-BSJ-ObservationSPLASCH-51" name="BSJ-ObservationSPLASCH-51"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-52" key="Observation-BSJ-ObservationSPLASCH-52" name="BSJ-ObservationSPLASCH-52"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-53" key="Observation-BSJ-ObservationSPLASCH-53" name="BSJ-ObservationSPLASCH-53"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-54" key="Observation-BSJ-ObservationSPLASCH-54" name="BSJ-ObservationSPLASCH-54"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-55" key="Observation-BSJ-ObservationSPLASCH-55" name="BSJ-ObservationSPLASCH-55"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-56" key="Observation-BSJ-ObservationSPLASCH-56" name="BSJ-ObservationSPLASCH-56"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-57" key="Observation-BSJ-ObservationSPLASCH-57" name="BSJ-ObservationSPLASCH-57"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-58" key="Observation-BSJ-ObservationSPLASCH-58" name="BSJ-ObservationSPLASCH-58"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-59" key="Observation-BSJ-ObservationSPLASCH-59" name="BSJ-ObservationSPLASCH-59"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-60" key="Observation-BSJ-ObservationSPLASCH-60" name="BSJ-ObservationSPLASCH-60"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-61" key="Observation-BSJ-ObservationSPLASCH-61" name="BSJ-ObservationSPLASCH-61"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-62" key="Observation-BSJ-ObservationSPLASCH-62" name="BSJ-ObservationSPLASCH-62"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-63" key="Observation-BSJ-ObservationSPLASCH-63" name="BSJ-ObservationSPLASCH-63"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-64" key="Observation-BSJ-ObservationSPLASCH-64" name="BSJ-ObservationSPLASCH-64"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-65" key="Observation-BSJ-ObservationSPLASCH-65" name="BSJ-ObservationSPLASCH-65"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-66" key="Observation-BSJ-ObservationSPLASCH-66" name="BSJ-ObservationSPLASCH-66"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-67" key="Observation-BSJ-ObservationSPLASCH-67" name="BSJ-ObservationSPLASCH-67"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-68" key="Observation-BSJ-ObservationSPLASCH-68" name="BSJ-ObservationSPLASCH-68"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-69" key="Observation-BSJ-ObservationSPLASCH-69" name="BSJ-ObservationSPLASCH-69"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-70" key="Observation-BSJ-ObservationSPLASCH-70" name="BSJ-ObservationSPLASCH-70"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-71" key="Observation-BSJ-ObservationSPLASCH-71" name="BSJ-ObservationSPLASCH-71"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-72" key="Observation-BSJ-ObservationSPLASCH-72" name="BSJ-ObservationSPLASCH-72"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-73" key="Observation-BSJ-ObservationSPLASCH-73" name="BSJ-ObservationSPLASCH-73"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-74" key="Observation-BSJ-ObservationSPLASCH-74" name="BSJ-ObservationSPLASCH-74"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-75" key="Observation-BSJ-ObservationSPLASCH-75" name="BSJ-ObservationSPLASCH-75"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-76" key="Observation-BSJ-ObservationSPLASCH-76" name="BSJ-ObservationSPLASCH-76"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-77" key="Observation-BSJ-ObservationSPLASCH-77" name="BSJ-ObservationSPLASCH-77"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-78" key="Observation-BSJ-ObservationSPLASCH-78" name="BSJ-ObservationSPLASCH-78"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-79" key="Observation-BSJ-ObservationSPLASCH-79" name="BSJ-ObservationSPLASCH-79"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-80" key="Observation-BSJ-ObservationSPLASCH-80" name="BSJ-ObservationSPLASCH-80"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-81" key="Observation-BSJ-ObservationSPLASCH-81" name="BSJ-ObservationSPLASCH-81"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-82" key="Observation-BSJ-ObservationSPLASCH-82" name="BSJ-ObservationSPLASCH-82"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-83" key="Observation-BSJ-ObservationSPLASCH-83" name="BSJ-ObservationSPLASCH-83"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-84" key="Observation-BSJ-ObservationSPLASCH-84" name="BSJ-ObservationSPLASCH-84"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-85" key="Observation-BSJ-ObservationSPLASCH-85" name="BSJ-ObservationSPLASCH-85"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-86" key="Observation-BSJ-ObservationSPLASCH-86" name="BSJ-ObservationSPLASCH-86"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-87" key="Observation-BSJ-ObservationSPLASCH-87" name="BSJ-ObservationSPLASCH-87"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-88" key="Observation-BSJ-ObservationSPLASCH-88" name="BSJ-ObservationSPLASCH-88"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-89" key="Observation-BSJ-ObservationSPLASCH-89" name="BSJ-ObservationSPLASCH-89"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-90" key="Observation-BSJ-ObservationSPLASCH-90" name="BSJ-ObservationSPLASCH-90"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-91" key="Observation-BSJ-ObservationSPLASCH-91" name="BSJ-ObservationSPLASCH-91"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-92" key="Observation-BSJ-ObservationSPLASCH-92" name="BSJ-ObservationSPLASCH-92"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-93" key="Observation-BSJ-ObservationSPLASCH-93" name="BSJ-ObservationSPLASCH-93"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-94" key="Observation-BSJ-ObservationSPLASCH-94" name="BSJ-ObservationSPLASCH-94"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-95" key="Observation-BSJ-ObservationSPLASCH-95" name="BSJ-ObservationSPLASCH-95"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-96" key="Observation-BSJ-ObservationSPLASCH-96" name="BSJ-ObservationSPLASCH-96"/>
+<artifact id="Patient/BSJ-patientBSJ1" key="Patient-BSJ-patientBSJ1" name="BSJ-patientBSJ1"/>
 <artifact deprecated="true" id="StructureDefinition/clinicalImpression" key="StructureDefinition-clinicalImpression" name="BasedOnClinicalImpression"/>
 <artifact id="ValueSet/SPLASCHCaloriePercentageTypeObservationVS" key="ValueSet-SPLASCHCaloriePercentageTypeObservationVS" name="Calorie Percentage Type Observation"/>
 <artifact deprecated="true" id="ClinicalImpression/ClinicalImpression-1" key="ClinicalImpression-ClinicalImpression-1" name="ClinicalImpression-1"/>
@@ -139,14 +236,21 @@
 <artifact id="CodeSystem/SPLASCHLiquidDietCS" key="CodeSystem-SPLASCHLiquidDietCS" name="Observation Value Liquid Diet Codes"/>
 <artifact id="CodeSystem/SPLASCHSolidDietCS" key="CodeSystem-SPLASCHSolidDietCS" name="Observation Value Solid Diet Codes"/>
 <artifact id="CodeSystem/SPLASCHTimePercentageCategoryCS" key="CodeSystem-SPLASCHTimePercentageCategoryCS" name="Observation Value Time Percentage Category Codes"/>
+<artifact id="Practitioner/Practitioner-AndyLavande" key="Practitioner-Practitioner-AndyLavande" name="Practitioner-AndyLavande"/>
 <artifact deprecated="true" id="Practitioner/Practitioner-DanielGranger" key="Practitioner-Practitioner-DanielGranger" name="Practitioner-DanielGranger"/>
+<artifact id="Practitioner/Practitioner-HarryPutter" key="Practitioner-Practitioner-HarryPutter" name="Practitioner-HarryPutter"/>
+<artifact id="Practitioner/Practitioner-HoneyJones" key="Practitioner-Practitioner-HoneyJones" name="Practitioner-HoneyJones"/>
 <artifact deprecated="true" id="Practitioner/Practitioner-JacobHartwell" key="Practitioner-Practitioner-JacobHartwell" name="Practitioner-JacobHartwell"/>
 <artifact deprecated="true" id="Practitioner/Practitioner-JenCadbury" key="Practitioner-Practitioner-JenCadbury" name="Practitioner-JenCadbury"/>
-<artifact deprecated="true" id="Practitioner/Practitioner-JohnSmith" key="Practitioner-Practitioner-JohnSmith" name="Practitioner-JohnSmith"/>
+<artifact id="Practitioner/Practitioner-JenniferWhite" key="Practitioner-Practitioner-JenniferWhite" name="Practitioner-JenniferWhite"/>
+<artifact id="Practitioner/Practitioner-JennyGrant" key="Practitioner-Practitioner-JennyGrant" name="Practitioner-JennyGrant"/>
+<artifact id="Practitioner/Practitioner-JohnSmith" key="Practitioner-Practitioner-JohnSmith" name="Practitioner-JohnSmith"/>
+<artifact id="Practitioner/Practitioner-LaylaRobbins" key="Practitioner-Practitioner-LaylaRobbins" name="Practitioner-LaylaRobbins"/>
 <artifact deprecated="true" id="Practitioner/Practitioner-LiaNguyen" key="Practitioner-Practitioner-LiaNguyen" name="Practitioner-LiaNguyen"/>
-<artifact deprecated="true" id="Practitioner/Practitioner-LunaBaskins" key="Practitioner-Practitioner-LunaBaskins" name="Practitioner-LunaBaskins"/>
-<artifact deprecated="true" id="Practitioner/Practitioner-NoraOlogist" key="Practitioner-Practitioner-NoraOlogist" name="Practitioner-NoraOlogist"/>
+<artifact id="Practitioner/Practitioner-LunaBaskins" key="Practitioner-Practitioner-LunaBaskins" name="Practitioner-LunaBaskins"/>
+<artifact id="Practitioner/Practitioner-NoraOlogist" key="Practitioner-Practitioner-NoraOlogist" name="Practitioner-NoraOlogist"/>
 <artifact deprecated="true" id="Practitioner/Practitioner-ScottDumble" key="Practitioner-Practitioner-ScottDumble" name="Practitioner-ScottDumble"/>
+<artifact id="Practitioner/Practitioner-ShaunLongbottom" key="Practitioner-Practitioner-ShaunLongbottom" name="Practitioner-ShaunLongbottom"/>
 <artifact deprecated="true" id="Practitioner/Practitioner-SummerJohnson" key="Practitioner-Practitioner-SummerJohnson" name="Practitioner-SummerJohnson"/>
 <artifact deprecated="true" id="Practitioner/Practitioner-TamaraRodriguez" key="Practitioner-Practitioner-TamaraRodriguez" name="Practitioner-TamaraRodriguez"/>
 <artifact deprecated="true" id="Organization/Provider-Org-1" key="Organization-Provider-Org-1" name="Provider-Org-1"/>

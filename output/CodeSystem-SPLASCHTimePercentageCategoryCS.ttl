@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "SPLASCHTimePercentageCategoryCS"];
   fhir:CodeSystem.title [ fhir:value "Observation Value Time Percentage Category Codes"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-12-10T13:11:15-05:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-12-15T22:58:34-05:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "HL7 Patient Care Working Group"];
   fhir:CodeSystem.contact [
      fhir:index 0;

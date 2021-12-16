@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "SPLASCHCaloriePercentageTypeObservationVS"];
   fhir:ValueSet.title [ fhir:value "Calorie Percentage Type Observation"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-12-10T13:11:15-05:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-12-15T22:58:34-05:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "HL7 Patient Care Working Group"];
   fhir:ValueSet.contact [
      fhir:index 0;

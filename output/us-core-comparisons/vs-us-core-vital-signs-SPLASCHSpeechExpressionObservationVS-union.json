@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "21384384-339a-4624-8d8b-5a0f2215e0a6-86",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/21384384-339a-4624-8d8b-5a0f2215e0a6-86",
+  "id" : "ef3c724b-5e5b-4099-abfc-979b6a1b940b-86",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/ef3c724b-5e5b-4099-abfc-979b6a1b940b-86",
   "name" : "UnionUsCoreVitalSignsAndSPLASCHSpeechExpressionObservationVS",
   "title" : "Union of US Core Vital Signs ValueSet And Speech Expression Observation",
   "status" : "active",
-  "date" : "2021-12-10T13:12:23-05:00",
+  "date" : "2021-12-15T22:59:32-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

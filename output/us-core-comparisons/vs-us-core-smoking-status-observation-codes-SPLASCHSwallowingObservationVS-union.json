@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "21384384-339a-4624-8d8b-5a0f2215e0a6-227",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/21384384-339a-4624-8d8b-5a0f2215e0a6-227",
+  "id" : "ef3c724b-5e5b-4099-abfc-979b6a1b940b-227",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/ef3c724b-5e5b-4099-abfc-979b6a1b940b-227",
   "name" : "UnionUSCoreSmokingStatusObservationCodesAndSPLASCHSwallowingObservationVS",
   "title" : "Union of US Core Smoking Status Observation Codes And Swallowing Observation",
   "status" : "active",
-  "date" : "2021-12-10T13:12:24-05:00",
+  "date" : "2021-12-15T22:59:33-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -24,7 +24,7 @@
     "contains" : [{
       "system" : "http://loinc.org",
       "code" : "72166-2",
-      "display" : "Tobacco smoking status"
+      "display" : "Tobacco smoking status NHIS"
     },
     {
       "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS",
