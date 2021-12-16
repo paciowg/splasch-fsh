@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "ef3c724b-5e5b-4099-abfc-979b6a1b940b-192",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ef3c724b-5e5b-4099-abfc-979b6a1b940b-192",
+  "id" : "41267390-569a-4345-846c-384ca4709449-192",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/41267390-569a-4345-846c-384ca4709449-192",
   "name" : "IntersectionUSCoreClinicalTestResultObservationProfileAndSwallowingObservation",
   "title" : "Intersection of US Core Clinical Test Result Observation Profile And Swallowing Observation",
   "status" : "active",
-  "date" : "2021-12-15T22:59:33-05:00",
+  "date" : "2021-12-16T13:40:49-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -576,7 +576,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ef3c724b-5e5b-4099-abfc-979b6a1b940b-195"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/41267390-569a-4345-846c-384ca4709449-195"
       },
       "mapping" : [{
         "identity" : "workflow",

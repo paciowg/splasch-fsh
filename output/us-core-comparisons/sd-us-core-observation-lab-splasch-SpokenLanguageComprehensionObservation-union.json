@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "ef3c724b-5e5b-4099-abfc-979b6a1b940b-47",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ef3c724b-5e5b-4099-abfc-979b6a1b940b-47",
+  "id" : "41267390-569a-4345-846c-384ca4709449-47",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/41267390-569a-4345-846c-384ca4709449-47",
   "name" : "UnionUSCoreLaboratoryResultObservationProfileAndSpokenLanguageComprehensionObservation",
   "title" : "Union of US Core Laboratory Result Observation Profile And Spoken Language Comprehension Observation",
   "status" : "active",
-  "date" : "2021-12-15T22:59:32-05:00",
+  "date" : "2021-12-16T13:40:49-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -575,7 +575,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "LOINC codes",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ef3c724b-5e5b-4099-abfc-979b6a1b940b-50"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/41267390-569a-4345-846c-384ca4709449-50"
       },
       "mapping" : [{
         "identity" : "workflow",

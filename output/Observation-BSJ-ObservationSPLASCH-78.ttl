@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "BSJ-ObservationSPLASCH-78"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"BSJ-ObservationSPLASCH-78\" </p></div><p><b>status</b>: final</p><p><b>category</b>: Spoken language expression <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHObservationCategoryCS.html\">SPLASCH Observation Category Codes</a>#spoken-language-expression)</span></p><p><b>code</b>: Participate in communication without assistance <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHSpeechExpressionObservationCS.html\">Speech Expression Observation Codes</a>#communicate-without-assistance)</span></p><p><b>subject</b>: <a href=\"Patient-BSJ-patientBSJ1.html\">Patient/BSJ-patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2021-12-02T12:28:00-05:00</p><p><b>performer</b>: <a href=\"Practitioner-Practitioner-LunaBaskins.html\">Practitioner/Practitioner-LunaBaskins</a> \" BASKINS\"</p><p><b>value</b>: Never <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SPLASCHFrequencyCS#LA6270-8)</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"BSJ-ObservationSPLASCH-78\" </p></div><p><b>status</b>: final</p><p><b>category</b>: Spoken language expression <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHObservationCategoryCS.html\">SPLASCH Observation Category Codes</a>#spoken-language-expression)</span></p><p><b>code</b>: Participate in communication without assistance <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHSpeechExpressionObservationCS.html\">Speech Expression Observation Codes</a>#communicate-without-assistance)</span></p><p><b>subject</b>: <a href=\"Patient-BSJ-patientBSJ1.html\">Patient/BSJ-patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2020-07-07T15:00:00-05:00</p><p><b>performer</b>: <a href=\"Practitioner-Practitioner-LunaBaskins.html\">Practitioner/Practitioner-LunaBaskins</a> \" BASKINS\"</p><p><b>value</b>: Rarely <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SPLASCHFrequencyCS#LA10066-1)</span></p></div>"
   ];
   fhir:Observation.status [ fhir:value "final"];
   fhir:Observation.category [
@@ -34,7 +34,7 @@
      fhir:link <http://hl7.org/fhir/us/pacio-splasch/Patient/BSJ-patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/BSJ-patientBSJ1" ]
   ];
-  fhir:Observation.effectiveDateTime [ fhir:value "2021-12-02T12:28:00-05:00"^^xsd:dateTime];
+  fhir:Observation.effectiveDateTime [ fhir:value "2020-07-07T15:00:00-05:00"^^xsd:dateTime];
   fhir:Observation.performer [
      fhir:index 0;
      fhir:link <http://hl7.org/fhir/us/pacio-splasch/Practitioner/Practitioner-LunaBaskins>;
@@ -44,8 +44,8 @@
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS" ];
-       fhir:Coding.code [ fhir:value "LA6270-8" ];
-       fhir:Coding.display [ fhir:value "Never" ]
+       fhir:Coding.code [ fhir:value "LA10066-1" ];
+       fhir:Coding.display [ fhir:value "Rarely" ]
      ]
   ] .
 

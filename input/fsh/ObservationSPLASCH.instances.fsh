@@ -17,11 +17,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-44"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-45
@@ -36,11 +36,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-45"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-46
@@ -55,11 +55,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-46"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-47
@@ -74,11 +74,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-47"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10082-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
 
 
 Instance: BSJ-ObservationSPLASCH-40
@@ -93,11 +93,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-40"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-41
@@ -112,11 +112,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-41"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-42
@@ -131,11 +131,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-42"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-43
@@ -150,11 +150,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-43"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-48
@@ -169,11 +169,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-48"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10082-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
 
 
 Instance: BSJ-ObservationSPLASCH-49
@@ -188,11 +188,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-49"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-31
@@ -207,11 +207,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-31"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 76-90-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#76-90-percent "76-90% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-30
@@ -226,11 +226,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-30"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-33
@@ -245,11 +245,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-33"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-32
@@ -264,11 +264,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-32"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 76-90-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#76-90-percent "76-90% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-35
@@ -283,11 +283,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-35"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-34
@@ -302,11 +302,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-34"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-37
@@ -321,11 +321,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-37"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-36
@@ -340,11 +340,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-36"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-39
@@ -359,11 +359,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-39"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-38
@@ -378,11 +378,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-38"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-22
@@ -397,11 +397,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-22"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-23
@@ -416,11 +416,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-23"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value LA10044-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10044-8 "Often"
 
 
 Instance: BSJ-ObservationSPLASCH-20
@@ -435,11 +435,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-20"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-21
@@ -454,11 +454,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-21"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-26
@@ -473,7 +473,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-26"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA6270-8 - Do Not Remove from template
@@ -492,7 +492,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-27"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA6270-8 - Do Not Remove from template
@@ -511,11 +511,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-24"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value LA10044-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10044-8 "Often"
 
 
 Instance: BSJ-ObservationSPLASCH-25
@@ -530,7 +530,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-25"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA6270-8 - Do Not Remove from template
@@ -549,11 +549,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-28"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-29
@@ -568,11 +568,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-29"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-96
@@ -587,11 +587,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-96"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-95
@@ -606,11 +606,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-95"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-94
@@ -625,11 +625,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-94"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10082-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
 
 
 Instance: BSJ-ObservationSPLASCH-93
@@ -644,11 +644,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-93"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10082-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
 
 
 Instance: BSJ-ObservationSPLASCH-92
@@ -663,11 +663,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-92"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10082-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
 
 
 Instance: BSJ-ObservationSPLASCH-91
@@ -682,11 +682,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-91"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10082-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
 
 
 Instance: BSJ-ObservationSPLASCH-90
@@ -701,11 +701,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-90"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10082-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
 
 
 Instance: BSJ-ObservationSPLASCH-19
@@ -720,11 +720,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-19"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-18
@@ -739,11 +739,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-18"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-17
@@ -758,11 +758,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-17"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-16
@@ -777,11 +777,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-16"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-15
@@ -796,11 +796,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-15"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-14
@@ -815,11 +815,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-14"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value LA10082-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
 
 
 Instance: BSJ-ObservationSPLASCH-13
@@ -834,11 +834,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-13"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value LA10082-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
 
 
 Instance: BSJ-ObservationSPLASCH-12
@@ -853,11 +853,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-12"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value LA10082-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
 
 
 Instance: BSJ-ObservationSPLASCH-11
@@ -872,11 +872,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-11"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-10
@@ -891,11 +891,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-10"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-80
@@ -910,11 +910,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-80"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-81
@@ -929,11 +929,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-81"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-82
@@ -948,11 +948,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-82"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-83
@@ -967,11 +967,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-83"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-84
@@ -986,11 +986,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-84"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-85
@@ -1005,11 +1005,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-85"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-86
@@ -1024,11 +1024,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-86"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-87
@@ -1043,11 +1043,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-87"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-88
@@ -1062,11 +1062,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-88"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-89
@@ -1081,11 +1081,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-89"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10082-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
 
 
 Instance: BSJ-ObservationSPLASCH-08
@@ -1100,11 +1100,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-08"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value LA10082-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
 
 
 Instance: BSJ-ObservationSPLASCH-09
@@ -1119,11 +1119,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-09"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-01
@@ -1157,11 +1157,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-02"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-03
@@ -1176,11 +1176,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-03"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-04
@@ -1195,11 +1195,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-04"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value LA10082-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
 
 
 Instance: BSJ-ObservationSPLASCH-05
@@ -1214,11 +1214,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-05"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value LA10082-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
 
 
 Instance: BSJ-ObservationSPLASCH-06
@@ -1233,11 +1233,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-06"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value LA10082-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
 
 
 Instance: BSJ-ObservationSPLASCH-07
@@ -1252,11 +1252,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-07"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 0-25-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#0-25-percent "0-25% of the time"
+// Pre-load value LA10082-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
 
 
 Instance: BSJ-ObservationSPLASCH-79
@@ -1271,11 +1271,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-79"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-78
@@ -1290,11 +1290,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-78"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-75
@@ -1309,11 +1309,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-75"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-74
@@ -1328,11 +1328,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-74"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-77
@@ -1347,11 +1347,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-77"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-76
@@ -1366,11 +1366,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-76"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-71
@@ -1385,11 +1385,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-71"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-70
@@ -1404,11 +1404,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-70"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-73
@@ -1423,11 +1423,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-73"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-72
@@ -1442,11 +1442,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-72"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-68
@@ -1461,11 +1461,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-68"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-69
@@ -1480,11 +1480,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-69"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-66
@@ -1499,11 +1499,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-66"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-67
@@ -1518,11 +1518,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-67"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-64
@@ -1537,11 +1537,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-64"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-65
@@ -1556,11 +1556,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-65"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-62
@@ -1575,11 +1575,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-62"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-63
@@ -1594,11 +1594,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-63"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-60
@@ -1613,11 +1613,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-60"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-61
@@ -1632,11 +1632,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-61"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-59
@@ -1651,11 +1651,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-59"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-58
@@ -1670,11 +1670,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-58"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-53
@@ -1689,11 +1689,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-53"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-52
@@ -1708,11 +1708,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-52"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-51
@@ -1727,11 +1727,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-51"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-50
@@ -1746,11 +1746,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-50"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-57
@@ -1765,11 +1765,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-57"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-56
@@ -1784,11 +1784,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-56"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10082-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
 
 
 Instance: BSJ-ObservationSPLASCH-55
@@ -1803,11 +1803,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-55"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10082-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
 
 
 Instance: BSJ-ObservationSPLASCH-54
@@ -1822,8 +1822,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-54"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-12-02T12:28:00-05:00"
+* effectiveDateTime = "2020-07-07T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA6270-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA6270-8 "Never"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"

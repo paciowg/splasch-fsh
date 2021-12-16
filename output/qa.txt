@@ -1,9 +1,9 @@
 ﻿PACIOReAssessmentTimepoints : Validation Results
 =========================================
 
-err = 150, warn = 7, info = 96
-IG Publisher Version: 1.1.88 Out of date - current version is 1.1.90
-Generated Wed Dec 15 23:01:09 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-splasch#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-splasch)
+err = 106, warn = 7, info = 96
+IG Publisher Version: 1.1.88 Out of date - current version is 1.1.91
+Generated Thu Dec 16 13:42:21 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-splasch#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-splasch)
  Build Errors : 1 / 1 / 0
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHCaloriePercentageCategoryCS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHLiquidDietCS : 0 / 0 / 1
@@ -15,19 +15,19 @@ Generated Wed Dec 15 23:01:09 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHTimePercentageCategoryCS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ImplementationGuide-hl7.fhir.us.pacio-splasch : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-01 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-02 : 0 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-03 : 0 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-04 : 0 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-05 : 0 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-06 : 0 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-07 : 0 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-08 : 0 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-09 : 0 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-10 : 0 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-11 : 0 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-12 : 0 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-13 : 0 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-14 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-02 : 2 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-03 : 2 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-04 : 2 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-05 : 2 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-06 : 2 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-07 : 2 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-08 : 2 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-09 : 2 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-10 : 2 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-11 : 2 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-12 : 2 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-13 : 2 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-14 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-15 : 0 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-16 : 0 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-17 : 0 / 0 / 2
@@ -36,30 +36,30 @@ Generated Wed Dec 15 23:01:09 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-20 : 0 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-21 : 0 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-22 : 0 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-23 : 0 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-24 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-23 : 2 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-24 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-25 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-26 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-27 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-28 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-29 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-30 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-31 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-32 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-33 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-34 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-35 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-36 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-37 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-38 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-39 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-40 : 2 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-28 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-29 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-30 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-31 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-32 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-33 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-34 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-35 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-36 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-37 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-38 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-39 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-40 : 0 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-41 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-42 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-43 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-44 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-45 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-46 : 2 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-44 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-45 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-46 : 0 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-47 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-48 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-49 : 2 / 0 / 2
@@ -76,32 +76,32 @@ Generated Wed Dec 15 23:01:09 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-60 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-61 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-62 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-63 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-64 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-65 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-66 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-67 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-68 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-69 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-70 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-71 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-72 : 2 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-63 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-64 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-65 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-66 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-67 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-68 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-69 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-70 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-71 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-72 : 0 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-73 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-74 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-75 : 2 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-75 : 0 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-76 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-77 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-78 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-79 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-80 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-81 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-82 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-83 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-84 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-85 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-86 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-87 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-88 : 2 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-79 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-80 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-81 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-82 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-83 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-84 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-85 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-86 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-87 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-88 : 0 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-89 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-90 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-91 : 2 / 0 / 2
@@ -153,30 +153,56 @@ ERROR: Observation/BSJ-ObservationSPLASCH-01: Observation.value.ofType(CodeableC
 ERROR: Observation/BSJ-ObservationSPLASCH-01: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-02.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-02: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
+ERROR: Observation/BSJ-ObservationSPLASCH-02: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
+ERROR: Observation/BSJ-ObservationSPLASCH-02: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-03.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-03: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
+ERROR: Observation/BSJ-ObservationSPLASCH-03: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
+ERROR: Observation/BSJ-ObservationSPLASCH-03: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-04.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-04: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
+ERROR: Observation/BSJ-ObservationSPLASCH-04: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
+ERROR: Observation/BSJ-ObservationSPLASCH-04: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-05.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-05: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
+ERROR: Observation/BSJ-ObservationSPLASCH-05: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
+ERROR: Observation/BSJ-ObservationSPLASCH-05: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-06.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-06: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
+ERROR: Observation/BSJ-ObservationSPLASCH-06: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
+ERROR: Observation/BSJ-ObservationSPLASCH-06: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-07.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-07: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#swallowing)
+ERROR: Observation/BSJ-ObservationSPLASCH-07: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
+ERROR: Observation/BSJ-ObservationSPLASCH-07: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-08.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-08: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#swallowing)
+ERROR: Observation/BSJ-ObservationSPLASCH-08: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
+ERROR: Observation/BSJ-ObservationSPLASCH-08: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-09.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-09: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
+ERROR: Observation/BSJ-ObservationSPLASCH-09: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
+ERROR: Observation/BSJ-ObservationSPLASCH-09: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-10.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-10: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
+ERROR: Observation/BSJ-ObservationSPLASCH-10: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
+ERROR: Observation/BSJ-ObservationSPLASCH-10: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-11.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-11: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
+ERROR: Observation/BSJ-ObservationSPLASCH-11: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
+ERROR: Observation/BSJ-ObservationSPLASCH-11: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-12.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-12: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
+ERROR: Observation/BSJ-ObservationSPLASCH-12: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
+ERROR: Observation/BSJ-ObservationSPLASCH-12: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-13.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-13: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
+ERROR: Observation/BSJ-ObservationSPLASCH-13: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
+ERROR: Observation/BSJ-ObservationSPLASCH-13: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-14.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-14: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
+ERROR: Observation/BSJ-ObservationSPLASCH-14: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
+ERROR: Observation/BSJ-ObservationSPLASCH-14: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-15.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-15: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#swallowing)
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-16.json ==
@@ -195,8 +221,12 @@ INFORMATION: Observation/BSJ-ObservationSPLASCH-21: Observation.category[0]: Non
 INFORMATION: Observation/BSJ-ObservationSPLASCH-22: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-23.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-23: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#swallowing)
+ERROR: Observation/BSJ-ObservationSPLASCH-23: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
+ERROR: Observation/BSJ-ObservationSPLASCH-23: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-24.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-24: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#swallowing)
+ERROR: Observation/BSJ-ObservationSPLASCH-24: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
+ERROR: Observation/BSJ-ObservationSPLASCH-24: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-25.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-25: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
 ERROR: Observation/BSJ-ObservationSPLASCH-25: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
@@ -211,56 +241,30 @@ ERROR: Observation/BSJ-ObservationSPLASCH-27: Observation.value.ofType(CodeableC
 ERROR: Observation/BSJ-ObservationSPLASCH-27: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-28.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-28: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
-ERROR: Observation/BSJ-ObservationSPLASCH-28: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-28: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-29.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-29: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
-ERROR: Observation/BSJ-ObservationSPLASCH-29: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-29: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-30.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-30: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
-ERROR: Observation/BSJ-ObservationSPLASCH-30: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-30: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-31.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-31: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#swallowing)
-ERROR: Observation/BSJ-ObservationSPLASCH-31: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-31: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-32.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-32: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#swallowing)
-ERROR: Observation/BSJ-ObservationSPLASCH-32: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-32: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-33.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-33: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
-ERROR: Observation/BSJ-ObservationSPLASCH-33: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-33: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-34.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-34: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
-ERROR: Observation/BSJ-ObservationSPLASCH-34: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-34: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-35.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-35: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
-ERROR: Observation/BSJ-ObservationSPLASCH-35: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-35: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-36.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-36: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
-ERROR: Observation/BSJ-ObservationSPLASCH-36: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-36: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-37.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-37: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
-ERROR: Observation/BSJ-ObservationSPLASCH-37: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-37: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-38.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-38: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
-ERROR: Observation/BSJ-ObservationSPLASCH-38: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-38: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-39.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-39: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#swallowing)
-ERROR: Observation/BSJ-ObservationSPLASCH-39: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-39: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-40.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-40: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#swallowing)
-ERROR: Observation/BSJ-ObservationSPLASCH-40: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-40: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-41.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-41: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
 ERROR: Observation/BSJ-ObservationSPLASCH-41: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
@@ -275,16 +279,10 @@ ERROR: Observation/BSJ-ObservationSPLASCH-43: Observation.value.ofType(CodeableC
 ERROR: Observation/BSJ-ObservationSPLASCH-43: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-44.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-44: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
-ERROR: Observation/BSJ-ObservationSPLASCH-44: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-44: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-45.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-45: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
-ERROR: Observation/BSJ-ObservationSPLASCH-45: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-45: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-46.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-46: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
-ERROR: Observation/BSJ-ObservationSPLASCH-46: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-46: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-47.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-47: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#swallowing)
 ERROR: Observation/BSJ-ObservationSPLASCH-47: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
@@ -351,44 +349,24 @@ ERROR: Observation/BSJ-ObservationSPLASCH-62: Observation.value.ofType(CodeableC
 ERROR: Observation/BSJ-ObservationSPLASCH-62: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-63.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-63: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#swallowing)
-ERROR: Observation/BSJ-ObservationSPLASCH-63: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-63: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-64.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-64: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#swallowing)
-ERROR: Observation/BSJ-ObservationSPLASCH-64: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-64: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-65.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-65: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
-ERROR: Observation/BSJ-ObservationSPLASCH-65: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-65: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-66.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-66: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
-ERROR: Observation/BSJ-ObservationSPLASCH-66: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-66: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-67.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-67: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
-ERROR: Observation/BSJ-ObservationSPLASCH-67: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-67: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-68.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-68: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
-ERROR: Observation/BSJ-ObservationSPLASCH-68: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-68: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-69.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-69: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
-ERROR: Observation/BSJ-ObservationSPLASCH-69: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-69: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-70.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-70: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
-ERROR: Observation/BSJ-ObservationSPLASCH-70: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-70: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-71.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-71: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#swallowing)
-ERROR: Observation/BSJ-ObservationSPLASCH-71: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-71: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-72.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-72: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#swallowing)
-ERROR: Observation/BSJ-ObservationSPLASCH-72: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-72: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-73.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-73: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
 ERROR: Observation/BSJ-ObservationSPLASCH-73: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
@@ -399,8 +377,6 @@ ERROR: Observation/BSJ-ObservationSPLASCH-74: Observation.value.ofType(CodeableC
 ERROR: Observation/BSJ-ObservationSPLASCH-74: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-75.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-75: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
-ERROR: Observation/BSJ-ObservationSPLASCH-75: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-75: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-76.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-76: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
 ERROR: Observation/BSJ-ObservationSPLASCH-76: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
@@ -415,44 +391,24 @@ ERROR: Observation/BSJ-ObservationSPLASCH-78: Observation.value.ofType(CodeableC
 ERROR: Observation/BSJ-ObservationSPLASCH-78: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-79.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-79: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#swallowing)
-ERROR: Observation/BSJ-ObservationSPLASCH-79: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-79: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-80.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-80: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#swallowing)
-ERROR: Observation/BSJ-ObservationSPLASCH-80: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-80: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-81.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-81: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
-ERROR: Observation/BSJ-ObservationSPLASCH-81: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-81: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-82.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-82: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
-ERROR: Observation/BSJ-ObservationSPLASCH-82: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-82: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-83.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-83: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
-ERROR: Observation/BSJ-ObservationSPLASCH-83: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-83: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-84.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-84: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
-ERROR: Observation/BSJ-ObservationSPLASCH-84: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-84: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-85.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-85: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
-ERROR: Observation/BSJ-ObservationSPLASCH-85: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-85: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-86.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-86: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
-ERROR: Observation/BSJ-ObservationSPLASCH-86: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-86: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-87.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-87: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#swallowing)
-ERROR: Observation/BSJ-ObservationSPLASCH-87: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-87: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-88.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-88: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#swallowing)
-ERROR: Observation/BSJ-ObservationSPLASCH-88: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
-ERROR: Observation/BSJ-ObservationSPLASCH-88: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-89.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-89: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
 ERROR: Observation/BSJ-ObservationSPLASCH-89: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'

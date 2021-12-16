@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "ef3c724b-5e5b-4099-abfc-979b6a1b940b-141",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ef3c724b-5e5b-4099-abfc-979b6a1b940b-141",
+  "id" : "41267390-569a-4345-846c-384ca4709449-141",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/41267390-569a-4345-846c-384ca4709449-141",
   "name" : "IntersectionUSCoreObservationSocialHistoryAssessmentAndSpokenLanguageExpressionObservation",
   "title" : "Intersection of US Core Social History Assessment Observation Profile And Spoken Language Expression Observation",
   "status" : "active",
-  "date" : "2021-12-15T22:59:32-05:00",
+  "date" : "2021-12-16T13:40:49-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
