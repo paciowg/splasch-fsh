@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "41267390-569a-4345-846c-384ca4709449-123",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/41267390-569a-4345-846c-384ca4709449-123",
+  "id" : "00e4871a-fc10-4e30-bfa7-f89a1a61368a-123",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/00e4871a-fc10-4e30-bfa7-f89a1a61368a-123",
   "name" : "IntersectionUSCoreImagingResultObservationProfileAndSpokenLanguageExpressionObservation",
   "title" : "Intersection of US Core Imaging Result Observation Profile And Spoken Language Expression Observation",
   "status" : "active",
-  "date" : "2021-12-16T13:40:49-05:00",
+  "date" : "2021-12-20T13:34:40-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -576,7 +576,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/41267390-569a-4345-846c-384ca4709449-120"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/00e4871a-fc10-4e30-bfa7-f89a1a61368a-120"
       },
       "mapping" : [{
         "identity" : "workflow",

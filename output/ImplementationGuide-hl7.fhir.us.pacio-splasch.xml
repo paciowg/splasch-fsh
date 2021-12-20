@@ -11,7 +11,7 @@
   <name value="PACIOReAssessmentTimepoints"/>
   <title value="PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-12-16T13:39:40-05:00"/>
+  <date value="2021-12-20T13:33:32-05:00"/>
   <publisher value="HL7 Patient Care Working Group"/>
   <contact>
     <name value="HL7 Patient Care Working Group"/>
@@ -566,6 +566,17 @@
       </reference>
       <name value="BSJ-ObservationSPLASCH-10"/>
       <description value="An instance of SPLASCH Observation ObservationSPLASCH-10"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-100"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-100"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-100"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -1516,6 +1527,39 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-97"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-97"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-97"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-98"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-98"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-98"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BSJ-ObservationSPLASCH-99"/>
+      </reference>
+      <name value="BSJ-ObservationSPLASCH-99"/>
+      <description value="An instance of SPLASCH Observation ObservationSPLASCH-99"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Patient"/>
       </extension>
       <reference>
@@ -1527,12 +1571,34 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/Organization-Hospital"/>
+      </reference>
+      <name value="Organization-Hospital"/>
+      <description value="An instance of Organization"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/Organization-Skilled-Nursing-Facility"/>
+      </reference>
+      <name value="Organization-Skilled-Nursing-Facility"/>
+      <description value="An instance of Organization"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Practitioner"/>
       </extension>
       <reference>
-        <reference value="Practitioner/Practitioner-AndyLavande"/>
+        <reference value="Practitioner/Practitioner-AlexChen"/>
       </reference>
-      <name value="Practitioner-AndyLavande"/>
+      <name value="Practitioner-AlexChen"/>
       <description value="An instance of Practitioner"/>
       <exampleBoolean value="true"/>
     </resource>
@@ -1541,9 +1607,9 @@
         <valueString value="Practitioner"/>
       </extension>
       <reference>
-        <reference value="Practitioner/Practitioner-HarryPutter"/>
+        <reference value="Practitioner/Practitioner-CharlesAdebayo"/>
       </reference>
-      <name value="Practitioner-HarryPutter"/>
+      <name value="Practitioner-CharlesAdebayo"/>
       <description value="An instance of Practitioner"/>
       <exampleBoolean value="true"/>
     </resource>
@@ -1552,9 +1618,9 @@
         <valueString value="Practitioner"/>
       </extension>
       <reference>
-        <reference value="Practitioner/Practitioner-HoneyJones"/>
+        <reference value="Practitioner/Practitioner-DeborahStein"/>
       </reference>
-      <name value="Practitioner-HoneyJones"/>
+      <name value="Practitioner-DeborahStein"/>
       <description value="An instance of Practitioner"/>
       <exampleBoolean value="true"/>
     </resource>
@@ -1563,9 +1629,9 @@
         <valueString value="Practitioner"/>
       </extension>
       <reference>
-        <reference value="Practitioner/Practitioner-JenniferWhite"/>
+        <reference value="Practitioner/Practitioner-EmanuelWitt"/>
       </reference>
-      <name value="Practitioner-JenniferWhite"/>
+      <name value="Practitioner-EmanuelWitt"/>
       <description value="An instance of Practitioner"/>
       <exampleBoolean value="true"/>
     </resource>
@@ -1574,9 +1640,9 @@
         <valueString value="Practitioner"/>
       </extension>
       <reference>
-        <reference value="Practitioner/Practitioner-JennyGrant"/>
+        <reference value="Practitioner/Practitioner-JennyGlass"/>
       </reference>
-      <name value="Practitioner-JennyGrant"/>
+      <name value="Practitioner-JennyGlass"/>
       <description value="An instance of Practitioner"/>
       <exampleBoolean value="true"/>
     </resource>
@@ -1585,9 +1651,9 @@
         <valueString value="Practitioner"/>
       </extension>
       <reference>
-        <reference value="Practitioner/Practitioner-JohnSmith"/>
+        <reference value="Practitioner/Practitioner-JudySmiley"/>
       </reference>
-      <name value="Practitioner-JohnSmith"/>
+      <name value="Practitioner-JudySmiley"/>
       <description value="An instance of Practitioner"/>
       <exampleBoolean value="true"/>
     </resource>
@@ -1596,9 +1662,9 @@
         <valueString value="Practitioner"/>
       </extension>
       <reference>
-        <reference value="Practitioner/Practitioner-LaylaRobbins"/>
+        <reference value="Practitioner/Practitioner-NaomiMerrill"/>
       </reference>
-      <name value="Practitioner-LaylaRobbins"/>
+      <name value="Practitioner-NaomiMerrill"/>
       <description value="An instance of Practitioner"/>
       <exampleBoolean value="true"/>
     </resource>
@@ -1607,9 +1673,9 @@
         <valueString value="Practitioner"/>
       </extension>
       <reference>
-        <reference value="Practitioner/Practitioner-LunaBaskins"/>
+        <reference value="Practitioner/Practitioner-RachelAlbertson"/>
       </reference>
-      <name value="Practitioner-LunaBaskins"/>
+      <name value="Practitioner-RachelAlbertson"/>
       <description value="An instance of Practitioner"/>
       <exampleBoolean value="true"/>
     </resource>
@@ -1618,9 +1684,9 @@
         <valueString value="Practitioner"/>
       </extension>
       <reference>
-        <reference value="Practitioner/Practitioner-NoraOlogist"/>
+        <reference value="Practitioner/Practitioner-RileyDelgrego"/>
       </reference>
-      <name value="Practitioner-NoraOlogist"/>
+      <name value="Practitioner-RileyDelgrego"/>
       <description value="An instance of Practitioner"/>
       <exampleBoolean value="true"/>
     </resource>
@@ -1629,10 +1695,120 @@
         <valueString value="Practitioner"/>
       </extension>
       <reference>
-        <reference value="Practitioner/Practitioner-ShaunLongbottom"/>
+        <reference value="Practitioner/Practitioner-RonMarble"/>
       </reference>
-      <name value="Practitioner-ShaunLongbottom"/>
+      <name value="Practitioner-RonMarble"/>
       <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/Provider-role-AlexChen"/>
+      </reference>
+      <name value="Provider-role-AlexChen"/>
+      <description value="An instance of PractitionerRole"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/Provider-role-CharlesAdebayo"/>
+      </reference>
+      <name value="Provider-role-CharlesAdebayo"/>
+      <description value="An instance of PractitionerRole"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/Provider-role-DeborahStein"/>
+      </reference>
+      <name value="Provider-role-DeborahStein"/>
+      <description value="An instance of PractitionerRole"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/Provider-role-EmanuelWitt"/>
+      </reference>
+      <name value="Provider-role-EmanuelWitt"/>
+      <description value="An instance of PractitionerRole"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/Provider-role-JennyGlass"/>
+      </reference>
+      <name value="Provider-role-JennyGlass"/>
+      <description value="An instance of PractitionerRole"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/Provider-role-JudySmiley"/>
+      </reference>
+      <name value="Provider-role-JudySmiley"/>
+      <description value="An instance of PractitionerRole"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/Provider-role-NaomiMerrill"/>
+      </reference>
+      <name value="Provider-role-NaomiMerrill"/>
+      <description value="An instance of PractitionerRole"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/Provider-role-RachelAlbertson"/>
+      </reference>
+      <name value="Provider-role-RachelAlbertson"/>
+      <description value="An instance of PractitionerRole"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/Provider-role-RileyDelgrego"/>
+      </reference>
+      <name value="Provider-role-RileyDelgrego"/>
+      <description value="An instance of PractitionerRole"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/Provider-role-RonMarble"/>
+      </reference>
+      <name value="Provider-role-RonMarble"/>
+      <description value="An instance of PractitionerRole"/>
       <exampleBoolean value="true"/>
     </resource>
     <page>

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "41267390-569a-4345-846c-384ca4709449-189",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/41267390-569a-4345-846c-384ca4709449-189",
+  "id" : "00e4871a-fc10-4e30-bfa7-f89a1a61368a-189",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/00e4871a-fc10-4e30-bfa7-f89a1a61368a-189",
   "name" : "IntersectionUSCoreHeartRateProfileAndSwallowingObservation",
   "title" : "Intersection of US Core Heart Rate Profile And Swallowing Observation",
   "status" : "active",
-  "date" : "2021-12-16T13:40:49-05:00",
+  "date" : "2021-12-20T13:34:40-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/41267390-569a-4345-846c-384ca4709449-162"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/00e4871a-fc10-4e30-bfa7-f89a1a61368a-162"
       },
       "mapping" : [{
         "identity" : "workflow",

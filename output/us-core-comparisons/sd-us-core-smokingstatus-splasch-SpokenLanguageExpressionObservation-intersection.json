@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "41267390-569a-4345-846c-384ca4709449-150",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/41267390-569a-4345-846c-384ca4709449-150",
+  "id" : "00e4871a-fc10-4e30-bfa7-f89a1a61368a-150",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/00e4871a-fc10-4e30-bfa7-f89a1a61368a-150",
   "name" : "IntersectionUSCoreSmokingStatusProfileAndSpokenLanguageExpressionObservation",
   "title" : "Intersection of US Core Smoking Status Observation Profile And Spoken Language Expression Observation",
   "status" : "active",
-  "date" : "2021-12-16T13:40:49-05:00",
+  "date" : "2021-12-20T13:34:40-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -486,7 +486,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Codes providing the status of an observation.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/41267390-569a-4345-846c-384ca4709449-75"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/00e4871a-fc10-4e30-bfa7-f89a1a61368a-75"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -578,7 +578,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/41267390-569a-4345-846c-384ca4709449-153"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/00e4871a-fc10-4e30-bfa7-f89a1a61368a-153"
       },
       "mapping" : [{
         "identity" : "workflow",

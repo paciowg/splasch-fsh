@@ -17,11 +17,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-44"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T11:42:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 26-49-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-45
@@ -36,11 +36,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-45"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T11:42:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 26-49-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-46
@@ -55,11 +55,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-46"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T11:42:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 26-49-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-47
@@ -74,7 +74,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-47"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T11:42:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
@@ -93,7 +93,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-40"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-11T11:20:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
@@ -112,7 +112,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-41"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T11:42:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -131,7 +131,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-42"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T11:42:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -150,7 +150,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-43"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T11:42:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -169,7 +169,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-48"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T11:42:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
@@ -188,7 +188,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-49"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T13:32:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -207,11 +207,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-31"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-09T10:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 76-90-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#76-90-percent "76-90% of the time"
+// Pre-load value LA10044-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10044-8 "Often"
 
 
 Instance: BSJ-ObservationSPLASCH-30
@@ -226,11 +226,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-30"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-09T10:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 50-75-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-33
@@ -245,7 +245,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-33"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-11T11:20:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
@@ -264,11 +264,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-32"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-09T10:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 76-90-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#76-90-percent "76-90% of the time"
+// Pre-load value LA10044-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10044-8 "Often"
 
 
 Instance: BSJ-ObservationSPLASCH-35
@@ -283,7 +283,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-35"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-11T11:20:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
@@ -302,7 +302,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-34"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-11T11:20:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
@@ -321,7 +321,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-37"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-11T11:20:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
@@ -340,7 +340,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-36"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-11T11:20:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
@@ -359,7 +359,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-39"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-11T11:20:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
@@ -378,7 +378,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-38"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-11T11:20:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
@@ -390,14 +390,14 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-22"
 
 * status = #final
-* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
+* category = SPLASCHCAT#swallowing "Swallowing"
 
-// Pre-load code express-communication-without-assistance - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#communicate-without-assistance "Participate in communication without assistance"
+// Pre-load code assistance-swallowing-safety - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS#assistance-swallowing-safety "Require assistance or supervision for swallowing safety"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-08T09:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
@@ -416,11 +416,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-23"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-09T08:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA10044-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10044-8 "Often"
+// Pre-load value 76-90-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#76-90-percent "76-90% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-20
@@ -430,12 +430,12 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-20"
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
 
-// Pre-load code verbal-form-high-demand - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#verbal-form-high-demand "Produce verbal messages with appropriate form in high demand situations"
+// Pre-load code express-communication-without-assistance - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#communicate-without-assistance "Participate in communication without assistance"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-08T09:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
@@ -447,14 +447,14 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-21"
 
 * status = #final
-* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
+* category = SPLASCHCAT#swallowing "Swallowing"
 
-// Pre-load code verbal-content-high-demand - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#verbal-content-high-demand "Produce verbal messages with appropriate content in high demand situations"
+// Pre-load code oral-containment-secretion-difficulty - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS#oral-containment-secretion-difficulty "Difficulties with oral containment or secretion management"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-08T09:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
@@ -473,7 +473,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-26"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-09T10:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA6270-8 - Do Not Remove from template
@@ -492,7 +492,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-27"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-09T10:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA6270-8 - Do Not Remove from template
@@ -511,11 +511,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-24"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-09T08:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA10044-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10044-8 "Often"
+// Pre-load value 76-90-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#76-90-percent "76-90% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-25
@@ -530,7 +530,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-25"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-09T10:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA6270-8 - Do Not Remove from template
@@ -549,11 +549,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-28"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-09T10:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 50-75-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-29
@@ -568,11 +568,30 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-29"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-09T10:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 50-75-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
+
+
+Instance: BSJ-ObservationSPLASCH-97
+InstanceOf: Observation
+Description: "An instance of SPLASCH Observation ObservationSPLASCH-97"
+
+* status = #final
+* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
+
+// Pre-load code verbal-content-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#verbal-content-high-demand "Produce verbal messages with appropriate content in high demand situations"
+
+* subject = Reference(BSJ-patientBSJ1)
+
+* effectiveDateTime = "2020-07-31T10:20:00-05:00"
+* performer = Reference(Practitioner-LunaBaskins)
+
+// Pre-load value LA10082-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
 
 
 Instance: BSJ-ObservationSPLASCH-96
@@ -580,18 +599,18 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-96"
 
 * status = #final
-* category = SPLASCHCAT#swallowing "Swallowing"
+* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
 
-// Pre-load code assistance-swallowing-safety - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS#assistance-swallowing-safety "Require assistance or supervision for swallowing safety"
+// Pre-load code verbal-form-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#verbal-form-high-demand "Produce verbal messages with appropriate form in high demand situations"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-31T10:20:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA10066-1 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
+// Pre-load value LA10082-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
 
 
 Instance: BSJ-ObservationSPLASCH-95
@@ -599,18 +618,18 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-95"
 
 * status = #final
-* category = SPLASCHCAT#swallowing "Swallowing"
+* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
 
-// Pre-load code oral-containment-secretion-difficulty - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS#oral-containment-secretion-difficulty "Difficulties with oral containment or secretion management"
+// Pre-load code comprehend-communication-without-assistance - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#communicate-without-assistance "Participate in communication without assistance"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-31T10:20:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA10066-1 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
+// Pre-load value LA10082-8 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
 
 
 Instance: BSJ-ObservationSPLASCH-94
@@ -618,14 +637,14 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-94"
 
 * status = #final
-* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
+* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
 
-// Pre-load code express-communication-without-assistance - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#communicate-without-assistance "Participate in communication without assistance"
+// Pre-load code understand-complex-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#understand-complex-high-demand "Understand complex messages in high demand situations"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-31T10:20:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
@@ -637,14 +656,14 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-93"
 
 * status = #final
-* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
+* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
 
-// Pre-load code verbal-content-high-demand - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#verbal-content-high-demand "Produce verbal messages with appropriate content in high demand situations"
+// Pre-load code understand-simple-routine-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#understand-simple-routine-high-demand "Understand simple messages in routine high demand situations"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-31T10:20:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
@@ -656,18 +675,18 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-92"
 
 * status = #final
-* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
+* category = SPLASCHCAT#swallowing "Swallowing"
 
-// Pre-load code verbal-form-high-demand - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#verbal-form-high-demand "Produce verbal messages with appropriate form in high demand situations"
+// Pre-load code assistance-swallowing-safety - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS#assistance-swallowing-safety "Require assistance or supervision for swallowing safety"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-30T15:15:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA10082-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-91
@@ -675,18 +694,18 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-91"
 
 * status = #final
-* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
+* category = SPLASCHCAT#swallowing "Swallowing"
 
-// Pre-load code comprehend-communication-without-assistance - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#communicate-without-assistance "Participate in communication without assistance"
+// Pre-load code oral-containment-secretion-difficulty - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS#oral-containment-secretion-difficulty "Difficulties with oral containment or secretion management"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-30T15:15:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA10082-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-90
@@ -694,14 +713,52 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-90"
 
 * status = #final
-* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
+* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
 
-// Pre-load code understand-complex-high-demand - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#understand-complex-high-demand "Understand complex messages in high demand situations"
+// Pre-load code express-communication-without-assistance - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#communicate-without-assistance "Participate in communication without assistance"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-30T15:15:00-05:00"
+* performer = Reference(Practitioner-LunaBaskins)
+
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
+
+
+Instance: BSJ-ObservationSPLASCH-99
+InstanceOf: Observation
+Description: "An instance of SPLASCH Observation ObservationSPLASCH-99"
+
+* status = #final
+* category = SPLASCHCAT#swallowing "Swallowing"
+
+// Pre-load code oral-containment-secretion-difficulty - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS#oral-containment-secretion-difficulty "Difficulties with oral containment or secretion management"
+
+* subject = Reference(BSJ-patientBSJ1)
+
+* effectiveDateTime = "2020-07-31T10:20:00-05:00"
+* performer = Reference(Practitioner-LunaBaskins)
+
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
+
+
+Instance: BSJ-ObservationSPLASCH-98
+InstanceOf: Observation
+Description: "An instance of SPLASCH Observation ObservationSPLASCH-98"
+
+* status = #final
+* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
+
+// Pre-load code express-communication-without-assistance - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#communicate-without-assistance "Participate in communication without assistance"
+
+* subject = Reference(BSJ-patientBSJ1)
+
+* effectiveDateTime = "2020-07-31T10:20:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
@@ -713,18 +770,18 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-19"
 
 * status = #final
-* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
+* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
 
-// Pre-load code comprehend-communication-without-assistance - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#communicate-without-assistance "Participate in communication without assistance"
+// Pre-load code verbal-content-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#verbal-content-high-demand "Produce verbal messages with appropriate content in high demand situations"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-08T09:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 26-49-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-18
@@ -732,18 +789,18 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-18"
 
 * status = #final
-* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
+* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
 
-// Pre-load code understand-complex-high-demand - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#understand-complex-high-demand "Understand complex messages in high demand situations"
+// Pre-load code verbal-form-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#verbal-form-high-demand "Produce verbal messages with appropriate form in high demand situations"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-08T09:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 26-49-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-17
@@ -753,12 +810,12 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-17"
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
 
-// Pre-load code understand-simple-routine-high-demand - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#understand-simple-routine-high-demand "Understand simple messages in routine high demand situations"
+// Pre-load code comprehend-communication-without-assistance - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#communicate-without-assistance "Participate in communication without assistance"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-08T09:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
@@ -770,18 +827,18 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-16"
 
 * status = #final
-* category = SPLASCHCAT#swallowing "Swallowing"
+* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
 
-// Pre-load code assistance-swallowing-safety - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS#assistance-swallowing-safety "Require assistance or supervision for swallowing safety"
+// Pre-load code understand-complex-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#understand-complex-high-demand "Understand complex messages in high demand situations"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-08T09:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 50-75-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-15
@@ -789,18 +846,18 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-15"
 
 * status = #final
-* category = SPLASCHCAT#swallowing "Swallowing"
+* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
 
-// Pre-load code oral-containment-secretion-difficulty - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS#oral-containment-secretion-difficulty "Difficulties with oral containment or secretion management"
+// Pre-load code understand-simple-routine-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#understand-simple-routine-high-demand "Understand simple messages in routine high demand situations"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-08T09:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 50-75-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-14
@@ -815,11 +872,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-14"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-08T08:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA10082-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-13
@@ -834,11 +891,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-13"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-08T08:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA10082-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-12
@@ -853,11 +910,11 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-12"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-08T08:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA10082-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-11
@@ -872,7 +929,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-11"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-08T08:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -891,7 +948,26 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-10"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-08T08:00:00-05:00"
+* performer = Reference(Practitioner-LunaBaskins)
+
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
+
+
+Instance: BSJ-ObservationSPLASCH-100
+InstanceOf: Observation
+Description: "An instance of SPLASCH Observation ObservationSPLASCH-100"
+
+* status = #final
+* category = SPLASCHCAT#swallowing "Swallowing"
+
+// Pre-load code assistance-swallowing-safety - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS#assistance-swallowing-safety "Require assistance or supervision for swallowing safety"
+
+* subject = Reference(BSJ-patientBSJ1)
+
+* effectiveDateTime = "2020-07-31T10:20:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -903,18 +979,18 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-80"
 
 * status = #final
-* category = SPLASCHCAT#swallowing "Swallowing"
+* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
 
-// Pre-load code assistance-swallowing-safety - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS#assistance-swallowing-safety "Require assistance or supervision for swallowing safety"
+// Pre-load code verbal-form-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#verbal-form-high-demand "Produce verbal messages with appropriate form in high demand situations"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-26T08:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 26-49-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-81
@@ -922,14 +998,14 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-81"
 
 * status = #final
-* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
+* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
 
-// Pre-load code understand-simple-routine-high-demand - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#understand-simple-routine-high-demand "Understand simple messages in routine high demand situations"
+// Pre-load code verbal-content-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#verbal-content-high-demand "Produce verbal messages with appropriate content in high demand situations"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-26T08:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
@@ -941,14 +1017,14 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-82"
 
 * status = #final
-* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
+* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
 
-// Pre-load code understand-complex-high-demand - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#understand-complex-high-demand "Understand complex messages in high demand situations"
+// Pre-load code express-communication-without-assistance - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#communicate-without-assistance "Participate in communication without assistance"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-26T08:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
@@ -960,18 +1036,18 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-83"
 
 * status = #final
-* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
+* category = SPLASCHCAT#swallowing "Swallowing"
 
-// Pre-load code comprehend-communication-without-assistance - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#communicate-without-assistance "Participate in communication without assistance"
+// Pre-load code oral-containment-secretion-difficulty - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS#oral-containment-secretion-difficulty "Difficulties with oral containment or secretion management"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-26T08:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 50-75-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-84
@@ -979,18 +1055,18 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-84"
 
 * status = #final
-* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
+* category = SPLASCHCAT#swallowing "Swallowing"
 
-// Pre-load code verbal-form-high-demand - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#verbal-form-high-demand "Produce verbal messages with appropriate form in high demand situations"
+// Pre-load code assistance-swallowing-safety - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS#assistance-swallowing-safety "Require assistance or supervision for swallowing safety"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-26T08:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 50-75-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-85
@@ -998,14 +1074,14 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-85"
 
 * status = #final
-* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
+* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
 
-// Pre-load code verbal-content-high-demand - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#verbal-content-high-demand "Produce verbal messages with appropriate content in high demand situations"
+// Pre-load code understand-simple-routine-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#understand-simple-routine-high-demand "Understand simple messages in routine high demand situations"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-30T15:15:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
@@ -1017,14 +1093,14 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-86"
 
 * status = #final
-* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
+* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
 
-// Pre-load code express-communication-without-assistance - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#communicate-without-assistance "Participate in communication without assistance"
+// Pre-load code understand-complex-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#understand-complex-high-demand "Understand complex messages in high demand situations"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-30T15:15:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
@@ -1036,18 +1112,18 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-87"
 
 * status = #final
-* category = SPLASCHCAT#swallowing "Swallowing"
+* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
 
-// Pre-load code oral-containment-secretion-difficulty - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS#oral-containment-secretion-difficulty "Difficulties with oral containment or secretion management"
+// Pre-load code comprehend-communication-without-assistance - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#communicate-without-assistance "Participate in communication without assistance"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-30T15:15:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 26-49-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-88
@@ -1055,18 +1131,18 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-88"
 
 * status = #final
-* category = SPLASCHCAT#swallowing "Swallowing"
+* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
 
-// Pre-load code assistance-swallowing-safety - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS#assistance-swallowing-safety "Require assistance or supervision for swallowing safety"
+// Pre-load code verbal-form-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#verbal-form-high-demand "Produce verbal messages with appropriate form in high demand situations"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-30T15:15:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 26-49-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-89
@@ -1074,18 +1150,18 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-89"
 
 * status = #final
-* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
+* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
 
-// Pre-load code understand-simple-routine-high-demand - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#understand-simple-routine-high-demand "Understand simple messages in routine high demand situations"
+// Pre-load code verbal-content-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#verbal-content-high-demand "Produce verbal messages with appropriate content in high demand situations"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-30T15:15:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA10082-8 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-08
@@ -1100,7 +1176,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-08"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-07T19:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
@@ -1119,7 +1195,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-09"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-08T08:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1138,7 +1214,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-01"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-07T19:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1157,7 +1233,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-02"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-07T19:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1176,7 +1252,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-03"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-07T19:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1195,7 +1271,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-04"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-07T19:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
@@ -1214,7 +1290,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-05"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-07T19:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
@@ -1233,7 +1309,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-06"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-07T19:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
@@ -1252,7 +1328,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-07"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-07T19:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
@@ -1264,44 +1340,6 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-79"
 
 * status = #final
-* category = SPLASCHCAT#swallowing "Swallowing"
-
-// Pre-load code oral-containment-secretion-difficulty - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS#oral-containment-secretion-difficulty "Difficulties with oral containment or secretion management"
-
-* subject = Reference(BSJ-patientBSJ1)
-
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
-* performer = Reference(Practitioner-LunaBaskins)
-
-// Pre-load value 26-49-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
-
-
-Instance: BSJ-ObservationSPLASCH-78
-InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-78"
-
-* status = #final
-* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
-
-// Pre-load code express-communication-without-assistance - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#communicate-without-assistance "Participate in communication without assistance"
-
-* subject = Reference(BSJ-patientBSJ1)
-
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
-* performer = Reference(Practitioner-LunaBaskins)
-
-// Pre-load value LA10066-1 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
-
-
-Instance: BSJ-ObservationSPLASCH-75
-InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-75"
-
-* status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
 
 // Pre-load code comprehend-communication-without-assistance - Do Not Remove from template
@@ -1309,16 +1347,16 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-75"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-26T08:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 26-49-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
-Instance: BSJ-ObservationSPLASCH-74
+Instance: BSJ-ObservationSPLASCH-78
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-74"
+Description: "An instance of SPLASCH Observation ObservationSPLASCH-78"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -1328,7 +1366,45 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-74"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-26T08:00:00-05:00"
+* performer = Reference(Practitioner-LunaBaskins)
+
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
+
+
+Instance: BSJ-ObservationSPLASCH-75
+InstanceOf: Observation
+Description: "An instance of SPLASCH Observation ObservationSPLASCH-75"
+
+* status = #final
+* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
+
+// Pre-load code verbal-content-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#verbal-content-high-demand "Produce verbal messages with appropriate content in high demand situations"
+
+* subject = Reference(BSJ-patientBSJ1)
+
+* effectiveDateTime = "2020-07-13T10:35:00-05:00"
+* performer = Reference(Practitioner-LunaBaskins)
+
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
+
+
+Instance: BSJ-ObservationSPLASCH-74
+InstanceOf: Observation
+Description: "An instance of SPLASCH Observation ObservationSPLASCH-74"
+
+* status = #final
+* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
+
+// Pre-load code verbal-form-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#verbal-form-high-demand "Produce verbal messages with appropriate form in high demand situations"
+
+* subject = Reference(BSJ-patientBSJ1)
+
+* effectiveDateTime = "2020-07-13T10:35:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1340,18 +1416,18 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-77"
 
 * status = #final
-* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
+* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
 
-// Pre-load code verbal-content-high-demand - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#verbal-content-high-demand "Produce verbal messages with appropriate content in high demand situations"
+// Pre-load code understand-simple-routine-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#understand-simple-routine-high-demand "Understand simple messages in routine high demand situations"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-26T08:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value LA10066-1 - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-76
@@ -1361,12 +1437,12 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-76"
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
 
-// Pre-load code verbal-form-high-demand - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#verbal-form-high-demand "Produce verbal messages with appropriate form in high demand situations"
+// Pre-load code express-communication-without-assistance - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#communicate-without-assistance "Participate in communication without assistance"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-13T10:35:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1378,18 +1454,18 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-71"
 
 * status = #final
-* category = SPLASCHCAT#swallowing "Swallowing"
+* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
 
-// Pre-load code oral-containment-secretion-difficulty - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS#oral-containment-secretion-difficulty "Difficulties with oral containment or secretion management"
+// Pre-load code understand-simple-routine-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#understand-simple-routine-high-demand "Understand simple messages in routine high demand situations"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-13T10:35:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 26-49-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-70
@@ -1397,18 +1473,18 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-70"
 
 * status = #final
-* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
+* category = SPLASCHCAT#swallowing "Swallowing"
 
-// Pre-load code express-communication-without-assistance - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#communicate-without-assistance "Participate in communication without assistance"
+// Pre-load code assistance-swallowing-safety - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS#assistance-swallowing-safety "Require assistance or supervision for swallowing safety"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T16:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 26-49-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-73
@@ -1418,12 +1494,12 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-73"
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
 
-// Pre-load code understand-simple-routine-high-demand - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#understand-simple-routine-high-demand "Understand simple messages in routine high demand situations"
+// Pre-load code comprehend-communication-without-assistance - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#communicate-without-assistance "Participate in communication without assistance"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-13T10:35:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1435,18 +1511,18 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-72"
 
 * status = #final
-* category = SPLASCHCAT#swallowing "Swallowing"
+* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
 
-// Pre-load code assistance-swallowing-safety - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS#assistance-swallowing-safety "Require assistance or supervision for swallowing safety"
+// Pre-load code understand-complex-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#understand-complex-high-demand "Understand complex messages in high demand situations"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-13T10:35:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 26-49-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
+// Pre-load value LA10066-1 - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
 
 
 Instance: BSJ-ObservationSPLASCH-68
@@ -1456,12 +1532,12 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-68"
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
 
-// Pre-load code verbal-form-high-demand - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#verbal-form-high-demand "Produce verbal messages with appropriate form in high demand situations"
+// Pre-load code express-communication-without-assistance - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#communicate-without-assistance "Participate in communication without assistance"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T16:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
@@ -1473,18 +1549,18 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-69"
 
 * status = #final
-* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
+* category = SPLASCHCAT#swallowing "Swallowing"
 
-// Pre-load code verbal-content-high-demand - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#verbal-content-high-demand "Produce verbal messages with appropriate content in high demand situations"
+// Pre-load code oral-containment-secretion-difficulty - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS#oral-containment-secretion-difficulty "Difficulties with oral containment or secretion management"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T16:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 26-49-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
+// Pre-load value 50-75-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-66
@@ -1492,14 +1568,14 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-66"
 
 * status = #final
-* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
+* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
 
-// Pre-load code understand-complex-high-demand - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#understand-complex-high-demand "Understand complex messages in high demand situations"
+// Pre-load code verbal-form-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#verbal-form-high-demand "Produce verbal messages with appropriate form in high demand situations"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T16:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
@@ -1511,14 +1587,14 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-67"
 
 * status = #final
-* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
+* category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
 
-// Pre-load code comprehend-communication-without-assistance - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#communicate-without-assistance "Participate in communication without assistance"
+// Pre-load code verbal-content-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS#verbal-content-high-demand "Produce verbal messages with appropriate content in high demand situations"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T16:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
@@ -1530,18 +1606,18 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-64"
 
 * status = #final
-* category = SPLASCHCAT#swallowing "Swallowing"
+* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
 
-// Pre-load code assistance-swallowing-safety - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS#assistance-swallowing-safety "Require assistance or supervision for swallowing safety"
+// Pre-load code understand-complex-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#understand-complex-high-demand "Understand complex messages in high demand situations"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T16:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 50-75-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-65
@@ -1551,12 +1627,12 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-65"
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
 
-// Pre-load code understand-simple-routine-high-demand - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#understand-simple-routine-high-demand "Understand simple messages in routine high demand situations"
+// Pre-load code comprehend-communication-without-assistance - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#communicate-without-assistance "Participate in communication without assistance"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T16:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
@@ -1575,7 +1651,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-62"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1587,18 +1663,18 @@ InstanceOf: Observation
 Description: "An instance of SPLASCH Observation ObservationSPLASCH-63"
 
 * status = #final
-* category = SPLASCHCAT#swallowing "Swallowing"
+* category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
 
-// Pre-load code oral-containment-secretion-difficulty - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS#oral-containment-secretion-difficulty "Difficulties with oral containment or secretion management"
+// Pre-load code understand-simple-routine-high-demand - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS#understand-simple-routine-high-demand "Understand simple messages in routine high demand situations"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T16:30:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
-// Pre-load value 50-75-percent-time - Do Not Remove from template
-* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
+// Pre-load value 26-49-percent-time - Do Not Remove from template
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
 
 
 Instance: BSJ-ObservationSPLASCH-60
@@ -1613,7 +1689,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-60"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1632,7 +1708,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-61"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1651,7 +1727,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-59"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1670,7 +1746,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-58"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1689,7 +1765,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-53"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T13:32:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1708,7 +1784,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-52"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T13:32:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1727,7 +1803,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-51"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T13:32:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1746,7 +1822,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-50"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T13:32:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1765,7 +1841,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-57"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T15:00:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1784,7 +1860,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-56"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T13:32:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
@@ -1803,7 +1879,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-55"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T13:32:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
@@ -1822,7 +1898,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-54"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2020-07-07T15:00:00-05:00"
+* effectiveDateTime = "2020-07-12T13:32:00-05:00"
 * performer = Reference(Practitioner-LunaBaskins)
 
 // Pre-load value LA10066-1 - Do Not Remove from template

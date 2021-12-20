@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PractitionerRole xmlns="http://hl7.org/fhir">
+  <id value="Provider-role-CharlesAdebayo"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "Provider-role-CharlesAdebayo" </p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href="Practitioner-Practitioner-CharlesAdebayo.html">Practitioner/Practitioner-CharlesAdebayo</a> " ADEBAYO"</p><p><b>code</b>: Speech-Language Pathologist <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (provider-taxonomy#363L00000X)</span></p><p><b>specialty</b>: Speech-Language Pathologist <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (provider-taxonomy#363L00000X)</span></p></div>
+  </text>
+  <active value="true"/>
+  <practitioner>
+    <reference value="Practitioner/Practitioner-CharlesAdebayo"/>
+  </practitioner>
+  <code>
+    <coding>
+      <system value="http://nucc.org/provider-taxonomy"/>
+      <code value="363L00000X"/>
+      <display value="Speech-Language Pathologist"/>
+    </coding>
+  </code>
+  <specialty>
+    <coding>
+      <system value="http://nucc.org/provider-taxonomy"/>
+      <code value="363L00000X"/>
+      <display value="Speech-Language Pathologist"/>
+    </coding>
+  </specialty>
+</PractitionerRole>

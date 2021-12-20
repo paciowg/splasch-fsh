@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "BSJ-ObservationSPLASCH-48"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"BSJ-ObservationSPLASCH-48\" </p></div><p><b>status</b>: final</p><p><b>category</b>: Swallowing <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHObservationCategoryCS.html\">SPLASCH Observation Category Codes</a>#swallowing)</span></p><p><b>code</b>: Require assistance or supervision for swallowing safety <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHSwallowingObservationCS.html\">Swallowing Observation Codes</a>#assistance-swallowing-safety)</span></p><p><b>subject</b>: <a href=\"Patient-BSJ-patientBSJ1.html\">Patient/BSJ-patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2020-07-07T15:00:00-05:00</p><p><b>performer</b>: <a href=\"Practitioner-Practitioner-LunaBaskins.html\">Practitioner/Practitioner-LunaBaskins</a> \" BASKINS\"</p><p><b>value</b>: Sometimes <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SPLASCHFrequencyCS#LA10082-8)</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"BSJ-ObservationSPLASCH-48\" </p></div><p><b>status</b>: final</p><p><b>category</b>: Swallowing <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHObservationCategoryCS.html\">SPLASCH Observation Category Codes</a>#swallowing)</span></p><p><b>code</b>: Require assistance or supervision for swallowing safety <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHSwallowingObservationCS.html\">Swallowing Observation Codes</a>#assistance-swallowing-safety)</span></p><p><b>subject</b>: <a href=\"Patient-BSJ-patientBSJ1.html\">Patient/BSJ-patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2020-07-12T11:42:00-05:00</p><p><b>performer</b>: <a href=\"Practitioner-LunaBaskins\">Practitioner-LunaBaskins</a></p><p><b>value</b>: Sometimes <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SPLASCHFrequencyCS#LA10082-8)</span></p></div>"
   ];
   fhir:Observation.status [ fhir:value "final"];
   fhir:Observation.category [
@@ -34,11 +34,10 @@
      fhir:link <http://hl7.org/fhir/us/pacio-splasch/Patient/BSJ-patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/BSJ-patientBSJ1" ]
   ];
-  fhir:Observation.effectiveDateTime [ fhir:value "2020-07-07T15:00:00-05:00"^^xsd:dateTime];
+  fhir:Observation.effectiveDateTime [ fhir:value "2020-07-12T11:42:00-05:00"^^xsd:dateTime];
   fhir:Observation.performer [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/pacio-splasch/Practitioner/Practitioner-LunaBaskins>;
-     fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-LunaBaskins" ]
+     fhir:Reference.reference [ fhir:value "Practitioner-LunaBaskins" ]
   ];
   fhir:Observation.valueCodeableConcept [
      fhir:CodeableConcept.coding [
@@ -50,8 +49,6 @@
   ] .
 
 <http://hl7.org/fhir/us/pacio-splasch/Patient/BSJ-patientBSJ1> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-splasch/Practitioner/Practitioner-LunaBaskins> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 
