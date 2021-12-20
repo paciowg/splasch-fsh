@@ -3,7 +3,7 @@
 
 err = 221, warn = 21, info = 110
 IG Publisher Version: 1.1.88 Out of date - current version is 1.1.92
-Generated Mon Dec 20 13:36:07 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-splasch#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-splasch)
+Generated Mon Dec 20 13:55:15 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-splasch#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-splasch)
  Build Errors : 102 / 1 / 0
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHCaloriePercentageCategoryCS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHLiquidDietCS : 0 / 0 / 1

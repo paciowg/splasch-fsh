@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "00e4871a-fc10-4e30-bfa7-f89a1a61368a-62",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/00e4871a-fc10-4e30-bfa7-f89a1a61368a-62",
+  "id" : "9c55deb2-e95f-48b4-9c4c-701e643bf65c-62",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/9c55deb2-e95f-48b4-9c4c-701e643bf65c-62",
   "name" : "UnionUSCoreObservationSocialHistoryAssessmentAndSpokenLanguageComprehensionObservation",
   "title" : "Union of US Core Social History Assessment Observation Profile And Spoken Language Comprehension Observation",
   "status" : "active",
-  "date" : "2021-12-20T13:34:39-05:00",
+  "date" : "2021-12-20T13:53:42-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -553,7 +553,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/00e4871a-fc10-4e30-bfa7-f89a1a61368a-50"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/9c55deb2-e95f-48b4-9c4c-701e643bf65c-50"
       },
       "mapping" : [{
         "identity" : "workflow",
