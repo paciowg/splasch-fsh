@@ -5,14 +5,14 @@ Alias: SPLASCHCAT = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObser
 //Alias: USCCAT = http://terminology.hl7.org/CodeSystem/observation-category
 
 
-Instance: Organization-Hospital
+Instance: Organization-San-Antonio-General-Hospital
 InstanceOf: Organization
 Description: "An instance of Organization"
-* name = "Saint Polmoni Memorial Hospital"
+* name = "San Antonio General Hospital"
 
 
-Instance: Organization-Skilled-Nursing-Facility
+Instance: Organization-Happy-Nursing-Facility
 InstanceOf: Organization
 Description: "An instance of Organization"
-* name = "Twin Pines Nursing Facility"
+* name = "Happy Nursing Facility"
 

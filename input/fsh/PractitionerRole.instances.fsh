@@ -3,112 +3,141 @@ Alias: PRO-ROLE = http://nucc.org/provider-taxonomy
 Alias: SPECIALTY = http://nucc.org/provider-taxonomy
 
 
-Instance: Provider-role-RachelAlbertson
+Instance: provider-role-speech-language-pathologist-JennyGlass
 InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
-* code = PRO-ROLE#225100000X
-* code.coding.display = "Physical Therapist"
-* specialty = SPECIALTY#225100000X
-* specialty.coding.display = "Physical Therapist"
-* active = true
-* practitioner = Reference(Practitioner-RachelAlbertson)
-
-
-Instance: Provider-role-AlexChen
-InstanceOf: PractitionerRole
-Description: "An instance of PractitionerRole"
-* code = PRO-ROLE#363L00000X
-* code.coding.display = "Speech-Language Pathologist"
-* specialty = SPECIALTY#363L00000X
-* specialty.coding.display = "Speech-Language Pathologist"
-* active = true
-* practitioner = Reference(Practitioner-AlexChen)
-
-
-Instance: Provider-role-CharlesAdebayo
-InstanceOf: PractitionerRole
-Description: "An instance of PractitionerRole"
-* code = PRO-ROLE#363L00000X
-* code.coding.display = "Speech-Language Pathologist"
-* specialty = SPECIALTY#363L00000X
-* specialty.coding.display = "Speech-Language Pathologist"
-* active = true
-* practitioner = Reference(Practitioner-CharlesAdebayo)
-
-
-Instance: Provider-role-RileyDelgrego
-InstanceOf: PractitionerRole
-Description: "An instance of PractitionerRole"
-* code = PRO-ROLE#261QP2300X
-* code.coding.display = "Physician"
-* specialty = SPECIALTY#261QP2300X
-* specialty.coding.display = "Physician"
-* active = true
-* practitioner = Reference(Practitioner-RileyDelgrego)
-
-
-Instance: Provider-role-JudySmiley
-InstanceOf: PractitionerRole
-Description: "An instance of PractitionerRole"
-* code = PRO-ROLE#363L00000X
-* code.coding.display = "Registered Nurse"
-* specialty = SPECIALTY#363L00000X
-* specialty.coding.display = "Registered Nurse"
-* active = true
-* practitioner = Reference(Practitioner-JudySmiley)
-* organization = Reference(provider-org-15)
-
-
-Instance: Provider-role-NaomiMerrill
-InstanceOf: PractitionerRole
-Description: "An instance of PractitionerRole"
-* code = PRO-ROLE#363L00000X
-* code.coding.display = "Occupational Therapist"
-* specialty = SPECIALTY#363L00000X
-* specialty.coding.display = "Occupational Therapist"
-* active = true
-* practitioner = Reference(Practitioner-NaomiMerrill)
-
-
-Instance: Provider-role-EmanuelWitt
-InstanceOf: PractitionerRole
-Description: "An instance of PractitionerRole"
-* code = PRO-ROLE#363L00000X
-* code.coding.display = "Registered Nurse"
-* specialty = SPECIALTY#363L00000X
-* specialty.coding.display = "Registered Nurse"
-* active = true
-* practitioner = Reference(Practitioner-EmanuelWitt)
-
-
-Instance: Provider-role-DeborahStein
-InstanceOf: PractitionerRole
-Description: "An instance of PractitionerRole"
-* code = PRO-ROLE#104100000X
-* code.coding.display = "Social Worker"
-* specialty = SPECIALTY#104100000X
-* specialty.coding.display = "Social Worker"
-* active = true
-* practitioner = Reference(Practitioner-DeborahStein)
-
-
-Instance: Provider-role-JennyGlass
-InstanceOf: PractitionerRole
-Description: "An instance of PractitionerRole"
-* code = PRO-ROLE#363L00000X
-* code.coding.display = "Speech-Language Pathologist"
-* specialty = SPECIALTY#363L00000X
-* specialty.coding.display = "Speech-Language Pathologist"
+* code = PRO-ROLE#235Z00000X
+* code.coding.display = "Speech Language Pathologist"
 * active = true
 * practitioner = Reference(Practitioner-JennyGlass)
+* organization = Reference(Organization-San-Antonio-General-Hospital)
 
 
-Instance: Provider-role-RonMarble
+Instance: provider-role-occupational-therapist-CheriseLangford
+InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
+* code = PRO-ROLE#225X00000X
+* code.coding.display = "Occupational Therapist"
+* active = true
+* practitioner = Reference(Practitioner-CheriseLangford)
+* organization = Reference(Organization-Happy-Nursing-Facility)
+
+
+Instance: provider-role-speech-language-pathologist-AlexanderKuikhoff
+InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
+* code = PRO-ROLE#235Z00000X
+* code.coding.display = "Speech Language Pathologist"
+* active = true
+* practitioner = Reference(Practitioner-AlexanderKuikhoff)
+* organization = Reference(Organization-Happy-Nursing-Facility)
+
+
+Instance: provider-role-speech-language-pathologist-MariaGonzalez
+InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
+* code = PRO-ROLE#235Z00000X
+* code.coding.display = "Speech Language Pathologist"
+* active = true
+* practitioner = Reference(Practitioner-MariaGonzalez)
+* organization = Reference(Organization-Happy-Nursing-Facility)
+
+
+Instance: provider-role-registered-nurse-LiaNguyen
+InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
+* code = PRO-ROLE#163W00000X
+* code.coding.display = "Registered Nurse"
+* active = true
+* practitioner = Reference(Practitioner-LiaNguyen)
+* organization = Reference(Organization-Happy-Nursing-Facility)
+
+
+Instance: provider-role-occupational-therapist-LisaGreene
+InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
+* code = PRO-ROLE#225X00000X
+* code.coding.display = "Occupational Therapist"
+* active = true
+* practitioner = Reference(Practitioner-LisaGreene)
+* organization = Reference(Organization-San-Antonio-General-Hospital)
+
+
+Instance: provider-role-clinical-social-work-RayMancioni
+InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
+* code = PRO-ROLE#1041C0700X
+* code.coding.display = "Clinical Social Worker"
+* active = true
+* practitioner = Reference(Practitioner-RayMancioni)
+* organization = Reference(Organization-Happy-Nursing-Facility)
+
+
+Instance: provider-role-physical-therapist-DanielGranger
 InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
 * code = PRO-ROLE#225100000X
 * code.coding.display = "Physical Therapist"
-* specialty = SPECIALTY#225100000X
-* specialty.coding.display = "Physical Therapist"
+* active = true
+* practitioner = Reference(Practitioner-DanielGranger)
+* organization = Reference(Organization-Happy-Nursing-Facility)
+
+
+Instance: provider-role-physical-therapist-RonMarble
+InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
+* code = PRO-ROLE#225100000X
+* code.coding.display = "Physical Therapist"
 * active = true
 * practitioner = Reference(Practitioner-RonMarble)
+* organization = Reference(Organization-San-Antonio-General-Hospital)
+
+
+Instance: provider-role-hospitalist-DonHopmed
+InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
+* code = PRO-ROLE#208M00000X
+* code.coding.display = "Hospitalist"
+* active = true
+* practitioner = Reference(Practitioner-DonHopmed)
+* organization = Reference(Organization-San-Antonio-General-Hospital)
+
+
+Instance: provider-role-registered-nurse-JudySmiley
+InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
+* code = PRO-ROLE#163W00000X
+* code.coding.display = "Registered Nurse"
+* active = true
+* practitioner = Reference(Practitioner-JudySmiley)
+* organization = Reference(Organization-San-Antonio-General-Hospital)
+
+
+Instance: provider-role-physical-therapist-JenCadbury
+InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
+* code = PRO-ROLE#225100000X
+* code.coding.display = "Physical Therapist"
+* active = true
+* practitioner = Reference(Practitioner-JenCadbury)
+* organization = Reference(Organization-Happy-Nursing-Facility)
+
+
+Instance: provider-role-registered-nurse-SummerJohnson
+InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
+* code = PRO-ROLE#163W00000X
+* code.coding.display = "Registered Nurse"
+* active = true
+* practitioner = Reference(Practitioner-SummerJohnson)
+* organization = Reference(Organization-Happy-Nursing-Facility)
+
+
+Instance: provider-role-physical-therapist-SallySmith
+InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
+* code = PRO-ROLE#225100000X
+* code.coding.display = "Physical Therapist"
+* active = true
+* practitioner = Reference(Practitioner-SallySmith)
+* organization = Reference(Organization-San-Antonio-General-Hospital)

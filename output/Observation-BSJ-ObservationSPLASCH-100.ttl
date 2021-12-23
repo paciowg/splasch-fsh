@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "BSJ-ObservationSPLASCH-100"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"BSJ-ObservationSPLASCH-100\" </p></div><p><b>status</b>: final</p><p><b>category</b>: Swallowing <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHObservationCategoryCS.html\">SPLASCH Observation Category Codes</a>#swallowing)</span></p><p><b>code</b>: Require assistance or supervision for swallowing safety <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHSwallowingObservationCS.html\">Swallowing Observation Codes</a>#assistance-swallowing-safety)</span></p><p><b>subject</b>: <a href=\"Patient-BSJ-patientBSJ1.html\">Patient/BSJ-patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2020-07-31T10:20:00-05:00</p><p><b>performer</b>: <a href=\"Practitioner-LunaBaskins\">Practitioner-LunaBaskins</a></p><p><b>value</b>: Rarely <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SPLASCHFrequencyCS#LA10066-1)</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"BSJ-ObservationSPLASCH-100\" </p></div><p><b>status</b>: final</p><p><b>category</b>: Spoken language comprehension <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHObservationCategoryCS.html\">SPLASCH Observation Category Codes</a>#spoken-language-comprehension)</span></p><p><b>code</b>: Understand complex messages in high demand situations <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHSpeechComprehensionObservationCS.html\">Speech Comprehension Observation Codes</a>#understand-complex-high-demand)</span></p><p><b>subject</b>: <a href=\"Patient-BSJ-patientBSJ1.html\">Patient/BSJ-patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2020-07-31T10:20:00-05:00</p><p><b>performer</b>: <a href=\"Practitioner-Practitioner-RayMancioni.html\">Practitioner/Practitioner-RayMancioni</a> \" MANCIONI\"</p><p><b>value</b>: Sometimes <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SPLASCHFrequencyCS#LA10082-8)</span></p></div>"
   ];
   fhir:Observation.status [ fhir:value "final"];
   fhir:Observation.category [
@@ -18,16 +18,16 @@
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS" ];
-       fhir:Coding.code [ fhir:value "swallowing" ];
-       fhir:Coding.display [ fhir:value "Swallowing" ]
+       fhir:Coding.code [ fhir:value "spoken-language-comprehension" ];
+       fhir:Coding.display [ fhir:value "Spoken language comprehension" ]
      ]
   ];
   fhir:Observation.code [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS" ];
-       fhir:Coding.code [ fhir:value "assistance-swallowing-safety" ];
-       fhir:Coding.display [ fhir:value "Require assistance or supervision for swallowing safety" ]
+       fhir:Coding.system [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS" ];
+       fhir:Coding.code [ fhir:value "understand-complex-high-demand" ];
+       fhir:Coding.display [ fhir:value "Understand complex messages in high demand situations" ]
      ]
   ];
   fhir:Observation.subject [
@@ -37,18 +37,21 @@
   fhir:Observation.effectiveDateTime [ fhir:value "2020-07-31T10:20:00-05:00"^^xsd:dateTime];
   fhir:Observation.performer [
      fhir:index 0;
-     fhir:Reference.reference [ fhir:value "Practitioner-LunaBaskins" ]
+     fhir:link <http://hl7.org/fhir/us/pacio-splasch/Practitioner/Practitioner-RayMancioni>;
+     fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-RayMancioni" ]
   ];
   fhir:Observation.valueCodeableConcept [
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS" ];
-       fhir:Coding.code [ fhir:value "LA10066-1" ];
-       fhir:Coding.display [ fhir:value "Rarely" ]
+       fhir:Coding.code [ fhir:value "LA10082-8" ];
+       fhir:Coding.display [ fhir:value "Sometimes" ]
      ]
   ] .
 
 <http://hl7.org/fhir/us/pacio-splasch/Patient/BSJ-patientBSJ1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Practitioner/Practitioner-RayMancioni> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 
