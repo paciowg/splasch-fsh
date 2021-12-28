@@ -20,7 +20,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-012"
 * effectiveDateTime = "2020-07-08T08:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-RonMarble)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-physical-therapist-RonMarble)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -42,7 +42,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-013"
 * effectiveDateTime = "2020-07-08T08:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-RonMarble)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-physical-therapist-RonMarble)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -64,7 +64,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-010"
 * effectiveDateTime = "2020-07-08T08:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-RonMarble)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-physical-therapist-RonMarble)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -86,7 +86,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-011"
 * effectiveDateTime = "2020-07-08T08:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-RonMarble)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-physical-therapist-RonMarble)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -108,7 +108,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-016"
 * effectiveDateTime = "2020-07-08T08:40:00-05:00"
 
 * performer[0] = Reference(Practitioner-LisaGreene)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-occupational-therapist-LisaGreene)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -130,7 +130,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-017"
 * effectiveDateTime = "2020-07-08T08:40:00-05:00"
 
 * performer[0] = Reference(Practitioner-LisaGreene)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-occupational-therapist-LisaGreene)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -152,7 +152,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-014"
 * effectiveDateTime = "2020-07-08T08:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-RonMarble)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-physical-therapist-RonMarble)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -174,7 +174,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-015"
 * effectiveDateTime = "2020-07-08T08:40:00-05:00"
 
 * performer[0] = Reference(Practitioner-LisaGreene)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-occupational-therapist-LisaGreene)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -196,7 +196,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-018"
 * effectiveDateTime = "2020-07-08T08:40:00-05:00"
 
 * performer[0] = Reference(Practitioner-LisaGreene)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-occupational-therapist-LisaGreene)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
@@ -218,7 +218,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-019"
 * effectiveDateTime = "2020-07-08T08:40:00-05:00"
 
 * performer[0] = Reference(Practitioner-LisaGreene)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-occupational-therapist-LisaGreene)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
@@ -240,8 +240,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-098"
 * effectiveDateTime = "2020-07-30T15:15:00-05:00"
 
 * performer[0] = Reference(Practitioner-MariaGonzalez)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-MariaGonzalez)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
@@ -262,8 +262,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-099"
 * effectiveDateTime = "2020-07-31T10:20:00-05:00"
 
 * performer[0] = Reference(Practitioner-RayMancioni)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-clinical-social-work-RayMancioni)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
@@ -284,8 +284,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-092"
 * effectiveDateTime = "2020-07-30T15:15:00-05:00"
 
 * performer[0] = Reference(Practitioner-MariaGonzalez)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-MariaGonzalez)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
@@ -306,8 +306,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-093"
 * effectiveDateTime = "2020-07-30T15:15:00-05:00"
 
 * performer[0] = Reference(Practitioner-MariaGonzalez)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-MariaGonzalez)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
@@ -328,8 +328,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-090"
 * effectiveDateTime = "2020-07-26T08:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-Alexander-Kuikhoff)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-AlexanderKuikhoff)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
@@ -350,8 +350,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-091"
 * effectiveDateTime = "2020-07-30T15:15:00-05:00"
 
 * performer[0] = Reference(Practitioner-MariaGonzalez)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-MariaGonzalez)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
@@ -372,8 +372,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-096"
 * effectiveDateTime = "2020-07-30T15:15:00-05:00"
 
 * performer[0] = Reference(Practitioner-MariaGonzalez)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-MariaGonzalez)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
@@ -394,8 +394,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-097"
 * effectiveDateTime = "2020-07-30T15:15:00-05:00"
 
 * performer[0] = Reference(Practitioner-MariaGonzalez)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-MariaGonzalez)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
@@ -416,8 +416,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-094"
 * effectiveDateTime = "2020-07-30T15:15:00-05:00"
 
 * performer[0] = Reference(Practitioner-MariaGonzalez)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-MariaGonzalez)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
@@ -438,8 +438,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-095"
 * effectiveDateTime = "2020-07-30T15:15:00-05:00"
 
 * performer[0] = Reference(Practitioner-MariaGonzalez)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-MariaGonzalez)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
@@ -614,7 +614,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-009"
 * effectiveDateTime = "2020-07-08T08:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-RonMarble)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-physical-therapist-RonMarble)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -658,8 +658,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-089"
 * effectiveDateTime = "2020-07-26T08:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-Alexander-Kuikhoff)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-AlexanderKuikhoff)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
@@ -680,8 +680,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-088"
 * effectiveDateTime = "2020-07-26T08:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-Alexander-Kuikhoff)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-AlexanderKuikhoff)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
@@ -702,8 +702,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-081"
 * effectiveDateTime = "2020-07-13T10:35:00-05:00"
 
 * performer[0] = Reference(Practitioner-CheriseLangford)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-occupational-therapist-CheriseLangford)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
@@ -724,8 +724,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-080"
 * effectiveDateTime = "2020-07-13T10:35:00-05:00"
 
 * performer[0] = Reference(Practitioner-CheriseLangford)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-occupational-therapist-CheriseLangford)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
@@ -746,8 +746,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-083"
 * effectiveDateTime = "2020-07-26T08:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-Alexander-Kuikhoff)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-AlexanderKuikhoff)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
@@ -768,8 +768,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-082"
 * effectiveDateTime = "2020-07-13T10:35:00-05:00"
 
 * performer[0] = Reference(Practitioner-CheriseLangford)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-occupational-therapist-CheriseLangford)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
@@ -790,8 +790,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-085"
 * effectiveDateTime = "2020-07-26T08:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-Alexander-Kuikhoff)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-AlexanderKuikhoff)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
@@ -812,8 +812,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-084"
 * effectiveDateTime = "2020-07-26T08:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-Alexander-Kuikhoff)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-AlexanderKuikhoff)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
@@ -834,8 +834,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-087"
 * effectiveDateTime = "2020-07-26T08:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-Alexander-Kuikhoff)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-AlexanderKuikhoff)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
@@ -856,8 +856,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-086"
 * effectiveDateTime = "2020-07-26T08:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-Alexander-Kuikhoff)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-AlexanderKuikhoff)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
@@ -900,7 +900,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-039"
 * effectiveDateTime = "2020-07-11T11:20:00-05:00"
 
 * performer[0] = Reference(Practitioner-JennyGlass)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-speech-language-pathologist-JennyGlass)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
@@ -1010,7 +1010,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-030"
 * effectiveDateTime = "2020-07-09T08:30:00-05:00"
 
 * performer[0] = Reference(Practitioner-JennyGlass)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-speech-language-pathologist-JennyGlass)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value 76-90-percent-time - Do Not Remove from template
@@ -1098,7 +1098,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-029"
 * effectiveDateTime = "2020-07-09T08:30:00-05:00"
 
 * performer[0] = Reference(Practitioner-JennyGlass)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-speech-language-pathologist-JennyGlass)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value 76-90-percent-time - Do Not Remove from template
@@ -1120,7 +1120,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-028"
 * effectiveDateTime = "2020-07-08T09:30:00-05:00"
 
 * performer[0] = Reference(Practitioner-JennyGlass)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-speech-language-pathologist-JennyGlass)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
@@ -1142,7 +1142,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-023"
 * effectiveDateTime = "2020-07-08T09:30:00-05:00"
 
 * performer[0] = Reference(Practitioner-JennyGlass)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-speech-language-pathologist-JennyGlass)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
@@ -1164,7 +1164,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-022"
 * effectiveDateTime = "2020-07-08T09:30:00-05:00"
 
 * performer[0] = Reference(Practitioner-JennyGlass)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-speech-language-pathologist-JennyGlass)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
@@ -1186,7 +1186,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-021"
 * effectiveDateTime = "2020-07-08T09:30:00-05:00"
 
 * performer[0] = Reference(Practitioner-JennyGlass)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-speech-language-pathologist-JennyGlass)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
@@ -1208,7 +1208,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-020"
 * effectiveDateTime = "2020-07-08T08:40:00-05:00"
 
 * performer[0] = Reference(Practitioner-LisaGreene)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-occupational-therapist-LisaGreene)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
@@ -1230,7 +1230,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-027"
 * effectiveDateTime = "2020-07-08T09:30:00-05:00"
 
 * performer[0] = Reference(Practitioner-JennyGlass)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-speech-language-pathologist-JennyGlass)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
@@ -1252,7 +1252,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-026"
 * effectiveDateTime = "2020-07-08T09:30:00-05:00"
 
 * performer[0] = Reference(Practitioner-JennyGlass)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-speech-language-pathologist-JennyGlass)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
@@ -1274,7 +1274,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-025"
 * effectiveDateTime = "2020-07-08T09:30:00-05:00"
 
 * performer[0] = Reference(Practitioner-JennyGlass)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-speech-language-pathologist-JennyGlass)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
@@ -1296,7 +1296,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-024"
 * effectiveDateTime = "2020-07-08T09:30:00-05:00"
 
 * performer[0] = Reference(Practitioner-JennyGlass)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-speech-language-pathologist-JennyGlass)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
@@ -1318,8 +1318,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-100"
 * effectiveDateTime = "2020-07-31T10:20:00-05:00"
 
 * performer[0] = Reference(Practitioner-RayMancioni)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-clinical-social-work-RayMancioni)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
@@ -1340,8 +1340,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-101"
 * effectiveDateTime = "2020-07-31T10:20:00-05:00"
 
 * performer[0] = Reference(Practitioner-RayMancioni)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-clinical-social-work-RayMancioni)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
@@ -1362,8 +1362,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-102"
 * effectiveDateTime = "2020-07-31T10:20:00-05:00"
 
 * performer[0] = Reference(Practitioner-RayMancioni)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-clinical-social-work-RayMancioni)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
@@ -1384,8 +1384,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-103"
 * effectiveDateTime = "2020-07-31T10:20:00-05:00"
 
 * performer[0] = Reference(Practitioner-RayMancioni)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-clinical-social-work-RayMancioni)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
@@ -1406,8 +1406,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-104"
 * effectiveDateTime = "2020-07-31T10:20:00-05:00"
 
 * performer[0] = Reference(Practitioner-RayMancioni)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-clinical-social-work-RayMancioni)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
@@ -1428,8 +1428,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-105"
 * effectiveDateTime = "2020-07-31T10:20:00-05:00"
 
 * performer[0] = Reference(Practitioner-RayMancioni)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-clinical-social-work-RayMancioni)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
@@ -1450,8 +1450,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-106"
 * effectiveDateTime = "2020-07-31T10:20:00-05:00"
 
 * performer[0] = Reference(Practitioner-RayMancioni)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-clinical-social-work-RayMancioni)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
@@ -1472,8 +1472,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-058"
 * effectiveDateTime = "2020-07-12T13:32:00-05:00"
 
 * performer[0] = Reference(Practitioner-LiaNguyen)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-registered-nurse-LiaNguyen)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
@@ -1494,8 +1494,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-059"
 * effectiveDateTime = "2020-07-12T13:32:00-05:00"
 
 * performer[0] = Reference(Practitioner-LiaNguyen)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-registered-nurse-LiaNguyen)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
@@ -1516,8 +1516,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-056"
 * effectiveDateTime = "2020-07-12T13:32:00-05:00"
 
 * performer[0] = Reference(Practitioner-LiaNguyen)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-registered-nurse-LiaNguyen)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
@@ -1538,8 +1538,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-057"
 * effectiveDateTime = "2020-07-12T13:32:00-05:00"
 
 * performer[0] = Reference(Practitioner-LiaNguyen)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-registered-nurse-LiaNguyen)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
@@ -1560,7 +1560,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-054"
 * effectiveDateTime = "2020-07-12T11:42:00-05:00"
 
 * performer[0] = Reference(Practitioner-DonHopmed)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-hospitalist-DonHopmed)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
@@ -1582,8 +1582,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-055"
 * effectiveDateTime = "2020-07-12T13:32:00-05:00"
 
 * performer[0] = Reference(Practitioner-LiaNguyen)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-registered-nurse-LiaNguyen)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
@@ -1604,7 +1604,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-052"
 * effectiveDateTime = "2020-07-12T11:42:00-05:00"
 
 * performer[0] = Reference(Practitioner-DonHopmed)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-hospitalist-DonHopmed)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1626,7 +1626,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-053"
 * effectiveDateTime = "2020-07-12T11:42:00-05:00"
 
 * performer[0] = Reference(Practitioner-DonHopmed)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-hospitalist-DonHopmed)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
@@ -1648,7 +1648,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-050"
 * effectiveDateTime = "2020-07-12T11:42:00-05:00"
 
 * performer[0] = Reference(Practitioner-DonHopmed)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-hospitalist-DonHopmed)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1670,7 +1670,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-051"
 * effectiveDateTime = "2020-07-12T11:42:00-05:00"
 
 * performer[0] = Reference(Practitioner-DonHopmed)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-hospitalist-DonHopmed)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1692,7 +1692,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-049"
 * effectiveDateTime = "2020-07-12T11:42:00-05:00"
 
 * performer[0] = Reference(Practitioner-DonHopmed)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-hospitalist-DonHopmed)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1714,7 +1714,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-048"
 * effectiveDateTime = "2020-07-12T11:42:00-05:00"
 
 * performer[0] = Reference(Practitioner-DonHopmed)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-hospitalist-DonHopmed)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1736,7 +1736,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-045"
 * effectiveDateTime = "2020-07-11T11:20:00-05:00"
 
 * performer[0] = Reference(Practitioner-JennyGlass)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-speech-language-pathologist-JennyGlass)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
@@ -1758,7 +1758,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-044"
 * effectiveDateTime = "2020-07-11T11:20:00-05:00"
 
 * performer[0] = Reference(Practitioner-JennyGlass)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-speech-language-pathologist-JennyGlass)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
@@ -1780,7 +1780,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-047"
 * effectiveDateTime = "2020-07-12T11:42:00-05:00"
 
 * performer[0] = Reference(Practitioner-DonHopmed)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-hospitalist-DonHopmed)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
@@ -1802,7 +1802,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-046"
 * effectiveDateTime = "2020-07-11T11:20:00-05:00"
 
 * performer[0] = Reference(Practitioner-JennyGlass)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-speech-language-pathologist-JennyGlass)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
@@ -1824,7 +1824,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-041"
 * effectiveDateTime = "2020-07-11T11:20:00-05:00"
 
 * performer[0] = Reference(Practitioner-JennyGlass)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-speech-language-pathologist-JennyGlass)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
@@ -1846,7 +1846,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-040"
 * effectiveDateTime = "2020-07-11T11:20:00-05:00"
 
 * performer[0] = Reference(Practitioner-JennyGlass)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-speech-language-pathologist-JennyGlass)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
@@ -1868,7 +1868,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-043"
 * effectiveDateTime = "2020-07-11T11:20:00-05:00"
 
 * performer[0] = Reference(Practitioner-JennyGlass)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-speech-language-pathologist-JennyGlass)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
@@ -1890,7 +1890,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-042"
 * effectiveDateTime = "2020-07-11T11:20:00-05:00"
 
 * performer[0] = Reference(Practitioner-JennyGlass)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
+* performer[1] = Reference(provider-role-speech-language-pathologist-JennyGlass)
 * performer[2] = Reference(Organization-Hospital)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
@@ -1912,8 +1912,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-078"
 * effectiveDateTime = "2020-07-13T10:35:00-05:00"
 
 * performer[0] = Reference(Practitioner-CheriseLangford)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-occupational-therapist-CheriseLangford)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
@@ -1934,8 +1934,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-079"
 * effectiveDateTime = "2020-07-13T10:35:00-05:00"
 
 * performer[0] = Reference(Practitioner-CheriseLangford)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-occupational-therapist-CheriseLangford)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
@@ -1956,8 +1956,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-070"
 * effectiveDateTime = "2020-07-12T16:30:00-05:00"
 
 * performer[0] = Reference(Practitioner-MariaGonzalez)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-MariaGonzalez)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
@@ -1978,8 +1978,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-071"
 * effectiveDateTime = "2020-07-12T16:30:00-05:00"
 
 * performer[0] = Reference(Practitioner-MariaGonzalez)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-MariaGonzalez)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
@@ -2000,8 +2000,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-072"
 * effectiveDateTime = "2020-07-12T16:30:00-05:00"
 
 * performer[0] = Reference(Practitioner-MariaGonzalez)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-MariaGonzalez)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
@@ -2022,8 +2022,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-073"
 * effectiveDateTime = "2020-07-12T16:30:00-05:00"
 
 * performer[0] = Reference(Practitioner-MariaGonzalez)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-MariaGonzalez)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
@@ -2044,8 +2044,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-074"
 * effectiveDateTime = "2020-07-12T16:30:00-05:00"
 
 * performer[0] = Reference(Practitioner-MariaGonzalez)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-MariaGonzalez)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
@@ -2066,8 +2066,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-075"
 * effectiveDateTime = "2020-07-12T16:30:00-05:00"
 
 * performer[0] = Reference(Practitioner-MariaGonzalez)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-MariaGonzalez)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
@@ -2088,8 +2088,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-076"
 * effectiveDateTime = "2020-07-12T16:30:00-05:00"
 
 * performer[0] = Reference(Practitioner-MariaGonzalez)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-MariaGonzalez)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 50-75-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#50-75-percent "50-75% of the time"
@@ -2110,8 +2110,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-077"
 * effectiveDateTime = "2020-07-13T10:35:00-05:00"
 
 * performer[0] = Reference(Practitioner-CheriseLangford)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-occupational-therapist-CheriseLangford)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
@@ -2132,8 +2132,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-067"
 * effectiveDateTime = "2020-07-12T15:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-DanielGranger)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-physical-therapist-DanielGranger)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
@@ -2154,8 +2154,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-066"
 * effectiveDateTime = "2020-07-12T15:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-DanielGranger)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-physical-therapist-DanielGranger)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
@@ -2176,8 +2176,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-065"
 * effectiveDateTime = "2020-07-12T15:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-DanielGranger)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-physical-therapist-DanielGranger)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
@@ -2198,8 +2198,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-064"
 * effectiveDateTime = "2020-07-12T15:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-DanielGranger)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-physical-therapist-DanielGranger)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
@@ -2220,8 +2220,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-063"
 * effectiveDateTime = "2020-07-12T15:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-DanielGranger)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-physical-therapist-DanielGranger)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
@@ -2242,8 +2242,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-062"
 * effectiveDateTime = "2020-07-12T13:32:00-05:00"
 
 * performer[0] = Reference(Practitioner-LiaNguyen)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-registered-nurse-LiaNguyen)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
@@ -2264,8 +2264,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-061"
 * effectiveDateTime = "2020-07-12T13:32:00-05:00"
 
 * performer[0] = Reference(Practitioner-LiaNguyen)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-registered-nurse-LiaNguyen)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10082-8 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
@@ -2286,8 +2286,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-060"
 * effectiveDateTime = "2020-07-12T13:32:00-05:00"
 
 * performer[0] = Reference(Practitioner-LiaNguyen)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-registered-nurse-LiaNguyen)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
@@ -2308,8 +2308,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-069"
 * effectiveDateTime = "2020-07-12T16:30:00-05:00"
 
 * performer[0] = Reference(Practitioner-MariaGonzalez)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-speech-language-pathologist-MariaGonzalez)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value 26-49-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#26-49-percent "26-49% of the time"
@@ -2330,8 +2330,8 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-068"
 * effectiveDateTime = "2020-07-12T15:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-DanielGranger)
-* performer[1] = Reference(provider-role-registered-nurse-JudySmiley)
-* performer[2] = Reference(Organization-Hospital)
+* performer[1] = Reference(provider-role-physical-therapist-DanielGranger)
+* performer[2] = Reference(Organization-Skilled-Nursing-Facility)
 
 // Pre-load value LA10066-1 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10066-1 "Rarely"
