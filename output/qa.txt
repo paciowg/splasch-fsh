@@ -1,10 +1,10 @@
 ﻿PACIOReAssessmentTimepoints : Validation Results
 =========================================
 
-err = 154, warn = 11, info = 106
+err = 132, warn = 11, info = 106
 IG Publisher Version: 1.1.88 Out of date - current version is 1.1.93
-Generated Tue Dec 28 14:36:11 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-splasch#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-splasch)
- Build Errors : 23 / 1 / 0
+Generated Wed Dec 29 13:03:43 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-splasch#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-splasch)
+ Build Errors : 1 / 1 / 0
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHCaloriePercentageCategoryCS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHLiquidDietCS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHObservationCategoryCS : 0 / 0 / 1
@@ -96,14 +96,14 @@ Generated Tue Dec 28 14:36:11 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-080 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-081 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-082 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-083 : 1 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-084 : 1 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-085 : 1 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-086 : 1 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-087 : 1 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-088 : 1 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-089 : 1 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-090 : 1 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-083 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-084 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-085 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-086 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-087 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-088 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-089 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-090 : 0 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-091 : 0 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-092 : 0 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-093 : 0 / 0 / 2
@@ -120,8 +120,8 @@ Generated Tue Dec 28 14:36:11 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-104 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-105 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-106 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Organization-Organization-Hospital : 0 / 0 / 1
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Organization-Organization-Skilled-Nursing-Facility : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Organization-Organization-Happy-Nursing-Facility : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Organization-Organization-San-Antonio-General-Hospital : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Patient-BSJ-patientBSJ1 : 4 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Practitioner-Practitioner-AlexanderKuikhoff : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Practitioner-Practitioner-CheriseLangford : 0 / 0 / 1
@@ -137,20 +137,20 @@ Generated Tue Dec 28 14:36:11 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Practitioner-Practitioner-RonMarble : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Practitioner-Practitioner-SallySmith : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Practitioner-Practitioner-SummerJohnson : 0 / 0 / 1
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-clinical-social-work-RayMancioni : 1 / 0 / 1
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-hospitalist-DonHopmed : 1 / 1 / 1
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-occupational-therapist-CheriseLangford : 1 / 0 / 1
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-occupational-therapist-LisaGreene : 1 / 0 / 1
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-physical-therapist-DanielGranger : 1 / 0 / 1
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-physical-therapist-JenCadbury : 1 / 0 / 1
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-physical-therapist-RonMarble : 1 / 0 / 1
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-physical-therapist-SallySmith : 1 / 0 / 1
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-registered-nurse-JudySmiley : 1 / 0 / 1
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-registered-nurse-LiaNguyen : 1 / 0 / 1
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-registered-nurse-SummerJohnson : 1 / 0 / 1
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-speech-language-pathologist-AlexanderKuikhoff : 1 / 1 / 1
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-speech-language-pathologist-JennyGlass : 1 / 1 / 1
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-speech-language-pathologist-MariaGonzalez : 1 / 1 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-clinical-social-work-RayMancioni : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-hospitalist-DonHopmed : 0 / 1 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-occupational-therapist-CheriseLangford : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-occupational-therapist-LisaGreene : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-physical-therapist-DanielGranger : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-physical-therapist-JenCadbury : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-physical-therapist-RonMarble : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-physical-therapist-SallySmith : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-registered-nurse-JudySmiley : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-registered-nurse-LiaNguyen : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-registered-nurse-SummerJohnson : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-speech-language-pathologist-AlexanderKuikhoff : 0 / 1 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-speech-language-pathologist-JennyGlass : 0 / 1 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-speech-language-pathologist-MariaGonzalez : 0 / 1 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\StructureDefinition-splasch-SpokenLanguageComprehensionObservation : 0 / 2 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\StructureDefinition-splasch-SpokenLanguageExpressionObservation : 0 / 2 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\StructureDefinition-splasch-SwallowingObservation : 0 / 2 / 1
@@ -167,29 +167,7 @@ Generated Tue Dec 28 14:36:11 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
 </table>
 == n/a ==
 WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-083.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 190, column 1141: The link 'Practitioner-Alexander-Kuikhoff' for "Practitioner-Alexander-Kuikhoff" cannot be resolved
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-084.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 190, column 1127: The link 'Practitioner-Alexander-Kuikhoff' for "Practitioner-Alexander-Kuikhoff" cannot be resolved
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-085.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 190, column 1121: The link 'Practitioner-Alexander-Kuikhoff' for "Practitioner-Alexander-Kuikhoff" cannot be resolved
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-086.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 190, column 1126: The link 'Practitioner-Alexander-Kuikhoff' for "Practitioner-Alexander-Kuikhoff" cannot be resolved
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-087.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 190, column 1132: The link 'Practitioner-Alexander-Kuikhoff' for "Practitioner-Alexander-Kuikhoff" cannot be resolved
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-088.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 190, column 1109: The link 'Practitioner-Alexander-Kuikhoff' for "Practitioner-Alexander-Kuikhoff" cannot be resolved
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-089.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 190, column 1082: The link 'Practitioner-Alexander-Kuikhoff' for "Practitioner-Alexander-Kuikhoff" cannot be resolved
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-090.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 190, column 1070: The link 'Practitioner-Alexander-Kuikhoff' for "Practitioner-Alexander-Kuikhoff" cannot be resolved
 ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Patient-BSJ-patientBSJ1.html#/html/body/div/div/div/div/div/div/p/a at Line 190, column 2480: The link 'pcp-John-Smith' for "pcp-John-Smith" cannot be resolved
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\PractitionerRole-provider-role-clinical-social-work-RayMancioni.html#/html/body/div/div/div/div/div/div/p/a at Line 190, column 535: The link 'Organization-Happy-Nursing-Facility' for "Organization-Happy-Nursing-Facility" cannot be resolved
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\PractitionerRole-provider-role-hospitalist-DonHopmed.html#/html/body/div/div/div/div/div/div/p/a at Line 190, column 518: The link 'Organization-San-Antonio-General-Hospital' for "Organization-San-Antonio-General-Hospital" cannot be resolved
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\PractitionerRole-provider-role-occupational-therapist-CheriseLangford.html#/html/body/div/div/div/div/div/div/p/a at Line 190, column 549: The link 'Organization-Happy-Nursing-Facility' for "Organization-Happy-Nursing-Facility" cannot be resolved
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\PractitionerRole-provider-role-occupational-therapist-LisaGreene.html#/html/body/div/div/div/div/div/div/p/a at Line 190, column 532: The link 'Organization-San-Antonio-General-Hospital' for "Organization-San-Antonio-General-Hospital" cannot be resolved
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\PractitionerRole-provider-role-physical-therapist-DanielGranger.html#/html/body/div/div/div/div/div/div/p/a at Line 190, column 538: The link 'Organization-Happy-Nursing-Facility' for "Organization-Happy-Nursing-Facility" cannot be resolved
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\PractitionerRole-provider-role-physical-therapist-JenCadbury.html#/html/body/div/div/div/div/div/div/p/a at Line 190, column 529: The link 'Organization-Happy-Nursing-Facility' for "Organization-Happy-Nursing-Facility" cannot be resolved
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\PractitionerRole-provider-role-physical-therapist-RonMarble.html#/html/body/div/div/div/div/div/div/p/a at Line 190, column 525: The link 'Organization-San-Antonio-General-Hospital' for "Organization-San-Antonio-General-Hospital" cannot be resolved
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\PractitionerRole-provider-role-physical-therapist-SallySmith.html#/html/body/div/div/div/div/div/div/p/a at Line 190, column 527: The link 'Organization-San-Antonio-General-Hospital' for "Organization-San-Antonio-General-Hospital" cannot be resolved
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\PractitionerRole-provider-role-registered-nurse-JudySmiley.html#/html/body/div/div/div/div/div/div/p/a at Line 190, column 526: The link 'Organization-San-Antonio-General-Hospital' for "Organization-San-Antonio-General-Hospital" cannot be resolved
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\PractitionerRole-provider-role-registered-nurse-LiaNguyen.html#/html/body/div/div/div/div/div/div/p/a at Line 190, column 523: The link 'Organization-Happy-Nursing-Facility' for "Organization-Happy-Nursing-Facility" cannot be resolved
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\PractitionerRole-provider-role-registered-nurse-SummerJohnson.html#/html/body/div/div/div/div/div/div/p/a at Line 190, column 536: The link 'Organization-Happy-Nursing-Facility' for "Organization-Happy-Nursing-Facility" cannot be resolved
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\PractitionerRole-provider-role-speech-language-pathologist-AlexanderKuikhoff.html#/html/body/div/div/div/div/div/div/p/a at Line 190, column 560: The link 'Organization-Happy-Nursing-Facility' for "Organization-Happy-Nursing-Facility" cannot be resolved
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\PractitionerRole-provider-role-speech-language-pathologist-JennyGlass.html#/html/body/div/div/div/div/div/div/p/a at Line 190, column 536: The link 'Organization-San-Antonio-General-Hospital' for "Organization-San-Antonio-General-Hospital" cannot be resolved
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\PractitionerRole-provider-role-speech-language-pathologist-MariaGonzalez.html#/html/body/div/div/div/div/div/div/p/a at Line 190, column 548: The link 'Organization-Happy-Nursing-Facility' for "Organization-Happy-Nursing-Facility" cannot be resolved
 == fsh-generated\resources\CodeSystem-SPLASCHCaloriePercentageCategoryCS.json ==
 == fsh-generated\resources\CodeSystem-SPLASCHLiquidDietCS.json ==
 == fsh-generated\resources\CodeSystem-SPLASCHObservationCategoryCS.json ==
@@ -477,28 +455,20 @@ ERROR: Observation/BSJ-ObservationSPLASCH-082: Observation.value.ofType(Codeable
 ERROR: Observation/BSJ-ObservationSPLASCH-082: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-083.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-083: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
-ERROR: Observation/BSJ-ObservationSPLASCH-083: Observation.performer[0]: Unable to resolve resource 'Practitioner-Alexander-Kuikhoff'
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-084.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-084: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
-ERROR: Observation/BSJ-ObservationSPLASCH-084: Observation.performer[0]: Unable to resolve resource 'Practitioner-Alexander-Kuikhoff'
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-085.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-085: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
-ERROR: Observation/BSJ-ObservationSPLASCH-085: Observation.performer[0]: Unable to resolve resource 'Practitioner-Alexander-Kuikhoff'
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-086.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-086: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
-ERROR: Observation/BSJ-ObservationSPLASCH-086: Observation.performer[0]: Unable to resolve resource 'Practitioner-Alexander-Kuikhoff'
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-087.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-087: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
-ERROR: Observation/BSJ-ObservationSPLASCH-087: Observation.performer[0]: Unable to resolve resource 'Practitioner-Alexander-Kuikhoff'
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-088.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-088: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
-ERROR: Observation/BSJ-ObservationSPLASCH-088: Observation.performer[0]: Unable to resolve resource 'Practitioner-Alexander-Kuikhoff'
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-089.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-089: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#swallowing)
-ERROR: Observation/BSJ-ObservationSPLASCH-089: Observation.performer[0]: Unable to resolve resource 'Practitioner-Alexander-Kuikhoff'
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-090.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-090: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#swallowing)
-ERROR: Observation/BSJ-ObservationSPLASCH-090: Observation.performer[0]: Unable to resolve resource 'Practitioner-Alexander-Kuikhoff'
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-091.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-091: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-092.json ==
@@ -547,8 +517,8 @@ ERROR: Observation/BSJ-ObservationSPLASCH-105: Observation.value.ofType(Codeable
 INFORMATION: Observation/BSJ-ObservationSPLASCH-106: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#swallowing)
 ERROR: Observation/BSJ-ObservationSPLASCH-106: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
 ERROR: Observation/BSJ-ObservationSPLASCH-106: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
-== fsh-generated\resources\Organization-Organization-Hospital.json ==
-== fsh-generated\resources\Organization-Organization-Skilled-Nursing-Facility.json ==
+== fsh-generated\resources\Organization-Organization-Happy-Nursing-Facility.json ==
+== fsh-generated\resources\Organization-Organization-San-Antonio-General-Hospital.json ==
 == fsh-generated\resources\Patient-BSJ-patientBSJ1.json ==
 ERROR: Patient/BSJ-patientBSJ1: Patient.identifier[0].system: URL value 'http://hl7.org/fhir/sid/us-medicare' does not resolve
 ERROR: Patient/BSJ-patientBSJ1: Patient.contact[0].relationship[1].coding[0]: Unknown Code System 'http://hl7.org/fhir/v2/0131'
@@ -569,36 +539,22 @@ ERROR: Patient/BSJ-patientBSJ1: Patient.generalPractitioner[0]: Unable to resolv
 == fsh-generated\resources\Practitioner-Practitioner-SallySmith.json ==
 == fsh-generated\resources\Practitioner-Practitioner-SummerJohnson.json ==
 == fsh-generated\resources\PractitionerRole-provider-role-clinical-social-work-RayMancioni.json ==
-ERROR: PractitionerRole/provider-role-clinical-social-work-RayMancioni: PractitionerRole.organization: Unable to resolve resource 'Organization-Happy-Nursing-Facility'
 == fsh-generated\resources\PractitionerRole-provider-role-hospitalist-DonHopmed.json ==
-ERROR: PractitionerRole/provider-role-hospitalist-DonHopmed: PractitionerRole.organization: Unable to resolve resource 'Organization-San-Antonio-General-Hospital'
 WARNING: PractitionerRole/provider-role-hospitalist-DonHopmed: PractitionerRole.code[0].coding[0]: The display "Hospitalist" is not a valid display for the code {http://nucc.org/provider-taxonomy}208M00000X - should be one of ['Hospitalist Physician'] (from http://tx.fhir.org/r4) for 'http://nucc.org/provider-taxonomy#208M00000X'
 == fsh-generated\resources\PractitionerRole-provider-role-occupational-therapist-CheriseLangford.json ==
-ERROR: PractitionerRole/provider-role-occupational-therapist-CheriseLangford: PractitionerRole.organization: Unable to resolve resource 'Organization-Happy-Nursing-Facility'
 == fsh-generated\resources\PractitionerRole-provider-role-occupational-therapist-LisaGreene.json ==
-ERROR: PractitionerRole/provider-role-occupational-therapist-LisaGreene: PractitionerRole.organization: Unable to resolve resource 'Organization-San-Antonio-General-Hospital'
 == fsh-generated\resources\PractitionerRole-provider-role-physical-therapist-DanielGranger.json ==
-ERROR: PractitionerRole/provider-role-physical-therapist-DanielGranger: PractitionerRole.organization: Unable to resolve resource 'Organization-Happy-Nursing-Facility'
 == fsh-generated\resources\PractitionerRole-provider-role-physical-therapist-JenCadbury.json ==
-ERROR: PractitionerRole/provider-role-physical-therapist-JenCadbury: PractitionerRole.organization: Unable to resolve resource 'Organization-Happy-Nursing-Facility'
 == fsh-generated\resources\PractitionerRole-provider-role-physical-therapist-RonMarble.json ==
-ERROR: PractitionerRole/provider-role-physical-therapist-RonMarble: PractitionerRole.organization: Unable to resolve resource 'Organization-San-Antonio-General-Hospital'
 == fsh-generated\resources\PractitionerRole-provider-role-physical-therapist-SallySmith.json ==
-ERROR: PractitionerRole/provider-role-physical-therapist-SallySmith: PractitionerRole.organization: Unable to resolve resource 'Organization-San-Antonio-General-Hospital'
 == fsh-generated\resources\PractitionerRole-provider-role-registered-nurse-JudySmiley.json ==
-ERROR: PractitionerRole/provider-role-registered-nurse-JudySmiley: PractitionerRole.organization: Unable to resolve resource 'Organization-San-Antonio-General-Hospital'
 == fsh-generated\resources\PractitionerRole-provider-role-registered-nurse-LiaNguyen.json ==
-ERROR: PractitionerRole/provider-role-registered-nurse-LiaNguyen: PractitionerRole.organization: Unable to resolve resource 'Organization-Happy-Nursing-Facility'
 == fsh-generated\resources\PractitionerRole-provider-role-registered-nurse-SummerJohnson.json ==
-ERROR: PractitionerRole/provider-role-registered-nurse-SummerJohnson: PractitionerRole.organization: Unable to resolve resource 'Organization-Happy-Nursing-Facility'
 == fsh-generated\resources\PractitionerRole-provider-role-speech-language-pathologist-AlexanderKuikhoff.json ==
-ERROR: PractitionerRole/provider-role-speech-language-pathologist-AlexanderKuikhoff: PractitionerRole.organization: Unable to resolve resource 'Organization-Happy-Nursing-Facility'
 WARNING: PractitionerRole/provider-role-speech-language-pathologist-AlexanderKuikhoff: PractitionerRole.code[0].coding[0]: The display "Speech Language Pathologist" is not a valid display for the code {http://nucc.org/provider-taxonomy}235Z00000X - should be one of ['Speech-Language Pathologist'] (from http://tx.fhir.org/r4) for 'http://nucc.org/provider-taxonomy#235Z00000X'
 == fsh-generated\resources\PractitionerRole-provider-role-speech-language-pathologist-JennyGlass.json ==
-ERROR: PractitionerRole/provider-role-speech-language-pathologist-JennyGlass: PractitionerRole.organization: Unable to resolve resource 'Organization-San-Antonio-General-Hospital'
 WARNING: PractitionerRole/provider-role-speech-language-pathologist-JennyGlass: PractitionerRole.code[0].coding[0]: The display "Speech Language Pathologist" is not a valid display for the code {http://nucc.org/provider-taxonomy}235Z00000X - should be one of ['Speech-Language Pathologist'] (from http://tx.fhir.org/r4) for 'http://nucc.org/provider-taxonomy#235Z00000X'
 == fsh-generated\resources\PractitionerRole-provider-role-speech-language-pathologist-MariaGonzalez.json ==
-ERROR: PractitionerRole/provider-role-speech-language-pathologist-MariaGonzalez: PractitionerRole.organization: Unable to resolve resource 'Organization-Happy-Nursing-Facility'
 WARNING: PractitionerRole/provider-role-speech-language-pathologist-MariaGonzalez: PractitionerRole.code[0].coding[0]: The display "Speech Language Pathologist" is not a valid display for the code {http://nucc.org/provider-taxonomy}235Z00000X - should be one of ['Speech-Language Pathologist'] (from http://tx.fhir.org/r4) for 'http://nucc.org/provider-taxonomy#235Z00000X'
 == fsh-generated\resources\StructureDefinition-splasch-SpokenLanguageComprehensionObservation.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageComprehensionObservation').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles

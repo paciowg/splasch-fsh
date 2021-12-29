@@ -3,14 +3,14 @@
 <PractitionerRole xmlns="http://hl7.org/fhir">
   <id value="provider-role-speech-language-pathologist-MariaGonzalez"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "provider-role-speech-language-pathologist-MariaGonzalez" </p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href="Practitioner-Practitioner-MariaGonzalez.html">Practitioner/Practitioner-MariaGonzalez</a> " GONZALEZ"</p><p><b>organization</b>: <a href="Organization-Happy-Nursing-Facility">Organization-Happy-Nursing-Facility</a></p><p><b>code</b>: Speech Language Pathologist <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (provider-taxonomy#235Z00000X)</span></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "provider-role-speech-language-pathologist-MariaGonzalez" </p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href="Practitioner-Practitioner-MariaGonzalez.html">Practitioner/Practitioner-MariaGonzalez</a> " GONZALEZ"</p><p><b>organization</b>: <a href="Organization-Organization-Happy-Nursing-Facility.html">Organization/Organization-Happy-Nursing-Facility</a> "Happy Nursing Facility"</p><p><b>code</b>: Speech Language Pathologist <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (provider-taxonomy#235Z00000X)</span></p></div>
   </text>
   <active value="true"/>
   <practitioner>
     <reference value="Practitioner/Practitioner-MariaGonzalez"/>
   </practitioner>
   <organization>
-    <reference value="Organization-Happy-Nursing-Facility"/>
+    <reference value="Organization/Organization-Happy-Nursing-Facility"/>
   </organization>
   <code>
     <coding>

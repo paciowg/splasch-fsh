@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "provider-role-physical-therapist-SallySmith"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"provider-role-physical-therapist-SallySmith\" </p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-SallySmith.html\">Practitioner/Practitioner-SallySmith</a> \" SMITH\"</p><p><b>organization</b>: <a href=\"Organization-San-Antonio-General-Hospital\">Organization-San-Antonio-General-Hospital</a></p><p><b>code</b>: Physical Therapist <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (provider-taxonomy#225100000X)</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"provider-role-physical-therapist-SallySmith\" </p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-SallySmith.html\">Practitioner/Practitioner-SallySmith</a> \" SMITH\"</p><p><b>organization</b>: <a href=\"Organization-Organization-San-Antonio-General-Hospital.html\">Organization/Organization-San-Antonio-General-Hospital</a> \"San Antonio General Hospital\"</p><p><b>code</b>: Physical Therapist <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (provider-taxonomy#225100000X)</span></p></div>"
   ];
   fhir:PractitionerRole.active [ fhir:value "true"^^xsd:boolean];
   fhir:PractitionerRole.practitioner [
@@ -18,7 +18,8 @@
      fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-SallySmith" ]
   ];
   fhir:PractitionerRole.organization [
-     fhir:Reference.reference [ fhir:value "Organization-San-Antonio-General-Hospital" ]
+     fhir:link <http://hl7.org/fhir/us/pacio-splasch/Organization/Organization-San-Antonio-General-Hospital>;
+     fhir:Reference.reference [ fhir:value "Organization/Organization-San-Antonio-General-Hospital" ]
   ];
   fhir:PractitionerRole.code [
      fhir:index 0;
@@ -31,6 +32,8 @@
   ] .
 
 <http://hl7.org/fhir/us/pacio-splasch/Practitioner/Practitioner-SallySmith> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Organization/Organization-San-Antonio-General-Hospital> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 

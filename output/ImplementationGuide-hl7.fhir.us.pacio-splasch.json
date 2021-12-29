@@ -10,7 +10,7 @@
   "name": "PACIOReAssessmentTimepoints",
   "title": "PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide",
   "status": "draft",
-  "date": "2021-12-28T14:33:13-05:00",
+  "date": "2021-12-29T13:00:19-05:00",
   "publisher": "HL7 Patient Care Working Group",
   "contact": [
     {
@@ -2154,9 +2154,9 @@
           }
         ],
         "reference": {
-          "reference": "Organization/Organization-Hospital"
+          "reference": "Organization/Organization-Happy-Nursing-Facility"
         },
-        "name": "Organization-Hospital",
+        "name": "Organization-Happy-Nursing-Facility",
         "description": "An instance of Organization",
         "exampleBoolean": true
       },
@@ -2168,9 +2168,9 @@
           }
         ],
         "reference": {
-          "reference": "Organization/Organization-Skilled-Nursing-Facility"
+          "reference": "Organization/Organization-San-Antonio-General-Hospital"
         },
-        "name": "Organization-Skilled-Nursing-Facility",
+        "name": "Organization-San-Antonio-General-Hospital",
         "description": "An instance of Organization",
         "exampleBoolean": true
       },

@@ -246,8 +246,8 @@
 <artifact id="CodeSystem/SPLASCHLiquidDietCS" key="CodeSystem-SPLASCHLiquidDietCS" name="Observation Value Liquid Diet Codes"/>
 <artifact id="CodeSystem/SPLASCHSolidDietCS" key="CodeSystem-SPLASCHSolidDietCS" name="Observation Value Solid Diet Codes"/>
 <artifact id="CodeSystem/SPLASCHTimePercentageCategoryCS" key="CodeSystem-SPLASCHTimePercentageCategoryCS" name="Observation Value Time Percentage Category Codes"/>
-<artifact id="Organization/Organization-Hospital" key="Organization-Organization-Hospital" name="Organization-Hospital"/>
-<artifact id="Organization/Organization-Skilled-Nursing-Facility" key="Organization-Organization-Skilled-Nursing-Facility" name="Organization-Skilled-Nursing-Facility"/>
+<artifact id="Organization/Organization-Happy-Nursing-Facility" key="Organization-Organization-Happy-Nursing-Facility" name="Organization-Happy-Nursing-Facility"/>
+<artifact id="Organization/Organization-San-Antonio-General-Hospital" key="Organization-Organization-San-Antonio-General-Hospital" name="Organization-San-Antonio-General-Hospital"/>
 <artifact id="Practitioner/Practitioner-AlexanderKuikhoff" key="Practitioner-Practitioner-AlexanderKuikhoff" name="Practitioner-AlexanderKuikhoff"/>
 <artifact id="Practitioner/Practitioner-CheriseLangford" key="Practitioner-Practitioner-CheriseLangford" name="Practitioner-CheriseLangford"/>
 <artifact id="Practitioner/Practitioner-DanielGranger" key="Practitioner-Practitioner-DanielGranger" name="Practitioner-DanielGranger"/>

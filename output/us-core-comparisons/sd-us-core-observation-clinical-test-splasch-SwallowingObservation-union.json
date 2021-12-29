@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "6d0b484f-63a4-4979-9373-d445b920c22d-191",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/6d0b484f-63a4-4979-9373-d445b920c22d-191",
+  "id" : "2f321c77-2497-460d-af15-ee3e6bcc026d-191",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/2f321c77-2497-460d-af15-ee3e6bcc026d-191",
   "name" : "UnionUSCoreClinicalTestResultObservationProfileAndSwallowingObservation",
   "title" : "Union of US Core Clinical Test Result Observation Profile And Swallowing Observation",
   "status" : "active",
-  "date" : "2021-12-28T14:34:22-05:00",
+  "date" : "2021-12-29T13:01:44-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -560,7 +560,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6d0b484f-63a4-4979-9373-d445b920c22d-194"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/2f321c77-2497-460d-af15-ee3e6bcc026d-194"
       },
       "mapping" : [{
         "identity" : "workflow",
