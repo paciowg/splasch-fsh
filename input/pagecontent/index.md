@@ -61,7 +61,7 @@ This Guide is divided into several pages which are listed at the top of each pag
 -->
     <li>FHIR Artifacts: These sections provide detailed descriptions and formal definitions for all the FHIR objects defined in this guide.
         <ul>
-            <li>Profiles: This section lists the set of Profiles that are defined in this guide to exchange advance directive information. Each linked Profile page includes a narrative introduction and a formal definition.</li>
+            <li>Profiles: This section lists the set of Profiles that are defined in this guide to exchange SPLASCH information. Each linked Profile page includes a narrative introduction and a formal definition.</li>
             <li>Extensions: This section lists the set of Extensions that are defined in this guide that are used by the IG defined profiles. Each linked Extension  page includes a formal definition.</li>
             <li>Search Parameters: This section lists the HL7 FHIR® Re-assessment Timepoints Implementation Guide defined Search Parameters.</li>
             <li>Capability Statement: The following artifacts define the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide. Systems conforming to this implementation guide are expected to declare conformance to one or more of the included capability statements.</li>
