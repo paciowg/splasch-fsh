@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="SPLASCHMultiModalCommunicationObservationCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">convey-simple-messages-low-demand<a name="SPLASCHMultiModalCommunicationObservationCS-convey-simple-messages-low-demand"> </a></td><td>Convey simple meaningful messages in low demand situations</td><td>How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations (e.g., request actions, request objects, initiate greetings)?</td></tr><tr><td style="white-space:nowrap">short-conversations-low-demand<a name="SPLASCHMultiModalCommunicationObservationCS-short-conversations-low-demand"> </a></td><td>Participate in short structured conversations in low demand situations</td><td>How often does the individual participate in short structured conversations that are meaningful in LOW demand situations (e.g., familiar and predictable conversations, sharing opinions, expressing like or dislike about the immediate environment)?</td></tr><tr><td style="white-space:nowrap">convey-complex-messages-low-demand<a name="SPLASCHMultiModalCommunicationObservationCS-convey-complex-messages-low-demand"> </a></td><td>Convey complex messages in low demand situations</td><td>How often does the individual convey complex messages that are meaningful in LOW demand situations (e.g., telling a story, discussion school/current events, describing things outside the immediate environment)?</td></tr><tr><td style="white-space:nowrap">convey-simple-messages-high-demand<a name="SPLASCHMultiModalCommunicationObservationCS-convey-simple-messages-high-demand"> </a></td><td>Convey simple meaningful messages in high demand situations</td><td>How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations (e.g., request actions, request objects, initiate greetings)?</td></tr><tr><td style="white-space:nowrap">short-conversations-high-demand<a name="SPLASCHMultiModalCommunicationObservationCS-short-conversations-high-demand"> </a></td><td>Participate in short structured conversations in high demand situations</td><td>How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations (e.g., familiar and predictable conversations, sharing opinions, expressing like or dislike about the immediate environment)?</td></tr><tr><td style="white-space:nowrap">convey-complex-messages-high-demand<a name="SPLASCHMultiModalCommunicationObservationCS-convey-complex-messages-high-demand"> </a></td><td>Convey complex messages in high demand situations</td><td>How often does the individual convey complex messages that are meaningful in HIGH demand situations (e.g., telling a story, discussion school/current events, describing things outside the immediate environment)?</td></tr><tr><td style="white-space:nowrap">communicate-without-assistance<a name="SPLASCHMultiModalCommunicationObservationCS-communicate-without-assistance"> </a></td><td>Participate in communication exchanges without assistance</td><td>How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS"/>
+  <version value="0.1.0"/>
+  <name value="SPLASCHMultiModalCommunicationObservationCS"/>
+  <title value="Multi-Modal Communication Observation Codes"/>
+  <status value="active"/>
+  <date value="2022-03-14T15:55:03-04:00"/>
+  <publisher value="HL7 Patient Care Working Group"/>
+  <contact>
+    <name value="HL7 Patient Care Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patients@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="PACIO project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@pacioproject.org"/>
+    </telecom>
+  </contact>
+  <description value="Observation codes for multi-modal communication"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This CodeSystem is not copyrighted."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="convey-simple-messages-low-demand"/>
+    <display value="Convey simple meaningful messages in low demand situations"/>
+    <definition value="How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations (e.g., request actions, request objects, initiate greetings)?"/>
+  </concept>
+  <concept>
+    <code value="short-conversations-low-demand"/>
+    <display value="Participate in short structured conversations in low demand situations"/>
+    <definition value="How often does the individual participate in short structured conversations that are meaningful in LOW demand situations (e.g., familiar and predictable conversations, sharing opinions, expressing like or dislike about the immediate environment)?"/>
+  </concept>
+  <concept>
+    <code value="convey-complex-messages-low-demand"/>
+    <display value="Convey complex messages in low demand situations"/>
+    <definition value="How often does the individual convey complex messages that are meaningful in LOW demand situations (e.g., telling a story, discussion school/current events, describing things outside the immediate environment)?"/>
+  </concept>
+  <concept>
+    <code value="convey-simple-messages-high-demand"/>
+    <display value="Convey simple meaningful messages in high demand situations"/>
+    <definition value="How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations (e.g., request actions, request objects, initiate greetings)?"/>
+  </concept>
+  <concept>
+    <code value="short-conversations-high-demand"/>
+    <display value="Participate in short structured conversations in high demand situations"/>
+    <definition value="How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations (e.g., familiar and predictable conversations, sharing opinions, expressing like or dislike about the immediate environment)?"/>
+  </concept>
+  <concept>
+    <code value="convey-complex-messages-high-demand"/>
+    <display value="Convey complex messages in high demand situations"/>
+    <definition value="How often does the individual convey complex messages that are meaningful in HIGH demand situations (e.g., telling a story, discussion school/current events, describing things outside the immediate environment)?"/>
+  </concept>
+  <concept>
+    <code value="communicate-without-assistance"/>
+    <display value="Participate in communication exchanges without assistance"/>
+    <definition value="How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?"/>
+  </concept>
+</CodeSystem>

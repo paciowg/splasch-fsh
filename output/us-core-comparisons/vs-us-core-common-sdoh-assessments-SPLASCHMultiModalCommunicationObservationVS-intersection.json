@@ -1,0 +1,15 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "4d57680e-80a5-4cac-8e2a-5988e35b2b05-57",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4d57680e-80a5-4cac-8e2a-5988e35b2b05-57",
+  "name" : "IntersectionUSCoreCommonSDOHAssessmentsAndSPLASCHMultiModalCommunicationObservationVS",
+  "title" : "Intersection of US Core Common SDOH Assessments ValueSet And Multi-Modal Communication Observation",
+  "status" : "active",
+  "date" : "2022-03-14T15:56:14-04:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }]
+}

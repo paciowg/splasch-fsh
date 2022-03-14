@@ -11,7 +11,7 @@
   <name value="PACIOReAssessmentTimepoints"/>
   <title value="PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-12-29T13:00:19-05:00"/>
+  <date value="2022-03-14T15:55:03-04:00"/>
   <publisher value="HL7 Patient Care Working Group"/>
   <contact>
     <name value="HL7 Patient Care Working Group"/>
@@ -227,6 +227,33 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="fmm-definition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="propagate-status"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/splasch-MultiModalCommunicationObservation"/>
+      </reference>
+      <name value="Multi-Modal Communication Observation"/>
+      <description value="An exchange of multi-modal communication data for a patient."/>
+      <exampleBoolean value="false"/>
+    </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
@@ -302,6 +329,17 @@
       </reference>
       <name value="Liquid Diet Modifier Type Observation"/>
       <description value="ValueSet identifying observation codes that have a liquid diet modifier value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/SPLASCHMultiModalCommunicationObservationVS"/>
+      </reference>
+      <name value="Multi-Modal Communication Observation"/>
+      <description value="SPLASCH multi-modal communication observation profile"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -390,6 +428,17 @@
       </reference>
       <name value="Observation Value Liquid Diet Codes"/>
       <description value="Category codes for liquid diet observations"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/SPLASCHMultiModalCommunicationObservationCS"/>
+      </reference>
+      <name value="Multi-Modal Communication Observation Codes"/>
+      <description value="Observation codes for multi-modal communication"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

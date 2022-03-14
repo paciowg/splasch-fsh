@@ -39,6 +39,13 @@ Description: "SPLASCH swallowing observation profile"
 * ^copyright = "This CodeSystem is not copyrighted."
 
 
+ValueSet: SPLASCHMultiModalCommunicationObservationVS
+Title: "Multi-Modal Communication Observation"
+Description: "SPLASCH multi-modal communication observation profile"
+* codes from system SPLASCHMultiModalCommunicationObservationCS
+* ^copyright = "This CodeSystem is not copyrighted."
+
+
 ValueSet: SPLASCHSwallowingObservationValueVS
 Title: "Swallowing Observation Value"
 Description: "Values for swallowing observations"

@@ -10,7 +10,7 @@
   "name": "PACIOReAssessmentTimepoints",
   "title": "PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide",
   "status": "draft",
-  "date": "2021-12-29T13:00:19-05:00",
+  "date": "2022-03-14T15:55:03-04:00",
   "publisher": "HL7 Patient Care Working Group",
   "contact": [
     {
@@ -351,9 +351,49 @@
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "fmm-definition"
+          },
+          {
+            "url": "value",
+            "valueString": "http://hl7.org/fhir/versions.html#maturity"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "propagate-status"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
       }
     ],
     "resource": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/splasch-MultiModalCommunicationObservation"
+        },
+        "name": "Multi-Modal Communication Observation",
+        "description": "An exchange of multi-modal communication data for a patient.",
+        "exampleBoolean": false
+      },
       {
         "extension": [
           {
@@ -450,6 +490,20 @@
         },
         "name": "Liquid Diet Modifier Type Observation",
         "description": "ValueSet identifying observation codes that have a liquid diet modifier value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/SPLASCHMultiModalCommunicationObservationVS"
+        },
+        "name": "Multi-Modal Communication Observation",
+        "description": "SPLASCH multi-modal communication observation profile",
         "exampleBoolean": false
       },
       {
@@ -562,6 +616,20 @@
         },
         "name": "Observation Value Liquid Diet Codes",
         "description": "Category codes for liquid diet observations",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/SPLASCHMultiModalCommunicationObservationCS"
+        },
+        "name": "Multi-Modal Communication Observation Codes",
+        "description": "Observation codes for multi-modal communication",
         "exampleBoolean": false
       },
       {

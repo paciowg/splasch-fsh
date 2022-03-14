@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="cb617d01-b944-49fd-8beb-6ec520c84b6c"/>
+  <id value="34837fa4-1648-434d-af1c-a0997db4160a"/>
   <meta>
-    <lastUpdated value="2021-12-29T13:00:19.660-05:00"/>
+    <lastUpdated value="2022-03-14T15:55:03.247-04:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -51,7 +51,7 @@
         <name value="SPLASCHCaloriePercentageTypeObservationVS"/>
         <title value="Calorie Percentage Type Observation"/>
         <status value="active"/>
-        <date value="2021-12-29T13:00:19-05:00"/>
+        <date value="2022-03-14T15:55:03-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -84,8 +84,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:50e24354-2336-4727-8bdd-292e5e4850af"/>
-          <timestamp value="2021-12-29T13:02:26-05:00"/>
+          <identifier value="urn:uuid:08e672d7-22e4-47a9-9bb8-b05537bba8a6"/>
+          <timestamp value="2022-03-14T15:56:48-04:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -235,7 +235,7 @@
         <name value="SPLASCHFrequencyObservationVS"/>
         <title value="SPLASCH Frequency Observation Values"/>
         <status value="active"/>
-        <date value="2021-12-29T13:00:19-05:00"/>
+        <date value="2022-03-14T15:55:03-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -268,8 +268,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:0fbf4cd0-3860-4d26-a093-bad59fd696b2"/>
-          <timestamp value="2021-12-29T13:02:26-05:00"/>
+          <identifier value="urn:uuid:fa7b4b56-b2cd-44d4-a721-7f81f8eb0a47"/>
+          <timestamp value="2022-03-14T15:56:48-04:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -526,7 +526,7 @@
         <name value="SPLASCHFrequencyTypeObservationVS"/>
         <title value="Frequency Type Observation"/>
         <status value="active"/>
-        <date value="2021-12-29T13:00:19-05:00"/>
+        <date value="2022-03-14T15:55:03-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -559,8 +559,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:756e05ae-ecfb-4f0e-8006-bd4c47d0153b"/>
-          <timestamp value="2021-12-29T13:02:26-05:00"/>
+          <identifier value="urn:uuid:41ce466b-44fa-4de4-b8c2-bfa536f42a73"/>
+          <timestamp value="2022-03-14T15:56:48-04:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -702,7 +702,7 @@
         <name value="SPLASCHLiquidDietModifierTypeObservationVS"/>
         <title value="Liquid Diet Modifier Type Observation"/>
         <status value="active"/>
-        <date value="2021-12-29T13:00:19-05:00"/>
+        <date value="2022-03-14T15:55:03-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -735,8 +735,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:d200730f-b4f5-44ad-aa35-7e0d35d475b2"/>
-          <timestamp value="2021-12-29T13:02:26-05:00"/>
+          <identifier value="urn:uuid:a16c5d6d-ac26-4aa9-8174-00f4269f8453"/>
+          <timestamp value="2022-03-14T15:56:49-04:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -756,6 +756,182 @@
     </resource>
   </entry>
   <entry>
+    <fullUrl value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationVS"/>
+    <resource>
+      <ValueSet>
+        <id value="SPLASCHMultiModalCommunicationObservationVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 7 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-SPLASCHMultiModalCommunicationObservationCS.html">Multi-Modal Communication Observation Codes v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-SPLASCHMultiModalCommunicationObservationCS.html">
+                <code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHMultiModalCommunicationObservationCS-convey-simple-messages-low-demand"> </a>
+                  <a href="CodeSystem-SPLASCHMultiModalCommunicationObservationCS.html#SPLASCHMultiModalCommunicationObservationCS-convey-simple-messages-low-demand">convey-simple-messages-low-demand</a>
+                </td>
+                <td>Convey simple meaningful messages in low demand situations</td>
+                <td>How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations (e.g., request actions, request objects, initiate greetings)?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHMultiModalCommunicationObservationCS-short-conversations-low-demand"> </a>
+                  <a href="CodeSystem-SPLASCHMultiModalCommunicationObservationCS.html#SPLASCHMultiModalCommunicationObservationCS-short-conversations-low-demand">short-conversations-low-demand</a>
+                </td>
+                <td>Participate in short structured conversations in low demand situations</td>
+                <td>How often does the individual participate in short structured conversations that are meaningful in LOW demand situations (e.g., familiar and predictable conversations, sharing opinions, expressing like or dislike about the immediate environment)?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHMultiModalCommunicationObservationCS-convey-complex-messages-low-demand"> </a>
+                  <a href="CodeSystem-SPLASCHMultiModalCommunicationObservationCS.html#SPLASCHMultiModalCommunicationObservationCS-convey-complex-messages-low-demand">convey-complex-messages-low-demand</a>
+                </td>
+                <td>Convey complex messages in low demand situations</td>
+                <td>How often does the individual convey complex messages that are meaningful in LOW demand situations (e.g., telling a story, discussion school/current events, describing things outside the immediate environment)?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHMultiModalCommunicationObservationCS-convey-simple-messages-high-demand"> </a>
+                  <a href="CodeSystem-SPLASCHMultiModalCommunicationObservationCS.html#SPLASCHMultiModalCommunicationObservationCS-convey-simple-messages-high-demand">convey-simple-messages-high-demand</a>
+                </td>
+                <td>Convey simple meaningful messages in high demand situations</td>
+                <td>How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations (e.g., request actions, request objects, initiate greetings)?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHMultiModalCommunicationObservationCS-short-conversations-high-demand"> </a>
+                  <a href="CodeSystem-SPLASCHMultiModalCommunicationObservationCS.html#SPLASCHMultiModalCommunicationObservationCS-short-conversations-high-demand">short-conversations-high-demand</a>
+                </td>
+                <td>Participate in short structured conversations in high demand situations</td>
+                <td>How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations (e.g., familiar and predictable conversations, sharing opinions, expressing like or dislike about the immediate environment)?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHMultiModalCommunicationObservationCS-convey-complex-messages-high-demand"> </a>
+                  <a href="CodeSystem-SPLASCHMultiModalCommunicationObservationCS.html#SPLASCHMultiModalCommunicationObservationCS-convey-complex-messages-high-demand">convey-complex-messages-high-demand</a>
+                </td>
+                <td>Convey complex messages in high demand situations</td>
+                <td>How often does the individual convey complex messages that are meaningful in HIGH demand situations (e.g., telling a story, discussion school/current events, describing things outside the immediate environment)?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHMultiModalCommunicationObservationCS-communicate-without-assistance"> </a>
+                  <a href="CodeSystem-SPLASCHMultiModalCommunicationObservationCS.html#SPLASCHMultiModalCommunicationObservationCS-communicate-without-assistance">communicate-without-assistance</a>
+                </td>
+                <td>Participate in communication exchanges without assistance</td>
+                <td>How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationVS"/>
+        <version value="0.1.0"/>
+        <name value="SPLASCHMultiModalCommunicationObservationVS"/>
+        <title value="Multi-Modal Communication Observation"/>
+        <status value="active"/>
+        <date value="2022-03-14T15:55:03-04:00"/>
+        <publisher value="HL7 Patient Care Working Group"/>
+        <contact>
+          <name value="HL7 Patient Care Working Group"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="patients@lists.HL7.org"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="PACIO project"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientcare"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="info@pacioproject.org"/>
+          </telecom>
+        </contact>
+        <description value="SPLASCH multi-modal communication observation profile"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="This CodeSystem is not copyrighted."/>
+        <expansion>
+          <identifier value="urn:uuid:da6dd906-7b2a-4d22-8be9-09206b3ee752"/>
+          <timestamp value="2022-03-14T15:56:49-04:00"/>
+          <total value="7"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS"/>
+            <code value="convey-simple-messages-low-demand"/>
+            <display value="Convey simple meaningful messages in low demand situations"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS"/>
+            <code value="short-conversations-low-demand"/>
+            <display value="Participate in short structured conversations in low demand situations"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS"/>
+            <code value="convey-complex-messages-low-demand"/>
+            <display value="Convey complex messages in low demand situations"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS"/>
+            <code value="convey-simple-messages-high-demand"/>
+            <display value="Convey simple meaningful messages in high demand situations"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS"/>
+            <code value="short-conversations-high-demand"/>
+            <display value="Participate in short structured conversations in high demand situations"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS"/>
+            <code value="convey-complex-messages-high-demand"/>
+            <display value="Convey complex messages in high demand situations"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS"/>
+            <code value="communicate-without-assistance"/>
+            <display value="Participate in communication exchanges without assistance"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
     <fullUrl value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHObservationCategoryVS"/>
     <resource>
       <ValueSet>
@@ -763,7 +939,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 3 concepts</p>
+            <p>This value set contains 5 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-SPLASCHObservationCategoryCS.html">SPLASCH Observation Category Codes v0.1.0 (CodeSystem)</a>
             </p>
@@ -808,6 +984,22 @@
                 <td>Swallowing</td>
                 <td>Category code for swallowing observation</td>
               </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHObservationCategoryCS-multi-modal-communication"> </a>
+                  <a href="CodeSystem-SPLASCHObservationCategoryCS.html#SPLASCHObservationCategoryCS-multi-modal-communication">multi-modal-communication</a>
+                </td>
+                <td>Multi-modal communication</td>
+                <td>Category code for multi-modal communication observation</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHObservationCategoryCS-hearing"> </a>
+                  <a href="CodeSystem-SPLASCHObservationCategoryCS.html#SPLASCHObservationCategoryCS-hearing">hearing</a>
+                </td>
+                <td>Hearing</td>
+                <td>Category code for hearing observation</td>
+              </tr>
             </table>
           </div>
         </text>
@@ -816,7 +1008,7 @@
         <name value="SPLASCHObservationCategoryVS"/>
         <title value="SPLASCH Observation Category"/>
         <status value="active"/>
-        <date value="2021-12-29T13:00:19-05:00"/>
+        <date value="2022-03-14T15:55:03-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -849,9 +1041,9 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:f1ef23be-183f-4dda-afb3-62339b2ec8e8"/>
-          <timestamp value="2021-12-29T13:02:27-05:00"/>
-          <total value="3"/>
+          <identifier value="urn:uuid:65974533-f76c-47c0-9108-6945ec9c5044"/>
+          <timestamp value="2022-03-14T15:56:49-04:00"/>
+          <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -874,6 +1066,16 @@
             <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS"/>
             <code value="swallowing"/>
             <display value="Swallowing"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS"/>
+            <code value="multi-modal-communication"/>
+            <display value="Multi-modal communication"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS"/>
+            <code value="hearing"/>
+            <display value="Hearing"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -924,7 +1126,7 @@
         <name value="SPLASCHSolidDietModifierTypeObservationVS"/>
         <title value="Solid Diet Modifier Type Observation"/>
         <status value="active"/>
-        <date value="2021-12-29T13:00:19-05:00"/>
+        <date value="2022-03-14T15:55:03-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -957,8 +1159,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:68bc3875-bb6e-4d6b-aa3d-0bce8ed01c4d"/>
-          <timestamp value="2021-12-29T13:02:27-05:00"/>
+          <identifier value="urn:uuid:0df240f2-9189-43e1-ab95-91f09ad59a6d"/>
+          <timestamp value="2022-03-14T15:56:49-04:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1062,7 +1264,7 @@
         <name value="SPLASCHSpeechComprehensionObservationVS"/>
         <title value="Speech Comprehension Observation"/>
         <status value="active"/>
-        <date value="2021-12-29T13:00:19-05:00"/>
+        <date value="2022-03-14T15:55:03-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -1095,8 +1297,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:8bcb73f2-da8a-42ab-a328-c209009ce4df"/>
-          <timestamp value="2021-12-29T13:02:27-05:00"/>
+          <identifier value="urn:uuid:87e63f93-5b8f-4097-a70f-6e13ded8c2b2"/>
+          <timestamp value="2022-03-14T15:56:49-04:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1233,7 +1435,7 @@
         <name value="SPLASCHSpeechExpressionObservationVS"/>
         <title value="Speech Expression Observation"/>
         <status value="active"/>
-        <date value="2021-12-29T13:00:19-05:00"/>
+        <date value="2022-03-14T15:55:03-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -1266,8 +1468,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:c7c0ed3a-33ce-47fe-80c1-8ca7493b91ea"/>
-          <timestamp value="2021-12-29T13:02:27-05:00"/>
+          <identifier value="urn:uuid:6384bf49-7d80-493d-b251-612ff726759f"/>
+          <timestamp value="2022-03-14T15:56:49-04:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1603,7 +1805,7 @@
         <name value="SPLASCHSwallowingObservationValueVS"/>
         <title value="Swallowing Observation Value"/>
         <status value="active"/>
-        <date value="2021-12-29T13:00:19-05:00"/>
+        <date value="2022-03-14T15:55:03-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -1636,8 +1838,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:25072300-2a08-4b60-8dc2-d108bdce9cde"/>
-          <timestamp value="2021-12-29T13:02:27-05:00"/>
+          <identifier value="urn:uuid:ce83d9e9-f905-44eb-824a-b6ac63f968bc"/>
+          <timestamp value="2022-03-14T15:56:49-04:00"/>
           <total value="26"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1906,7 +2108,7 @@
         <name value="SPLASCHSwallowingObservationVS"/>
         <title value="Swallowing Observation"/>
         <status value="active"/>
-        <date value="2021-12-29T13:00:19-05:00"/>
+        <date value="2022-03-14T15:55:03-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -1939,8 +2141,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:89b33073-cf27-4edd-80a7-7461762ebd43"/>
-          <timestamp value="2021-12-29T13:02:27-05:00"/>
+          <identifier value="urn:uuid:8b179387-19c5-4e34-a887-397efa3ddcb7"/>
+          <timestamp value="2022-03-14T15:56:49-04:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>

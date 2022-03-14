@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "2f321c77-2497-460d-af15-ee3e6bcc026d-165",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/2f321c77-2497-460d-af15-ee3e6bcc026d-165",
+  "id" : "4d57680e-80a5-4cac-8e2a-5988e35b2b05-240",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4d57680e-80a5-4cac-8e2a-5988e35b2b05-240",
   "name" : "IntersectionUSCorePediatricBMIforAgeObservationProfileAndSwallowingObservation",
   "title" : "Intersection of US Core Pediatric BMI for Age Observation Profile And Swallowing Observation",
   "status" : "active",
-  "date" : "2021-12-29T13:01:44-05:00",
+  "date" : "2022-03-14T15:56:16-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/2f321c77-2497-460d-af15-ee3e6bcc026d-162"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/4d57680e-80a5-4cac-8e2a-5988e35b2b05-237"
       },
       "mapping" : [{
         "identity" : "workflow",

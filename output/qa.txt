@@ -1,12 +1,13 @@
 ﻿PACIOReAssessmentTimepoints : Validation Results
 =========================================
 
-err = 132, warn = 11, info = 106
-IG Publisher Version: 1.1.88 Out of date - current version is 1.1.93
-Generated Wed Dec 29 13:03:43 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-splasch#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-splasch)
+err = 132, warn = 13, info = 106
+IG Publisher Version: 1.1.88 Out of date - current version is 1.1.112
+Generated Mon Mar 14 15:57:57 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio-splasch#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-splasch)
  Build Errors : 1 / 1 / 0
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHCaloriePercentageCategoryCS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHLiquidDietCS : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHMultiModalCommunicationObservationCS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHObservationCategoryCS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHSolidDietCS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHSpeechComprehensionObservationCS : 0 / 0 / 1
@@ -26,7 +27,7 @@ Generated Wed Dec 29 13:03:43 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-010 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-011 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-012 : 2 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-013 : 2 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-013 : 3 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-014 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-015 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-016 : 2 / 0 / 2
@@ -122,7 +123,7 @@ Generated Wed Dec 29 13:03:43 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-106 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Organization-Organization-Happy-Nursing-Facility : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Organization-Organization-San-Antonio-General-Hospital : 0 / 0 / 1
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Patient-BSJ-patientBSJ1 : 4 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Patient-BSJ-patientBSJ1 : 3 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Practitioner-Practitioner-AlexanderKuikhoff : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Practitioner-Practitioner-CheriseLangford : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Practitioner-Practitioner-DanielGranger : 0 / 0 / 1
@@ -151,6 +152,7 @@ Generated Wed Dec 29 13:03:43 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-speech-language-pathologist-AlexanderKuikhoff : 0 / 1 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-speech-language-pathologist-JennyGlass : 0 / 1 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-speech-language-pathologist-MariaGonzalez : 0 / 1 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\StructureDefinition-splasch-MultiModalCommunicationObservation : 0 / 2 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\StructureDefinition-splasch-SpokenLanguageComprehensionObservation : 0 / 2 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\StructureDefinition-splasch-SpokenLanguageExpressionObservation : 0 / 2 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\StructureDefinition-splasch-SwallowingObservation : 0 / 2 / 1
@@ -158,6 +160,7 @@ Generated Wed Dec 29 13:03:43 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHFrequencyObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHFrequencyTypeObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHLiquidDietModifierTypeObservationVS : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHMultiModalCommunicationObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHObservationCategoryVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHSolidDietModifierTypeObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHSpeechComprehensionObservationVS : 0 / 0 / 1
@@ -167,9 +170,10 @@ Generated Wed Dec 29 13:03:43 EST 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
 </table>
 == n/a ==
 WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Patient-BSJ-patientBSJ1.html#/html/body/div/div/div/div/div/div/p/a at Line 190, column 2480: The link 'pcp-John-Smith' for "pcp-John-Smith" cannot be resolved
+ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Patient-BSJ-patientBSJ1.html#/html/body/div/div/div/div/div/div/p/a at Line 209, column 2480: The link 'pcp-John-Smith' for "pcp-John-Smith" cannot be resolved
 == fsh-generated\resources\CodeSystem-SPLASCHCaloriePercentageCategoryCS.json ==
 == fsh-generated\resources\CodeSystem-SPLASCHLiquidDietCS.json ==
+== fsh-generated\resources\CodeSystem-SPLASCHMultiModalCommunicationObservationCS.json ==
 == fsh-generated\resources\CodeSystem-SPLASCHObservationCategoryCS.json ==
 == fsh-generated\resources\CodeSystem-SPLASCHSolidDietCS.json ==
 == fsh-generated\resources\CodeSystem-SPLASCHSpeechComprehensionObservationCS.json ==
@@ -226,6 +230,7 @@ INFORMATION: Observation/BSJ-ObservationSPLASCH-012: Observation.category[0]: No
 ERROR: Observation/BSJ-ObservationSPLASCH-012: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
 ERROR: Observation/BSJ-ObservationSPLASCH-012: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-013.json ==
+ERROR: Observation/BSJ-ObservationSPLASCH-013: Observation.status: The value provided ('finald') is not in the value set 'ObservationStatus' (http://hl7.org/fhir/ValueSet/observation-status|4.0.1), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#finald in http://hl7.org/fhir/observation-status)
 INFORMATION: Observation/BSJ-ObservationSPLASCH-013: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-expression)
 ERROR: Observation/BSJ-ObservationSPLASCH-013: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
 ERROR: Observation/BSJ-ObservationSPLASCH-013: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
@@ -520,7 +525,6 @@ ERROR: Observation/BSJ-ObservationSPLASCH-106: Observation.value.ofType(Codeable
 == fsh-generated\resources\Organization-Organization-Happy-Nursing-Facility.json ==
 == fsh-generated\resources\Organization-Organization-San-Antonio-General-Hospital.json ==
 == fsh-generated\resources\Patient-BSJ-patientBSJ1.json ==
-ERROR: Patient/BSJ-patientBSJ1: Patient.identifier[0].system: URL value 'http://hl7.org/fhir/sid/us-medicare' does not resolve
 ERROR: Patient/BSJ-patientBSJ1: Patient.contact[0].relationship[1].coding[0]: Unknown Code System 'http://hl7.org/fhir/v2/0131'
 ERROR: Patient/BSJ-patientBSJ1: Patient.contact[0].relationship[1].coding[0].system: URL value 'http://hl7.org/fhir/v2/0131' does not resolve
 ERROR: Patient/BSJ-patientBSJ1: Patient.generalPractitioner[0]: Unable to resolve resource 'pcp-John-Smith'
@@ -556,6 +560,9 @@ WARNING: PractitionerRole/provider-role-speech-language-pathologist-AlexanderKui
 WARNING: PractitionerRole/provider-role-speech-language-pathologist-JennyGlass: PractitionerRole.code[0].coding[0]: The display "Speech Language Pathologist" is not a valid display for the code {http://nucc.org/provider-taxonomy}235Z00000X - should be one of ['Speech-Language Pathologist'] (from http://tx.fhir.org/r4) for 'http://nucc.org/provider-taxonomy#235Z00000X'
 == fsh-generated\resources\PractitionerRole-provider-role-speech-language-pathologist-MariaGonzalez.json ==
 WARNING: PractitionerRole/provider-role-speech-language-pathologist-MariaGonzalez: PractitionerRole.code[0].coding[0]: The display "Speech Language Pathologist" is not a valid display for the code {http://nucc.org/provider-taxonomy}235Z00000X - should be one of ['Speech-Language Pathologist'] (from http://tx.fhir.org/r4) for 'http://nucc.org/provider-taxonomy#235Z00000X'
+== fsh-generated\resources\StructureDefinition-splasch-MultiModalCommunicationObservation.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-MultiModalCommunicationObservation').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-MultiModalCommunicationObservation'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-splasch-SpokenLanguageComprehensionObservation.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageComprehensionObservation').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageComprehensionObservation'): The Implementation Guide contains no examples for this profile
@@ -569,6 +576,7 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-splasch/S
 == fsh-generated\resources\ValueSet-SPLASCHFrequencyObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHFrequencyTypeObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHLiquidDietModifierTypeObservationVS.json ==
+== fsh-generated\resources\ValueSet-SPLASCHMultiModalCommunicationObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHObservationCategoryVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHSolidDietModifierTypeObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHSpeechComprehensionObservationVS.json ==

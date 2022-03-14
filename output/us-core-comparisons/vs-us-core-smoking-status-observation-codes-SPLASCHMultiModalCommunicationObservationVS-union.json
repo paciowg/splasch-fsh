@@ -1,0 +1,65 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "4d57680e-80a5-4cac-8e2a-5988e35b2b05-77",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/4d57680e-80a5-4cac-8e2a-5988e35b2b05-77",
+  "name" : "UnionUSCoreSmokingStatusObservationCodesAndSPLASCHMultiModalCommunicationObservationVS",
+  "title" : "Union of US Core Smoking Status Observation Codes And Multi-Modal Communication Observation",
+  "status" : "active",
+  "date" : "2022-03-14T15:56:15-04:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "72166-2",
+        "display" : "Tobacco smoking status NHIS"
+      }]
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "72166-2",
+      "display" : "Tobacco smoking status NHIS"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
+      "code" : "convey-simple-messages-low-demand",
+      "display" : "Convey simple meaningful messages in low demand situations"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
+      "code" : "short-conversations-low-demand",
+      "display" : "Participate in short structured conversations in low demand situations"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
+      "code" : "convey-complex-messages-low-demand",
+      "display" : "Convey complex messages in low demand situations"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
+      "code" : "convey-simple-messages-high-demand",
+      "display" : "Convey simple meaningful messages in high demand situations"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
+      "code" : "short-conversations-high-demand",
+      "display" : "Participate in short structured conversations in high demand situations"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
+      "code" : "convey-complex-messages-high-demand",
+      "display" : "Convey complex messages in high demand situations"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
+      "code" : "communicate-without-assistance",
+      "display" : "Participate in communication exchanges without assistance"
+    }]
+  }
+}

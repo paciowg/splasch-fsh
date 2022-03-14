@@ -4,6 +4,8 @@ Description: "Categories for SPLASCH observations"
 * #spoken-language-comprehension "Spoken language comprehension" "Category code for spoken language comprehension observation"
 * #spoken-language-expression "Spoken language expression" "Category code for spoken language expression observation"
 * #swallowing "Swallowing" "Category code for swallowing observation"
+* #multi-modal-communication "Multi-modal communication" "Category code for multi-modal communication observation"
+* #hearing "Hearing" "Category code for hearing observation"
 * ^caseSensitive = true
 * ^copyright = "This CodeSystem is not copyrighted."
 
@@ -31,6 +33,19 @@ Description: "Observation codes for spoken language expression"
 * #verbal-form-high-demand "Produce verbal messages with appropriate form in high demand situations" "How often does the individual produce verbal messages with appropriate FORM in HIGH demand situations (e.g., academic or work-related tasks)? Note: consider phonology, morphology and syntax when assessing functional level."
 * #verbal-content-high-demand "Produce verbal messages with appropriate content in high demand situations" "How often does the individual produce verbal messages with appropriate CONTENT in HIGH demand situations (e.g., academic or work-related tasks)? Note: consider semantic meaning when assessing functional level."
 * #communicate-without-assistance "Participate in communication without assistance" "How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?"
+* ^caseSensitive = true
+* ^copyright = "This CodeSystem is not copyrighted."
+
+CodeSystem: SPLASCHMultiModalCommunicationObservationCS
+Title: "Multi-Modal Communication Observation Codes"
+Description: "Observation codes for multi-modal communication"
+* #convey-simple-messages-low-demand "Convey simple meaningful messages in low demand situations" "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations (e.g., request actions, request objects, initiate greetings)?"
+* #short-conversations-low-demand "Participate in short structured conversations in low demand situations" "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations (e.g., familiar and predictable conversations, sharing opinions, expressing like or dislike about the immediate environment)?"
+* #convey-complex-messages-low-demand "Convey complex messages in low demand situations" "How often does the individual convey complex messages that are meaningful in LOW demand situations (e.g., telling a story, discussion school/current events, describing things outside the immediate environment)?"
+* #convey-simple-messages-high-demand "Convey simple meaningful messages in high demand situations" "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations (e.g., request actions, request objects, initiate greetings)?"
+* #short-conversations-high-demand "Participate in short structured conversations in high demand situations" "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations (e.g., familiar and predictable conversations, sharing opinions, expressing like or dislike about the immediate environment)?"
+* #convey-complex-messages-high-demand "Convey complex messages in high demand situations" "How often does the individual convey complex messages that are meaningful in HIGH demand situations (e.g., telling a story, discussion school/current events, describing things outside the immediate environment)?"
+* #communicate-without-assistance "Participate in communication exchanges without assistance" "How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?"
 * ^caseSensitive = true
 * ^copyright = "This CodeSystem is not copyrighted."
 

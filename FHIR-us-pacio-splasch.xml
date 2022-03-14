@@ -239,6 +239,9 @@
 <artifact id="ValueSet/SPLASCHLiquidDietModifierTypeObservationVS" key="ValueSet-SPLASCHLiquidDietModifierTypeObservationVS" name="Liquid Diet Modifier Type Observation"/>
 <artifact deprecated="true" id="Encounter/MDS-Re-assessment-Timepoint-1" key="Encounter-MDS-Re-assessment-Timepoint-1" name="MDS-Re-assessment-Timepoint-1"/>
 <artifact deprecated="true" id="Encounter/MDS-Re-assessment-Timepoint-2" key="Encounter-MDS-Re-assessment-Timepoint-2" name="MDS-Re-assessment-Timepoint-2"/>
+<artifact id="StructureDefinition/splasch-MultiModalCommunicationObservation" key="StructureDefinition-splasch-MultiModalCommunicationObservation" name="Multi-Modal Communication Observation"/>
+<artifact id="ValueSet/SPLASCHMultiModalCommunicationObservationVS" key="ValueSet-SPLASCHMultiModalCommunicationObservationVS" name="Multi-Modal Communication Observation"/>
+<artifact id="CodeSystem/SPLASCHMultiModalCommunicationObservationCS" key="CodeSystem-SPLASCHMultiModalCommunicationObservationCS" name="Multi-Modal Communication Observation Codes"/>
 <artifact deprecated="true" id="Encounter/OASIS-Re-assessment-Timepoint-1" key="Encounter-OASIS-Re-assessment-Timepoint-1" name="OASIS-Re-assessment-Timepoint-1"/>
 <artifact deprecated="true" id="Encounter/OASIS-Re-assessment-Timepoint-2" key="Encounter-OASIS-Re-assessment-Timepoint-2" name="OASIS-Re-assessment-Timepoint-2"/>
 <artifact deprecated="true" id="Encounter/OASIS-Re-assessment-Timepoint-3" key="Encounter-OASIS-Re-assessment-Timepoint-3" name="OASIS-Re-assessment-Timepoint-3"/>

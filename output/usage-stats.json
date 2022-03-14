@@ -7,6 +7,10 @@
   "profiles": {
     "Observation": [
       {
+        "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-MultiModalCommunicationObservation",
+        "title": "Multi-Modal Communication Observation"
+      },
+      {
         "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageComprehensionObservation",
         "title": "Spoken Language Comprehension Observation"
       },

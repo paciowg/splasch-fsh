@@ -14,6 +14,13 @@
     "name": "SPLASCHLiquidDietCS"
   },
   {
+    "id": "SPLASCHMultiModalCommunicationObservationCS",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
+    "version": "0.1.0",
+    "name": "SPLASCHMultiModalCommunicationObservationCS"
+  },
+  {
     "id": "SPLASCHObservationCategoryCS",
     "type": "CodeSystem",
     "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS",
@@ -63,6 +70,13 @@
     "name": "PACIOReAssessmentTimepoints"
   },
   {
+    "id": "splasch-MultiModalCommunicationObservation",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-MultiModalCommunicationObservation",
+    "version": "0.1.0",
+    "name": "MultiModalCommunicationObservation"
+  },
+  {
     "id": "splasch-SpokenLanguageComprehensionObservation",
     "type": "StructureDefinition",
     "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SpokenLanguageComprehensionObservation",
@@ -110,6 +124,13 @@
     "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHLiquidDietModifierTypeObservationVS",
     "version": "0.1.0",
     "name": "SPLASCHLiquidDietModifierTypeObservationVS"
+  },
+  {
+    "id": "SPLASCHMultiModalCommunicationObservationVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationVS",
+    "version": "0.1.0",
+    "name": "SPLASCHMultiModalCommunicationObservationVS"
   },
   {
     "id": "SPLASCHObservationCategoryVS",
