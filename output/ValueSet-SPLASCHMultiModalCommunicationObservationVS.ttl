@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "SPLASCHMultiModalCommunicationObservationVS"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-SPLASCHMultiModalCommunicationObservationCS.html\"><code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS</code></a></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-SPLASCHMultiModalCommunicationObservationCS.html\"><code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS</code></a></li><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/99829-4.html\">99829-4</a></td><td>How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/99830-2.html\">99830-2</a></td><td>How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/99831-0.html\">99831-0</a></td><td>How often does the individual convey complex messages that are meaningful in LOW demand situations?</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/99832-8.html\">99832-8</a></td><td>How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/99833-6.html\">99833-6</a></td><td>How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/99834-4.html\">99834-4</a></td><td>How often does the individual convey complex messages that are meaningful in HIGH demand situations?</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/99835-1.html\">99835-1</a></td><td>Functional Communication Measure - Multi-Modal Functional Communication score [ASHA NOMS]</td></tr></table></li></ul></div>"
   ];
   fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationVS"];
   fhir:ValueSet.version [ fhir:value "0.1.0"];
   fhir:ValueSet.name [ fhir:value "SPLASCHMultiModalCommunicationObservationVS"];
   fhir:ValueSet.title [ fhir:value "Multi-Modal Communication Observation"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2022-03-14T15:55:03-04:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-03-24T15:01:17-04:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "HL7 Patient Care Working Group"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -58,6 +58,38 @@
      fhir:ValueSet.compose.include [
        fhir:index 0;
        fhir:ValueSet.compose.include.system [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS" ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://loinc.org" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "99829-4" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "99830-2" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?" ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "99831-0" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "How often does the individual convey complex messages that are meaningful in LOW demand situations?" ]
+       ], [
+         fhir:index 3;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "99832-8" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?" ]
+       ], [
+         fhir:index 4;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "99833-6" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?" ]
+       ], [
+         fhir:index 5;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "99834-4" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "How often does the individual convey complex messages that are meaningful in HIGH demand situations?" ]
+       ], [
+         fhir:index 6;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "99835-1" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Functional Communication Measure - Multi-Modal Functional Communication score [ASHA NOMS]" ]
+       ]
      ]
   ] .
 

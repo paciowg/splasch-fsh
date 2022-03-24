@@ -36,16 +36,25 @@ Description: "Observation codes for spoken language expression"
 * ^caseSensitive = true
 * ^copyright = "This CodeSystem is not copyrighted."
 
+
 CodeSystem: SPLASCHMultiModalCommunicationObservationCS
 Title: "Multi-Modal Communication Observation Codes"
 Description: "Observation codes for multi-modal communication"
-* #convey-simple-messages-low-demand "Convey simple meaningful messages in low demand situations" "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations (e.g., request actions, request objects, initiate greetings)?"
-* #short-conversations-low-demand "Participate in short structured conversations in low demand situations" "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations (e.g., familiar and predictable conversations, sharing opinions, expressing like or dislike about the immediate environment)?"
-* #convey-complex-messages-low-demand "Convey complex messages in low demand situations" "How often does the individual convey complex messages that are meaningful in LOW demand situations (e.g., telling a story, discussion school/current events, describing things outside the immediate environment)?"
-* #convey-simple-messages-high-demand "Convey simple meaningful messages in high demand situations" "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations (e.g., request actions, request objects, initiate greetings)?"
-* #short-conversations-high-demand "Participate in short structured conversations in high demand situations" "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations (e.g., familiar and predictable conversations, sharing opinions, expressing like or dislike about the immediate environment)?"
-* #convey-complex-messages-high-demand "Convey complex messages in high demand situations" "How often does the individual convey complex messages that are meaningful in HIGH demand situations (e.g., telling a story, discussion school/current events, describing things outside the immediate environment)?"
+/*
+  todo: figure out the mismatch between LOINC codes and ASHA FCMs. LOINC 99828-6 has sub LOINC codes for all ASHA FCMs except communicate-without-assistance (listed below.) 
+  Additionally, LOINC 99828-6 includes 99835-1 (MMC FC score) which is not listed in ASHA FCM document. Is LOINC 99835-1 equivalent to communicate-without-assistance? 
+  If so, then can eliminate SPLASCHMultiModalCommunicationObservationCS and use exactly the LOINC codes listed under 99828-6.
+*/
 * #communicate-without-assistance "Participate in communication exchanges without assistance" "How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?"
+* ^caseSensitive = true
+* ^copyright = "This CodeSystem is not copyrighted."
+
+
+//todo: complete hearing observation CS
+CodeSystem: SPLASCHHearingObservationCS
+Title: "Hearing Observation Codes"
+Description: "Observation codes for hearing"
+* #this-is-a-test "test code" "this code is a test"
 * ^caseSensitive = true
 * ^copyright = "This CodeSystem is not copyrighted."
 

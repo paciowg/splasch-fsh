@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "6e5c9904-c1d4-44a3-863a-379d6dee6e45-77",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/6e5c9904-c1d4-44a3-863a-379d6dee6e45-77",
+  "name" : "UnionUSCoreSmokingStatusObservationCodesAndSPLASCHHearingObservationVS",
+  "title" : "Union of US Core Smoking Status Observation Codes And Hearing Observation",
+  "status" : "active",
+  "date" : "2022-03-24T15:02:44-04:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "72166-2",
+        "display" : "Tobacco smoking status NHIS"
+      }]
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "72166-2",
+      "display" : "Tobacco smoking status NHIS"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHHearingObservationCS",
+      "code" : "this-is-a-test",
+      "display" : "test code"
+    }]
+  }
+}

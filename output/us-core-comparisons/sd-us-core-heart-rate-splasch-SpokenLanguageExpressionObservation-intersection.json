@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "4d57680e-80a5-4cac-8e2a-5988e35b2b05-189",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4d57680e-80a5-4cac-8e2a-5988e35b2b05-189",
+  "id" : "6e5c9904-c1d4-44a3-863a-379d6dee6e45-264",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/6e5c9904-c1d4-44a3-863a-379d6dee6e45-264",
   "name" : "IntersectionUSCoreHeartRateProfileAndSpokenLanguageExpressionObservation",
   "title" : "Intersection of US Core Heart Rate Profile And Spoken Language Expression Observation",
   "status" : "active",
-  "date" : "2022-03-14T15:56:15-04:00",
+  "date" : "2022-03-24T15:02:45-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/4d57680e-80a5-4cac-8e2a-5988e35b2b05-162"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6e5c9904-c1d4-44a3-863a-379d6dee6e45-237"
       },
       "mapping" : [{
         "identity" : "workflow",

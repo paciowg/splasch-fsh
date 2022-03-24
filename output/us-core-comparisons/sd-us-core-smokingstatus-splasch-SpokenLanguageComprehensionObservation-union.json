@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "4d57680e-80a5-4cac-8e2a-5988e35b2b05-149",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4d57680e-80a5-4cac-8e2a-5988e35b2b05-149",
+  "id" : "6e5c9904-c1d4-44a3-863a-379d6dee6e45-224",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/6e5c9904-c1d4-44a3-863a-379d6dee6e45-224",
   "name" : "UnionUSCoreSmokingStatusProfileAndSpokenLanguageComprehensionObservation",
   "title" : "Union of US Core Smoking Status Observation Profile And Spoken Language Comprehension Observation",
   "status" : "active",
-  "date" : "2022-03-14T15:56:15-04:00",
+  "date" : "2022-03-24T15:02:45-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -474,7 +474,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Codes providing the status of an observation.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/4d57680e-80a5-4cac-8e2a-5988e35b2b05-74"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6e5c9904-c1d4-44a3-863a-379d6dee6e45-74"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -562,7 +562,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/4d57680e-80a5-4cac-8e2a-5988e35b2b05-152"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6e5c9904-c1d4-44a3-863a-379d6dee6e45-227"
       },
       "mapping" : [{
         "identity" : "workflow",

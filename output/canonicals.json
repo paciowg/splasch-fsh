@@ -7,6 +7,13 @@
     "name": "SPLASCHCaloriePercentageCategoryCS"
   },
   {
+    "id": "SPLASCHHearingObservationCS",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHHearingObservationCS",
+    "version": "0.1.0",
+    "name": "SPLASCHHearingObservationCS"
+  },
+  {
     "id": "SPLASCHLiquidDietCS",
     "type": "CodeSystem",
     "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS",
@@ -70,6 +77,13 @@
     "name": "PACIOReAssessmentTimepoints"
   },
   {
+    "id": "splasch-HearingObservation",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-HearingObservation",
+    "version": "0.1.0",
+    "name": "HearingObservation"
+  },
+  {
     "id": "splasch-MultiModalCommunicationObservation",
     "type": "StructureDefinition",
     "url": "http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-MultiModalCommunicationObservation",
@@ -117,6 +131,13 @@
     "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHFrequencyTypeObservationVS",
     "version": "0.1.0",
     "name": "SPLASCHFrequencyTypeObservationVS"
+  },
+  {
+    "id": "SPLASCHHearingObservationVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHHearingObservationVS",
+    "version": "0.1.0",
+    "name": "SPLASCHHearingObservationVS"
   },
   {
     "id": "SPLASCHLiquidDietModifierTypeObservationVS",

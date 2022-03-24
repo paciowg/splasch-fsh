@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "4d57680e-80a5-4cac-8e2a-5988e35b2b05-53",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4d57680e-80a5-4cac-8e2a-5988e35b2b05-53",
+  "id" : "6e5c9904-c1d4-44a3-863a-379d6dee6e45-131",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/6e5c9904-c1d4-44a3-863a-379d6dee6e45-131",
   "name" : "UnionUSCoreObservationScreeningResponseAndMultiModalCommunicationObservation",
   "title" : "Union of US Core Screening Response Observation Profile And Multi-Modal Communication Observation",
   "status" : "active",
-  "date" : "2022-03-14T15:56:14-04:00",
+  "date" : "2022-03-24T15:02:44-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -560,7 +560,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/4d57680e-80a5-4cac-8e2a-5988e35b2b05-56"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6e5c9904-c1d4-44a3-863a-379d6dee6e45-134"
       },
       "mapping" : [{
         "identity" : "workflow",

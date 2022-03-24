@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "4d57680e-80a5-4cac-8e2a-5988e35b2b05-5",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/4d57680e-80a5-4cac-8e2a-5988e35b2b05-5",
+  "id" : "6e5c9904-c1d4-44a3-863a-379d6dee6e45-86",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/6e5c9904-c1d4-44a3-863a-379d6dee6e45-86",
   "name" : "UnionUsCoreVitalSignsAndSPLASCHMultiModalCommunicationObservationVS",
   "title" : "Union of US Core Vital Signs ValueSet And Multi-Modal Communication Observation",
   "status" : "active",
-  "date" : "2022-03-14T15:56:14-04:00",
+  "date" : "2022-03-24T15:02:44-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -14,7 +14,6 @@
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://loinc.org",
       "concept" : [{
         "code" : "59576-9"
       },
@@ -32,6 +31,34 @@
       },
       {
         "code" : "3151-8"
+      },
+      {
+        "code" : "99829-4",
+        "display" : "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
+      },
+      {
+        "code" : "99830-2",
+        "display" : "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
+      },
+      {
+        "code" : "99831-0",
+        "display" : "How often does the individual convey complex messages that are meaningful in LOW demand situations?"
+      },
+      {
+        "code" : "99832-8",
+        "display" : "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
+      },
+      {
+        "code" : "99833-6",
+        "display" : "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
+      },
+      {
+        "code" : "99834-4",
+        "display" : "How often does the individual convey complex messages that are meaningful in HIGH demand situations?"
+      },
+      {
+        "code" : "99835-1",
+        "display" : "Functional Communication Measure - Multi-Modal Functional Communication score [ASHA NOMS]"
       }]
     },
     {
@@ -162,36 +189,6 @@
       "inactive" : false,
       "code" : "8478-0",
       "display" : "Mean blood pressure"
-    },
-    {
-      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
-      "code" : "convey-simple-messages-low-demand",
-      "display" : "Convey simple meaningful messages in low demand situations"
-    },
-    {
-      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
-      "code" : "short-conversations-low-demand",
-      "display" : "Participate in short structured conversations in low demand situations"
-    },
-    {
-      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
-      "code" : "convey-complex-messages-low-demand",
-      "display" : "Convey complex messages in low demand situations"
-    },
-    {
-      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
-      "code" : "convey-simple-messages-high-demand",
-      "display" : "Convey simple meaningful messages in high demand situations"
-    },
-    {
-      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
-      "code" : "short-conversations-high-demand",
-      "display" : "Participate in short structured conversations in high demand situations"
-    },
-    {
-      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
-      "code" : "convey-complex-messages-high-demand",
-      "display" : "Convey complex messages in high demand situations"
     },
     {
       "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",

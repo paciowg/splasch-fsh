@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "4d57680e-80a5-4cac-8e2a-5988e35b2b05-213",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4d57680e-80a5-4cac-8e2a-5988e35b2b05-213",
+  "id" : "6e5c9904-c1d4-44a3-863a-379d6dee6e45-288",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/6e5c9904-c1d4-44a3-863a-379d6dee6e45-288",
   "name" : "IntersectionUSCoreSexualOrientationObservationProfileAndSpokenLanguageExpressionObservation",
   "title" : "Intersection of US Core Sexual Orientation Observation Profile And Spoken Language Expression Observation",
   "status" : "active",
-  "date" : "2022-03-14T15:56:15-04:00",
+  "date" : "2022-03-24T15:02:45-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

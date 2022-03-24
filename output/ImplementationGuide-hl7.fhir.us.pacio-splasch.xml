@@ -11,7 +11,7 @@
   <name value="PACIOReAssessmentTimepoints"/>
   <title value="PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide"/>
   <status value="draft"/>
-  <date value="2022-03-14T15:55:03-04:00"/>
+  <date value="2022-03-24T15:01:17-04:00"/>
   <publisher value="HL7 Patient Care Working Group"/>
   <contact>
     <name value="HL7 Patient Care Working Group"/>
@@ -248,6 +248,17 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/splasch-HearingObservation"/>
+      </reference>
+      <name value="Hearing Observation"/>
+      <description value="An exchange of hearing data for a patient."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/splasch-MultiModalCommunicationObservation"/>
       </reference>
       <name value="Multi-Modal Communication Observation"/>
@@ -318,6 +329,17 @@
       </reference>
       <name value="Frequency Type Observation"/>
       <description value="ValueSet identifying observation codes that have a frequency value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/SPLASCHHearingObservationVS"/>
+      </reference>
+      <name value="Hearing Observation"/>
+      <description value="SPLASCH hearing observation profile"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -417,6 +439,17 @@
       </reference>
       <name value="Observation Value Calorie Percentage Category Codes"/>
       <description value="Category codes for calorie percentage observations"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/SPLASCHHearingObservationCS"/>
+      </reference>
+      <name value="Hearing Observation Codes"/>
+      <description value="Observation codes for hearing"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

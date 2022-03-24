@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "SPLASCHMultiModalCommunicationObservationCS"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">convey-simple-messages-low-demand<a name=\"SPLASCHMultiModalCommunicationObservationCS-convey-simple-messages-low-demand\"> </a></td><td>Convey simple meaningful messages in low demand situations</td><td>How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations (e.g., request actions, request objects, initiate greetings)?</td></tr><tr><td style=\"white-space:nowrap\">short-conversations-low-demand<a name=\"SPLASCHMultiModalCommunicationObservationCS-short-conversations-low-demand\"> </a></td><td>Participate in short structured conversations in low demand situations</td><td>How often does the individual participate in short structured conversations that are meaningful in LOW demand situations (e.g., familiar and predictable conversations, sharing opinions, expressing like or dislike about the immediate environment)?</td></tr><tr><td style=\"white-space:nowrap\">convey-complex-messages-low-demand<a name=\"SPLASCHMultiModalCommunicationObservationCS-convey-complex-messages-low-demand\"> </a></td><td>Convey complex messages in low demand situations</td><td>How often does the individual convey complex messages that are meaningful in LOW demand situations (e.g., telling a story, discussion school/current events, describing things outside the immediate environment)?</td></tr><tr><td style=\"white-space:nowrap\">convey-simple-messages-high-demand<a name=\"SPLASCHMultiModalCommunicationObservationCS-convey-simple-messages-high-demand\"> </a></td><td>Convey simple meaningful messages in high demand situations</td><td>How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations (e.g., request actions, request objects, initiate greetings)?</td></tr><tr><td style=\"white-space:nowrap\">short-conversations-high-demand<a name=\"SPLASCHMultiModalCommunicationObservationCS-short-conversations-high-demand\"> </a></td><td>Participate in short structured conversations in high demand situations</td><td>How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations (e.g., familiar and predictable conversations, sharing opinions, expressing like or dislike about the immediate environment)?</td></tr><tr><td style=\"white-space:nowrap\">convey-complex-messages-high-demand<a name=\"SPLASCHMultiModalCommunicationObservationCS-convey-complex-messages-high-demand\"> </a></td><td>Convey complex messages in high demand situations</td><td>How often does the individual convey complex messages that are meaningful in HIGH demand situations (e.g., telling a story, discussion school/current events, describing things outside the immediate environment)?</td></tr><tr><td style=\"white-space:nowrap\">communicate-without-assistance<a name=\"SPLASCHMultiModalCommunicationObservationCS-communicate-without-assistance\"> </a></td><td>Participate in communication exchanges without assistance</td><td>How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">communicate-without-assistance<a name=\"SPLASCHMultiModalCommunicationObservationCS-communicate-without-assistance\"> </a></td><td>Participate in communication exchanges without assistance</td><td>How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?</td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS"];
   fhir:CodeSystem.version [ fhir:value "0.1.0"];
   fhir:CodeSystem.name [ fhir:value "SPLASCHMultiModalCommunicationObservationCS"];
   fhir:CodeSystem.title [ fhir:value "Multi-Modal Communication Observation Codes"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-03-14T15:55:03-04:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-03-24T15:01:17-04:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "HL7 Patient Care Working Group"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -56,39 +56,9 @@
   fhir:CodeSystem.copyright [ fhir:value "This CodeSystem is not copyrighted."];
   fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
   fhir:CodeSystem.content [ fhir:value "complete"];
-  fhir:CodeSystem.count [ fhir:value "7"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.count [ fhir:value "1"^^xsd:nonNegativeInteger];
   fhir:CodeSystem.concept [
      fhir:index 0;
-     fhir:CodeSystem.concept.code [ fhir:value "convey-simple-messages-low-demand" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Convey simple meaningful messages in low demand situations" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations (e.g., request actions, request objects, initiate greetings)?" ]
-  ], [
-     fhir:index 1;
-     fhir:CodeSystem.concept.code [ fhir:value "short-conversations-low-demand" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Participate in short structured conversations in low demand situations" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations (e.g., familiar and predictable conversations, sharing opinions, expressing like or dislike about the immediate environment)?" ]
-  ], [
-     fhir:index 2;
-     fhir:CodeSystem.concept.code [ fhir:value "convey-complex-messages-low-demand" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Convey complex messages in low demand situations" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "How often does the individual convey complex messages that are meaningful in LOW demand situations (e.g., telling a story, discussion school/current events, describing things outside the immediate environment)?" ]
-  ], [
-     fhir:index 3;
-     fhir:CodeSystem.concept.code [ fhir:value "convey-simple-messages-high-demand" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Convey simple meaningful messages in high demand situations" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations (e.g., request actions, request objects, initiate greetings)?" ]
-  ], [
-     fhir:index 4;
-     fhir:CodeSystem.concept.code [ fhir:value "short-conversations-high-demand" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Participate in short structured conversations in high demand situations" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations (e.g., familiar and predictable conversations, sharing opinions, expressing like or dislike about the immediate environment)?" ]
-  ], [
-     fhir:index 5;
-     fhir:CodeSystem.concept.code [ fhir:value "convey-complex-messages-high-demand" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Convey complex messages in high demand situations" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "How often does the individual convey complex messages that are meaningful in HIGH demand situations (e.g., telling a story, discussion school/current events, describing things outside the immediate environment)?" ]
-  ], [
-     fhir:index 6;
      fhir:CodeSystem.concept.code [ fhir:value "communicate-without-assistance" ];
      fhir:CodeSystem.concept.display [ fhir:value "Participate in communication exchanges without assistance" ];
      fhir:CodeSystem.concept.definition [ fhir:value "How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?" ]

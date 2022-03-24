@@ -1,0 +1,15 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "6e5c9904-c1d4-44a3-863a-379d6dee6e45-57",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/6e5c9904-c1d4-44a3-863a-379d6dee6e45-57",
+  "name" : "IntersectionUSCoreCommonSDOHAssessmentsAndSPLASCHHearingObservationVS",
+  "title" : "Intersection of US Core Common SDOH Assessments ValueSet And Hearing Observation",
+  "status" : "active",
+  "date" : "2022-03-24T15:02:44-04:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }]
+}
