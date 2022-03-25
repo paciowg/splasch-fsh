@@ -50,15 +50,6 @@ Description: "Observation codes for multi-modal communication"
 * ^copyright = "This CodeSystem is not copyrighted."
 
 
-//todo: complete hearing observation CS
-CodeSystem: SPLASCHHearingObservationCS
-Title: "Hearing Observation Codes"
-Description: "Observation codes for hearing"
-* #this-is-a-test "test code" "this code is a test"
-* ^caseSensitive = true
-* ^copyright = "This CodeSystem is not copyrighted."
-
-
 CodeSystem: SPLASCHSwallowingObservationCS
 Title: "Swallowing Observation Codes"
 Description: "Observation codes for swallowing"

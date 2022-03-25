@@ -31,6 +31,6 @@ Description:    "An exchange of hearing data for a patient."
 * code from SPLASCHHearingObservationVS (required)
 
 * value[x] only CodeableConcept
-* valueCodeableConcept from SPLASCHFrequencyObservationVS (required)
+* valueCodeableConcept from SPLASCHHearingObservationValueVS (required)
 
 * effective[x] 1..1 MS

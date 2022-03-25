@@ -53,11 +53,69 @@ Description: "SPLASCH multi-modal communication observation profile"
 * include $LOINC#99835-1 "Functional Communication Measure - Multi-Modal Functional Communication score [ASHA NOMS]" //todo: This LOINC code does not seem to exist in ASHA FCM document. See corresponding comment in CodeSystems.fsh -> SPLASCHMultiModalCommunicationObservationCS
 * ^copyright = "This CodeSystem is not copyrighted."
 
+
+
+
+
+
+
+
 ValueSet: SPLASCHHearingObservationVS
 Title: "Hearing Observation"
-Description: "SPLASCH hearing observation profile"
-* codes from system SPLASCHHearingObservationCS
+Description: "SPLASCH hearing observation profile: codes representing hearing questions that are answered by the ValueSet SPLASCHHearingObservationValueCodeableConceptVS"
+* include $LOINC#95744-9 "Hearing.ability to hear during assessment period [CMS Assessment]" //answered with answer list LL638-8
+* include $LOINC#54599-6 "Hearing aid used during assessment period [CMS Assessment]" //answered with answer list LL251-0
+* include $LOINC#67235-2 "Does the examinee have hearing aids that cannot be removed [PhenX]" //answered with answer list LL361-7
+* include $LOINC#94900-8 "Need for and availability of a hearing aid [CMS Assessment]" //answered with answer list LL5572-4
 * ^copyright = "This CodeSystem is not copyrighted."
+
+
+ValueSet: SPLASCHHearingObservationValueVS
+Title: "Hearing Observation Value"
+Description: "SPLASCH hearing observation values: codes representing answers to the hearing questions asked by the ValueSet SPLASCHHearingObservationCodeVS"
+* codes from valueset HearingAbilityToHearDuringAssessmentPeriodVS
+* codes from valueset YesOrNoVS
+* codes from valueset CmsFasiAssistiveDevicesVS
+* ^copyright = "This CodeSystem is not copyrighted."
+
+
+
+
+ValueSet: HearingAbilityToHearDuringAssessmentPeriodVS
+Title: "Hearing Ability to Hear During Assessment Period"
+Description: "SPLASCH hearing observation codes representing answers to ability to hear during assessment period"
+//note: from answer list LL638-8
+* include $LOINC#LA10941-5 "Adequate - no difficulty in normal conversation, social interaction, listening to TV"
+* include $LOINC#LA10942-3 "Minimal difficulty - difficulty in some environments (e.g. when person speaks softly or setting is noisy)" 
+* include $LOINC#LA10943-1 "Moderate difficulty - speaker has to increase volume and speak distinctly" 
+* include $LOINC#LA10944-9 "Highly impaired - absence of useful hearing" 
+* ^copyright = "This CodeSystem is not copyrighted."
+
+
+ValueSet: YesOrNoVS
+Title: "Y/N" //also called OASIS_M0200
+Description: "Yes or No"
+//note: from answer list LL251-0, identical to LL361-7
+* include $LOINC#LA32-8 "No"
+* include $LOINC#LA33-6 "Yes"
+* ^copyright = "This CodeSystem is not copyrighted."
+
+
+ValueSet: CmsFasiAssistiveDevicesVS
+Title: "CMS FASI Assistive Devices" 
+Description: "SPLASCH hearing observation codes representing answers to need for and availability of a hearing aid"
+//note: from answer list LL5572-4
+* include $LOINC#LA30918-9 "Assistive device needed and available - Person needs this device to complete daily activities and has the device in the home."
+* include $LOINC#LA30919-7 "Assistive device needed but current device unsuitable - Device is in home but no longer meets person's needs."
+* include $LOINC#LA30920-5 "Assistive device needed but not available - Person needs the device but it is not available in the home."
+* include $LOINC#LA30921-3 "Person refused - Person chooses to not use needed device."
+* include $LOINC#LA30922-1 "Not applicable - Person does not need this device."
+
+
+
+
+
+
 
 
 ValueSet: SPLASCHSwallowingObservationValueVS

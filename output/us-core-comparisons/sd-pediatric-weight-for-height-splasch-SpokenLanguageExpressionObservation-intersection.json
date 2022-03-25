@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "6e5c9904-c1d4-44a3-863a-379d6dee6e45-243",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/6e5c9904-c1d4-44a3-863a-379d6dee6e45-243",
+  "id" : "2331f947-fe77-4c71-8a0c-70fe739d8bec-243",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/2331f947-fe77-4c71-8a0c-70fe739d8bec-243",
   "name" : "IntersectionUSCorePediatricWeightForHeightObservationProfileAndSpokenLanguageExpressionObservation",
   "title" : "Intersection of US Core Pediatric Weight for Height Observation Profile And Spoken Language Expression Observation",
   "status" : "active",
-  "date" : "2022-03-24T15:02:45-04:00",
+  "date" : "2022-03-24T23:38:44-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6e5c9904-c1d4-44a3-863a-379d6dee6e45-237"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/2331f947-fe77-4c71-8a0c-70fe739d8bec-237"
       },
       "mapping" : [{
         "identity" : "workflow",

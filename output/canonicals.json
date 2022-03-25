@@ -7,13 +7,6 @@
     "name": "SPLASCHCaloriePercentageCategoryCS"
   },
   {
-    "id": "SPLASCHHearingObservationCS",
-    "type": "CodeSystem",
-    "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHHearingObservationCS",
-    "version": "0.1.0",
-    "name": "SPLASCHHearingObservationCS"
-  },
-  {
     "id": "SPLASCHLiquidDietCS",
     "type": "CodeSystem",
     "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS",
@@ -112,6 +105,20 @@
     "name": "SwallowingObservation"
   },
   {
+    "id": "CmsFasiAssistiveDevicesVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/CmsFasiAssistiveDevicesVS",
+    "version": "0.1.0",
+    "name": "CmsFasiAssistiveDevicesVS"
+  },
+  {
+    "id": "HearingAbilityToHearDuringAssessmentPeriodVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingAbilityToHearDuringAssessmentPeriodVS",
+    "version": "0.1.0",
+    "name": "HearingAbilityToHearDuringAssessmentPeriodVS"
+  },
+  {
     "id": "SPLASCHCaloriePercentageTypeObservationVS",
     "type": "ValueSet",
     "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHCaloriePercentageTypeObservationVS",
@@ -138,6 +145,13 @@
     "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHHearingObservationVS",
     "version": "0.1.0",
     "name": "SPLASCHHearingObservationVS"
+  },
+  {
+    "id": "SPLASCHHearingObservationValueVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHHearingObservationValueVS",
+    "version": "0.1.0",
+    "name": "SPLASCHHearingObservationValueVS"
   },
   {
     "id": "SPLASCHLiquidDietModifierTypeObservationVS",
@@ -194,5 +208,12 @@
     "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSwallowingObservationValueVS",
     "version": "0.1.0",
     "name": "SPLASCHSwallowingObservationValueVS"
+  },
+  {
+    "id": "YesOrNoVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/YesOrNoVS",
+    "version": "0.1.0",
+    "name": "YesOrNoVS"
   }
 ]

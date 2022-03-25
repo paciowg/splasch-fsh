@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "6e5c9904-c1d4-44a3-863a-379d6dee6e45-77",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/6e5c9904-c1d4-44a3-863a-379d6dee6e45-77",
+  "id" : "2331f947-fe77-4c71-8a0c-70fe739d8bec-77",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2331f947-fe77-4c71-8a0c-70fe739d8bec-77",
   "name" : "UnionUSCoreSmokingStatusObservationCodesAndSPLASCHHearingObservationVS",
   "title" : "Union of US Core Smoking Status Observation Codes And Hearing Observation",
   "status" : "active",
-  "date" : "2022-03-24T15:02:44-04:00",
+  "date" : "2022-03-24T23:38:43-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -17,6 +17,22 @@
       "concept" : [{
         "code" : "72166-2",
         "display" : "Tobacco smoking status NHIS"
+      },
+      {
+        "code" : "95744-9",
+        "display" : "Hearing.ability to hear during assessment period [CMS Assessment]"
+      },
+      {
+        "code" : "54599-6",
+        "display" : "Hearing aid used during assessment period [CMS Assessment]"
+      },
+      {
+        "code" : "67235-2",
+        "display" : "Does the examinee have hearing aids that cannot be removed [PhenX]"
+      },
+      {
+        "code" : "94900-8",
+        "display" : "Need for and availability of a hearing aid [CMS Assessment]"
       }]
     }]
   },
@@ -27,9 +43,24 @@
       "display" : "Tobacco smoking status NHIS"
     },
     {
-      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHHearingObservationCS",
-      "code" : "this-is-a-test",
-      "display" : "test code"
+      "system" : "http://loinc.org",
+      "code" : "95744-9",
+      "display" : "Hearing.ability to hear during assessment period [CMS Assessment]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "54599-6",
+      "display" : "Hearing aid used during assessment period [CMS Assessment]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "67235-2",
+      "display" : "Does the examinee have hearing aids that cannot be removed [PhenX]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "94900-8",
+      "display" : "Need for and availability of a hearing aid [CMS Assessment]"
     }]
   }
 }

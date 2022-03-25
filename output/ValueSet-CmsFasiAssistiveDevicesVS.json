@@ -1,0 +1,83 @@
+{
+  "resourceType": "ValueSet",
+  "id": "CmsFasiAssistiveDevicesVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/LA30918-9.html\">LA30918-9</a></td><td>Assistive device needed and available - Person needs this device to complete daily activities and has the device in the home.</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/LA30919-7.html\">LA30919-7</a></td><td>Assistive device needed but current device unsuitable - Device is in home but no longer meets person's needs.</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/LA30920-5.html\">LA30920-5</a></td><td>Assistive device needed but not available - Person needs the device but it is not available in the home.</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/LA30921-3.html\">LA30921-3</a></td><td>Person refused - Person chooses to not use needed device.</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/LA30922-1.html\">LA30922-1</a></td><td>Not applicable - Person does not need this device.</td></tr></table></li></ul></div>"
+  },
+  "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/CmsFasiAssistiveDevicesVS",
+  "version": "0.1.0",
+  "name": "CmsFasiAssistiveDevicesVS",
+  "title": "CMS FASI Assistive Devices",
+  "status": "active",
+  "date": "2022-03-24T23:37:25-04:00",
+  "publisher": "HL7 Patient Care Working Group",
+  "contact": [
+    {
+      "name": "HL7 Patient Care Working Group",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientcare"
+        },
+        {
+          "system": "email",
+          "value": "patients@lists.HL7.org"
+        }
+      ]
+    },
+    {
+      "name": "PACIO project",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientcare"
+        },
+        {
+          "system": "email",
+          "value": "info@pacioproject.org"
+        }
+      ]
+    }
+  ],
+  "description": "SPLASCH hearing observation codes representing answers to need for and availability of a hearing aid",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "LA30918-9",
+            "display": "Assistive device needed and available - Person needs this device to complete daily activities and has the device in the home."
+          },
+          {
+            "code": "LA30919-7",
+            "display": "Assistive device needed but current device unsuitable - Device is in home but no longer meets person's needs."
+          },
+          {
+            "code": "LA30920-5",
+            "display": "Assistive device needed but not available - Person needs the device but it is not available in the home."
+          },
+          {
+            "code": "LA30921-3",
+            "display": "Person refused - Person chooses to not use needed device."
+          },
+          {
+            "code": "LA30922-1",
+            "display": "Not applicable - Person does not need this device."
+          }
+        ]
+      }
+    ]
+  }
+}

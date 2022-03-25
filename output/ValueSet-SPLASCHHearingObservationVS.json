@@ -3,14 +3,14 @@
   "id": "SPLASCHHearingObservationVS",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-SPLASCHHearingObservationCS.html\"><code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHHearingObservationCS</code></a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/95744-9.html\">95744-9</a></td><td>Hearing.ability to hear during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/54599-6.html\">54599-6</a></td><td>Hearing aid used during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/67235-2.html\">67235-2</a></td><td>Does the examinee have hearing aids that cannot be removed [PhenX]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/94900-8.html\">94900-8</a></td><td>Need for and availability of a hearing aid [CMS Assessment]</td></tr></table></li></ul></div>"
   },
   "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHHearingObservationVS",
   "version": "0.1.0",
   "name": "SPLASCHHearingObservationVS",
   "title": "Hearing Observation",
   "status": "active",
-  "date": "2022-03-24T15:01:17-04:00",
+  "date": "2022-03-24T23:37:25-04:00",
   "publisher": "HL7 Patient Care Working Group",
   "contact": [
     {
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "description": "SPLASCH hearing observation profile",
+  "description": "SPLASCH hearing observation profile: codes representing hearing questions that are answered by the ValueSet SPLASCHHearingObservationValueCodeableConceptVS",
   "jurisdiction": [
     {
       "coding": [
@@ -55,7 +55,25 @@
   "compose": {
     "include": [
       {
-        "system": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHHearingObservationCS"
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "95744-9",
+            "display": "Hearing.ability to hear during assessment period [CMS Assessment]"
+          },
+          {
+            "code": "54599-6",
+            "display": "Hearing aid used during assessment period [CMS Assessment]"
+          },
+          {
+            "code": "67235-2",
+            "display": "Does the examinee have hearing aids that cannot be removed [PhenX]"
+          },
+          {
+            "code": "94900-8",
+            "display": "Need for and availability of a hearing aid [CMS Assessment]"
+          }
+        ]
       }
     ]
   }

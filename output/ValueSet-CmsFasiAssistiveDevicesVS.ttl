@@ -1,0 +1,91 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-splasch/ValueSet/CmsFasiAssistiveDevicesVS> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "CmsFasiAssistiveDevicesVS"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/LA30918-9.html\">LA30918-9</a></td><td>Assistive device needed and available - Person needs this device to complete daily activities and has the device in the home.</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/LA30919-7.html\">LA30919-7</a></td><td>Assistive device needed but current device unsuitable - Device is in home but no longer meets person's needs.</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/LA30920-5.html\">LA30920-5</a></td><td>Assistive device needed but not available - Person needs the device but it is not available in the home.</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/LA30921-3.html\">LA30921-3</a></td><td>Person refused - Person chooses to not use needed device.</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/LA30922-1.html\">LA30922-1</a></td><td>Not applicable - Person does not need this device.</td></tr></table></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/ValueSet/CmsFasiAssistiveDevicesVS"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.name [ fhir:value "CmsFasiAssistiveDevicesVS"];
+  fhir:ValueSet.title [ fhir:value "CMS FASI Assistive Devices"];
+  fhir:ValueSet.status [ fhir:value "active"];
+  fhir:ValueSet.date [ fhir:value "2022-03-24T23:37:25-04:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "HL7 Patient Care Working Group"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "HL7 Patient Care Working Group" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/patientcare" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "patients@lists.HL7.org" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "PACIO project" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/patientcare" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "info@pacioproject.org" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "SPLASCH hearing observation codes representing answers to need for and availability of a hearing aid"];
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "US" ]
+     ]
+  ];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://loinc.org" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LA30918-9" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Assistive device needed and available - Person needs this device to complete daily activities and has the device in the home." ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LA30919-7" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Assistive device needed but current device unsuitable - Device is in home but no longer meets person's needs." ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LA30920-5" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Assistive device needed but not available - Person needs the device but it is not available in the home." ]
+       ], [
+         fhir:index 3;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LA30921-3" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Person refused - Person chooses to not use needed device." ]
+       ], [
+         fhir:index 4;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LA30922-1" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Not applicable - Person does not need this device." ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-splasch/ValueSet/CmsFasiAssistiveDevicesVS.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-splasch/ValueSet/CmsFasiAssistiveDevicesVS.ttl> .
+
+# -------------------------------------------------------------------------------------
+

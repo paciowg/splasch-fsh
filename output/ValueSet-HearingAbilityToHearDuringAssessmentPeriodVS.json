@@ -1,0 +1,80 @@
+{
+  "resourceType": "ValueSet",
+  "id": "HearingAbilityToHearDuringAssessmentPeriodVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/LA10941-5.html\">LA10941-5</a></td><td>Adequate - no difficulty in normal conversation, social interaction, listening to TV</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/LA10942-3.html\">LA10942-3</a></td><td>Minimal difficulty - difficulty in some environments (e.g. when person speaks softly or setting is noisy)</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/LA10943-1.html\">LA10943-1</a></td><td>Moderate difficulty - speaker has to increase volume and speak distinctly</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/LA10944-9.html\">LA10944-9</a></td><td>Highly impaired - absence of useful hearing</td></tr></table></li></ul></div>"
+  },
+  "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingAbilityToHearDuringAssessmentPeriodVS",
+  "version": "0.1.0",
+  "name": "HearingAbilityToHearDuringAssessmentPeriodVS",
+  "title": "Hearing Ability to Hear During Assessment Period",
+  "status": "active",
+  "date": "2022-03-24T23:37:25-04:00",
+  "publisher": "HL7 Patient Care Working Group",
+  "contact": [
+    {
+      "name": "HL7 Patient Care Working Group",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientcare"
+        },
+        {
+          "system": "email",
+          "value": "patients@lists.HL7.org"
+        }
+      ]
+    },
+    {
+      "name": "PACIO project",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientcare"
+        },
+        {
+          "system": "email",
+          "value": "info@pacioproject.org"
+        }
+      ]
+    }
+  ],
+  "description": "SPLASCH hearing observation codes representing answers to ability to hear during assessment period",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
+        }
+      ]
+    }
+  ],
+  "copyright": "This CodeSystem is not copyrighted.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "LA10941-5",
+            "display": "Adequate - no difficulty in normal conversation, social interaction, listening to TV"
+          },
+          {
+            "code": "LA10942-3",
+            "display": "Minimal difficulty - difficulty in some environments (e.g. when person speaks softly or setting is noisy)"
+          },
+          {
+            "code": "LA10943-1",
+            "display": "Moderate difficulty - speaker has to increase volume and speak distinctly"
+          },
+          {
+            "code": "LA10944-9",
+            "display": "Highly impaired - absence of useful hearing"
+          }
+        ]
+      }
+    ]
+  }
+}

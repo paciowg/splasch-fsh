@@ -10,7 +10,7 @@
   "name": "PACIOReAssessmentTimepoints",
   "title": "PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide",
   "status": "draft",
-  "date": "2022-03-24T15:01:17-04:00",
+  "date": "2022-03-24T23:37:25-04:00",
   "publisher": "HL7 Patient Care Working Group",
   "contact": [
     {
@@ -458,6 +458,34 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/CmsFasiAssistiveDevicesVS"
+        },
+        "name": "CMS FASI Assistive Devices",
+        "description": "SPLASCH hearing observation codes representing answers to need for and availability of a hearing aid",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/HearingAbilityToHearDuringAssessmentPeriodVS"
+        },
+        "name": "Hearing Ability to Hear During Assessment Period",
+        "description": "SPLASCH hearing observation codes representing answers to ability to hear during assessment period",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/SPLASCHCaloriePercentageTypeObservationVS"
         },
         "name": "Calorie Percentage Type Observation",
@@ -503,7 +531,21 @@
           "reference": "ValueSet/SPLASCHHearingObservationVS"
         },
         "name": "Hearing Observation",
-        "description": "SPLASCH hearing observation profile",
+        "description": "SPLASCH hearing observation profile: codes representing hearing questions that are answered by the ValueSet SPLASCHHearingObservationValueCodeableConceptVS",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/SPLASCHHearingObservationValueVS"
+        },
+        "name": "Hearing Observation Value",
+        "description": "SPLASCH hearing observation values: codes representing answers to the hearing questions asked by the ValueSet SPLASCHHearingObservationCodeVS",
         "exampleBoolean": false
       },
       {
@@ -622,14 +664,14 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
+            "valueString": "ValueSet"
           }
         ],
         "reference": {
-          "reference": "CodeSystem/SPLASCHCaloriePercentageCategoryCS"
+          "reference": "ValueSet/YesOrNoVS"
         },
-        "name": "Observation Value Calorie Percentage Category Codes",
-        "description": "Category codes for calorie percentage observations",
+        "name": "Y/N",
+        "description": "Yes or No",
         "exampleBoolean": false
       },
       {
@@ -640,10 +682,10 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/SPLASCHHearingObservationCS"
+          "reference": "CodeSystem/SPLASCHCaloriePercentageCategoryCS"
         },
-        "name": "Hearing Observation Codes",
-        "description": "Observation codes for hearing",
+        "name": "Observation Value Calorie Percentage Category Codes",
+        "description": "Category codes for calorie percentage observations",
         "exampleBoolean": false
       },
       {

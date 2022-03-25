@@ -3,10 +3,9 @@
 
 err = 132, warn = 22, info = 106
 IG Publisher Version: 1.1.88 Out of date - current version is 1.1.113
-Generated Thu Mar 24 15:04:45 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio-splasch#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-splasch)
+Generated Thu Mar 24 23:40:57 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio-splasch#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-splasch)
  Build Errors : 1 / 1 / 0
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHCaloriePercentageCategoryCS : 0 / 0 / 1
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHHearingObservationCS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHLiquidDietCS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHMultiModalCommunicationObservationCS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHObservationCategoryCS : 0 / 0 / 1
@@ -158,10 +157,13 @@ Generated Thu Mar 24 15:04:45 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\StructureDefinition-splasch-SpokenLanguageComprehensionObservation : 0 / 2 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\StructureDefinition-splasch-SpokenLanguageExpressionObservation : 0 / 2 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\StructureDefinition-splasch-SwallowingObservation : 0 / 2 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-CmsFasiAssistiveDevicesVS : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-HearingAbilityToHearDuringAssessmentPeriodVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHCaloriePercentageTypeObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHFrequencyObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHFrequencyTypeObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHHearingObservationVS : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHHearingObservationValueVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHLiquidDietModifierTypeObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHMultiModalCommunicationObservationVS : 0 / 7 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHObservationCategoryVS : 0 / 0 / 1
@@ -170,12 +172,12 @@ Generated Thu Mar 24 15:04:45 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHSpeechExpressionObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHSwallowingObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHSwallowingObservationValueVS : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-YesOrNoVS : 0 / 0 / 1
 </table>
 == n/a ==
 WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
 ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Patient-BSJ-patientBSJ1.html#/html/body/div/div/div/div/div/div/p/a at Line 209, column 2480: The link 'pcp-John-Smith' for "pcp-John-Smith" cannot be resolved
 == fsh-generated\resources\CodeSystem-SPLASCHCaloriePercentageCategoryCS.json ==
-== fsh-generated\resources\CodeSystem-SPLASCHHearingObservationCS.json ==
 == fsh-generated\resources\CodeSystem-SPLASCHLiquidDietCS.json ==
 == fsh-generated\resources\CodeSystem-SPLASCHMultiModalCommunicationObservationCS.json ==
 == fsh-generated\resources\CodeSystem-SPLASCHObservationCategoryCS.json ==
@@ -579,10 +581,13 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-splasch/S
 == fsh-generated\resources\StructureDefinition-splasch-SwallowingObservation.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SwallowingObservation').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-splasch/StructureDefinition/splasch-SwallowingObservation'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\ValueSet-CmsFasiAssistiveDevicesVS.json ==
+== fsh-generated\resources\ValueSet-HearingAbilityToHearDuringAssessmentPeriodVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHCaloriePercentageTypeObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHFrequencyObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHFrequencyTypeObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHHearingObservationVS.json ==
+== fsh-generated\resources\ValueSet-SPLASCHHearingObservationValueVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHLiquidDietModifierTypeObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHMultiModalCommunicationObservationVS.json ==
 WARNING: ValueSet/SPLASCHMultiModalCommunicationObservationVS: ValueSet.compose[0].include[1].concept[0]: The code 99829-4 is not valid in the system http://loinc.org
@@ -598,3 +603,4 @@ WARNING: ValueSet/SPLASCHMultiModalCommunicationObservationVS: ValueSet.compose[
 == fsh-generated\resources\ValueSet-SPLASCHSpeechExpressionObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHSwallowingObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHSwallowingObservationValueVS.json ==
+== fsh-generated\resources\ValueSet-YesOrNoVS.json ==

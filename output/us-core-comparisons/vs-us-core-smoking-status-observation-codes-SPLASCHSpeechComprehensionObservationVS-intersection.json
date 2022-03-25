@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "6e5c9904-c1d4-44a3-863a-379d6dee6e45-228",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/6e5c9904-c1d4-44a3-863a-379d6dee6e45-228",
+  "id" : "2331f947-fe77-4c71-8a0c-70fe739d8bec-228",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2331f947-fe77-4c71-8a0c-70fe739d8bec-228",
   "name" : "IntersectionUSCoreSmokingStatusObservationCodesAndSPLASCHSpeechComprehensionObservationVS",
   "title" : "Intersection of US Core Smoking Status Observation Codes And Speech Comprehension Observation",
   "status" : "active",
-  "date" : "2022-03-24T15:02:45-04:00",
+  "date" : "2022-03-24T23:38:44-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

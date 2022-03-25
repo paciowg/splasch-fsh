@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="SPLASCHHearingObservationValueVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href="ValueSet-HearingAbilityToHearDuringAssessmentPeriodVS.html">http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingAbilityToHearDuringAssessmentPeriodVS</a></li><li>Import all the codes that are contained in <a href="ValueSet-YesOrNoVS.html">http://hl7.org/fhir/us/pacio-splasch/ValueSet/YesOrNoVS</a></li><li>Import all the codes that are contained in <a href="ValueSet-CmsFasiAssistiveDevicesVS.html">http://hl7.org/fhir/us/pacio-splasch/ValueSet/CmsFasiAssistiveDevicesVS</a></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHHearingObservationValueVS"/>
+  <version value="0.1.0"/>
+  <name value="SPLASCHHearingObservationValueVS"/>
+  <title value="Hearing Observation Value"/>
+  <status value="active"/>
+  <date value="2022-03-24T23:37:25-04:00"/>
+  <publisher value="HL7 Patient Care Working Group"/>
+  <contact>
+    <name value="HL7 Patient Care Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patients@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="PACIO project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@pacioproject.org"/>
+    </telecom>
+  </contact>
+  <description value="SPLASCH hearing observation values: codes representing answers to the hearing questions asked by the ValueSet SPLASCHHearingObservationCodeVS"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This CodeSystem is not copyrighted."/>
+  <compose>
+    <include>
+      <valueSet value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingAbilityToHearDuringAssessmentPeriodVS"/>
+    </include>
+    <include>
+      <valueSet value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/YesOrNoVS"/>
+    </include>
+    <include>
+      <valueSet value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/CmsFasiAssistiveDevicesVS"/>
+    </include>
+  </compose>
+</ValueSet>
