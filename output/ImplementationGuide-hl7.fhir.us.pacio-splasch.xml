@@ -11,7 +11,7 @@
   <name value="PACIOReAssessmentTimepoints"/>
   <title value="PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide"/>
   <status value="draft"/>
-  <date value="2022-03-24T23:37:25-04:00"/>
+  <date value="2022-03-26T00:24:52-04:00"/>
   <publisher value="HL7 Patient Care Working Group"/>
   <contact>
     <name value="HL7 Patient Care Working Group"/>
@@ -314,10 +314,32 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/HearBetterInOneEarVS"/>
+      </reference>
+      <name value="PhenX20_03_hear better in one ear"/>
+      <description value="SPLASCH hearing observation codes representing answers to: Do you hear better in one ear than the other?"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/HearingAbilityToHearDuringAssessmentPeriodVS"/>
       </reference>
       <name value="Hearing Ability to Hear During Assessment Period"/>
       <description value="SPLASCH hearing observation codes representing answers to ability to hear during assessment period"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/LeftRightBothVS"/>
+      </reference>
+      <name value="Left / Right / Both"/>
+      <description value="Left / Right / Both"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

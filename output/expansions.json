@@ -1,64 +1,23 @@
 {
   "resourceType" : "Bundle",
-  "id" : "605cdf23-c762-42fb-9ccf-a45f1faa3c5b",
+  "id" : "26840f50-cada-4e0d-a752-a5bf48fa4728",
   "meta" : {
-    "lastUpdated" : "2022-03-24T23:37:25.387-04:00"
+    "lastUpdated" : "2022-03-26T00:24:52.142-04:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/CmsFasiAssistiveDevicesVS",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "CmsFasiAssistiveDevicesVS",
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.71</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30918-9\"> </a><a href=\"http://details.loinc.org/LOINC/LA30918-9.html\">LA30918-9</a></td><td>Assistive device needed and available - Person needs this device to complete daily activities and has the device in the home.</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30919-7\"> </a><a href=\"http://details.loinc.org/LOINC/LA30919-7.html\">LA30919-7</a></td><td>Assistive device needed but current device unsuitable - Device is in home but no longer meets person's needs.</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30920-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA30920-5.html\">LA30920-5</a></td><td>Assistive device needed but not available - Person needs the device but it is not available in the home.</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30921-3\"> </a><a href=\"http://details.loinc.org/LOINC/LA30921-3.html\">LA30921-3</a></td><td>Person refused - Person chooses to not use needed device.</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30922-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA30922-1.html\">LA30922-1</a></td><td>Not applicable - Person does not need this device.</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.71</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30918-9\"> </a><a href=\"http://details.loinc.org/LOINC/LA30918-9.html\">LA30918-9</a></td><td>Assistive device needed and available - Person needs this device to complete daily activities and has the device in the home.</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30919-7\"> </a><a href=\"http://details.loinc.org/LOINC/LA30919-7.html\">LA30919-7</a></td><td>Assistive device needed but current device unsuitable - Device is in home but no longer meets person's needs.</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30920-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA30920-5.html\">LA30920-5</a></td><td>Assistive device needed but not available - Person needs the device but it is not available in the home.</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30921-3\"> </a><a href=\"http://details.loinc.org/LOINC/LA30921-3.html\">LA30921-3</a></td><td>Person refused - Person chooses to not use needed device.</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30922-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA30922-1.html\">LA30922-1</a></td><td>Not applicable - Person does not need this device.</td><td/></tr></table></div>"
       },
-      "url" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/CmsFasiAssistiveDevicesVS",
-      "version" : "0.1.0",
-      "name" : "CmsFasiAssistiveDevicesVS",
-      "title" : "CMS FASI Assistive Devices",
       "status" : "active",
-      "date" : "2022-03-24T23:37:25-04:00",
-      "publisher" : "HL7 Patient Care Working Group",
-      "contact" : [{
-        "name" : "HL7 Patient Care Working Group",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/patientcare"
-        },
-        {
-          "system" : "email",
-          "value" : "patients@lists.HL7.org"
-        }]
-      },
-      {
-        "name" : "PACIO project",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/patientcare"
-        },
-        {
-          "system" : "email",
-          "value" : "info@pacioproject.org"
-        }]
-      }],
-      "description" : "SPLASCH hearing observation codes representing answers to need for and availability of a hearing aid",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "US"
-        }]
-      }],
       "expansion" : {
-        "identifier" : "urn:uuid:ce2b92c3-1f07-473a-9edd-c8f6d7339a93",
-        "timestamp" : "2022-03-24T23:39:28-04:00",
-        "total" : 5,
+        "identifier" : "urn:uuid:ae00a1a5-5976-422e-b484-245422b1c85b",
+        "timestamp" : "2022-03-25T03:39:28.130Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -95,20 +54,20 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingAbilityToHearDuringAssessmentPeriodVS",
+    "fullUrl" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearBetterInOneEarVS",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "HearingAbilityToHearDuringAssessmentPeriodVS",
+      "id" : "HearBetterInOneEarVS",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.71</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10941-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA10941-5.html\">LA10941-5</a></td><td>Adequate - no difficulty in normal conversation, social interaction, listening to TV</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10942-3\"> </a><a href=\"http://details.loinc.org/LOINC/LA10942-3.html\">LA10942-3</a></td><td>Minimal difficulty - difficulty in some environments (e.g. when person speaks softly or setting is noisy)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10943-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA10943-1.html\">LA10943-1</a></td><td>Moderate difficulty - speaker has to increase volume and speak distinctly</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10944-9\"> </a><a href=\"http://details.loinc.org/LOINC/LA10944-9.html\">LA10944-9</a></td><td>Highly impaired - absence of useful hearing</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.71</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA15472-6\"> </a><a href=\"http://details.loinc.org/LOINC/LA15472-6.html\">LA15472-6</a></td><td>Yes, right ear</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA15473-4\"> </a><a href=\"http://details.loinc.org/LOINC/LA15473-4.html\">LA15473-4</a></td><td>Yes, left ear</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32-8\"> </a><a href=\"http://details.loinc.org/LOINC/LA32-8.html\">LA32-8</a></td><td>No</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA4389-8\"> </a><a href=\"http://details.loinc.org/LOINC/LA4389-8.html\">LA4389-8</a></td><td>Refused</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA12688-0\"> </a><a href=\"http://details.loinc.org/LOINC/LA12688-0.html\">LA12688-0</a></td><td>Don't know</td><td/></tr></table></div>"
       },
-      "url" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingAbilityToHearDuringAssessmentPeriodVS",
+      "url" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearBetterInOneEarVS",
       "version" : "0.1.0",
-      "name" : "HearingAbilityToHearDuringAssessmentPeriodVS",
-      "title" : "Hearing Ability to Hear During Assessment Period",
+      "name" : "HearBetterInOneEarVS",
+      "title" : "PhenX20_03_hear better in one ear",
       "status" : "active",
-      "date" : "2022-03-24T23:37:25-04:00",
+      "date" : "2022-03-26T00:24:52-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -132,23 +91,70 @@
           "value" : "info@pacioproject.org"
         }]
       }],
-      "description" : "SPLASCH hearing observation codes representing answers to ability to hear during assessment period",
+      "description" : "SPLASCH hearing observation codes representing answers to: Do you hear better in one ear than the other?",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
           "code" : "US"
         }]
       }],
-      "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:608bc516-f0a1-4aaf-8ef9-3eb580577b8c",
-        "timestamp" : "2022-03-24T23:39:28-04:00",
-        "total" : 4,
+        "identifier" : "urn:uuid:a7498939-a10a-4345-8230-bcfc39479960",
+        "timestamp" : "2022-03-26T00:26:40-04:00",
+        "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
         },
         {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://loinc.org|2.71"
+        }],
+        "contains" : [{
+          "system" : "http://loinc.org",
+          "code" : "LA15472-6",
+          "display" : "Yes, right ear"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA15473-4",
+          "display" : "Yes, left ear"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA32-8",
+          "display" : "No"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA4389-8",
+          "display" : "Refused"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA12688-0",
+          "display" : "Don't know"
+        }]
+      }
+    }
+  },
+  {
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "en",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.71</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10941-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA10941-5.html\">LA10941-5</a></td><td>Adequate - no difficulty in normal conversation, social interaction, listening to TV</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10942-3\"> </a><a href=\"http://details.loinc.org/LOINC/LA10942-3.html\">LA10942-3</a></td><td>Minimal difficulty - difficulty in some environments (e.g. when person speaks softly or setting is noisy)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10943-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA10943-1.html\">LA10943-1</a></td><td>Moderate difficulty - speaker has to increase volume and speak distinctly</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10944-9\"> </a><a href=\"http://details.loinc.org/LOINC/LA10944-9.html\">LA10944-9</a></td><td>Highly impaired - absence of useful hearing</td><td/></tr></table></div>"
+      },
+      "status" : "active",
+      "expansion" : {
+        "identifier" : "urn:uuid:735db5d3-5b52-4ebf-a4c2-8a84e171b9f4",
+        "timestamp" : "2022-03-25T03:39:28.442Z",
+        "parameter" : [{
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -180,6 +186,85 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/LeftRightBothVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "LeftRightBothVS",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.71</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA4585-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA4585-1.html\">LA4585-1</a></td><td>Left</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA4306-2\"> </a><a href=\"http://details.loinc.org/LOINC/LA4306-2.html\">LA4306-2</a></td><td>Right</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA14331-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA14331-5.html\">LA14331-5</a></td><td>Both</td><td/></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/LeftRightBothVS",
+      "version" : "0.1.0",
+      "name" : "LeftRightBothVS",
+      "title" : "Left / Right / Both",
+      "status" : "active",
+      "date" : "2022-03-26T00:24:52-04:00",
+      "publisher" : "HL7 Patient Care Working Group",
+      "contact" : [{
+        "name" : "HL7 Patient Care Working Group",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/patientcare"
+        },
+        {
+          "system" : "email",
+          "value" : "patients@lists.HL7.org"
+        }]
+      },
+      {
+        "name" : "PACIO project",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/patientcare"
+        },
+        {
+          "system" : "email",
+          "value" : "info@pacioproject.org"
+        }]
+      }],
+      "description" : "Left / Right / Both",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:a4cee7ed-af2f-4ba1-9930-f5eecd3a9ba4",
+        "timestamp" : "2022-03-26T00:26:40-04:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://loinc.org|2.71"
+        }],
+        "contains" : [{
+          "system" : "http://loinc.org",
+          "code" : "LA4585-1",
+          "display" : "Left"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA4306-2",
+          "display" : "Right"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA14331-5",
+          "display" : "Both"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHCaloriePercentageTypeObservationVS",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -193,7 +278,7 @@
       "name" : "SPLASCHCaloriePercentageTypeObservationVS",
       "title" : "Calorie Percentage Type Observation",
       "status" : "active",
-      "date" : "2022-03-24T23:37:25-04:00",
+      "date" : "2022-03-26T00:24:52-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -226,8 +311,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:0fe13aaa-2621-416f-98a0-7c04e0a5ff75",
-        "timestamp" : "2022-03-24T23:39:28-04:00",
+        "identifier" : "urn:uuid:d33d75a1-2d91-4dfe-b6d7-bc83efe53d0d",
+        "timestamp" : "2022-03-26T00:26:41-04:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -259,7 +344,7 @@
       "name" : "SPLASCHFrequencyObservationVS",
       "title" : "SPLASCH Frequency Observation Values",
       "status" : "active",
-      "date" : "2022-03-24T23:37:25-04:00",
+      "date" : "2022-03-26T00:24:52-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -292,8 +377,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:fabdaa94-deea-4034-9b85-8e318e6acefd",
-        "timestamp" : "2022-03-24T23:39:28-04:00",
+        "identifier" : "urn:uuid:d1d0b83a-03bf-423a-bd21-ab8c1b08df56",
+        "timestamp" : "2022-03-26T00:26:41-04:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -382,7 +467,7 @@
       "name" : "SPLASCHFrequencyTypeObservationVS",
       "title" : "Frequency Type Observation",
       "status" : "active",
-      "date" : "2022-03-24T23:37:25-04:00",
+      "date" : "2022-03-26T00:24:52-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -415,8 +500,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:1c3ed0e1-2e97-4eab-9c5a-1b3328a96906",
-        "timestamp" : "2022-03-24T23:39:29-04:00",
+        "identifier" : "urn:uuid:ddfdae7a-46c8-403c-8df1-6d26398acd02",
+        "timestamp" : "2022-03-26T00:26:41-04:00",
         "total" : 15,
         "parameter" : [{
           "name" : "excludeNested",
@@ -519,14 +604,14 @@
       "id" : "SPLASCHHearingObservationValueVS",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 11 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"ValueSet-YesOrNoVS.html\">Y/N v0.1.0 (ValueSet)</a></li><li><a href=\"ValueSet-HearingAbilityToHearDuringAssessmentPeriodVS.html\">Hearing Ability to Hear During Assessment Period v0.1.0 (ValueSet)</a></li><li><a href=\"ValueSet-CmsFasiAssistiveDevicesVS.html\">CMS FASI Assistive Devices v0.1.0 (ValueSet)</a></li><li>Loinc v2.71</li></ul></div><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10941-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA10941-5.html\">LA10941-5</a></td><td>Adequate - no difficulty in normal conversation, social interaction, listening to TV</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10942-3\"> </a><a href=\"http://details.loinc.org/LOINC/LA10942-3.html\">LA10942-3</a></td><td>Minimal difficulty - difficulty in some environments (e.g. when person speaks softly or setting is noisy)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10943-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA10943-1.html\">LA10943-1</a></td><td>Moderate difficulty - speaker has to increase volume and speak distinctly</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10944-9\"> </a><a href=\"http://details.loinc.org/LOINC/LA10944-9.html\">LA10944-9</a></td><td>Highly impaired - absence of useful hearing</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32-8\"> </a><a href=\"http://details.loinc.org/LOINC/LA32-8.html\">LA32-8</a></td><td>No</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA33-6\"> </a><a href=\"http://details.loinc.org/LOINC/LA33-6.html\">LA33-6</a></td><td>Yes</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30918-9\"> </a><a href=\"http://details.loinc.org/LOINC/LA30918-9.html\">LA30918-9</a></td><td>Assistive device needed and available - Person needs this device to complete daily activities and has the device in the home.</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30919-7\"> </a><a href=\"http://details.loinc.org/LOINC/LA30919-7.html\">LA30919-7</a></td><td>Assistive device needed but current device unsuitable - Device is in home but no longer meets person's needs.</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30920-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA30920-5.html\">LA30920-5</a></td><td>Assistive device needed but not available - Person needs the device but it is not available in the home.</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30921-3\"> </a><a href=\"http://details.loinc.org/LOINC/LA30921-3.html\">LA30921-3</a></td><td>Person refused - Person chooses to not use needed device.</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30922-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA30922-1.html\">LA30922-1</a></td><td>Not applicable - Person does not need this device.</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 18 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"ValueSet-YesOrNoVS.html\">Y/N v0.1.0 (ValueSet)</a></li><li><a href=\"ValueSet-HearingAbilityToHearDuringAssessmentPeriodVS.html\">Hearing Ability to Hear During Assessment Period v0.1.0 (ValueSet)</a></li><li><a href=\"ValueSet-CmsFasiAssistiveDevicesVS.html\">CMS FASI Assistive Devices v0.1.0 (ValueSet)</a></li><li><a href=\"ValueSet-LeftRightBothVS.html\">Left / Right / Both v0.1.0 (ValueSet)</a></li><li>Loinc v2.71</li><li><a href=\"ValueSet-HearBetterInOneEarVS.html\">PhenX20_03_hear better in one ear v0.1.0 (ValueSet)</a></li></ul></div><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10941-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA10941-5.html\">LA10941-5</a></td><td>Adequate - no difficulty in normal conversation, social interaction, listening to TV</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10942-3\"> </a><a href=\"http://details.loinc.org/LOINC/LA10942-3.html\">LA10942-3</a></td><td>Minimal difficulty - difficulty in some environments (e.g. when person speaks softly or setting is noisy)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10943-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA10943-1.html\">LA10943-1</a></td><td>Moderate difficulty - speaker has to increase volume and speak distinctly</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10944-9\"> </a><a href=\"http://details.loinc.org/LOINC/LA10944-9.html\">LA10944-9</a></td><td>Highly impaired - absence of useful hearing</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32-8\"> </a><a href=\"http://details.loinc.org/LOINC/LA32-8.html\">LA32-8</a></td><td>No</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA33-6\"> </a><a href=\"http://details.loinc.org/LOINC/LA33-6.html\">LA33-6</a></td><td>Yes</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30918-9\"> </a><a href=\"http://details.loinc.org/LOINC/LA30918-9.html\">LA30918-9</a></td><td>Assistive device needed and available - Person needs this device to complete daily activities and has the device in the home.</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30919-7\"> </a><a href=\"http://details.loinc.org/LOINC/LA30919-7.html\">LA30919-7</a></td><td>Assistive device needed but current device unsuitable - Device is in home but no longer meets person's needs.</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30920-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA30920-5.html\">LA30920-5</a></td><td>Assistive device needed but not available - Person needs the device but it is not available in the home.</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30921-3\"> </a><a href=\"http://details.loinc.org/LOINC/LA30921-3.html\">LA30921-3</a></td><td>Person refused - Person chooses to not use needed device.</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA30922-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA30922-1.html\">LA30922-1</a></td><td>Not applicable - Person does not need this device.</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA4585-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA4585-1.html\">LA4585-1</a></td><td>Left</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA4306-2\"> </a><a href=\"http://details.loinc.org/LOINC/LA4306-2.html\">LA4306-2</a></td><td>Right</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA14331-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA14331-5.html\">LA14331-5</a></td><td>Both</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA15472-6\"> </a><a href=\"http://details.loinc.org/LOINC/LA15472-6.html\">LA15472-6</a></td><td>Yes, right ear</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA15473-4\"> </a><a href=\"http://details.loinc.org/LOINC/LA15473-4.html\">LA15473-4</a></td><td>Yes, left ear</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA4389-8\"> </a><a href=\"http://details.loinc.org/LOINC/LA4389-8.html\">LA4389-8</a></td><td>Refused</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA12688-0\"> </a><a href=\"http://details.loinc.org/LOINC/LA12688-0.html\">LA12688-0</a></td><td>Don't know</td><td/></tr></table></div>"
       },
       "url" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHHearingObservationValueVS",
       "version" : "0.1.0",
       "name" : "SPLASCHHearingObservationValueVS",
       "title" : "Hearing Observation Value",
       "status" : "active",
-      "date" : "2022-03-24T23:37:25-04:00",
+      "date" : "2022-03-26T00:24:52-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -559,9 +644,9 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:ff4bf9ae-553f-4fcf-bd71-5b9fb4185735",
-        "timestamp" : "2022-03-24T23:39:29-04:00",
-        "total" : 11,
+        "identifier" : "urn:uuid:e5770e93-28f0-4f5f-ae47-046108d920c1",
+        "timestamp" : "2022-03-26T00:26:41-04:00",
+        "total" : 18,
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -585,6 +670,14 @@
         {
           "name" : "version",
           "valueUri" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/CmsFasiAssistiveDevicesVS|0.1.0"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/LeftRightBothVS|0.1.0"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearBetterInOneEarVS|0.1.0"
         }],
         "contains" : [{
           "system" : "http://loinc.org",
@@ -662,6 +755,55 @@
           "inactive" : false,
           "code" : "LA30922-1",
           "display" : "Not applicable - Person does not need this device."
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "LA4585-1",
+          "display" : "Left"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "LA4306-2",
+          "display" : "Right"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "LA14331-5",
+          "display" : "Both"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "LA15472-6",
+          "display" : "Yes, right ear"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "LA15473-4",
+          "display" : "Yes, left ear"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "LA4389-8",
+          "display" : "Refused"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "LA12688-0",
+          "display" : "Don't know"
         }]
       }
     }
@@ -673,14 +815,14 @@
       "id" : "SPLASCHHearingObservationVS",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.71</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-95744-9\"> </a><a href=\"http://details.loinc.org/LOINC/95744-9.html\">95744-9</a></td><td>Hearing.ability to hear during assessment period [CMS Assessment]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-54599-6\"> </a><a href=\"http://details.loinc.org/LOINC/54599-6.html\">54599-6</a></td><td>Hearing aid used during assessment period [CMS Assessment]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-67235-2\"> </a><a href=\"http://details.loinc.org/LOINC/67235-2.html\">67235-2</a></td><td>Does the examinee have hearing aids that cannot be removed [PhenX]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-94900-8\"> </a><a href=\"http://details.loinc.org/LOINC/94900-8.html\">94900-8</a></td><td>Need for and availability of a hearing aid [CMS Assessment]</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 6 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.71</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-95744-9\"> </a><a href=\"http://details.loinc.org/LOINC/95744-9.html\">95744-9</a></td><td>Hearing.ability to hear during assessment period [CMS Assessment]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-54599-6\"> </a><a href=\"http://details.loinc.org/LOINC/54599-6.html\">54599-6</a></td><td>Hearing aid used during assessment period [CMS Assessment]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-67235-2\"> </a><a href=\"http://details.loinc.org/LOINC/67235-2.html\">67235-2</a></td><td>Does the examinee have hearing aids that cannot be removed [PhenX]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-94900-8\"> </a><a href=\"http://details.loinc.org/LOINC/94900-8.html\">94900-8</a></td><td>Need for and availability of a hearing aid [CMS Assessment]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-67467-1\"> </a><a href=\"http://details.loinc.org/LOINC/67467-1.html\">67467-1</a></td><td>In which ear(s) do you have a hearing difficulty?</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-67242-8\"> </a><a href=\"http://details.loinc.org/LOINC/67242-8.html\">67242-8</a></td><td>Do you hear better in one ear than the other [PhenX]</td><td/></tr></table></div>"
       },
       "url" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHHearingObservationVS",
       "version" : "0.1.0",
       "name" : "SPLASCHHearingObservationVS",
       "title" : "Hearing Observation",
       "status" : "active",
-      "date" : "2022-03-24T23:37:25-04:00",
+      "date" : "2022-03-26T00:24:52-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -713,9 +855,9 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:285307b3-1bad-4c34-b117-7ef8195dbb62",
-        "timestamp" : "2022-03-24T23:39:29-04:00",
-        "total" : 4,
+        "identifier" : "urn:uuid:65ba9e60-6054-4ab7-9154-2a54bcafa908",
+        "timestamp" : "2022-03-26T00:26:41-04:00",
+        "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -747,6 +889,16 @@
           "system" : "http://loinc.org",
           "code" : "94900-8",
           "display" : "Need for and availability of a hearing aid [CMS Assessment]"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "67467-1",
+          "display" : "In which ear(s) do you have a hearing difficulty?"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "67242-8",
+          "display" : "Do you hear better in one ear than the other [PhenX]"
         }]
       }
     }
@@ -765,7 +917,7 @@
       "name" : "SPLASCHLiquidDietModifierTypeObservationVS",
       "title" : "Liquid Diet Modifier Type Observation",
       "status" : "active",
-      "date" : "2022-03-24T23:37:25-04:00",
+      "date" : "2022-03-26T00:24:52-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -798,8 +950,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:bb4af670-49ba-4d1e-ad52-92cb21d8fd50",
-        "timestamp" : "2022-03-24T23:39:29-04:00",
+        "identifier" : "urn:uuid:a12f3460-0f06-462e-9c56-71947325959f",
+        "timestamp" : "2022-03-26T00:26:41-04:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -831,7 +983,7 @@
       "name" : "SPLASCHMultiModalCommunicationObservationVS",
       "title" : "Multi-Modal Communication Observation",
       "status" : "active",
-      "date" : "2022-03-24T23:37:25-04:00",
+      "date" : "2022-03-26T00:24:52-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -864,8 +1016,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:396341f2-50ee-4da1-b56b-cafee58af260",
-        "timestamp" : "2022-03-24T23:39:29-04:00",
+        "identifier" : "urn:uuid:785595d7-cfc2-4582-9a08-221eca85f573",
+        "timestamp" : "2022-03-26T00:26:42-04:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -905,7 +1057,7 @@
       "name" : "SPLASCHObservationCategoryVS",
       "title" : "SPLASCH Observation Category",
       "status" : "active",
-      "date" : "2022-03-24T23:37:25-04:00",
+      "date" : "2022-03-26T00:24:52-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -938,8 +1090,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:18997407-fe36-4291-a903-c4273698147f",
-        "timestamp" : "2022-03-24T23:39:30-04:00",
+        "identifier" : "urn:uuid:1383b704-7e07-4890-81e7-62e7f7fd488c",
+        "timestamp" : "2022-03-26T00:26:42-04:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -991,7 +1143,7 @@
       "name" : "SPLASCHSolidDietModifierTypeObservationVS",
       "title" : "Solid Diet Modifier Type Observation",
       "status" : "active",
-      "date" : "2022-03-24T23:37:25-04:00",
+      "date" : "2022-03-26T00:24:52-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -1024,8 +1176,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:aeb2d23b-8b27-4fd7-8d0e-d674fff1beef",
-        "timestamp" : "2022-03-24T23:39:30-04:00",
+        "identifier" : "urn:uuid:874198b0-c8f6-4a9b-a3c7-576d288d031b",
+        "timestamp" : "2022-03-26T00:26:42-04:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1057,7 +1209,7 @@
       "name" : "SPLASCHSpeechComprehensionObservationVS",
       "title" : "Speech Comprehension Observation",
       "status" : "active",
-      "date" : "2022-03-24T23:37:25-04:00",
+      "date" : "2022-03-26T00:24:52-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -1090,8 +1242,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:a2dd6fa2-d95a-4d09-a11d-cca3c203e336",
-        "timestamp" : "2022-03-24T23:39:30-04:00",
+        "identifier" : "urn:uuid:91e2fa43-76c2-43f6-8e58-0e54ed147566",
+        "timestamp" : "2022-03-26T00:26:42-04:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1148,7 +1300,7 @@
       "name" : "SPLASCHSpeechExpressionObservationVS",
       "title" : "Speech Expression Observation",
       "status" : "active",
-      "date" : "2022-03-24T23:37:25-04:00",
+      "date" : "2022-03-26T00:24:52-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -1181,8 +1333,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:b36517c5-f430-4cc2-b40e-e71a9d89393d",
-        "timestamp" : "2022-03-24T23:39:30-04:00",
+        "identifier" : "urn:uuid:a7d8457d-f735-40ee-8a23-b8dea871328e",
+        "timestamp" : "2022-03-26T00:26:42-04:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1244,7 +1396,7 @@
       "name" : "SPLASCHSwallowingObservationValueVS",
       "title" : "Swallowing Observation Value",
       "status" : "active",
-      "date" : "2022-03-24T23:37:25-04:00",
+      "date" : "2022-03-26T00:24:52-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -1277,8 +1429,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:aa340075-28b8-4033-9fcc-b2c7cc393ad1",
-        "timestamp" : "2022-03-24T23:39:30-04:00",
+        "identifier" : "urn:uuid:b241e672-80f5-4d2a-bdd7-353ef08dc432",
+        "timestamp" : "2022-03-26T00:26:42-04:00",
         "total" : 26,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1483,7 +1635,7 @@
       "name" : "SPLASCHSwallowingObservationVS",
       "title" : "Swallowing Observation",
       "status" : "active",
-      "date" : "2022-03-24T23:37:25-04:00",
+      "date" : "2022-03-26T00:24:52-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -1516,8 +1668,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:6ed8afde-f268-4b61-8ff6-34de6ec278e1",
-        "timestamp" : "2022-03-24T23:39:30-04:00",
+        "identifier" : "urn:uuid:e093266f-36ca-4cc6-a48a-860a87b7d8b3",
+        "timestamp" : "2022-03-26T00:26:42-04:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",

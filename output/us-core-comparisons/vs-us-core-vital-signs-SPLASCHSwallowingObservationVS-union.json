@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "2331f947-fe77-4c71-8a0c-70fe739d8bec-311",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/2331f947-fe77-4c71-8a0c-70fe739d8bec-311",
+  "id" : "3c0b6f92-51fb-42d5-a2d1-2826c9f07d10-311",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/3c0b6f92-51fb-42d5-a2d1-2826c9f07d10-311",
   "name" : "UnionUsCoreVitalSignsAndSPLASCHSwallowingObservationVS",
   "title" : "Union of US Core Vital Signs ValueSet And Swallowing Observation",
   "status" : "active",
-  "date" : "2022-03-24T23:38:44-04:00",
+  "date" : "2022-03-26T00:26:03-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

@@ -34,3 +34,5 @@ Description:    "An exchange of hearing data for a patient."
 * valueCodeableConcept from SPLASCHHearingObservationValueVS (required)
 
 * effective[x] 1..1 MS
+
+//todo: add Invariants here (see SwallowingObservation for example)

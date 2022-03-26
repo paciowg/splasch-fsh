@@ -67,6 +67,8 @@ Description: "SPLASCH hearing observation profile: codes representing hearing qu
 * include $LOINC#54599-6 "Hearing aid used during assessment period [CMS Assessment]" //answered with answer list LL251-0
 * include $LOINC#67235-2 "Does the examinee have hearing aids that cannot be removed [PhenX]" //answered with answer list LL361-7
 * include $LOINC#94900-8 "Need for and availability of a hearing aid [CMS Assessment]" //answered with answer list LL5572-4
+* include $LOINC#67467-1 "In which ear(s) do you have a hearing difficulty?" //answered with answer list LL1718-7
+* include $LOINC#67242-8 "Do you hear better in one ear than the other [PhenX]" //answered with answer list LL1699-9
 * ^copyright = "This CodeSystem is not copyrighted."
 
 
@@ -76,9 +78,32 @@ Description: "SPLASCH hearing observation values: codes representing answers to 
 * codes from valueset HearingAbilityToHearDuringAssessmentPeriodVS
 * codes from valueset YesOrNoVS
 * codes from valueset CmsFasiAssistiveDevicesVS
+* codes from valueset LeftRightBothVS
+* codes from valueset HearBetterInOneEarVS
 * ^copyright = "This CodeSystem is not copyrighted."
 
 
+
+
+
+ValueSet: HearBetterInOneEarVS
+Title: "PhenX20_03_hear better in one ear"
+Description: "SPLASCH hearing observation codes representing answers to: Do you hear better in one ear than the other?"
+//note: from answer list LL1699-9
+* include $LOINC#LA15472-6 "Yes, right ear"
+* include $LOINC#LA15473-4 "Yes, left ear"
+* include $LOINC#LA32-8 "No"
+* include $LOINC#LA4389-8 "Refused"
+* include $LOINC#LA12688-0 "Don't know"
+
+
+ValueSet: LeftRightBothVS
+Title: "Left / Right / Both"
+Description: "Left / Right / Both"
+//note: from answer list LL1718-7 PhenX20_17_ear w/ hearing difficulty
+* include $LOINC#LA4585-1 "Left"
+* include $LOINC#LA4306-2 "Right"
+* include $LOINC#LA14331-5 "Both"
 
 
 ValueSet: HearingAbilityToHearDuringAssessmentPeriodVS

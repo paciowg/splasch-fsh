@@ -241,6 +241,7 @@
 <artifact id="StructureDefinition/splasch-HearingObservation" key="StructureDefinition-splasch-HearingObservation" name="Hearing Observation"/>
 <artifact id="ValueSet/SPLASCHHearingObservationVS" key="ValueSet-SPLASCHHearingObservationVS" name="Hearing Observation"/>
 <artifact id="ValueSet/SPLASCHHearingObservationValueVS" key="ValueSet-SPLASCHHearingObservationValueVS" name="Hearing Observation Value"/>
+<artifact id="ValueSet/LeftRightBothVS" key="ValueSet-LeftRightBothVS" name="Left / Right / Both"/>
 <artifact id="ValueSet/SPLASCHLiquidDietModifierTypeObservationVS" key="ValueSet-SPLASCHLiquidDietModifierTypeObservationVS" name="Liquid Diet Modifier Type Observation"/>
 <artifact deprecated="true" id="Encounter/MDS-Re-assessment-Timepoint-1" key="Encounter-MDS-Re-assessment-Timepoint-1" name="MDS-Re-assessment-Timepoint-1"/>
 <artifact deprecated="true" id="Encounter/MDS-Re-assessment-Timepoint-2" key="Encounter-MDS-Re-assessment-Timepoint-2" name="MDS-Re-assessment-Timepoint-2"/>
@@ -256,6 +257,7 @@
 <artifact id="CodeSystem/SPLASCHTimePercentageCategoryCS" key="CodeSystem-SPLASCHTimePercentageCategoryCS" name="Observation Value Time Percentage Category Codes"/>
 <artifact id="Organization/Organization-Happy-Nursing-Facility" key="Organization-Organization-Happy-Nursing-Facility" name="Organization-Happy-Nursing-Facility"/>
 <artifact id="Organization/Organization-San-Antonio-General-Hospital" key="Organization-Organization-San-Antonio-General-Hospital" name="Organization-San-Antonio-General-Hospital"/>
+<artifact id="ValueSet/HearBetterInOneEarVS" key="ValueSet-HearBetterInOneEarVS" name="PhenX20_03_hear better in one ear"/>
 <artifact id="Practitioner/Practitioner-AlexanderKuikhoff" key="Practitioner-Practitioner-AlexanderKuikhoff" name="Practitioner-AlexanderKuikhoff"/>
 <artifact id="Practitioner/Practitioner-CheriseLangford" key="Practitioner-Practitioner-CheriseLangford" name="Practitioner-CheriseLangford"/>
 <artifact id="Practitioner/Practitioner-DanielGranger" key="Practitioner-Practitioner-DanielGranger" name="Practitioner-DanielGranger"/>

@@ -112,11 +112,25 @@
     "name": "CmsFasiAssistiveDevicesVS"
   },
   {
+    "id": "HearBetterInOneEarVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearBetterInOneEarVS",
+    "version": "0.1.0",
+    "name": "HearBetterInOneEarVS"
+  },
+  {
     "id": "HearingAbilityToHearDuringAssessmentPeriodVS",
     "type": "ValueSet",
     "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingAbilityToHearDuringAssessmentPeriodVS",
     "version": "0.1.0",
     "name": "HearingAbilityToHearDuringAssessmentPeriodVS"
+  },
+  {
+    "id": "LeftRightBothVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/LeftRightBothVS",
+    "version": "0.1.0",
+    "name": "LeftRightBothVS"
   },
   {
     "id": "SPLASCHCaloriePercentageTypeObservationVS",

@@ -10,7 +10,7 @@
   "name": "PACIOReAssessmentTimepoints",
   "title": "PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide",
   "status": "draft",
-  "date": "2022-03-24T23:37:25-04:00",
+  "date": "2022-03-26T00:24:52-04:00",
   "publisher": "HL7 Patient Care Working Group",
   "contact": [
     {
@@ -472,10 +472,38 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/HearBetterInOneEarVS"
+        },
+        "name": "PhenX20_03_hear better in one ear",
+        "description": "SPLASCH hearing observation codes representing answers to: Do you hear better in one ear than the other?",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/HearingAbilityToHearDuringAssessmentPeriodVS"
         },
         "name": "Hearing Ability to Hear During Assessment Period",
         "description": "SPLASCH hearing observation codes representing answers to ability to hear during assessment period",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/LeftRightBothVS"
+        },
+        "name": "Left / Right / Both",
+        "description": "Left / Right / Both",
         "exampleBoolean": false
       },
       {
