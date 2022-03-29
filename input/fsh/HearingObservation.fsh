@@ -35,4 +35,27 @@ Description:    "An exchange of hearing data for a patient."
 
 * effective[x] 1..1 MS
 
-//todo: add Invariants here (see SwallowingObservation for example)
+//Invariants for data validation
+
+Invariant:  Observation-yes-or-no-code-value-type 
+Description: "Observation with codes indicating of a yes or no value type have a yes or no value"
+Expression: "where(code.memberOf('http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHYesOrNoTypeObservationVS')).exists() implies where(value.memberOf('http://hl7.org/fhir/us/pacio-splasch/ValueSet/YesOrNoVS')).exists()"
+Severity:   #error
+
+
+Invariant:  Observation-hearing-aid-need-and-availability-code-value-type 
+Description: "Observation with codes indicating of a hearing aid need and availability value type have a hearing aid need and availability value"
+Expression: "where(code.memberOf('http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHHearingAidNeedAndAvailabilityTypeObservationVS')).exists() implies where(value.memberOf('http://hl7.org/fhir/us/pacio-splasch/ValueSet/CmsFasiAssistiveDevicesVS')).exists()"
+Severity:   #error
+
+
+Invariant:  Observation-left-right-both-code-value-type 
+Description: "Observation with codes indicating of a left/right/both value type have a left/right/both value"
+Expression: "where(code.memberOf('http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHLfetRightBothTypeObservationVS')).exists() implies where(value.memberOf('http://hl7.org/fhir/us/pacio-splasch/ValueSet/LeftRightBothVS')).exists()"
+Severity:   #error
+
+
+Invariant:  Observation-hear-better-in-one-ear-code-value-type 
+Description: "Observation with codes indicating of a hear better in one ear value type have a hear better in one ear value"
+Expression: "where(code.memberOf('http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHHearBetterInOneEarTypeObservationVS')).exists() implies where(value.memberOf('http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearBetterInOneEarVS')).exists()"
+Severity:   #error

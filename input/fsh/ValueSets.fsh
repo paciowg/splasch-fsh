@@ -136,6 +136,9 @@ Description: "SPLASCH hearing observation codes representing answers to: Do you 
 * include $LOINC#LA12688-0 "Don't know"
 
 
+
+
+
 ValueSet: SPLASCHAbilityToHearDuringAssessmentTypeObservationVS
 Title: "Ability to Hear During Assessment Type Observation"
 Description: "ValueSet identifying observation codes that have an ability to hear value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation."
@@ -149,9 +152,6 @@ Description: "ValueSet identifying observation codes that have a yes or no value
 * $LOINC#54599-6
 * $LOINC#67235-2
 * ^copyright = "This CodeSystem is not copyrighted."
-
-
-
 
 
 ValueSet: SPLASCHHearingAidNeedAndAvailabilityTypeObservationVS
