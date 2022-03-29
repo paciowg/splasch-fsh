@@ -72,8 +72,6 @@ Description: "SPLASCH hearing observation profile: codes representing hearing qu
 * ^copyright = "This CodeSystem is not copyrighted."
 
 
-//todo: I created this value set to contain multiple other hearing value sets, but this may have been wrong because they each have different answer codes.
-//may need to remove this container value set, and then in HearingObservation.fsh, create invariants for the sub value sets
 ValueSet: SPLASCHHearingObservationValueVS
 Title: "Hearing Observation Value"
 Description: "SPLASCH hearing observation values: codes representing answers to the hearing questions asked by the ValueSet SPLASCHHearingObservationCodeVS"
@@ -138,15 +136,49 @@ Description: "SPLASCH hearing observation codes representing answers to: Do you 
 * include $LOINC#LA12688-0 "Don't know"
 
 
-
-/*
-todo: create ObservationValueVS for hearing similar to swallowing. Then use to write invariants in HearingObservation.fsh
-ValueSet: SPLASCHCaloriePercentageTypeObservationVS
-Title: "Calorie Percentage Type Observation"
-Description: "ValueSet identifying observation codes that have a calorie percentage value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation."
-* SPLASCHSwallowingObservationCS#non-oral-diet-sustenance
+ValueSet: SPLASCHAbilityToHearDuringAssessmentTypeObservationVS
+Title: "Ability to Hear During Assessment Type Observation"
+Description: "ValueSet identifying observation codes that have an ability to hear value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation."
+* $LOINC#95744-9
 * ^copyright = "This CodeSystem is not copyrighted."
-*/
+
+
+ValueSet: SPLASCHYesOrNoTypeObservationVS
+Title: "Yes or No Type Observation"
+Description: "ValueSet identifying observation codes that have a yes or no value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation."
+* $LOINC#54599-6
+* $LOINC#67235-2
+* ^copyright = "This CodeSystem is not copyrighted."
+
+
+
+
+
+ValueSet: SPLASCHHearingAidNeedAndAvailabilityTypeObservationVS
+Title: "Need for and Availability of Hearing Aid Type Observation"
+Description: "ValueSet identifying observation codes that have a hearing aid need and availability value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation."
+* $LOINC#94900-8
+* ^copyright = "This CodeSystem is not copyrighted."
+
+
+ValueSet: SPLASCHLfetRightBothTypeObservationVS
+Title: "Left / Right / Both Type Observation"
+Description: "ValueSet identifying observation codes that have a left / right / both value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation."
+* $LOINC#67467-1
+* ^copyright = "This CodeSystem is not copyrighted."
+
+
+ValueSet: SPLASCHHearBetterInOneEarTypeObservationVS
+Title: "Ability to Hear Better in One Ear Type Observation"
+Description: "ValueSet identifying observation codes that have an ability to hear better in one ear value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation."
+* $LOINC#67242-8
+* ^copyright = "This CodeSystem is not copyrighted."
+
+
+
+
+
+
 
 
 

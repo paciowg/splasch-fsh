@@ -4,6 +4,8 @@
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
+<artifact id="ValueSet/SPLASCHHearBetterInOneEarTypeObservationVS" key="ValueSet-SPLASCHHearBetterInOneEarTypeObservationVS" name="Ability to Hear Better in One Ear Type Observation"/>
+<artifact id="ValueSet/SPLASCHAbilityToHearDuringAssessmentTypeObservationVS" key="ValueSet-SPLASCHAbilityToHearDuringAssessmentTypeObservationVS" name="Ability to Hear During Assessment Type Observation"/>
 <artifact deprecated="true" id="Condition/BSJ-Diagnosis1" key="Condition-BSJ-Diagnosis1" name="BSJ-Diagnosis1"/>
 <artifact deprecated="true" id="Condition/BSJ-Diagnosis2" key="Condition-BSJ-Diagnosis2" name="BSJ-Diagnosis2"/>
 <artifact id="Observation/BSJ-ObservationSPLASCH-001" key="Observation-BSJ-ObservationSPLASCH-001" name="BSJ-ObservationSPLASCH-001"/>
@@ -242,12 +244,14 @@
 <artifact id="ValueSet/SPLASCHHearingObservationVS" key="ValueSet-SPLASCHHearingObservationVS" name="Hearing Observation"/>
 <artifact id="ValueSet/SPLASCHHearingObservationValueVS" key="ValueSet-SPLASCHHearingObservationValueVS" name="Hearing Observation Value"/>
 <artifact id="ValueSet/LeftRightBothVS" key="ValueSet-LeftRightBothVS" name="Left / Right / Both"/>
+<artifact id="ValueSet/SPLASCHLfetRightBothTypeObservationVS" key="ValueSet-SPLASCHLfetRightBothTypeObservationVS" name="Left / Right / Both Type Observation"/>
 <artifact id="ValueSet/SPLASCHLiquidDietModifierTypeObservationVS" key="ValueSet-SPLASCHLiquidDietModifierTypeObservationVS" name="Liquid Diet Modifier Type Observation"/>
 <artifact deprecated="true" id="Encounter/MDS-Re-assessment-Timepoint-1" key="Encounter-MDS-Re-assessment-Timepoint-1" name="MDS-Re-assessment-Timepoint-1"/>
 <artifact deprecated="true" id="Encounter/MDS-Re-assessment-Timepoint-2" key="Encounter-MDS-Re-assessment-Timepoint-2" name="MDS-Re-assessment-Timepoint-2"/>
 <artifact id="StructureDefinition/splasch-MultiModalCommunicationObservation" key="StructureDefinition-splasch-MultiModalCommunicationObservation" name="Multi-Modal Communication Observation"/>
 <artifact id="ValueSet/SPLASCHMultiModalCommunicationObservationVS" key="ValueSet-SPLASCHMultiModalCommunicationObservationVS" name="Multi-Modal Communication Observation"/>
 <artifact id="CodeSystem/SPLASCHMultiModalCommunicationObservationCS" key="CodeSystem-SPLASCHMultiModalCommunicationObservationCS" name="Multi-Modal Communication Observation Codes"/>
+<artifact id="ValueSet/SPLASCHHearingAidNeedAndAvailabilityTypeObservationVS" key="ValueSet-SPLASCHHearingAidNeedAndAvailabilityTypeObservationVS" name="Need for and Availability of Hearing Aid Type Observation"/>
 <artifact deprecated="true" id="Encounter/OASIS-Re-assessment-Timepoint-1" key="Encounter-OASIS-Re-assessment-Timepoint-1" name="OASIS-Re-assessment-Timepoint-1"/>
 <artifact deprecated="true" id="Encounter/OASIS-Re-assessment-Timepoint-2" key="Encounter-OASIS-Re-assessment-Timepoint-2" name="OASIS-Re-assessment-Timepoint-2"/>
 <artifact deprecated="true" id="Encounter/OASIS-Re-assessment-Timepoint-3" key="Encounter-OASIS-Re-assessment-Timepoint-3" name="OASIS-Re-assessment-Timepoint-3"/>
@@ -396,6 +400,7 @@
 <artifact deprecated="true" id="ValueSet/timepoint-status-vs" key="ValueSet-timepoint-status-vs" name="Timepoint Status Value Set"/>
 <artifact deprecated="true" id="SearchParameter/encounter-based-on" key="SearchParameter-encounter-based-on" name="Timepoint_BasedOn"/>
 <artifact id="ValueSet/YesOrNoVS" key="ValueSet-YesOrNoVS" name="Y/N"/>
+<artifact id="ValueSet/SPLASCHYesOrNoTypeObservationVS" key="ValueSet-SPLASCHYesOrNoTypeObservationVS" name="Yes or No Type Observation"/>
 <artifact deprecated="true" id="Patient/patientBSJ1" key="Patient-patientBSJ1" name="patientBSJ1"/>
 <artifact id="PractitionerRole/provider-role-clinical-social-work-RayMancioni" key="PractitionerRole-provider-role-clinical-social-work-RayMancioni" name="provider-role-clinical-social-work-RayMancioni"/>
 <artifact id="PractitionerRole/provider-role-hospitalist-DonHopmed" key="PractitionerRole-provider-role-hospitalist-DonHopmed" name="provider-role-hospitalist-DonHopmed"/>

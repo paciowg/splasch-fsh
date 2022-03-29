@@ -3,7 +3,7 @@
 
 err = 132, warn = 22, info = 106
 IG Publisher Version: 1.1.88 Out of date - current version is 1.1.113
-Generated Mon Mar 28 21:44:45 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio-splasch#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-splasch)
+Generated Tue Mar 29 12:53:02 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio-splasch#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-splasch)
  Build Errors : 1 / 1 / 0
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHCaloriePercentageCategoryCS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHLiquidDietCS : 0 / 0 / 1
@@ -161,11 +161,15 @@ Generated Mon Mar 28 21:44:45 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-HearBetterInOneEarVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-HearingAbilityToHearDuringAssessmentPeriodVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-LeftRightBothVS : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHAbilityToHearDuringAssessmentTypeObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHCaloriePercentageTypeObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHFrequencyObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHFrequencyTypeObservationVS : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHHearBetterInOneEarTypeObservationVS : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHHearingAidNeedAndAvailabilityTypeObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHHearingObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHHearingObservationValueVS : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHLfetRightBothTypeObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHLiquidDietModifierTypeObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHMultiModalCommunicationObservationVS : 0 / 7 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHObservationCategoryVS : 0 / 0 / 1
@@ -174,6 +178,7 @@ Generated Mon Mar 28 21:44:45 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHSpeechExpressionObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHSwallowingObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHSwallowingObservationValueVS : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHYesOrNoTypeObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-YesOrNoVS : 0 / 0 / 1
 </table>
 == n/a ==
@@ -587,11 +592,15 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-splasch/S
 == fsh-generated\resources\ValueSet-HearBetterInOneEarVS.json ==
 == fsh-generated\resources\ValueSet-HearingAbilityToHearDuringAssessmentPeriodVS.json ==
 == fsh-generated\resources\ValueSet-LeftRightBothVS.json ==
+== fsh-generated\resources\ValueSet-SPLASCHAbilityToHearDuringAssessmentTypeObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHCaloriePercentageTypeObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHFrequencyObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHFrequencyTypeObservationVS.json ==
+== fsh-generated\resources\ValueSet-SPLASCHHearBetterInOneEarTypeObservationVS.json ==
+== fsh-generated\resources\ValueSet-SPLASCHHearingAidNeedAndAvailabilityTypeObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHHearingObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHHearingObservationValueVS.json ==
+== fsh-generated\resources\ValueSet-SPLASCHLfetRightBothTypeObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHLiquidDietModifierTypeObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHMultiModalCommunicationObservationVS.json ==
 WARNING: ValueSet/SPLASCHMultiModalCommunicationObservationVS: ValueSet.compose[0].include[1].concept[0]: The code 99829-4 is not valid in the system http://loinc.org
@@ -607,4 +616,5 @@ WARNING: ValueSet/SPLASCHMultiModalCommunicationObservationVS: ValueSet.compose[
 == fsh-generated\resources\ValueSet-SPLASCHSpeechExpressionObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHSwallowingObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHSwallowingObservationValueVS.json ==
+== fsh-generated\resources\ValueSet-SPLASCHYesOrNoTypeObservationVS.json ==
 == fsh-generated\resources\ValueSet-YesOrNoVS.json ==

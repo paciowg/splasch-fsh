@@ -10,7 +10,7 @@
   "name": "PACIOReAssessmentTimepoints",
   "title": "PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide",
   "status": "draft",
-  "date": "2022-03-28T21:41:27-04:00",
+  "date": "2022-03-29T12:50:12-04:00",
   "publisher": "HL7 Patient Care Working Group",
   "contact": [
     {
@@ -514,6 +514,20 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/SPLASCHAbilityToHearDuringAssessmentTypeObservationVS"
+        },
+        "name": "Ability to Hear During Assessment Type Observation",
+        "description": "ValueSet identifying observation codes that have an ability to hear value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/SPLASCHCaloriePercentageTypeObservationVS"
         },
         "name": "Calorie Percentage Type Observation",
@@ -556,6 +570,34 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/SPLASCHHearBetterInOneEarTypeObservationVS"
+        },
+        "name": "Ability to Hear Better in One Ear Type Observation",
+        "description": "ValueSet identifying observation codes that have an ability to hear better in one ear value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/SPLASCHHearingAidNeedAndAvailabilityTypeObservationVS"
+        },
+        "name": "Need for and Availability of Hearing Aid Type Observation",
+        "description": "ValueSet identifying observation codes that have a hearing aid need and availability value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/SPLASCHHearingObservationVS"
         },
         "name": "Hearing Observation",
@@ -574,6 +616,20 @@
         },
         "name": "Hearing Observation Value",
         "description": "SPLASCH hearing observation values: codes representing answers to the hearing questions asked by the ValueSet SPLASCHHearingObservationCodeVS",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/SPLASCHLfetRightBothTypeObservationVS"
+        },
+        "name": "Left / Right / Both Type Observation",
+        "description": "ValueSet identifying observation codes that have a left / right / both value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation.",
         "exampleBoolean": false
       },
       {
@@ -686,6 +742,20 @@
         },
         "name": "Swallowing Observation Value",
         "description": "Values for swallowing observations",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/SPLASCHYesOrNoTypeObservationVS"
+        },
+        "name": "Yes or No Type Observation",
+        "description": "ValueSet identifying observation codes that have a yes or no value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation.",
         "exampleBoolean": false
       },
       {

@@ -133,6 +133,13 @@
     "name": "LeftRightBothVS"
   },
   {
+    "id": "SPLASCHAbilityToHearDuringAssessmentTypeObservationVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHAbilityToHearDuringAssessmentTypeObservationVS",
+    "version": "0.1.0",
+    "name": "SPLASCHAbilityToHearDuringAssessmentTypeObservationVS"
+  },
+  {
     "id": "SPLASCHCaloriePercentageTypeObservationVS",
     "type": "ValueSet",
     "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHCaloriePercentageTypeObservationVS",
@@ -154,6 +161,20 @@
     "name": "SPLASCHFrequencyTypeObservationVS"
   },
   {
+    "id": "SPLASCHHearBetterInOneEarTypeObservationVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHHearBetterInOneEarTypeObservationVS",
+    "version": "0.1.0",
+    "name": "SPLASCHHearBetterInOneEarTypeObservationVS"
+  },
+  {
+    "id": "SPLASCHHearingAidNeedAndAvailabilityTypeObservationVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHHearingAidNeedAndAvailabilityTypeObservationVS",
+    "version": "0.1.0",
+    "name": "SPLASCHHearingAidNeedAndAvailabilityTypeObservationVS"
+  },
+  {
     "id": "SPLASCHHearingObservationVS",
     "type": "ValueSet",
     "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHHearingObservationVS",
@@ -166,6 +187,13 @@
     "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHHearingObservationValueVS",
     "version": "0.1.0",
     "name": "SPLASCHHearingObservationValueVS"
+  },
+  {
+    "id": "SPLASCHLfetRightBothTypeObservationVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHLfetRightBothTypeObservationVS",
+    "version": "0.1.0",
+    "name": "SPLASCHLfetRightBothTypeObservationVS"
   },
   {
     "id": "SPLASCHLiquidDietModifierTypeObservationVS",
@@ -222,6 +250,13 @@
     "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHSwallowingObservationValueVS",
     "version": "0.1.0",
     "name": "SPLASCHSwallowingObservationValueVS"
+  },
+  {
+    "id": "SPLASCHYesOrNoTypeObservationVS",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHYesOrNoTypeObservationVS",
+    "version": "0.1.0",
+    "name": "SPLASCHYesOrNoTypeObservationVS"
   },
   {
     "id": "YesOrNoVS",
