@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "3c0b6f92-51fb-42d5-a2d1-2826c9f07d10-41",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/3c0b6f92-51fb-42d5-a2d1-2826c9f07d10-41",
+  "id" : "f8352ec8-ab11-4cbb-9939-8b84864373cb-41",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/f8352ec8-ab11-4cbb-9939-8b84864373cb-41",
   "name" : "UnionUSCoreDiagnosticReportReportAndNoteCodesAndSPLASCHHearingObservationVS",
   "title" : "Union of US Core DiagnosticReport Report And Note Codes And Hearing Observation",
   "status" : "active",
-  "date" : "2022-03-26T00:26:02-04:00",
+  "date" : "2022-03-28T21:42:43-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -16,7 +16,7 @@
     "include" : [{
       "concept" : [{
         "code" : "95744-9",
-        "display" : "Hearing.ability to hear during assessment period [CMS Assessment]"
+        "display" : "Hearing ability to hear during assessment period [CMS Assessment]"
       },
       {
         "code" : "54599-6",
@@ -5044,7 +5044,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "95744-9",
-      "display" : "Hearing.ability to hear during assessment period [CMS Assessment]"
+      "display" : "Hearing ability to hear during assessment period [CMS Assessment]"
     },
     {
       "system" : "http://loinc.org",
