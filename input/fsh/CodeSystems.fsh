@@ -45,6 +45,13 @@ Description: "Observation codes for multi-modal communication"
   Additionally, LOINC 99828-6 includes 99835-1 (MMC FC score) which is not listed in ASHA FCM document. Is LOINC 99835-1 equivalent to communicate-without-assistance? 
   If so, then can eliminate SPLASCHMultiModalCommunicationObservationCS and use exactly the LOINC codes listed under 99828-6.
 */
+* #99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
+* #99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
+* #99831-0 "How often does the individual convey complex messages that are meaningful in LOW demand situations?"
+* #99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
+* #99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
+* #99834-4 "How often does the individual convey complex messages that are meaningful in HIGH demand situations?"
+* #99835-1 "Functional Communication Measure - Multi-Modal Functional Communication score [ASHA NOMS]" //todo: This LOINC code does not seem to exist in ASHA FCM document. See corresponding comment in CodeSystems.fsh -> SPLASCHMultiModalCommunicationObservationCS
 * #communicate-without-assistance "Participate in communication exchanges without assistance" "How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?"
 * ^caseSensitive = true
 * ^copyright = "This CodeSystem is not copyrighted."
@@ -123,3 +130,5 @@ Description: "Category codes for calorie percentage observations"
 * #76-100-percent "76-100% of caloric intake" "76% to 100% of caloric intake"
 * ^caseSensitive = true
 * ^copyright = "This CodeSystem is not copyrighted."
+
+

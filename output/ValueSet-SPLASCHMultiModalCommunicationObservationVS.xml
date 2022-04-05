@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="SPLASCHMultiModalCommunicationObservationVS"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="CodeSystem-SPLASCHMultiModalCommunicationObservationCS.html"><code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS</code></a></li><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://details.loinc.org/LOINC/99829-4.html">99829-4</a></td><td>How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?</td></tr><tr><td><a href="http://details.loinc.org/LOINC/99830-2.html">99830-2</a></td><td>How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?</td></tr><tr><td><a href="http://details.loinc.org/LOINC/99831-0.html">99831-0</a></td><td>How often does the individual convey complex messages that are meaningful in LOW demand situations?</td></tr><tr><td><a href="http://details.loinc.org/LOINC/99832-8.html">99832-8</a></td><td>How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?</td></tr><tr><td><a href="http://details.loinc.org/LOINC/99833-6.html">99833-6</a></td><td>How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?</td></tr><tr><td><a href="http://details.loinc.org/LOINC/99834-4.html">99834-4</a></td><td>How often does the individual convey complex messages that are meaningful in HIGH demand situations?</td></tr><tr><td><a href="http://details.loinc.org/LOINC/99835-1.html">99835-1</a></td><td>Functional Communication Measure - Multi-Modal Functional Communication score [ASHA NOMS]</td></tr></table></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-SPLASCHMultiModalCommunicationObservationCS.html"><code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS</code></a></li></ul></div>
   </text>
   <url value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationVS"/>
   <version value="0.1.0"/>
   <name value="SPLASCHMultiModalCommunicationObservationVS"/>
   <title value="Multi-Modal Communication Observation"/>
   <status value="active"/>
-  <date value="2022-03-29T14:17:18-04:00"/>
+  <date value="2022-04-05T11:13:11-04:00"/>
   <publisher value="HL7 Patient Care Working Group"/>
   <contact>
     <name value="HL7 Patient Care Working Group"/>
@@ -45,37 +45,6 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS"/>
-    </include>
-    <include>
-      <system value="http://loinc.org"/>
-      <concept>
-        <code value="99829-4"/>
-        <display value="How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"/>
-      </concept>
-      <concept>
-        <code value="99830-2"/>
-        <display value="How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"/>
-      </concept>
-      <concept>
-        <code value="99831-0"/>
-        <display value="How often does the individual convey complex messages that are meaningful in LOW demand situations?"/>
-      </concept>
-      <concept>
-        <code value="99832-8"/>
-        <display value="How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"/>
-      </concept>
-      <concept>
-        <code value="99833-6"/>
-        <display value="How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"/>
-      </concept>
-      <concept>
-        <code value="99834-4"/>
-        <display value="How often does the individual convey complex messages that are meaningful in HIGH demand situations?"/>
-      </concept>
-      <concept>
-        <code value="99835-1"/>
-        <display value="Functional Communication Measure - Multi-Modal Functional Communication score [ASHA NOMS]"/>
-      </concept>
     </include>
   </compose>
 </ValueSet>

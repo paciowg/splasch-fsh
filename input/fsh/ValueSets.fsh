@@ -43,16 +43,7 @@ ValueSet: SPLASCHMultiModalCommunicationObservationVS
 Title: "Multi-Modal Communication Observation"
 Description: "SPLASCH multi-modal communication observation profile"
 * codes from system SPLASCHMultiModalCommunicationObservationCS
-//Note: the following LOINC codes can be found at https://loinc.org/99828-6/
-* include $LOINC#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
-* include $LOINC#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
-* include $LOINC#99831-0 "How often does the individual convey complex messages that are meaningful in LOW demand situations?"
-* include $LOINC#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
-* include $LOINC#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
-* include $LOINC#99834-4 "How often does the individual convey complex messages that are meaningful in HIGH demand situations?"
-* include $LOINC#99835-1 "Functional Communication Measure - Multi-Modal Functional Communication score [ASHA NOMS]" //todo: This LOINC code does not seem to exist in ASHA FCM document. See corresponding comment in CodeSystems.fsh -> SPLASCHMultiModalCommunicationObservationCS
 * ^copyright = "This CodeSystem is not copyrighted."
-
 
 
 

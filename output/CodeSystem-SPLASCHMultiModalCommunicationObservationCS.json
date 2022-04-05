@@ -3,14 +3,14 @@
   "id": "SPLASCHMultiModalCommunicationObservationCS",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">communicate-without-assistance<a name=\"SPLASCHMultiModalCommunicationObservationCS-communicate-without-assistance\"> </a></td><td>Participate in communication exchanges without assistance</td><td>How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">99829-4<a name=\"SPLASCHMultiModalCommunicationObservationCS-99829-4\"> </a></td><td>How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?</td><td/></tr><tr><td style=\"white-space:nowrap\">99830-2<a name=\"SPLASCHMultiModalCommunicationObservationCS-99830-2\"> </a></td><td>How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?</td><td/></tr><tr><td style=\"white-space:nowrap\">99831-0<a name=\"SPLASCHMultiModalCommunicationObservationCS-99831-0\"> </a></td><td>How often does the individual convey complex messages that are meaningful in LOW demand situations?</td><td/></tr><tr><td style=\"white-space:nowrap\">99832-8<a name=\"SPLASCHMultiModalCommunicationObservationCS-99832-8\"> </a></td><td>How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?</td><td/></tr><tr><td style=\"white-space:nowrap\">99833-6<a name=\"SPLASCHMultiModalCommunicationObservationCS-99833-6\"> </a></td><td>How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?</td><td/></tr><tr><td style=\"white-space:nowrap\">99834-4<a name=\"SPLASCHMultiModalCommunicationObservationCS-99834-4\"> </a></td><td>How often does the individual convey complex messages that are meaningful in HIGH demand situations?</td><td/></tr><tr><td style=\"white-space:nowrap\">99835-1<a name=\"SPLASCHMultiModalCommunicationObservationCS-99835-1\"> </a></td><td>Functional Communication Measure - Multi-Modal Functional Communication score [ASHA NOMS]</td><td/></tr><tr><td style=\"white-space:nowrap\">communicate-without-assistance<a name=\"SPLASCHMultiModalCommunicationObservationCS-communicate-without-assistance\"> </a></td><td>Participate in communication exchanges without assistance</td><td>How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?</td></tr></table></div>"
   },
   "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
   "version": "0.1.0",
   "name": "SPLASCHMultiModalCommunicationObservationCS",
   "title": "Multi-Modal Communication Observation Codes",
   "status": "active",
-  "date": "2022-03-29T14:17:18-04:00",
+  "date": "2022-04-05T11:13:11-04:00",
   "publisher": "HL7 Patient Care Working Group",
   "contact": [
     {
@@ -54,8 +54,36 @@
   "copyright": "This CodeSystem is not copyrighted.",
   "caseSensitive": true,
   "content": "complete",
-  "count": 1,
+  "count": 8,
   "concept": [
+    {
+      "code": "99829-4",
+      "display": "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
+    },
+    {
+      "code": "99830-2",
+      "display": "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
+    },
+    {
+      "code": "99831-0",
+      "display": "How often does the individual convey complex messages that are meaningful in LOW demand situations?"
+    },
+    {
+      "code": "99832-8",
+      "display": "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
+    },
+    {
+      "code": "99833-6",
+      "display": "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
+    },
+    {
+      "code": "99834-4",
+      "display": "How often does the individual convey complex messages that are meaningful in HIGH demand situations?"
+    },
+    {
+      "code": "99835-1",
+      "display": "Functional Communication Measure - Multi-Modal Functional Communication score [ASHA NOMS]"
+    },
     {
       "code": "communicate-without-assistance",
       "display": "Participate in communication exchanges without assistance",

@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "SPLASCHMultiModalCommunicationObservationCS"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">communicate-without-assistance<a name=\"SPLASCHMultiModalCommunicationObservationCS-communicate-without-assistance\"> </a></td><td>Participate in communication exchanges without assistance</td><td>How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">99829-4<a name=\"SPLASCHMultiModalCommunicationObservationCS-99829-4\"> </a></td><td>How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?</td><td/></tr><tr><td style=\"white-space:nowrap\">99830-2<a name=\"SPLASCHMultiModalCommunicationObservationCS-99830-2\"> </a></td><td>How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?</td><td/></tr><tr><td style=\"white-space:nowrap\">99831-0<a name=\"SPLASCHMultiModalCommunicationObservationCS-99831-0\"> </a></td><td>How often does the individual convey complex messages that are meaningful in LOW demand situations?</td><td/></tr><tr><td style=\"white-space:nowrap\">99832-8<a name=\"SPLASCHMultiModalCommunicationObservationCS-99832-8\"> </a></td><td>How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?</td><td/></tr><tr><td style=\"white-space:nowrap\">99833-6<a name=\"SPLASCHMultiModalCommunicationObservationCS-99833-6\"> </a></td><td>How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?</td><td/></tr><tr><td style=\"white-space:nowrap\">99834-4<a name=\"SPLASCHMultiModalCommunicationObservationCS-99834-4\"> </a></td><td>How often does the individual convey complex messages that are meaningful in HIGH demand situations?</td><td/></tr><tr><td style=\"white-space:nowrap\">99835-1<a name=\"SPLASCHMultiModalCommunicationObservationCS-99835-1\"> </a></td><td>Functional Communication Measure - Multi-Modal Functional Communication score [ASHA NOMS]</td><td/></tr><tr><td style=\"white-space:nowrap\">communicate-without-assistance<a name=\"SPLASCHMultiModalCommunicationObservationCS-communicate-without-assistance\"> </a></td><td>Participate in communication exchanges without assistance</td><td>How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?</td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS"];
   fhir:CodeSystem.version [ fhir:value "0.1.0"];
   fhir:CodeSystem.name [ fhir:value "SPLASCHMultiModalCommunicationObservationCS"];
   fhir:CodeSystem.title [ fhir:value "Multi-Modal Communication Observation Codes"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-03-29T14:17:18-04:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-04-05T11:13:11-04:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "HL7 Patient Care Working Group"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -56,9 +56,37 @@
   fhir:CodeSystem.copyright [ fhir:value "This CodeSystem is not copyrighted."];
   fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
   fhir:CodeSystem.content [ fhir:value "complete"];
-  fhir:CodeSystem.count [ fhir:value "1"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.count [ fhir:value "8"^^xsd:nonNegativeInteger];
   fhir:CodeSystem.concept [
      fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "99829-4" ];
+     fhir:CodeSystem.concept.display [ fhir:value "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "99830-2" ];
+     fhir:CodeSystem.concept.display [ fhir:value "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "99831-0" ];
+     fhir:CodeSystem.concept.display [ fhir:value "How often does the individual convey complex messages that are meaningful in LOW demand situations?" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "99832-8" ];
+     fhir:CodeSystem.concept.display [ fhir:value "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "99833-6" ];
+     fhir:CodeSystem.concept.display [ fhir:value "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "99834-4" ];
+     fhir:CodeSystem.concept.display [ fhir:value "How often does the individual convey complex messages that are meaningful in HIGH demand situations?" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "99835-1" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Functional Communication Measure - Multi-Modal Functional Communication score [ASHA NOMS]" ]
+  ], [
+     fhir:index 7;
      fhir:CodeSystem.concept.code [ fhir:value "communicate-without-assistance" ];
      fhir:CodeSystem.concept.display [ fhir:value "Participate in communication exchanges without assistance" ];
      fhir:CodeSystem.concept.definition [ fhir:value "How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?" ]

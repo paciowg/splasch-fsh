@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOReAssessmentTimepoints"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-03-29T14:17:18-04:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-04-05T11:13:11-04:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Patient Care Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -352,6 +352,18 @@
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
          fhir:Extension.valueString [ fhir:value "propagate-status" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 24;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "excludelogbinaryformat" ]
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
@@ -2366,6 +2378,790 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-107>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-107" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-107" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-107" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 144;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-108>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-108" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-108" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-108" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 145;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-109>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-109" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-109" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-109" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 146;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-110>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-110" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-110" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-110" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 147;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-111>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-111" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-111" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-111" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 148;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-112>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-112" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-112" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-112" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 149;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-113>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-113" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-113" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-113" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 150;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-114>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-114" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-114" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-114" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 151;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-115>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-115" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-115" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-115" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 152;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-116>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-116" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-116" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-116" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 153;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-117>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-117" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-117" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-117" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 154;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-118>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-118" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-118" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-118" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 155;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-119>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-119" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-119" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-119" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 156;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-120>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-120" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-120" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-120" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 157;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-121>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-121" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-121" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-121" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 158;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-122>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-122" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-122" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-122" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 159;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-123>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-123" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-123" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-123" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 160;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-124>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-124" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-124" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-124" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 161;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-125>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-125" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-125" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-125" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 162;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-126>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-126" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-126" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-126" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 163;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-127>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-127" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-127" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-127" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 164;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-128>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-128" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-128" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-128" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 165;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-129>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-129" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-129" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-129" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 166;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-130>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-130" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-130" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-130" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 167;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-131>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-131" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-131" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-131" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 168;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-132>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-132" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-132" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-132" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 169;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-133>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-133" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-133" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-133" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 170;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-134>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-134" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-134" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-134" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 171;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-135>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-135" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-135" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-135" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 172;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-136>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-136" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-136" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-136" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 173;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-137>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-137" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-137" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-137" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 174;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-138>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-138" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-138" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-138" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 175;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-139>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-139" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-139" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-139" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 176;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-140>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-140" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-140" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-140" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 177;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-141>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-141" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-141" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-141" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 178;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-142>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-142" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-142" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-142" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 179;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-143>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-143" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-143" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-143" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 180;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-144>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-144" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-144" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-144" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 181;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-145>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-145" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-145" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-145" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 182;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-146>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-146" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-146" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-146" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 183;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-147>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-147" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-147" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-147" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 184;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-148>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-148" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-148" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-148" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 185;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-149>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-149" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-149" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-149" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 186;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-150>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-150" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-150" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-150" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 187;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-151>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-151" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-151" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-151" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 188;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-152>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-152" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-152" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-152" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 189;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-153>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-153" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-153" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-153" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 190;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-154>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-154" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-154" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-154" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 191;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-155>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-155" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-155" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-155" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 192;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-156>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-156" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-156" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-156" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 193;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-157>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-157" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-157" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-157" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 194;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-158>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-158" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-158" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-158" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 195;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-159>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-159" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-159" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-159" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 196;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-160>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-160" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-160" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-160" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 197;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-161>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-161" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-161" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-161" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 198;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-162>;
+         fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-162" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-162" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH Observation ObservationSPLASCH-162" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 199;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -2376,7 +3172,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of USCorePatientProfile" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 144;
+       fhir:index 200;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2390,7 +3186,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 145;
+       fhir:index 201;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2404,7 +3200,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 146;
+       fhir:index 202;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2418,7 +3214,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 147;
+       fhir:index 203;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2432,7 +3228,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 148;
+       fhir:index 204;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2446,7 +3242,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 149;
+       fhir:index 205;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2460,7 +3256,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 150;
+       fhir:index 206;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2474,7 +3270,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 151;
+       fhir:index 207;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2488,7 +3284,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 152;
+       fhir:index 208;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2502,7 +3298,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 153;
+       fhir:index 209;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2516,7 +3312,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 154;
+       fhir:index 210;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2530,7 +3326,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 155;
+       fhir:index 211;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2544,7 +3340,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 156;
+       fhir:index 212;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2558,7 +3354,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 157;
+       fhir:index 213;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2572,7 +3368,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 158;
+       fhir:index 214;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2586,7 +3382,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 159;
+       fhir:index 215;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2600,7 +3396,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 160;
+       fhir:index 216;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2614,7 +3410,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 161;
+       fhir:index 217;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2628,7 +3424,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 162;
+       fhir:index 218;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2642,7 +3438,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 163;
+       fhir:index 219;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2656,7 +3452,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 164;
+       fhir:index 220;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2670,7 +3466,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 165;
+       fhir:index 221;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2684,7 +3480,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 166;
+       fhir:index 222;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2698,7 +3494,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 167;
+       fhir:index 223;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2712,7 +3508,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 168;
+       fhir:index 224;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2726,7 +3522,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 169;
+       fhir:index 225;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2740,7 +3536,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 170;
+       fhir:index 226;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2754,7 +3550,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 171;
+       fhir:index 227;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2768,7 +3564,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 172;
+       fhir:index 228;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2782,7 +3578,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 173;
+       fhir:index 229;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3160,6 +3956,118 @@
 <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-105> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-106> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-107> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-108> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-109> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-110> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-111> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-112> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-113> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-114> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-115> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-116> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-117> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-118> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-119> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-120> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-121> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-122> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-123> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-124> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-125> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-126> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-127> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-128> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-129> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-130> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-131> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-132> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-133> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-134> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-135> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-136> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-137> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-138> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-139> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-140> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-141> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-142> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-143> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-144> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-145> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-146> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-147> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-148> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-149> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-150> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-151> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-152> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-153> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-154> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-155> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-156> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-157> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-158> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-159> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-160> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-161> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-162> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-splasch/Patient/BSJ-patientBSJ1> a fhir:us .
 
