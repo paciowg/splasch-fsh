@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "9be5493c-57e6-45d0-8d2d-903ab254f514-116",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/9be5493c-57e6-45d0-8d2d-903ab254f514-116",
+  "id" : "19c274a4-44a1-41a0-882b-a4f48d1cb01f-116",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/19c274a4-44a1-41a0-882b-a4f48d1cb01f-116",
   "name" : "UnionUSCoreClinicalTestResultObservationProfileAndMultiModalCommunicationObservation",
   "title" : "Union of US Core Clinical Test Result Observation Profile And Multi-Modal Communication Observation",
   "status" : "active",
-  "date" : "2022-04-05T11:14:20-04:00",
+  "date" : "2022-04-05T12:12:28-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -560,7 +560,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/9be5493c-57e6-45d0-8d2d-903ab254f514-119"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/19c274a4-44a1-41a0-882b-a4f48d1cb01f-119"
       },
       "mapping" : [{
         "identity" : "workflow",

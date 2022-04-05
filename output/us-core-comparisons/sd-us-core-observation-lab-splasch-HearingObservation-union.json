@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "9be5493c-57e6-45d0-8d2d-903ab254f514-47",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/9be5493c-57e6-45d0-8d2d-903ab254f514-47",
+  "id" : "19c274a4-44a1-41a0-882b-a4f48d1cb01f-47",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/19c274a4-44a1-41a0-882b-a4f48d1cb01f-47",
   "name" : "UnionUSCoreLaboratoryResultObservationProfileAndHearingObservation",
   "title" : "Union of US Core Laboratory Result Observation Profile And Hearing Observation",
   "status" : "active",
-  "date" : "2022-04-05T11:14:20-04:00",
+  "date" : "2022-04-05T12:12:27-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -575,7 +575,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "LOINC codes",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/9be5493c-57e6-45d0-8d2d-903ab254f514-50"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/19c274a4-44a1-41a0-882b-a4f48d1cb01f-50"
       },
       "mapping" : [{
         "identity" : "workflow",
