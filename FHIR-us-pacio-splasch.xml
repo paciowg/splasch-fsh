@@ -4,6 +4,8 @@
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
+<artifact id="ValueSet/SPLASCHHearBetterInOneEarTypeObservationVS" key="ValueSet-SPLASCHHearBetterInOneEarTypeObservationVS" name="Ability to Hear Better in One Ear Type Observation"/>
+<artifact id="ValueSet/SPLASCHAbilityToHearDuringAssessmentTypeObservationVS" key="ValueSet-SPLASCHAbilityToHearDuringAssessmentTypeObservationVS" name="Ability to Hear During Assessment Type Observation"/>
 <artifact deprecated="true" id="Condition/BSJ-Diagnosis1" key="Condition-BSJ-Diagnosis1" name="BSJ-Diagnosis1"/>
 <artifact deprecated="true" id="Condition/BSJ-Diagnosis2" key="Condition-BSJ-Diagnosis2" name="BSJ-Diagnosis2"/>
 <artifact id="Observation/BSJ-ObservationSPLASCH-001" key="Observation-BSJ-ObservationSPLASCH-001" name="BSJ-ObservationSPLASCH-001"/>
@@ -112,8 +114,65 @@
 <artifact id="Observation/BSJ-ObservationSPLASCH-104" key="Observation-BSJ-ObservationSPLASCH-104" name="BSJ-ObservationSPLASCH-104"/>
 <artifact id="Observation/BSJ-ObservationSPLASCH-105" key="Observation-BSJ-ObservationSPLASCH-105" name="BSJ-ObservationSPLASCH-105"/>
 <artifact id="Observation/BSJ-ObservationSPLASCH-106" key="Observation-BSJ-ObservationSPLASCH-106" name="BSJ-ObservationSPLASCH-106"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-107" key="Observation-BSJ-ObservationSPLASCH-107" name="BSJ-ObservationSPLASCH-107"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-108" key="Observation-BSJ-ObservationSPLASCH-108" name="BSJ-ObservationSPLASCH-108"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-109" key="Observation-BSJ-ObservationSPLASCH-109" name="BSJ-ObservationSPLASCH-109"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-110" key="Observation-BSJ-ObservationSPLASCH-110" name="BSJ-ObservationSPLASCH-110"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-111" key="Observation-BSJ-ObservationSPLASCH-111" name="BSJ-ObservationSPLASCH-111"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-112" key="Observation-BSJ-ObservationSPLASCH-112" name="BSJ-ObservationSPLASCH-112"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-113" key="Observation-BSJ-ObservationSPLASCH-113" name="BSJ-ObservationSPLASCH-113"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-114" key="Observation-BSJ-ObservationSPLASCH-114" name="BSJ-ObservationSPLASCH-114"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-115" key="Observation-BSJ-ObservationSPLASCH-115" name="BSJ-ObservationSPLASCH-115"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-116" key="Observation-BSJ-ObservationSPLASCH-116" name="BSJ-ObservationSPLASCH-116"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-117" key="Observation-BSJ-ObservationSPLASCH-117" name="BSJ-ObservationSPLASCH-117"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-118" key="Observation-BSJ-ObservationSPLASCH-118" name="BSJ-ObservationSPLASCH-118"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-119" key="Observation-BSJ-ObservationSPLASCH-119" name="BSJ-ObservationSPLASCH-119"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-120" key="Observation-BSJ-ObservationSPLASCH-120" name="BSJ-ObservationSPLASCH-120"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-121" key="Observation-BSJ-ObservationSPLASCH-121" name="BSJ-ObservationSPLASCH-121"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-122" key="Observation-BSJ-ObservationSPLASCH-122" name="BSJ-ObservationSPLASCH-122"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-123" key="Observation-BSJ-ObservationSPLASCH-123" name="BSJ-ObservationSPLASCH-123"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-124" key="Observation-BSJ-ObservationSPLASCH-124" name="BSJ-ObservationSPLASCH-124"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-125" key="Observation-BSJ-ObservationSPLASCH-125" name="BSJ-ObservationSPLASCH-125"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-126" key="Observation-BSJ-ObservationSPLASCH-126" name="BSJ-ObservationSPLASCH-126"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-127" key="Observation-BSJ-ObservationSPLASCH-127" name="BSJ-ObservationSPLASCH-127"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-128" key="Observation-BSJ-ObservationSPLASCH-128" name="BSJ-ObservationSPLASCH-128"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-129" key="Observation-BSJ-ObservationSPLASCH-129" name="BSJ-ObservationSPLASCH-129"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-130" key="Observation-BSJ-ObservationSPLASCH-130" name="BSJ-ObservationSPLASCH-130"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-131" key="Observation-BSJ-ObservationSPLASCH-131" name="BSJ-ObservationSPLASCH-131"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-132" key="Observation-BSJ-ObservationSPLASCH-132" name="BSJ-ObservationSPLASCH-132"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-133" key="Observation-BSJ-ObservationSPLASCH-133" name="BSJ-ObservationSPLASCH-133"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-134" key="Observation-BSJ-ObservationSPLASCH-134" name="BSJ-ObservationSPLASCH-134"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-135" key="Observation-BSJ-ObservationSPLASCH-135" name="BSJ-ObservationSPLASCH-135"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-136" key="Observation-BSJ-ObservationSPLASCH-136" name="BSJ-ObservationSPLASCH-136"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-137" key="Observation-BSJ-ObservationSPLASCH-137" name="BSJ-ObservationSPLASCH-137"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-138" key="Observation-BSJ-ObservationSPLASCH-138" name="BSJ-ObservationSPLASCH-138"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-139" key="Observation-BSJ-ObservationSPLASCH-139" name="BSJ-ObservationSPLASCH-139"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-140" key="Observation-BSJ-ObservationSPLASCH-140" name="BSJ-ObservationSPLASCH-140"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-141" key="Observation-BSJ-ObservationSPLASCH-141" name="BSJ-ObservationSPLASCH-141"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-142" key="Observation-BSJ-ObservationSPLASCH-142" name="BSJ-ObservationSPLASCH-142"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-143" key="Observation-BSJ-ObservationSPLASCH-143" name="BSJ-ObservationSPLASCH-143"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-144" key="Observation-BSJ-ObservationSPLASCH-144" name="BSJ-ObservationSPLASCH-144"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-145" key="Observation-BSJ-ObservationSPLASCH-145" name="BSJ-ObservationSPLASCH-145"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-146" key="Observation-BSJ-ObservationSPLASCH-146" name="BSJ-ObservationSPLASCH-146"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-147" key="Observation-BSJ-ObservationSPLASCH-147" name="BSJ-ObservationSPLASCH-147"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-148" key="Observation-BSJ-ObservationSPLASCH-148" name="BSJ-ObservationSPLASCH-148"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-149" key="Observation-BSJ-ObservationSPLASCH-149" name="BSJ-ObservationSPLASCH-149"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-150" key="Observation-BSJ-ObservationSPLASCH-150" name="BSJ-ObservationSPLASCH-150"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-151" key="Observation-BSJ-ObservationSPLASCH-151" name="BSJ-ObservationSPLASCH-151"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-152" key="Observation-BSJ-ObservationSPLASCH-152" name="BSJ-ObservationSPLASCH-152"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-153" key="Observation-BSJ-ObservationSPLASCH-153" name="BSJ-ObservationSPLASCH-153"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-154" key="Observation-BSJ-ObservationSPLASCH-154" name="BSJ-ObservationSPLASCH-154"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-155" key="Observation-BSJ-ObservationSPLASCH-155" name="BSJ-ObservationSPLASCH-155"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-156" key="Observation-BSJ-ObservationSPLASCH-156" name="BSJ-ObservationSPLASCH-156"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-157" key="Observation-BSJ-ObservationSPLASCH-157" name="BSJ-ObservationSPLASCH-157"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-158" key="Observation-BSJ-ObservationSPLASCH-158" name="BSJ-ObservationSPLASCH-158"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-159" key="Observation-BSJ-ObservationSPLASCH-159" name="BSJ-ObservationSPLASCH-159"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-160" key="Observation-BSJ-ObservationSPLASCH-160" name="BSJ-ObservationSPLASCH-160"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-161" key="Observation-BSJ-ObservationSPLASCH-161" name="BSJ-ObservationSPLASCH-161"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-162" key="Observation-BSJ-ObservationSPLASCH-162" name="BSJ-ObservationSPLASCH-162"/>
 <artifact id="Patient/BSJ-patientBSJ1" key="Patient-BSJ-patientBSJ1" name="BSJ-patientBSJ1"/>
 <artifact deprecated="true" id="StructureDefinition/clinicalImpression" key="StructureDefinition-clinicalImpression" name="BasedOnClinicalImpression"/>
+<artifact id="ValueSet/CmsFasiAssistiveDevicesVS" key="ValueSet-CmsFasiAssistiveDevicesVS" name="CMS FASI Assistive Devices"/>
 <artifact id="ValueSet/SPLASCHCaloriePercentageTypeObservationVS" key="ValueSet-SPLASCHCaloriePercentageTypeObservationVS" name="Calorie Percentage Type Observation"/>
 <artifact deprecated="true" id="ClinicalImpression/ClinicalImpression-1" key="ClinicalImpression-ClinicalImpression-1" name="ClinicalImpression-1"/>
 <artifact deprecated="true" id="ClinicalImpression/ClinicalImpression-2" key="ClinicalImpression-ClinicalImpression-2" name="ClinicalImpression-2"/>
@@ -236,9 +295,19 @@
 <artifact deprecated="true" id="Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-5" key="Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-5" name="HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-5"/>
 <artifact deprecated="true" id="Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-7" key="Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-7" name="HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-7"/>
 <artifact deprecated="true" id="Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-9" key="Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-9" name="HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-9"/>
+<artifact id="ValueSet/HearingAbilityToHearDuringAssessmentPeriodVS" key="ValueSet-HearingAbilityToHearDuringAssessmentPeriodVS" name="Hearing Ability to Hear During Assessment Period"/>
+<artifact id="StructureDefinition/splasch-HearingObservation" key="StructureDefinition-splasch-HearingObservation" name="Hearing Observation"/>
+<artifact id="ValueSet/SPLASCHHearingObservationVS" key="ValueSet-SPLASCHHearingObservationVS" name="Hearing Observation"/>
+<artifact id="ValueSet/SPLASCHHearingObservationValueVS" key="ValueSet-SPLASCHHearingObservationValueVS" name="Hearing Observation Value"/>
+<artifact id="ValueSet/LeftRightBothVS" key="ValueSet-LeftRightBothVS" name="Left / Right / Both"/>
+<artifact id="ValueSet/SPLASCHLfetRightBothTypeObservationVS" key="ValueSet-SPLASCHLfetRightBothTypeObservationVS" name="Left / Right / Both Type Observation"/>
 <artifact id="ValueSet/SPLASCHLiquidDietModifierTypeObservationVS" key="ValueSet-SPLASCHLiquidDietModifierTypeObservationVS" name="Liquid Diet Modifier Type Observation"/>
 <artifact deprecated="true" id="Encounter/MDS-Re-assessment-Timepoint-1" key="Encounter-MDS-Re-assessment-Timepoint-1" name="MDS-Re-assessment-Timepoint-1"/>
 <artifact deprecated="true" id="Encounter/MDS-Re-assessment-Timepoint-2" key="Encounter-MDS-Re-assessment-Timepoint-2" name="MDS-Re-assessment-Timepoint-2"/>
+<artifact id="StructureDefinition/splasch-MultiModalCommunicationObservation" key="StructureDefinition-splasch-MultiModalCommunicationObservation" name="Multi-Modal Communication Observation"/>
+<artifact id="ValueSet/SPLASCHMultiModalCommunicationObservationVS" key="ValueSet-SPLASCHMultiModalCommunicationObservationVS" name="Multi-Modal Communication Observation"/>
+<artifact id="CodeSystem/SPLASCHMultiModalCommunicationObservationCS" key="CodeSystem-SPLASCHMultiModalCommunicationObservationCS" name="Multi-Modal Communication Observation Codes"/>
+<artifact id="ValueSet/SPLASCHHearingAidNeedAndAvailabilityTypeObservationVS" key="ValueSet-SPLASCHHearingAidNeedAndAvailabilityTypeObservationVS" name="Need for and Availability of Hearing Aid Type Observation"/>
 <artifact deprecated="true" id="Encounter/OASIS-Re-assessment-Timepoint-1" key="Encounter-OASIS-Re-assessment-Timepoint-1" name="OASIS-Re-assessment-Timepoint-1"/>
 <artifact deprecated="true" id="Encounter/OASIS-Re-assessment-Timepoint-2" key="Encounter-OASIS-Re-assessment-Timepoint-2" name="OASIS-Re-assessment-Timepoint-2"/>
 <artifact deprecated="true" id="Encounter/OASIS-Re-assessment-Timepoint-3" key="Encounter-OASIS-Re-assessment-Timepoint-3" name="OASIS-Re-assessment-Timepoint-3"/>
@@ -248,6 +317,7 @@
 <artifact id="CodeSystem/SPLASCHTimePercentageCategoryCS" key="CodeSystem-SPLASCHTimePercentageCategoryCS" name="Observation Value Time Percentage Category Codes"/>
 <artifact id="Organization/Organization-Happy-Nursing-Facility" key="Organization-Organization-Happy-Nursing-Facility" name="Organization-Happy-Nursing-Facility"/>
 <artifact id="Organization/Organization-San-Antonio-General-Hospital" key="Organization-Organization-San-Antonio-General-Hospital" name="Organization-San-Antonio-General-Hospital"/>
+<artifact id="ValueSet/HearBetterInOneEarVS" key="ValueSet-HearBetterInOneEarVS" name="PhenX20_03_hear better in one ear"/>
 <artifact id="Practitioner/Practitioner-AlexanderKuikhoff" key="Practitioner-Practitioner-AlexanderKuikhoff" name="Practitioner-AlexanderKuikhoff"/>
 <artifact id="Practitioner/Practitioner-CheriseLangford" key="Practitioner-Practitioner-CheriseLangford" name="Practitioner-CheriseLangford"/>
 <artifact id="Practitioner/Practitioner-DanielGranger" key="Practitioner-Practitioner-DanielGranger" name="Practitioner-DanielGranger"/>
@@ -385,6 +455,8 @@
 <artifact deprecated="true" id="ValueSet/timepoint-service-type-vs" key="ValueSet-timepoint-service-type-vs" name="Timepoint Service Type Value Set"/>
 <artifact deprecated="true" id="ValueSet/timepoint-status-vs" key="ValueSet-timepoint-status-vs" name="Timepoint Status Value Set"/>
 <artifact deprecated="true" id="SearchParameter/encounter-based-on" key="SearchParameter-encounter-based-on" name="Timepoint_BasedOn"/>
+<artifact id="ValueSet/YesOrNoVS" key="ValueSet-YesOrNoVS" name="Y/N"/>
+<artifact id="ValueSet/SPLASCHYesOrNoTypeObservationVS" key="ValueSet-SPLASCHYesOrNoTypeObservationVS" name="Yes or No Type Observation"/>
 <artifact deprecated="true" id="Patient/patientBSJ1" key="Patient-patientBSJ1" name="patientBSJ1"/>
 <artifact id="PractitionerRole/provider-role-clinical-social-work-RayMancioni" key="PractitionerRole-provider-role-clinical-social-work-RayMancioni" name="provider-role-clinical-social-work-RayMancioni"/>
 <artifact id="PractitionerRole/provider-role-hospitalist-DonHopmed" key="PractitionerRole-provider-role-hospitalist-DonHopmed" name="provider-role-hospitalist-DonHopmed"/>

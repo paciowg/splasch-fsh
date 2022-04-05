@@ -1,0 +1,207 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "9be5493c-57e6-45d0-8d2d-903ab254f514-86",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/9be5493c-57e6-45d0-8d2d-903ab254f514-86",
+  "name" : "UnionUsCoreVitalSignsAndSPLASCHMultiModalCommunicationObservationVS",
+  "title" : "Union of US Core Vital Signs ValueSet And Multi-Modal Communication Observation",
+  "status" : "active",
+  "date" : "2022-04-05T11:14:20-04:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "59576-9"
+      },
+      {
+        "code" : "8289-1"
+      },
+      {
+        "code" : "77606-2"
+      },
+      {
+        "code" : "59408-5"
+      },
+      {
+        "code" : "3150-0"
+      },
+      {
+        "code" : "3151-8"
+      }]
+    },
+    {
+      "valueSet" : ["http://hl7.org/fhir/ValueSet/observation-vitalsignresult"]
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS"
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "59576-9",
+      "display" : "Body mass index (BMI) [Percentile] Per age and sex"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "8289-1",
+      "display" : "Head Occipital-frontal circumference Percentile"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "77606-2",
+      "display" : "Weight-for-length Per age and sex"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "59408-5",
+      "display" : "Oxygen saturation in Arterial blood by Pulse oximetry"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "3150-0",
+      "display" : "Inhaled oxygen concentration"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "3151-8",
+      "display" : "Inhaled oxygen flow rate"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "85353-1",
+      "display" : "Vital signs, weight, height, head circumference, oxygen saturation and BMI panel"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "9279-1",
+      "display" : "Respiratory rate"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "8867-4",
+      "display" : "Heart rate"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "2708-6",
+      "display" : "Oxygen saturation in Arterial blood"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "8310-5",
+      "display" : "Body temperature"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "8302-2",
+      "display" : "Body height"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "9843-4",
+      "display" : "Head Occipital-frontal circumference"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "29463-7",
+      "display" : "Body weight"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "39156-5",
+      "display" : "Body mass index (BMI) [Ratio]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "85354-9",
+      "display" : "Blood pressure panel with all children optional"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "8480-6",
+      "display" : "Systolic blood pressure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "8462-4",
+      "display" : "Diastolic blood pressure"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "8478-0",
+      "display" : "Mean blood pressure"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
+      "code" : "99829-4",
+      "display" : "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
+      "code" : "99830-2",
+      "display" : "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
+      "code" : "99831-0",
+      "display" : "How often does the individual convey complex messages that are meaningful in LOW demand situations?"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
+      "code" : "99832-8",
+      "display" : "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
+      "code" : "99833-6",
+      "display" : "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
+      "code" : "99834-4",
+      "display" : "How often does the individual convey complex messages that are meaningful in HIGH demand situations?"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
+      "code" : "99835-1",
+      "display" : "Functional Communication Measure - Multi-Modal Functional Communication score [ASHA NOMS]"
+    },
+    {
+      "system" : "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS",
+      "code" : "communicate-without-assistance",
+      "display" : "Participate in communication exchanges without assistance"
+    }]
+  }
+}

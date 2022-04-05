@@ -4,6 +4,8 @@ Description: "Categories for SPLASCH observations"
 * #spoken-language-comprehension "Spoken language comprehension" "Category code for spoken language comprehension observation"
 * #spoken-language-expression "Spoken language expression" "Category code for spoken language expression observation"
 * #swallowing "Swallowing" "Category code for swallowing observation"
+* #multi-modal-communication "Multi-modal communication" "Category code for multi-modal communication observation"
+* #hearing "Hearing" "Category code for hearing observation"
 * ^caseSensitive = true
 * ^copyright = "This CodeSystem is not copyrighted."
 
@@ -31,6 +33,26 @@ Description: "Observation codes for spoken language expression"
 * #verbal-form-high-demand "Produce verbal messages with appropriate form in high demand situations" "How often does the individual produce verbal messages with appropriate FORM in HIGH demand situations (e.g., academic or work-related tasks)? Note: consider phonology, morphology and syntax when assessing functional level."
 * #verbal-content-high-demand "Produce verbal messages with appropriate content in high demand situations" "How often does the individual produce verbal messages with appropriate CONTENT in HIGH demand situations (e.g., academic or work-related tasks)? Note: consider semantic meaning when assessing functional level."
 * #communicate-without-assistance "Participate in communication without assistance" "How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?"
+* ^caseSensitive = true
+* ^copyright = "This CodeSystem is not copyrighted."
+
+
+CodeSystem: SPLASCHMultiModalCommunicationObservationCS
+Title: "Multi-Modal Communication Observation Codes"
+Description: "Observation codes for multi-modal communication"
+/*
+  todo: figure out the mismatch between LOINC codes and ASHA FCMs. LOINC 99828-6 has sub LOINC codes for all ASHA FCMs except communicate-without-assistance (listed below.) 
+  Additionally, LOINC 99828-6 includes 99835-1 (MMC FC score) which is not listed in ASHA FCM document. Is LOINC 99835-1 equivalent to communicate-without-assistance? 
+  If so, then can eliminate SPLASCHMultiModalCommunicationObservationCS and use exactly the LOINC codes listed under 99828-6.
+*/
+* #99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
+* #99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
+* #99831-0 "How often does the individual convey complex messages that are meaningful in LOW demand situations?"
+* #99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
+* #99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
+* #99834-4 "How often does the individual convey complex messages that are meaningful in HIGH demand situations?"
+* #99835-1 "Functional Communication Measure - Multi-Modal Functional Communication score [ASHA NOMS]" //todo: This LOINC code does not seem to exist in ASHA FCM document. See corresponding comment in CodeSystems.fsh -> SPLASCHMultiModalCommunicationObservationCS
+* #communicate-without-assistance "Participate in communication exchanges without assistance" "How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?"
 * ^caseSensitive = true
 * ^copyright = "This CodeSystem is not copyrighted."
 
@@ -108,3 +130,5 @@ Description: "Category codes for calorie percentage observations"
 * #76-100-percent "76-100% of caloric intake" "76% to 100% of caloric intake"
 * ^caseSensitive = true
 * ^copyright = "This CodeSystem is not copyrighted."
+
+
