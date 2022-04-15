@@ -1,10 +1,10 @@
 ﻿PACIOReAssessmentTimepoints : Validation Results
 =========================================
 
-err = 315, warn = 15, info = 162
+err = 343, warn = 17, info = 195
 IG Publisher Version: 1.1.88 Out of date - current version is 1.1.115
-Generated Fri Apr 15 09:28:50 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio-splasch#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-splasch)
- Build Errors : 1 / 1 / 0
+Generated Fri Apr 15 12:16:06 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio-splasch#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-splasch)
+ Build Errors : 19 / 1 / 0
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHCaloriePercentageCategoryCS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHLiquidDietCS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHMultiModalCommunicationObservationCS : 0 / 0 / 1
@@ -177,6 +177,23 @@ Generated Fri Apr 15 09:28:50 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-160 : 4 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-161 : 4 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-162 : 4 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-163 : 3 / 0 / 3
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-164 : 3 / 0 / 3
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-165 : 3 / 0 / 3
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-166 : 3 / 0 / 3
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-167 : 4 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-168 : 1 / 0 / 3
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-169 : 1 / 0 / 3
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-170 : 1 / 0 / 3
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-171 : 1 / 0 / 3
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-172 : 1 / 0 / 3
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-173 : 1 / 1 / 3
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-174 : 1 / 0 / 3
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-175 : 1 / 0 / 3
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-176 : 1 / 0 / 3
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-177 : 1 / 0 / 3
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-178 : 1 / 0 / 3
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-179 : 1 / 0 / 3
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Organization-Organization-Happy-Nursing-Facility : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Organization-Organization-San-Antonio-General-Hospital : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Patient-BSJ-patientBSJ1 : 3 / 0 / 2
@@ -186,6 +203,7 @@ Generated Fri Apr 15 09:28:50 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Practitioner-Practitioner-DonHopmed : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Practitioner-Practitioner-JenCadbury : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Practitioner-Practitioner-JennyGlass : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Practitioner-Practitioner-JillBradley : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Practitioner-Practitioner-JudySmiley : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Practitioner-Practitioner-LiaNguyen : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Practitioner-Practitioner-LisaGreene : 0 / 0 / 1
@@ -194,6 +212,7 @@ Generated Fri Apr 15 09:28:50 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Practitioner-Practitioner-RonMarble : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Practitioner-Practitioner-SallySmith : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Practitioner-Practitioner-SummerJohnson : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-audiologist : 0 / 1 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-clinical-social-work-RayMancioni : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-hospitalist-DonHopmed : 0 / 1 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\PractitionerRole-provider-role-occupational-therapist-CheriseLangford : 0 / 0 / 1
@@ -243,6 +262,24 @@ Generated Fri Apr 15 09:28:50 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio
 </table>
 == n/a ==
 WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
+ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-163.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 211, column 1089: The link 'provider-role-audiologist-JillBradley' for "provider-role-audiologist-JillBradley" cannot be resolved
+ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-164.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 211, column 1090: The link 'provider-role-audiologist-JillBradley' for "provider-role-audiologist-JillBradley" cannot be resolved
+ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-165.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 211, column 1091: The link 'provider-role-audiologist-JillBradley' for "provider-role-audiologist-JillBradley" cannot be resolved
+ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-166.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 211, column 1092: The link 'provider-role-audiologist-JillBradley' for "provider-role-audiologist-JillBradley" cannot be resolved
+ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-167.html#/html/body/div/div/div/div/div/div/p/a at Line 211, column 784: The link 'BSJ-patientBSJ2' for "BSJ-patientBSJ2" cannot be resolved
+ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-167.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 211, column 1040: The link 'provider-role-audiologist-JillBradley' for "provider-role-audiologist-JillBradley" cannot be resolved
+ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-168.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 211, column 1061: The link 'provider-role-audiologist-JillBradley' for "provider-role-audiologist-JillBradley" cannot be resolved
+ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-169.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 211, column 1061: The link 'provider-role-audiologist-JillBradley' for "provider-role-audiologist-JillBradley" cannot be resolved
+ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-170.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 211, column 1062: The link 'provider-role-audiologist-JillBradley' for "provider-role-audiologist-JillBradley" cannot be resolved
+ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-171.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 211, column 1062: The link 'provider-role-audiologist-JillBradley' for "provider-role-audiologist-JillBradley" cannot be resolved
+ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-172.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 211, column 1062: The link 'provider-role-audiologist-JillBradley' for "provider-role-audiologist-JillBradley" cannot be resolved
+ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-173.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 211, column 1063: The link 'provider-role-audiologist-JillBradley' for "provider-role-audiologist-JillBradley" cannot be resolved
+ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-174.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 211, column 1060: The link 'provider-role-audiologist-JillBradley' for "provider-role-audiologist-JillBradley" cannot be resolved
+ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-175.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 211, column 1060: The link 'provider-role-audiologist-JillBradley' for "provider-role-audiologist-JillBradley" cannot be resolved
+ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-176.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 211, column 1061: The link 'provider-role-audiologist-JillBradley' for "provider-role-audiologist-JillBradley" cannot be resolved
+ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-177.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 211, column 1061: The link 'provider-role-audiologist-JillBradley' for "provider-role-audiologist-JillBradley" cannot be resolved
+ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-178.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 211, column 1061: The link 'provider-role-audiologist-JillBradley' for "provider-role-audiologist-JillBradley" cannot be resolved
+ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Observation-BSJ-ObservationSPLASCH-179.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 211, column 1061: The link 'provider-role-audiologist-JillBradley' for "provider-role-audiologist-JillBradley" cannot be resolved
 ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Patient-BSJ-patientBSJ1.html#/html/body/div/div/div/div/div/div/p/a at Line 211, column 2480: The link 'pcp-John-Smith' for "pcp-John-Smith" cannot be resolved
 == fsh-generated\resources\CodeSystem-SPLASCHCaloriePercentageCategoryCS.json ==
 == fsh-generated\resources\CodeSystem-SPLASCHLiquidDietCS.json ==
@@ -890,6 +927,85 @@ ERROR: Observation/BSJ-ObservationSPLASCH-162: Observation.code.coding[0]: Unkno
 ERROR: Observation/BSJ-ObservationSPLASCH-162: Observation.code.coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS' does not resolve
 ERROR: Observation/BSJ-ObservationSPLASCH-162: Observation.value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS'
 ERROR: Observation/BSJ-ObservationSPLASCH-162: Observation.value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS' does not resolve
+== fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-163.json ==
+INFORMATION: Observation/BSJ-ObservationSPLASCH-163: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
+ERROR: Observation/BSJ-ObservationSPLASCH-163: Observation.code.coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanel'
+ERROR: Observation/BSJ-ObservationSPLASCH-163: Observation.code.coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanel' does not resolve
+ERROR: Observation/BSJ-ObservationSPLASCH-163: Observation.performer[1]: Unable to resolve resource 'provider-role-audiologist-JillBradley'
+INFORMATION: Observation/BSJ-ObservationSPLASCH-163: Observation.value.ofType(CodeableConcept).coding[0]: Code System URI 'https://loinc.org/LL6015-3/' is unknown so the code cannot be validated
+== fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-164.json ==
+INFORMATION: Observation/BSJ-ObservationSPLASCH-164: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
+ERROR: Observation/BSJ-ObservationSPLASCH-164: Observation.code.coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanel'
+ERROR: Observation/BSJ-ObservationSPLASCH-164: Observation.code.coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanel' does not resolve
+ERROR: Observation/BSJ-ObservationSPLASCH-164: Observation.performer[1]: Unable to resolve resource 'provider-role-audiologist-JillBradley'
+INFORMATION: Observation/BSJ-ObservationSPLASCH-164: Observation.value.ofType(CodeableConcept).coding[0]: Code System URI 'https://loinc.org/LL6015-3/' is unknown so the code cannot be validated
+== fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-165.json ==
+INFORMATION: Observation/BSJ-ObservationSPLASCH-165: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
+ERROR: Observation/BSJ-ObservationSPLASCH-165: Observation.code.coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanel'
+ERROR: Observation/BSJ-ObservationSPLASCH-165: Observation.code.coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanel' does not resolve
+ERROR: Observation/BSJ-ObservationSPLASCH-165: Observation.performer[1]: Unable to resolve resource 'provider-role-audiologist-JillBradley'
+INFORMATION: Observation/BSJ-ObservationSPLASCH-165: Observation.value.ofType(CodeableConcept).coding[0]: Code System URI 'https://loinc.org/LL6016-1/' is unknown so the code cannot be validated
+== fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-166.json ==
+INFORMATION: Observation/BSJ-ObservationSPLASCH-166: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
+ERROR: Observation/BSJ-ObservationSPLASCH-166: Observation.code.coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanel'
+ERROR: Observation/BSJ-ObservationSPLASCH-166: Observation.code.coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanel' does not resolve
+ERROR: Observation/BSJ-ObservationSPLASCH-166: Observation.performer[1]: Unable to resolve resource 'provider-role-audiologist-JillBradley'
+INFORMATION: Observation/BSJ-ObservationSPLASCH-166: Observation.value.ofType(CodeableConcept).coding[0]: Code System URI 'https://loinc.org/LL6016-1/' is unknown so the code cannot be validated
+== fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-167.json ==
+INFORMATION: Observation/BSJ-ObservationSPLASCH-167: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
+ERROR: Observation/BSJ-ObservationSPLASCH-167: Observation.code.coding[0]: Unknown Code System 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanel'
+ERROR: Observation/BSJ-ObservationSPLASCH-167: Observation.code.coding[0].system: URL value 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanel' does not resolve
+ERROR: Observation/BSJ-ObservationSPLASCH-167: Observation.subject: Unable to resolve resource 'BSJ-patientBSJ2'
+ERROR: Observation/BSJ-ObservationSPLASCH-167: Observation.performer[1]: Unable to resolve resource 'provider-role-audiologist-JillBradley'
+== fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-168.json ==
+INFORMATION: Observation/BSJ-ObservationSPLASCH-168: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
+INFORMATION: Observation/BSJ-ObservationSPLASCH-168: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
+ERROR: Observation/BSJ-ObservationSPLASCH-168: Observation.performer[1]: Unable to resolve resource 'provider-role-audiologist-JillBradley'
+== fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-169.json ==
+INFORMATION: Observation/BSJ-ObservationSPLASCH-169: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
+INFORMATION: Observation/BSJ-ObservationSPLASCH-169: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
+ERROR: Observation/BSJ-ObservationSPLASCH-169: Observation.performer[1]: Unable to resolve resource 'provider-role-audiologist-JillBradley'
+== fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-170.json ==
+INFORMATION: Observation/BSJ-ObservationSPLASCH-170: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
+INFORMATION: Observation/BSJ-ObservationSPLASCH-170: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
+ERROR: Observation/BSJ-ObservationSPLASCH-170: Observation.performer[1]: Unable to resolve resource 'provider-role-audiologist-JillBradley'
+== fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-171.json ==
+INFORMATION: Observation/BSJ-ObservationSPLASCH-171: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
+INFORMATION: Observation/BSJ-ObservationSPLASCH-171: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
+ERROR: Observation/BSJ-ObservationSPLASCH-171: Observation.performer[1]: Unable to resolve resource 'provider-role-audiologist-JillBradley'
+== fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-172.json ==
+INFORMATION: Observation/BSJ-ObservationSPLASCH-172: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
+INFORMATION: Observation/BSJ-ObservationSPLASCH-172: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
+ERROR: Observation/BSJ-ObservationSPLASCH-172: Observation.performer[1]: Unable to resolve resource 'provider-role-audiologist-JillBradley'
+== fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-173.json ==
+INFORMATION: Observation/BSJ-ObservationSPLASCH-173: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
+INFORMATION: Observation/BSJ-ObservationSPLASCH-173: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
+WARNING: Observation/BSJ-ObservationSPLASCH-173: Observation.code.coding[0].display: value should not start or finish with whitespace
+ERROR: Observation/BSJ-ObservationSPLASCH-173: Observation.performer[1]: Unable to resolve resource 'provider-role-audiologist-JillBradley'
+== fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-174.json ==
+INFORMATION: Observation/BSJ-ObservationSPLASCH-174: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
+INFORMATION: Observation/BSJ-ObservationSPLASCH-174: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
+ERROR: Observation/BSJ-ObservationSPLASCH-174: Observation.performer[1]: Unable to resolve resource 'provider-role-audiologist-JillBradley'
+== fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-175.json ==
+INFORMATION: Observation/BSJ-ObservationSPLASCH-175: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
+INFORMATION: Observation/BSJ-ObservationSPLASCH-175: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
+ERROR: Observation/BSJ-ObservationSPLASCH-175: Observation.performer[1]: Unable to resolve resource 'provider-role-audiologist-JillBradley'
+== fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-176.json ==
+INFORMATION: Observation/BSJ-ObservationSPLASCH-176: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
+INFORMATION: Observation/BSJ-ObservationSPLASCH-176: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
+ERROR: Observation/BSJ-ObservationSPLASCH-176: Observation.performer[1]: Unable to resolve resource 'provider-role-audiologist-JillBradley'
+== fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-177.json ==
+INFORMATION: Observation/BSJ-ObservationSPLASCH-177: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
+INFORMATION: Observation/BSJ-ObservationSPLASCH-177: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
+ERROR: Observation/BSJ-ObservationSPLASCH-177: Observation.performer[1]: Unable to resolve resource 'provider-role-audiologist-JillBradley'
+== fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-178.json ==
+INFORMATION: Observation/BSJ-ObservationSPLASCH-178: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
+INFORMATION: Observation/BSJ-ObservationSPLASCH-178: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
+ERROR: Observation/BSJ-ObservationSPLASCH-178: Observation.performer[1]: Unable to resolve resource 'provider-role-audiologist-JillBradley'
+== fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-179.json ==
+INFORMATION: Observation/BSJ-ObservationSPLASCH-179: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
+INFORMATION: Observation/BSJ-ObservationSPLASCH-179: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
+ERROR: Observation/BSJ-ObservationSPLASCH-179: Observation.performer[1]: Unable to resolve resource 'provider-role-audiologist-JillBradley'
 == fsh-generated\resources\Organization-Organization-Happy-Nursing-Facility.json ==
 == fsh-generated\resources\Organization-Organization-San-Antonio-General-Hospital.json ==
 == fsh-generated\resources\Patient-BSJ-patientBSJ1.json ==
@@ -902,6 +1018,7 @@ ERROR: Patient/BSJ-patientBSJ1: Patient.generalPractitioner[0]: Unable to resolv
 == fsh-generated\resources\Practitioner-Practitioner-DonHopmed.json ==
 == fsh-generated\resources\Practitioner-Practitioner-JenCadbury.json ==
 == fsh-generated\resources\Practitioner-Practitioner-JennyGlass.json ==
+== fsh-generated\resources\Practitioner-Practitioner-JillBradley.json ==
 == fsh-generated\resources\Practitioner-Practitioner-JudySmiley.json ==
 == fsh-generated\resources\Practitioner-Practitioner-LiaNguyen.json ==
 == fsh-generated\resources\Practitioner-Practitioner-LisaGreene.json ==
@@ -910,6 +1027,8 @@ ERROR: Patient/BSJ-patientBSJ1: Patient.generalPractitioner[0]: Unable to resolv
 == fsh-generated\resources\Practitioner-Practitioner-RonMarble.json ==
 == fsh-generated\resources\Practitioner-Practitioner-SallySmith.json ==
 == fsh-generated\resources\Practitioner-Practitioner-SummerJohnson.json ==
+== fsh-generated\resources\PractitionerRole-provider-role-audiologist.json ==
+WARNING: PractitionerRole/provider-role-audiologist: PractitionerRole.code[0].coding[0]: The display "Audiologist" is not a valid display for the code {http://nucc.org/provider-taxonomy}225200000X - should be one of ['Physical Therapy Assistant'] (from http://tx.fhir.org/r4) for 'http://nucc.org/provider-taxonomy#225200000X'
 == fsh-generated\resources\PractitionerRole-provider-role-clinical-social-work-RayMancioni.json ==
 == fsh-generated\resources\PractitionerRole-provider-role-hospitalist-DonHopmed.json ==
 WARNING: PractitionerRole/provider-role-hospitalist-DonHopmed: PractitionerRole.code[0].coding[0]: The display "Hospitalist" is not a valid display for the code {http://nucc.org/provider-taxonomy}208M00000X - should be one of ['Hospitalist Physician'] (from http://tx.fhir.org/r4) for 'http://nucc.org/provider-taxonomy#208M00000X'

@@ -13,6 +13,16 @@ Description: "An instance of PractitionerRole"
 * organization = Reference(Organization-San-Antonio-General-Hospital)
 
 
+Instance: provider-role-audiologist
+InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
+* code = PRO-ROLE#225200000X
+* code.coding.display = "Audiologist"
+* active = true
+* practitioner = Reference(Practitioner-JillBradley)
+* organization = Reference(Organization-Happy-Nursing-Facility)
+
+
 Instance: provider-role-occupational-therapist-CheriseLangford
 InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"

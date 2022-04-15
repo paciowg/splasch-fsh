@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "1d40bfa7-46ad-4f2a-967e-da0870a73bd6-147",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1d40bfa7-46ad-4f2a-967e-da0870a73bd6-147",
+  "id" : "712bbd89-af5e-4897-a05c-832a092eddfa-147",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/712bbd89-af5e-4897-a05c-832a092eddfa-147",
   "name" : "IntersectionUSCoreRespiratoryRateProfileAndMultiModalCommunicationObservation",
   "title" : "Intersection of US Core Respiratory Rate Profile And Multi-Modal Communication Observation",
   "status" : "active",
-  "date" : "2022-04-15T09:26:57-04:00",
+  "date" : "2022-04-15T12:13:36-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/1d40bfa7-46ad-4f2a-967e-da0870a73bd6-87"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/712bbd89-af5e-4897-a05c-832a092eddfa-87"
       },
       "mapping" : [{
         "identity" : "workflow",

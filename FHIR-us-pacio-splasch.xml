@@ -170,6 +170,23 @@
 <artifact id="Observation/BSJ-ObservationSPLASCH-160" key="Observation-BSJ-ObservationSPLASCH-160" name="BSJ-ObservationSPLASCH-160"/>
 <artifact id="Observation/BSJ-ObservationSPLASCH-161" key="Observation-BSJ-ObservationSPLASCH-161" name="BSJ-ObservationSPLASCH-161"/>
 <artifact id="Observation/BSJ-ObservationSPLASCH-162" key="Observation-BSJ-ObservationSPLASCH-162" name="BSJ-ObservationSPLASCH-162"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-163" key="Observation-BSJ-ObservationSPLASCH-163" name="BSJ-ObservationSPLASCH-163"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-164" key="Observation-BSJ-ObservationSPLASCH-164" name="BSJ-ObservationSPLASCH-164"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-165" key="Observation-BSJ-ObservationSPLASCH-165" name="BSJ-ObservationSPLASCH-165"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-166" key="Observation-BSJ-ObservationSPLASCH-166" name="BSJ-ObservationSPLASCH-166"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-167" key="Observation-BSJ-ObservationSPLASCH-167" name="BSJ-ObservationSPLASCH-167"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-168" key="Observation-BSJ-ObservationSPLASCH-168" name="BSJ-ObservationSPLASCH-168"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-169" key="Observation-BSJ-ObservationSPLASCH-169" name="BSJ-ObservationSPLASCH-169"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-170" key="Observation-BSJ-ObservationSPLASCH-170" name="BSJ-ObservationSPLASCH-170"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-171" key="Observation-BSJ-ObservationSPLASCH-171" name="BSJ-ObservationSPLASCH-171"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-172" key="Observation-BSJ-ObservationSPLASCH-172" name="BSJ-ObservationSPLASCH-172"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-173" key="Observation-BSJ-ObservationSPLASCH-173" name="BSJ-ObservationSPLASCH-173"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-174" key="Observation-BSJ-ObservationSPLASCH-174" name="BSJ-ObservationSPLASCH-174"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-175" key="Observation-BSJ-ObservationSPLASCH-175" name="BSJ-ObservationSPLASCH-175"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-176" key="Observation-BSJ-ObservationSPLASCH-176" name="BSJ-ObservationSPLASCH-176"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-177" key="Observation-BSJ-ObservationSPLASCH-177" name="BSJ-ObservationSPLASCH-177"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-178" key="Observation-BSJ-ObservationSPLASCH-178" name="BSJ-ObservationSPLASCH-178"/>
+<artifact id="Observation/BSJ-ObservationSPLASCH-179" key="Observation-BSJ-ObservationSPLASCH-179" name="BSJ-ObservationSPLASCH-179"/>
 <artifact id="Patient/BSJ-patientBSJ1" key="Patient-BSJ-patientBSJ1" name="BSJ-patientBSJ1"/>
 <artifact deprecated="true" id="StructureDefinition/clinicalImpression" key="StructureDefinition-clinicalImpression" name="BasedOnClinicalImpression"/>
 <artifact id="ValueSet/CmsFasiAssistiveDevicesVS" key="ValueSet-CmsFasiAssistiveDevicesVS" name="CMS FASI Assistive Devices"/>
@@ -328,6 +345,7 @@
 <artifact deprecated="true" id="Practitioner/Practitioner-JacobHartwell" key="Practitioner-Practitioner-JacobHartwell" name="Practitioner-JacobHartwell"/>
 <artifact id="Practitioner/Practitioner-JenCadbury" key="Practitioner-Practitioner-JenCadbury" name="Practitioner-JenCadbury"/>
 <artifact id="Practitioner/Practitioner-JennyGlass" key="Practitioner-Practitioner-JennyGlass" name="Practitioner-JennyGlass"/>
+<artifact id="Practitioner/Practitioner-JillBradley" key="Practitioner-Practitioner-JillBradley" name="Practitioner-JillBradley"/>
 <artifact deprecated="true" id="Practitioner/Practitioner-JohnSmith" key="Practitioner-Practitioner-JohnSmith" name="Practitioner-JohnSmith"/>
 <artifact id="Practitioner/Practitioner-JudySmiley" key="Practitioner-Practitioner-JudySmiley" name="Practitioner-JudySmiley"/>
 <artifact id="Practitioner/Practitioner-LiaNguyen" key="Practitioner-Practitioner-LiaNguyen" name="Practitioner-LiaNguyen"/>
@@ -462,6 +480,7 @@
 <artifact id="ValueSet/YesOrNoVS" key="ValueSet-YesOrNoVS" name="Y/N"/>
 <artifact id="ValueSet/SPLASCHYesOrNoTypeObservationVS" key="ValueSet-SPLASCHYesOrNoTypeObservationVS" name="Yes or No Type Observation"/>
 <artifact deprecated="true" id="Patient/patientBSJ1" key="Patient-patientBSJ1" name="patientBSJ1"/>
+<artifact id="PractitionerRole/provider-role-audiologist" key="PractitionerRole-provider-role-audiologist" name="provider-role-audiologist"/>
 <artifact id="PractitionerRole/provider-role-clinical-social-work-RayMancioni" key="PractitionerRole-provider-role-clinical-social-work-RayMancioni" name="provider-role-clinical-social-work-RayMancioni"/>
 <artifact id="PractitionerRole/provider-role-hospitalist-DonHopmed" key="PractitionerRole-provider-role-hospitalist-DonHopmed" name="provider-role-hospitalist-DonHopmed"/>
 <artifact deprecated="true" id="PractitionerRole/provider-role-neurologist-Practitioner-NoraOlogist" key="PractitionerRole-provider-role-neurologist-Practitioner-NoraOlogist" name="provider-role-neurologist-Practitioner-NoraOlogist"/>

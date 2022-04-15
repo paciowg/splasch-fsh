@@ -1,0 +1,65 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-172> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "BSJ-ObservationSPLASCH-172"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"BSJ-ObservationSPLASCH-172\" </p></div><p><b>status</b>: final</p><p><b>category</b>: Hearing <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHObservationCategoryCS.html\">SPLASCH Observation Category Codes</a>#hearing)</span></p><p><b>code</b>: Hearing threshold Ear - right --4000 Hz <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#89023-6)</span></p><p><b>subject</b>: <a href=\"Patient-BSJ-patientBSJ1.html\">Patient/BSJ-patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2021-11-06T11:00:00-05:00</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-JillBradley.html\">Practitioner/Practitioner-JillBradley</a> \" BRADLEY\"</li><li><a href=\"provider-role-audiologist-JillBradley\">provider-role-audiologist-JillBradley</a></li><li><a href=\"Organization-Organization-Happy-Nursing-Facility.html\">Organization/Organization-Happy-Nursing-Facility</a> \"Happy Nursing Facility\"</li></ul><p><b>value</b>: 60</p></div>"
+  ];
+  fhir:Observation.status [ fhir:value "final"];
+  fhir:Observation.category [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS" ];
+       fhir:Coding.code [ fhir:value "hearing" ];
+       fhir:Coding.display [ fhir:value "Hearing" ]
+     ]
+  ];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://loinc.org/89015-2/" ];
+       fhir:Coding.code [ fhir:value "89023-6" ];
+       fhir:Coding.display [ fhir:value "Hearing threshold Ear - right --4000 Hz" ]
+     ]
+  ];
+  fhir:Observation.subject [
+     fhir:link <http://hl7.org/fhir/us/pacio-splasch/Patient/BSJ-patientBSJ1>;
+     fhir:Reference.reference [ fhir:value "Patient/BSJ-patientBSJ1" ]
+  ];
+  fhir:Observation.effectiveDateTime [ fhir:value "2021-11-06T11:00:00-05:00"^^xsd:dateTime];
+  fhir:Observation.performer [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/us/pacio-splasch/Practitioner/Practitioner-JillBradley>;
+     fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-JillBradley" ]
+  ], [
+     fhir:index 1;
+     fhir:Reference.reference [ fhir:value "provider-role-audiologist-JillBradley" ]
+  ], [
+     fhir:index 2;
+     fhir:link <http://hl7.org/fhir/us/pacio-splasch/Organization/Organization-Happy-Nursing-Facility>;
+     fhir:Reference.reference [ fhir:value "Organization/Organization-Happy-Nursing-Facility" ]
+  ];
+  fhir:Observation.valueInteger [ fhir:value "60"^^xsd:integer] .
+
+<http://hl7.org/fhir/us/pacio-splasch/Patient/BSJ-patientBSJ1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Practitioner/Practitioner-JillBradley> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/Organization/Organization-Happy-Nursing-Facility> a fhir:us .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-172.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-splasch/Observation/BSJ-ObservationSPLASCH-172.ttl> .
+
+# -------------------------------------------------------------------------------------
+

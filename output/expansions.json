@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "b5938f97-8447-4180-887a-01df1f35bbd4",
+  "id" : "00f81b66-7c80-41d4-bebb-ba3c1ed4335d",
   "meta" : {
-    "lastUpdated" : "2022-04-15T09:25:37.595-04:00"
+    "lastUpdated" : "2022-04-15T12:12:07.860-04:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -145,59 +145,18 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingLossDegree",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "HearingLossDegree",
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 8 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.72</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32484-0\"> </a><a href=\"http://details.loinc.org/LOINC/LA32484-0.html\">LA32484-0</a></td><td>No hearing loss</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32491-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA32491-5.html\">LA32491-5</a></td><td>Slight (16-25 dB HL)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32492-3\"> </a><a href=\"http://details.loinc.org/LOINC/LA32492-3.html\">LA32492-3</a></td><td>Mild (26-40 dB HL)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32493-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA32493-1.html\">LA32493-1</a></td><td>Moderate (41-55 dB HL)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32494-9\"> </a><a href=\"http://details.loinc.org/LOINC/LA32494-9.html\">LA32494-9</a></td><td>Moderately severe (56-70 dB HL)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32495-6\"> </a><a href=\"http://details.loinc.org/LOINC/LA32495-6.html\">LA32495-6</a></td><td>Severe (71-90 dB HL)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32496-4\"> </a><a href=\"http://details.loinc.org/LOINC/LA32496-4.html\">LA32496-4</a></td><td>Profound (91+ dB HL)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA14100-4\"> </a><a href=\"http://details.loinc.org/LOINC/LA14100-4.html\">LA14100-4</a></td><td>Undetermined</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 8 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.72</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32484-0\"> </a><a href=\"http://details.loinc.org/LOINC/LA32484-0.html\">LA32484-0</a></td><td>No hearing loss</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32491-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA32491-5.html\">LA32491-5</a></td><td>Slight (16-25 dB HL)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32492-3\"> </a><a href=\"http://details.loinc.org/LOINC/LA32492-3.html\">LA32492-3</a></td><td>Mild (26-40 dB HL)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32493-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA32493-1.html\">LA32493-1</a></td><td>Moderate (41-55 dB HL)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32494-9\"> </a><a href=\"http://details.loinc.org/LOINC/LA32494-9.html\">LA32494-9</a></td><td>Moderately severe (56-70 dB HL)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32495-6\"> </a><a href=\"http://details.loinc.org/LOINC/LA32495-6.html\">LA32495-6</a></td><td>Severe (71-90 dB HL)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32496-4\"> </a><a href=\"http://details.loinc.org/LOINC/LA32496-4.html\">LA32496-4</a></td><td>Profound (91+ dB HL)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA14100-4\"> </a><a href=\"http://details.loinc.org/LOINC/LA14100-4.html\">LA14100-4</a></td><td>Undetermined</td><td/></tr></table></div>"
       },
-      "url" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingLossDegree",
-      "version" : "0.1.0",
-      "name" : "HearingLossDegree",
-      "title" : "Hearing Loss - Degree",
       "status" : "active",
-      "date" : "2022-04-15T09:25:37-04:00",
-      "publisher" : "HL7 Patient Care Working Group",
-      "contact" : [{
-        "name" : "HL7 Patient Care Working Group",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/patientcare"
-        },
-        {
-          "system" : "email",
-          "value" : "patients@lists.HL7.org"
-        }]
-      },
-      {
-        "name" : "PACIO project",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/patientcare"
-        },
-        {
-          "system" : "email",
-          "value" : "info@pacioproject.org"
-        }]
-      }],
-      "description" : "Degree of hearing loss",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "US"
-        }]
-      }],
       "expansion" : {
-        "identifier" : "urn:uuid:17205352-f15a-43f5-804b-0cc24fc611f5",
-        "timestamp" : "2022-04-15T09:27:33-04:00",
-        "total" : 8,
+        "identifier" : "urn:uuid:ebbae820-984d-4c5b-aaf5-442c2d64d0ea",
+        "timestamp" : "2022-04-15T13:27:33.113Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -249,59 +208,18 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingLossType",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "HearingLossType",
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 8 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.72</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32484-0\"> </a><a href=\"http://details.loinc.org/LOINC/LA32484-0.html\">LA32484-0</a></td><td>No hearing loss</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32485-7\"> </a><a href=\"http://details.loinc.org/LOINC/LA32485-7.html\">LA32485-7</a></td><td>Sensorineural</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32486-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA32486-5.html\">LA32486-5</a></td><td>Conductive - transient</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32487-3\"> </a><a href=\"http://details.loinc.org/LOINC/LA32487-3.html\">LA32487-3</a></td><td>Conductive - permanent</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32488-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA32488-1.html\">LA32488-1</a></td><td>Conductive - undetermined</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA11840-8\"> </a><a href=\"http://details.loinc.org/LOINC/LA11840-8.html\">LA11840-8</a></td><td>Mixed</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32489-9\"> </a><a href=\"http://details.loinc.org/LOINC/LA32489-9.html\">LA32489-9</a></td><td>Auditory neuropahty/Neural</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32490-7\"> </a><a href=\"http://details.loinc.org/LOINC/LA32490-7.html\">LA32490-7</a></td><td>Undetermined/Inconclusive</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 8 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.72</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32484-0\"> </a><a href=\"http://details.loinc.org/LOINC/LA32484-0.html\">LA32484-0</a></td><td>No hearing loss</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32485-7\"> </a><a href=\"http://details.loinc.org/LOINC/LA32485-7.html\">LA32485-7</a></td><td>Sensorineural</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32486-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA32486-5.html\">LA32486-5</a></td><td>Conductive - transient</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32487-3\"> </a><a href=\"http://details.loinc.org/LOINC/LA32487-3.html\">LA32487-3</a></td><td>Conductive - permanent</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32488-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA32488-1.html\">LA32488-1</a></td><td>Conductive - undetermined</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA11840-8\"> </a><a href=\"http://details.loinc.org/LOINC/LA11840-8.html\">LA11840-8</a></td><td>Mixed</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32489-9\"> </a><a href=\"http://details.loinc.org/LOINC/LA32489-9.html\">LA32489-9</a></td><td>Auditory neuropahty/Neural</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32490-7\"> </a><a href=\"http://details.loinc.org/LOINC/LA32490-7.html\">LA32490-7</a></td><td>Undetermined/Inconclusive</td><td/></tr></table></div>"
       },
-      "url" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingLossType",
-      "version" : "0.1.0",
-      "name" : "HearingLossType",
-      "title" : "Hearing Loss - Type",
       "status" : "active",
-      "date" : "2022-04-15T09:25:37-04:00",
-      "publisher" : "HL7 Patient Care Working Group",
-      "contact" : [{
-        "name" : "HL7 Patient Care Working Group",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/patientcare"
-        },
-        {
-          "system" : "email",
-          "value" : "patients@lists.HL7.org"
-        }]
-      },
-      {
-        "name" : "PACIO project",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/patientcare"
-        },
-        {
-          "system" : "email",
-          "value" : "info@pacioproject.org"
-        }]
-      }],
-      "description" : "Type of hearing loss",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "US"
-        }]
-      }],
       "expansion" : {
-        "identifier" : "urn:uuid:20a8b57f-2fa5-4d3d-90ce-fbc62986cbb0",
-        "timestamp" : "2022-04-15T09:27:33-04:00",
-        "total" : 8,
+        "identifier" : "urn:uuid:2e087f82-286b-47ca-8b0e-0a853fba53ae",
+        "timestamp" : "2022-04-15T13:27:33.410Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -432,7 +350,7 @@
       "name" : "SPLASCHCaloriePercentageTypeObservationVS",
       "title" : "Calorie Percentage Type Observation",
       "status" : "active",
-      "date" : "2022-04-15T09:25:37-04:00",
+      "date" : "2022-04-15T12:12:07-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -465,8 +383,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:09028372-3275-41bf-93a7-72712a0687ee",
-        "timestamp" : "2022-04-15T09:27:33-04:00",
+        "identifier" : "urn:uuid:a8511761-769c-401a-afe0-4107a0cb4c8b",
+        "timestamp" : "2022-04-15T12:14:25-04:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -656,7 +574,7 @@
       "name" : "SPLASCHFrequencyObservationVS",
       "title" : "SPLASCH Frequency Observation Values",
       "status" : "active",
-      "date" : "2022-04-15T09:25:37-04:00",
+      "date" : "2022-04-15T12:12:07-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -689,8 +607,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:2ccdb9b6-4ae6-4d46-b32f-0f8eeb2604c4",
-        "timestamp" : "2022-04-15T09:27:34-04:00",
+        "identifier" : "urn:uuid:3cc148b1-2e8f-4291-8850-11bb5cb0de5b",
+        "timestamp" : "2022-04-15T12:14:26-04:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -779,7 +697,7 @@
       "name" : "SPLASCHFrequencyTypeObservationVS",
       "title" : "Frequency Type Observation",
       "status" : "active",
-      "date" : "2022-04-15T09:25:37-04:00",
+      "date" : "2022-04-15T12:12:07-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -812,8 +730,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:9059fafd-1688-473b-84a6-466e33826542",
-        "timestamp" : "2022-04-15T09:27:34-04:00",
+        "identifier" : "urn:uuid:b340abed-f53d-441f-896a-4dca305d7734",
+        "timestamp" : "2022-04-15T12:14:26-04:00",
         "total" : 15,
         "parameter" : [{
           "name" : "excludeNested",
@@ -979,7 +897,7 @@
       "name" : "SPLASCHHearingObservationValueVS",
       "title" : "Hearing Observation Value",
       "status" : "active",
-      "date" : "2022-04-15T09:25:37-04:00",
+      "date" : "2022-04-15T12:12:07-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -1012,8 +930,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:26f8a6a2-57e1-4a9c-8313-1449ea2025cc",
-        "timestamp" : "2022-04-15T09:27:35-04:00",
+        "identifier" : "urn:uuid:8f50c4b6-45f8-40d5-92db-f46af61796c6",
+        "timestamp" : "2022-04-15T12:14:26-04:00",
         "total" : 18,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1190,7 +1108,7 @@
       "name" : "SPLASCHHearingObservationVS",
       "title" : "Hearing Observation",
       "status" : "active",
-      "date" : "2022-04-15T09:25:37-04:00",
+      "date" : "2022-04-15T12:12:07-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -1223,8 +1141,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:7bf35849-2d0f-4a47-90e7-d23aa24cf740",
-        "timestamp" : "2022-04-15T09:27:35-04:00",
+        "identifier" : "urn:uuid:c25a3721-a1c6-43ff-b3c4-058226c69eae",
+        "timestamp" : "2022-04-15T12:14:26-04:00",
         "total" : 45,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1598,7 +1516,7 @@
       "name" : "SPLASCHLiquidDietModifierTypeObservationVS",
       "title" : "Liquid Diet Modifier Type Observation",
       "status" : "active",
-      "date" : "2022-04-15T09:25:37-04:00",
+      "date" : "2022-04-15T12:12:07-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -1631,8 +1549,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:cc79c377-09a2-4a58-a739-ffce094d4db3",
-        "timestamp" : "2022-04-15T09:27:35-04:00",
+        "identifier" : "urn:uuid:4b13007f-b8ba-4a1a-8a22-f50340bb25ef",
+        "timestamp" : "2022-04-15T12:14:27-04:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1664,7 +1582,7 @@
       "name" : "SPLASCHMultiModalCommunicationObservationVS",
       "title" : "Multi-Modal Communication Observation",
       "status" : "active",
-      "date" : "2022-04-15T09:25:37-04:00",
+      "date" : "2022-04-15T12:12:07-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -1697,8 +1615,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:88b27e98-c539-44da-a086-4ca34aaf4fd5",
-        "timestamp" : "2022-04-15T09:27:35-04:00",
+        "identifier" : "urn:uuid:b00dfaf3-def5-4638-ad62-79ce41e1dc85",
+        "timestamp" : "2022-04-15T12:14:27-04:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1765,7 +1683,7 @@
       "name" : "SPLASCHObservationCategoryVS",
       "title" : "SPLASCH Observation Category",
       "status" : "active",
-      "date" : "2022-04-15T09:25:37-04:00",
+      "date" : "2022-04-15T12:12:07-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -1798,8 +1716,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:24ca09a2-18ab-4e3a-b21e-a0d7533d49da",
-        "timestamp" : "2022-04-15T09:27:35-04:00",
+        "identifier" : "urn:uuid:cb976b18-afd9-4123-8671-e04fdb6a7b12",
+        "timestamp" : "2022-04-15T12:14:27-04:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1984,7 +1902,7 @@
       "name" : "SPLASCHSolidDietModifierTypeObservationVS",
       "title" : "Solid Diet Modifier Type Observation",
       "status" : "active",
-      "date" : "2022-04-15T09:25:37-04:00",
+      "date" : "2022-04-15T12:12:07-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -2017,8 +1935,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:bebfeb55-3fce-4f2b-96de-5cc89d8a4431",
-        "timestamp" : "2022-04-15T09:27:36-04:00",
+        "identifier" : "urn:uuid:4635d48c-d937-4c92-9415-98345b2f8265",
+        "timestamp" : "2022-04-15T12:14:27-04:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2050,7 +1968,7 @@
       "name" : "SPLASCHSpeechComprehensionObservationVS",
       "title" : "Speech Comprehension Observation",
       "status" : "active",
-      "date" : "2022-04-15T09:25:37-04:00",
+      "date" : "2022-04-15T12:12:07-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -2083,8 +2001,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:435ba087-47af-4530-9d54-dfcd9836e897",
-        "timestamp" : "2022-04-15T09:27:36-04:00",
+        "identifier" : "urn:uuid:a2759d1e-e960-4c0a-9941-4fce5889d219",
+        "timestamp" : "2022-04-15T12:14:27-04:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2141,7 +2059,7 @@
       "name" : "SPLASCHSpeechExpressionObservationVS",
       "title" : "Speech Expression Observation",
       "status" : "active",
-      "date" : "2022-04-15T09:25:37-04:00",
+      "date" : "2022-04-15T12:12:07-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -2174,8 +2092,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:b1e78c9b-6193-4d24-ae7a-b33b2959510d",
-        "timestamp" : "2022-04-15T09:27:36-04:00",
+        "identifier" : "urn:uuid:02578b02-ec42-4d50-8a04-c6e416505baf",
+        "timestamp" : "2022-04-15T12:14:28-04:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2237,7 +2155,7 @@
       "name" : "SPLASCHSwallowingObservationValueVS",
       "title" : "Swallowing Observation Value",
       "status" : "active",
-      "date" : "2022-04-15T09:25:37-04:00",
+      "date" : "2022-04-15T12:12:07-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -2270,8 +2188,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:2850f227-caab-4d3e-b69f-06b00903a314",
-        "timestamp" : "2022-04-15T09:27:36-04:00",
+        "identifier" : "urn:uuid:af5791b9-2623-4f57-939e-abb5080cb554",
+        "timestamp" : "2022-04-15T12:14:28-04:00",
         "total" : 26,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2476,7 +2394,7 @@
       "name" : "SPLASCHSwallowingObservationVS",
       "title" : "Swallowing Observation",
       "status" : "active",
-      "date" : "2022-04-15T09:25:37-04:00",
+      "date" : "2022-04-15T12:12:07-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -2509,8 +2427,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:afc01d38-9c32-4ab8-bd8d-9ca5b76e11d8",
-        "timestamp" : "2022-04-15T09:27:36-04:00",
+        "identifier" : "urn:uuid:7487af53-29f1-469e-8b17-f1758ffc3b01",
+        "timestamp" : "2022-04-15T12:14:28-04:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",

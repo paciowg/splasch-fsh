@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "1d40bfa7-46ad-4f2a-967e-da0870a73bd6-65",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1d40bfa7-46ad-4f2a-967e-da0870a73bd6-65",
+  "id" : "712bbd89-af5e-4897-a05c-832a092eddfa-65",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/712bbd89-af5e-4897-a05c-832a092eddfa-65",
   "name" : "UnionUSCorePulseOximetryProfileAndHearingObservation",
   "title" : "Union of US Core Pulse Oximetry Profile And Hearing Observation",
   "status" : "active",
-  "date" : "2022-04-15T09:26:56-04:00",
+  "date" : "2022-04-15T12:13:36-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/1d40bfa7-46ad-4f2a-967e-da0870a73bd6-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/712bbd89-af5e-4897-a05c-832a092eddfa-5"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1892,7 +1892,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/1d40bfa7-46ad-4f2a-967e-da0870a73bd6-8"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/712bbd89-af5e-4897-a05c-832a092eddfa-8"
       },
       "mapping" : [{
         "identity" : "w5",

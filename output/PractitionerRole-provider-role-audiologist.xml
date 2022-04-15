@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PractitionerRole xmlns="http://hl7.org/fhir">
+  <id value="provider-role-audiologist"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "provider-role-audiologist" </p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href="Practitioner-Practitioner-JillBradley.html">Practitioner/Practitioner-JillBradley</a> " BRADLEY"</p><p><b>organization</b>: <a href="Organization-Organization-Happy-Nursing-Facility.html">Organization/Organization-Happy-Nursing-Facility</a> "Happy Nursing Facility"</p><p><b>code</b>: Audiologist <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (provider-taxonomy#225200000X)</span></p></div>
+  </text>
+  <active value="true"/>
+  <practitioner>
+    <reference value="Practitioner/Practitioner-JillBradley"/>
+  </practitioner>
+  <organization>
+    <reference value="Organization/Organization-Happy-Nursing-Facility"/>
+  </organization>
+  <code>
+    <coding>
+      <system value="http://nucc.org/provider-taxonomy"/>
+      <code value="225200000X"/>
+      <display value="Audiologist"/>
+    </coding>
+  </code>
+</PractitionerRole>

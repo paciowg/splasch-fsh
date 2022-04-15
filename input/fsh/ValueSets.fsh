@@ -109,6 +109,7 @@ Description: "Codes representing panel LOINC 98418-7 Diagnostic Audiology Result
 * ^copyright = "This CodeSystem is not copyrighted."
 
 
+//todo: is this value redundant because of overlap with SPLASCHDiagnosticAudiologyResultsPanel?
 ValueSet: SPLASCHPureToneThresholdAudiometryPanel
 Title: "Pure tone threshold audiometry panel"
 Description: "Codes representing panel LOINC 89015-2 Pure tone threshold audiometry panel"

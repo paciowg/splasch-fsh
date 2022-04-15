@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "1d40bfa7-46ad-4f2a-967e-da0870a73bd6-140",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1d40bfa7-46ad-4f2a-967e-da0870a73bd6-140",
+  "id" : "712bbd89-af5e-4897-a05c-832a092eddfa-140",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/712bbd89-af5e-4897-a05c-832a092eddfa-140",
   "name" : "UnionUSCoreObservationSocialHistoryAssessmentAndMultiModalCommunicationObservation",
   "title" : "Union of US Core Social History Assessment Observation Profile And Multi-Modal Communication Observation",
   "status" : "active",
-  "date" : "2022-04-15T09:26:57-04:00",
+  "date" : "2022-04-15T12:13:36-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -553,7 +553,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/1d40bfa7-46ad-4f2a-967e-da0870a73bd6-128"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/712bbd89-af5e-4897-a05c-832a092eddfa-128"
       },
       "mapping" : [{
         "identity" : "workflow",

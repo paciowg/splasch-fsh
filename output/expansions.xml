@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="b5938f97-8447-4180-887a-01df1f35bbd4"/>
+  <id value="00f81b66-7c80-41d4-bebb-ba3c1ed4335d"/>
   <meta>
-    <lastUpdated value="2022-04-15T09:25:37.595-04:00"/>
+    <lastUpdated value="2022-04-15T12:12:07.860-04:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -324,13 +324,12 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingLossDegree"/>
     <resource>
       <ValueSet>
-        <id value="HearingLossDegree"/>
+        <language value="en"/>
         <text>
           <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
             <p>This value set contains 8 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.72</p>
             <p>All codes in this table are from the system 
@@ -417,50 +416,10 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingLossDegree"/>
-        <version value="0.1.0"/>
-        <name value="HearingLossDegree"/>
-        <title value="Hearing Loss - Degree"/>
         <status value="active"/>
-        <date value="2022-04-15T09:25:37-04:00"/>
-        <publisher value="HL7 Patient Care Working Group"/>
-        <contact>
-          <name value="HL7 Patient Care Working Group"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/patientcare"/>
-          </telecom>
-          <telecom>
-            <system value="email"/>
-            <value value="patients@lists.HL7.org"/>
-          </telecom>
-        </contact>
-        <contact>
-          <name value="PACIO project"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/patientcare"/>
-          </telecom>
-          <telecom>
-            <system value="email"/>
-            <value value="info@pacioproject.org"/>
-          </telecom>
-        </contact>
-        <description value="Degree of hearing loss"/>
-        <jurisdiction>
-          <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="US"/>
-          </coding>
-        </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:17205352-f15a-43f5-804b-0cc24fc611f5"/>
-          <timestamp value="2022-04-15T09:27:33-04:00"/>
-          <total value="8"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:ebbae820-984d-4c5b-aaf5-442c2d64d0ea"/>
+          <timestamp value="2022-04-15T13:27:33.113Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -514,13 +473,12 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingLossType"/>
     <resource>
       <ValueSet>
-        <id value="HearingLossType"/>
+        <language value="en"/>
         <text>
           <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
             <p>This value set contains 8 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.72</p>
             <p>All codes in this table are from the system 
@@ -607,50 +565,10 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingLossType"/>
-        <version value="0.1.0"/>
-        <name value="HearingLossType"/>
-        <title value="Hearing Loss - Type"/>
         <status value="active"/>
-        <date value="2022-04-15T09:25:37-04:00"/>
-        <publisher value="HL7 Patient Care Working Group"/>
-        <contact>
-          <name value="HL7 Patient Care Working Group"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/patientcare"/>
-          </telecom>
-          <telecom>
-            <system value="email"/>
-            <value value="patients@lists.HL7.org"/>
-          </telecom>
-        </contact>
-        <contact>
-          <name value="PACIO project"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/patientcare"/>
-          </telecom>
-          <telecom>
-            <system value="email"/>
-            <value value="info@pacioproject.org"/>
-          </telecom>
-        </contact>
-        <description value="Type of hearing loss"/>
-        <jurisdiction>
-          <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="US"/>
-          </coding>
-        </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:20a8b57f-2fa5-4d3d-90ce-fbc62986cbb0"/>
-          <timestamp value="2022-04-15T09:27:33-04:00"/>
-          <total value="8"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:2e087f82-286b-47ca-8b0e-0a853fba53ae"/>
+          <timestamp value="2022-04-15T13:27:33.410Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
@@ -890,7 +808,7 @@
         <name value="SPLASCHCaloriePercentageTypeObservationVS"/>
         <title value="Calorie Percentage Type Observation"/>
         <status value="active"/>
-        <date value="2022-04-15T09:25:37-04:00"/>
+        <date value="2022-04-15T12:12:07-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -923,8 +841,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:09028372-3275-41bf-93a7-72712a0687ee"/>
-          <timestamp value="2022-04-15T09:27:33-04:00"/>
+          <identifier value="urn:uuid:a8511761-769c-401a-afe0-4107a0cb4c8b"/>
+          <timestamp value="2022-04-15T12:14:25-04:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1470,7 +1388,7 @@
         <name value="SPLASCHFrequencyObservationVS"/>
         <title value="SPLASCH Frequency Observation Values"/>
         <status value="active"/>
-        <date value="2022-04-15T09:25:37-04:00"/>
+        <date value="2022-04-15T12:12:07-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -1503,8 +1421,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:2ccdb9b6-4ae6-4d46-b32f-0f8eeb2604c4"/>
-          <timestamp value="2022-04-15T09:27:34-04:00"/>
+          <identifier value="urn:uuid:3cc148b1-2e8f-4291-8850-11bb5cb0de5b"/>
+          <timestamp value="2022-04-15T12:14:26-04:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1761,7 +1679,7 @@
         <name value="SPLASCHFrequencyTypeObservationVS"/>
         <title value="Frequency Type Observation"/>
         <status value="active"/>
-        <date value="2022-04-15T09:25:37-04:00"/>
+        <date value="2022-04-15T12:12:07-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -1794,8 +1712,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:9059fafd-1688-473b-84a6-466e33826542"/>
-          <timestamp value="2022-04-15T09:27:34-04:00"/>
+          <identifier value="urn:uuid:b340abed-f53d-441f-896a-4dca305d7734"/>
+          <timestamp value="2022-04-15T12:14:26-04:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2207,7 +2125,7 @@
         <name value="SPLASCHHearingObservationValueVS"/>
         <title value="Hearing Observation Value"/>
         <status value="active"/>
-        <date value="2022-04-15T09:25:37-04:00"/>
+        <date value="2022-04-15T12:12:07-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -2240,8 +2158,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:26f8a6a2-57e1-4a9c-8313-1449ea2025cc"/>
-          <timestamp value="2022-04-15T09:27:35-04:00"/>
+          <identifier value="urn:uuid:8f50c4b6-45f8-40d5-92db-f46af61796c6"/>
+          <timestamp value="2022-04-15T12:14:26-04:00"/>
           <total value="18"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2812,7 +2730,7 @@
         <name value="SPLASCHHearingObservationVS"/>
         <title value="Hearing Observation"/>
         <status value="active"/>
-        <date value="2022-04-15T09:25:37-04:00"/>
+        <date value="2022-04-15T12:12:07-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -2845,8 +2763,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:7bf35849-2d0f-4a47-90e7-d23aa24cf740"/>
-          <timestamp value="2022-04-15T09:27:35-04:00"/>
+          <identifier value="urn:uuid:c25a3721-a1c6-43ff-b3c4-058226c69eae"/>
+          <timestamp value="2022-04-15T12:14:26-04:00"/>
           <total value="45"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3282,7 +3200,7 @@
         <name value="SPLASCHLiquidDietModifierTypeObservationVS"/>
         <title value="Liquid Diet Modifier Type Observation"/>
         <status value="active"/>
-        <date value="2022-04-15T09:25:37-04:00"/>
+        <date value="2022-04-15T12:12:07-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -3315,8 +3233,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:cc79c377-09a2-4a58-a739-ffce094d4db3"/>
-          <timestamp value="2022-04-15T09:27:35-04:00"/>
+          <identifier value="urn:uuid:4b13007f-b8ba-4a1a-8a22-f50340bb25ef"/>
+          <timestamp value="2022-04-15T12:14:27-04:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3436,7 +3354,7 @@
         <name value="SPLASCHMultiModalCommunicationObservationVS"/>
         <title value="Multi-Modal Communication Observation"/>
         <status value="active"/>
-        <date value="2022-04-15T09:25:37-04:00"/>
+        <date value="2022-04-15T12:12:07-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -3469,8 +3387,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:88b27e98-c539-44da-a086-4ca34aaf4fd5"/>
-          <timestamp value="2022-04-15T09:27:35-04:00"/>
+          <identifier value="urn:uuid:b00dfaf3-def5-4638-ad62-79ce41e1dc85"/>
+          <timestamp value="2022-04-15T12:14:27-04:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3601,7 +3519,7 @@
         <name value="SPLASCHObservationCategoryVS"/>
         <title value="SPLASCH Observation Category"/>
         <status value="active"/>
-        <date value="2022-04-15T09:25:37-04:00"/>
+        <date value="2022-04-15T12:12:07-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -3634,8 +3552,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:24ca09a2-18ab-4e3a-b21e-a0d7533d49da"/>
-          <timestamp value="2022-04-15T09:27:35-04:00"/>
+          <identifier value="urn:uuid:cb976b18-afd9-4123-8671-e04fdb6a7b12"/>
+          <timestamp value="2022-04-15T12:14:27-04:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4050,7 +3968,7 @@
         <name value="SPLASCHSolidDietModifierTypeObservationVS"/>
         <title value="Solid Diet Modifier Type Observation"/>
         <status value="active"/>
-        <date value="2022-04-15T09:25:37-04:00"/>
+        <date value="2022-04-15T12:12:07-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -4083,8 +4001,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:bebfeb55-3fce-4f2b-96de-5cc89d8a4431"/>
-          <timestamp value="2022-04-15T09:27:36-04:00"/>
+          <identifier value="urn:uuid:4635d48c-d937-4c92-9415-98345b2f8265"/>
+          <timestamp value="2022-04-15T12:14:27-04:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4188,7 +4106,7 @@
         <name value="SPLASCHSpeechComprehensionObservationVS"/>
         <title value="Speech Comprehension Observation"/>
         <status value="active"/>
-        <date value="2022-04-15T09:25:37-04:00"/>
+        <date value="2022-04-15T12:12:07-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -4221,8 +4139,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:435ba087-47af-4530-9d54-dfcd9836e897"/>
-          <timestamp value="2022-04-15T09:27:36-04:00"/>
+          <identifier value="urn:uuid:a2759d1e-e960-4c0a-9941-4fce5889d219"/>
+          <timestamp value="2022-04-15T12:14:27-04:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4359,7 +4277,7 @@
         <name value="SPLASCHSpeechExpressionObservationVS"/>
         <title value="Speech Expression Observation"/>
         <status value="active"/>
-        <date value="2022-04-15T09:25:37-04:00"/>
+        <date value="2022-04-15T12:12:07-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -4392,8 +4310,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:b1e78c9b-6193-4d24-ae7a-b33b2959510d"/>
-          <timestamp value="2022-04-15T09:27:36-04:00"/>
+          <identifier value="urn:uuid:02578b02-ec42-4d50-8a04-c6e416505baf"/>
+          <timestamp value="2022-04-15T12:14:28-04:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4729,7 +4647,7 @@
         <name value="SPLASCHSwallowingObservationValueVS"/>
         <title value="Swallowing Observation Value"/>
         <status value="active"/>
-        <date value="2022-04-15T09:25:37-04:00"/>
+        <date value="2022-04-15T12:12:07-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -4762,8 +4680,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:2850f227-caab-4d3e-b69f-06b00903a314"/>
-          <timestamp value="2022-04-15T09:27:36-04:00"/>
+          <identifier value="urn:uuid:af5791b9-2623-4f57-939e-abb5080cb554"/>
+          <timestamp value="2022-04-15T12:14:28-04:00"/>
           <total value="26"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5032,7 +4950,7 @@
         <name value="SPLASCHSwallowingObservationVS"/>
         <title value="Swallowing Observation"/>
         <status value="active"/>
-        <date value="2022-04-15T09:25:37-04:00"/>
+        <date value="2022-04-15T12:12:07-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -5065,8 +4983,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:afc01d38-9c32-4ab8-bd8d-9ca5b76e11d8"/>
-          <timestamp value="2022-04-15T09:27:36-04:00"/>
+          <identifier value="urn:uuid:7487af53-29f1-469e-8b17-f1758ffc3b01"/>
+          <timestamp value="2022-04-15T12:14:28-04:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>

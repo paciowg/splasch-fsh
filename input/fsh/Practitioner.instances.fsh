@@ -61,6 +61,21 @@ Description: "An instance of Practitioner"
 * address.text = "8100 Pinebrook Dr, San Antonio, TX, 78230"
 
 
+Instance: Practitioner-JillBradley
+InstanceOf: Practitioner
+Description: "An instance of Practitioner"
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "1928374651"
+* name.given = "Jill"
+* name.family = "Bradley"
+* name.text = "Jill Bradley"
+* active = true
+* gender = Hl7FhirAdminGender#female
+* telecom.system = #phone
+* telecom.value = "(210) 555 1871"
+* address.text = "8100 Pinebrook Dr, San Antonio, TX, 78230"
+
+
 Instance: Practitioner-JennyGlass
 InstanceOf: Practitioner
 Description: "An instance of Practitioner"

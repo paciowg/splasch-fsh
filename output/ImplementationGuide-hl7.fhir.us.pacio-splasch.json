@@ -10,7 +10,7 @@
   "name": "PACIOReAssessmentTimepoints",
   "title": "PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide",
   "status": "draft",
-  "date": "2022-04-15T09:25:37-04:00",
+  "date": "2022-04-15T12:12:07-04:00",
   "publisher": "HL7 Patient Care Working Group",
   "contact": [
     {
@@ -3239,6 +3239,244 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BSJ-ObservationSPLASCH-163"
+        },
+        "name": "BSJ-ObservationSPLASCH-163",
+        "description": "An instance of SPLASCH hearing observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BSJ-ObservationSPLASCH-164"
+        },
+        "name": "BSJ-ObservationSPLASCH-164",
+        "description": "An instance of SPLASCH hearing observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BSJ-ObservationSPLASCH-165"
+        },
+        "name": "BSJ-ObservationSPLASCH-165",
+        "description": "An instance of SPLASCH hearing observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BSJ-ObservationSPLASCH-166"
+        },
+        "name": "BSJ-ObservationSPLASCH-166",
+        "description": "An instance of SPLASCH hearing observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BSJ-ObservationSPLASCH-167"
+        },
+        "name": "BSJ-ObservationSPLASCH-167",
+        "description": "An instance of SPLASCH hearing observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BSJ-ObservationSPLASCH-168"
+        },
+        "name": "BSJ-ObservationSPLASCH-168",
+        "description": "An instance of SPLASCH hearing observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BSJ-ObservationSPLASCH-169"
+        },
+        "name": "BSJ-ObservationSPLASCH-169",
+        "description": "An instance of SPLASCH hearing observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BSJ-ObservationSPLASCH-170"
+        },
+        "name": "BSJ-ObservationSPLASCH-170",
+        "description": "An instance of SPLASCH hearing observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BSJ-ObservationSPLASCH-171"
+        },
+        "name": "BSJ-ObservationSPLASCH-171",
+        "description": "An instance of SPLASCH hearing observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BSJ-ObservationSPLASCH-172"
+        },
+        "name": "BSJ-ObservationSPLASCH-172",
+        "description": "An instance of SPLASCH hearing observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BSJ-ObservationSPLASCH-173"
+        },
+        "name": "BSJ-ObservationSPLASCH-173",
+        "description": "An instance of SPLASCH hearing observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BSJ-ObservationSPLASCH-174"
+        },
+        "name": "BSJ-ObservationSPLASCH-174",
+        "description": "An instance of SPLASCH hearing observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BSJ-ObservationSPLASCH-175"
+        },
+        "name": "BSJ-ObservationSPLASCH-175",
+        "description": "An instance of SPLASCH hearing observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BSJ-ObservationSPLASCH-176"
+        },
+        "name": "BSJ-ObservationSPLASCH-176",
+        "description": "An instance of SPLASCH hearing observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BSJ-ObservationSPLASCH-177"
+        },
+        "name": "BSJ-ObservationSPLASCH-177",
+        "description": "An instance of SPLASCH hearing observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BSJ-ObservationSPLASCH-178"
+        },
+        "name": "BSJ-ObservationSPLASCH-178",
+        "description": "An instance of SPLASCH hearing observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/BSJ-ObservationSPLASCH-179"
+        },
+        "name": "BSJ-ObservationSPLASCH-179",
+        "description": "An instance of SPLASCH hearing observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Patient"
           }
         ],
@@ -3369,6 +3607,20 @@
           }
         ],
         "reference": {
+          "reference": "Practitioner/Practitioner-JillBradley"
+        },
+        "name": "Practitioner-JillBradley",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          }
+        ],
+        "reference": {
           "reference": "Practitioner/Practitioner-JudySmiley"
         },
         "name": "Practitioner-JudySmiley",
@@ -3471,6 +3723,20 @@
         },
         "name": "Practitioner-SummerJohnson",
         "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PractitionerRole"
+          }
+        ],
+        "reference": {
+          "reference": "PractitionerRole/provider-role-audiologist"
+        },
+        "name": "provider-role-audiologist",
+        "description": "An instance of PractitionerRole",
         "exampleBoolean": true
       },
       {
