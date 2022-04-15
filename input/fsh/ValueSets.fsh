@@ -60,6 +60,8 @@ Description: "SPLASCH hearing observation profile: codes representing hearing qu
 * include $LOINC#94900-8 "Need for and availability of a hearing aid [CMS Assessment]" //answered with answer list LL5572-4 CmsFasiAssistiveDevicesVS
 * include $LOINC#67467-1 "In which ear(s) do you have a hearing difficulty?" //answered with answer list LL1718-7 LeftRightBothVS
 * include $LOINC#67242-8 "Do you hear better in one ear than the other [PhenX]" //answered with answer list LL1699-9 HearBetterInOneEarVS
+* codes from valueset SPLASCHPureToneThresholdAudiometryPanel
+* codes from valueset SPLASCHDiagnosticAudiologyResultsPanel
 * ^copyright = "This CodeSystem is not copyrighted."
 
 
@@ -74,6 +76,66 @@ Description: "SPLASCH hearing observation values: codes representing answers to 
 * ^copyright = "This CodeSystem is not copyrighted."
 
 
+ValueSet: SPLASCHDiagnosticAudiologyResultsPanel
+Title: "Diagnostic Audiology Results Panel"
+Description: "Codes representing panel LOINC 98418-7 Diagnostic Audiology Results Panel"
+* include $LOINC#98419-5 "Diagnostic audiology test performed"
+* include $LOINC#98480-7 "Auditory brainstem response panel"
+* include $LOINC#98481-5 "Auditory brainstem response threshold Ear - left --click"
+* include $LOINC#98482-3 "Auditory brainstem response threshold Ear - right --click"
+* include $LOINC#89024-4 "Hearing threshold Ear - left --500 Hz"
+* include $LOINC#89025-1 "Hearing threshold Ear - right --500 Hz"
+* include $LOINC#89016-0 "Hearing threshold Ear - left --1000 Hz"
+* include $LOINC#89017-8 "Hearing threshold Ear - right --1000 Hz"
+* include $LOINC#89018-6 "Hearing threshold Ear - left --2000 Hz"
+* include $LOINC#89019-4 "Hearing threshold Ear - right --2000 Hz"
+* include $LOINC#89020-2 "Hearing threshold Ear - left --3000 Hz"
+* include $LOINC#89021-0 "Hearing threshold Ear - right --3000 Hz"
+* include $LOINC#89022-8 "Hearing threshold Ear - left --4000 Hz"
+* include $LOINC#89023-6 "Hearing threshold Ear - right --4000 Hz"
+* include $LOINC#98421-1 "Hearing loss type Ear - left"
+* include $LOINC#98426-0 "Hearing loss type Ear - right"
+* include $LOINC#98425-2 "Hearing loss configuration Ear - left"
+* include $LOINC#98430-2 "Hearing loss configuration Ear - right"
+* include $LOINC#98422-9 "Hearing loss degree Ear - left"
+* include $LOINC#98427-8 "Hearing loss degree Ear - right"
+* include $LOINC#98424-5 "Hearing loss degree.max Ear - left"
+* include $LOINC#98429-4 "Hearing loss degree.max Ear - right"
+* include $LOINC#98423-7 "Hearing loss degree.min Ear - left"
+* include $LOINC#98428-6 "Hearing loss degree.min Ear - right"
+* include $LOINC#98420-3 "Audiology Comment Narrative"
+* include $LOINC#98431-0 "Diagnostic audiology follow-up recommendation"
+* include $LOINC#98432-8 "Reason diagnostic audiology assessment not performed"
+* ^copyright = "This CodeSystem is not copyrighted."
+
+
+//todo: is this value redundant because of overlap with SPLASCHDiagnosticAudiologyResultsPanel?
+ValueSet: SPLASCHPureToneThresholdAudiometryPanel
+Title: "Pure tone threshold audiometry panel"
+Description: "Codes representing panel LOINC 89015-2 Pure tone threshold audiometry panel"
+* include $LOINC#91375-6 "Hearing threshold Ear - left --250 Hz"
+* include $LOINC#89024-4 "Hearing threshold Ear - left --500 Hz"
+* include $LOINC#91379-8 "Hearing threshold Ear - left --750 Hz"
+* include $LOINC#89016-0 "Hearing threshold Ear - left --1000 Hz"
+* include $LOINC#91373-1 "Hearing threshold Ear - left --1500 Hz"
+* include $LOINC#89018-6 "Hearing threshold Ear - left --2000 Hz"
+* include $LOINC#89020-2 "Hearing threshold Ear - left --3000 Hz"
+* include $LOINC#89022-8 "Hearing threshold Ear - left --4000 Hz"
+* include $LOINC#91377-2 "Hearing threshold Ear - left --5000 Hz"
+* include $LOINC#89026-9 "Hearing threshold Ear - left --6000 Hz"
+* include $LOINC#89028-5 "Hearing threshold Ear - left --8000 Hz"
+* include $LOINC#91374-9 "Hearing threshold Ear - right --250 Hz"
+* include $LOINC#89025-1 "Hearing threshold Ear - right --500 Hz"
+* include $LOINC#91378-0 "Hearing threshold Ear - right --750 Hz"
+* include $LOINC#89017-8 "Hearing threshold Ear - right --1000 Hz"
+* include $LOINC#91372-3 "Hearing threshold Ear - right --1500 Hz"
+* include $LOINC#89019-4 "Hearing threshold Ear - right --2000 Hz"
+* include $LOINC#89021-0 "Hearing threshold Ear - right --3000 Hz"
+* include $LOINC#89023-6 "Hearing threshold Ear - right --4000 Hz"
+* include $LOINC#91376-4 "Hearing threshold Ear - right --5000 Hz"
+* include $LOINC#89027-7 "Hearing threshold Ear - right --6000 Hz"
+* include $LOINC#89029-3 "Hearing threshold Ear - right --8000 Hz" 
+* ^copyright = "This CodeSystem is not copyrighted."
 
 
 ValueSet: HearingAbilityToHearDuringAssessmentPeriodVS
@@ -94,6 +156,34 @@ Description: "Yes or No"
 * include $LOINC#LA32-8 "No"
 * include $LOINC#LA33-6 "Yes"
 * ^copyright = "This CodeSystem is not copyrighted."
+
+
+ValueSet: HearingLossType
+Title: "Hearing Loss - Type"
+Description: "Type of hearing loss"
+//note: from answer list LL6015-3
+* include $LOINC#LA32484-0 "No hearing loss"
+* include $LOINC#LA32485-7 "Sensorineural"
+* include $LOINC#LA32486-5 "Conductive - transient"
+* include $LOINC#LA32487-3 "Conductive - permanent"
+* include $LOINC#LA32488-1 "Conductive - undetermined"
+* include $LOINC#LA11840-8 "Mixed"
+* include $LOINC#LA32489-9 "Auditory neuropahty/Neural"
+* include $LOINC#LA32490-7 "Undetermined/Inconclusive"
+
+
+ValueSet: HearingLossDegree
+Title: "Hearing Loss - Degree"
+Description: "Degree of hearing loss"
+//note: from answer list LL6016-1
+* include $LOINC#LA32484-0 "No hearing loss"
+* include $LOINC#LA32491-5 "Slight (16-25 dB HL)"
+* include $LOINC#LA32492-3 "Mild (26-40 dB HL)"
+* include $LOINC#LA32493-1 "Moderate (41-55 dB HL)"
+* include $LOINC#LA32494-9 "Moderately severe (56-70 dB HL)"
+* include $LOINC#LA32495-6 "Severe (71-90 dB HL)"
+* include $LOINC#LA32496-4 "Profound (91+ dB HL)"
+* include $LOINC#LA14100-4 "Undetermined"
 
 
 ValueSet: CmsFasiAssistiveDevicesVS

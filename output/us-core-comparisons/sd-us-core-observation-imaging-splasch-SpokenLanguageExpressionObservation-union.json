@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "19c274a4-44a1-41a0-882b-a4f48d1cb01f-272",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/19c274a4-44a1-41a0-882b-a4f48d1cb01f-272",
+  "id" : "712bbd89-af5e-4897-a05c-832a092eddfa-272",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/712bbd89-af5e-4897-a05c-832a092eddfa-272",
   "name" : "UnionUSCoreImagingResultObservationProfileAndSpokenLanguageExpressionObservation",
   "title" : "Union of US Core Imaging Result Observation Profile And Spoken Language Expression Observation",
   "status" : "active",
-  "date" : "2022-04-05T12:12:29-04:00",
+  "date" : "2022-04-15T12:13:37-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -560,7 +560,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/19c274a4-44a1-41a0-882b-a4f48d1cb01f-269"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/712bbd89-af5e-4897-a05c-832a092eddfa-269"
       },
       "mapping" : [{
         "identity" : "workflow",

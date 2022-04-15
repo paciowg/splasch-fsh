@@ -2689,6 +2689,28 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10082-8 "Sometimes"
 
 
+Instance: BSJ-ObservationSPLASCH-163
+InstanceOf: Observation
+Description: "An instance of SPLASCH hearing observation"
+
+* status = #final
+* category = SPLASCHCAT#hearing "Hearing"
+
+// Pre-load code 98421-1 - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanel#98421-1 "Hearing loss type Ear - left"
+
+* subject = Reference(BSJ-patientBSJ1)
+
+* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+
+* performer[0] = Reference(Practitioner-JillBradley)
+* performer[1] = Reference(provider-role-audiologist-JillBradley)
+* performer[2] = Reference(Organization-Happy-Nursing-Facility)
+
+// Pre-load value LA32485-7 - Do Not Remove from template
+* valueCodeableConcept = https://loinc.org/LL6015-3/#LA32485-7 "Sensorineural"
+
+
 Instance: BSJ-ObservationSPLASCH-160
 InstanceOf: Observation
 Description: "An instance of SPLASCH multi-modal-communication observation"
@@ -2731,6 +2753,135 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 
 // Pre-load value LA10044-8 - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS#LA10044-8 "Often"
+
+
+Instance: BSJ-ObservationSPLASCH-166
+InstanceOf: Observation
+Description: "An instance of SPLASCH hearing observation"
+
+* status = #final
+* category = SPLASCHCAT#hearing "Hearing"
+
+// Pre-load code 98427-8 - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanel#98427-8 "Hearing loss degree Ear - right"
+
+* subject = Reference(BSJ-patientBSJ1)
+
+* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+
+* performer[0] = Reference(Practitioner-JillBradley)
+* performer[1] = Reference(provider-role-audiologist-JillBradley)
+* performer[2] = Reference(Organization-Happy-Nursing-Facility)
+
+// Pre-load value LA32493-1 - Do Not Remove from template
+* valueCodeableConcept = https://loinc.org/LL6016-1/#LA32493-1 "Moderate (41-55 dB HL)"
+
+
+Instance: BSJ-ObservationSPLASCH-167
+InstanceOf: Observation
+Description: "An instance of SPLASCH hearing observation"
+
+* status = #final
+* category = SPLASCHCAT#hearing "Hearing"
+
+// Pre-load code 98420-3 - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanel#98420-3 "Audiology Comment Narrative"
+
+* subject = Reference(BSJ-patientBSJ2)
+
+* effectiveDateTime = "2021-11-06T11:00:00-05:01"
+
+* performer[0] = Reference(Practitioner-JillBradley)
+* performer[1] = Reference(provider-role-audiologist-JillBradley)
+* performer[2] = Reference(Organization-Happy-Nursing-Facility)
+
+* valueString = "Upon otoscopic examination, bilateral cerumen impaction was noted. Following cerumen removal, no additional abnormalities were noted. Both tympanic membranes were intact and translucent with no visible fluid in the middle ear cavity. Tympanometry revealed bilateral Type-A tympanograms, suggesting normal middle ear function. Audiometric test results revealed bilateral moderate sensorineural hearing loss with relatively poor speech understanding. Mrs. Johnson was fitted with binaural in-the-ear hearing aids, and was offered two weeks of aural rehabilitation therapy"
+
+
+Instance: BSJ-ObservationSPLASCH-164
+InstanceOf: Observation
+Description: "An instance of SPLASCH hearing observation"
+
+* status = #final
+* category = SPLASCHCAT#hearing "Hearing"
+
+// Pre-load code 98426-0 - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanel#98426-0 "Hearing loss type Ear - right"
+
+* subject = Reference(BSJ-patientBSJ1)
+
+* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+
+* performer[0] = Reference(Practitioner-JillBradley)
+* performer[1] = Reference(provider-role-audiologist-JillBradley)
+* performer[2] = Reference(Organization-Happy-Nursing-Facility)
+
+// Pre-load value LA32485-7 - Do Not Remove from template
+* valueCodeableConcept = https://loinc.org/LL6015-3/#LA32485-7 "Sensorineural"
+
+
+Instance: BSJ-ObservationSPLASCH-165
+InstanceOf: Observation
+Description: "An instance of SPLASCH hearing observation"
+
+* status = #final
+* category = SPLASCHCAT#hearing "Hearing"
+
+// Pre-load code 98422-9 - Do Not Remove from template
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanel#98422-9 "Hearing loss degree Ear - left"
+
+* subject = Reference(BSJ-patientBSJ1)
+
+* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+
+* performer[0] = Reference(Practitioner-JillBradley)
+* performer[1] = Reference(provider-role-audiologist-JillBradley)
+* performer[2] = Reference(Organization-Happy-Nursing-Facility)
+
+// Pre-load value LA32493-1 - Do Not Remove from template
+* valueCodeableConcept = https://loinc.org/LL6016-1/#LA32493-1 "Moderate (41-55 dB HL)"
+
+
+Instance: BSJ-ObservationSPLASCH-168
+InstanceOf: Observation
+Description: "An instance of SPLASCH hearing observation"
+
+* status = #final
+* category = SPLASCHCAT#hearing "Hearing"
+
+// Pre-load code 91374-9 - Do Not Remove from template
+* code = https://loinc.org/89015-2/#91374-9 "Hearing threshold Ear - right --250 Hz"
+
+* subject = Reference(BSJ-patientBSJ1)
+
+* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+
+* performer[0] = Reference(Practitioner-JillBradley)
+* performer[1] = Reference(provider-role-audiologist-JillBradley)
+* performer[2] = Reference(Organization-Happy-Nursing-Facility)
+
+* valueInteger = 40
+
+
+Instance: BSJ-ObservationSPLASCH-169
+InstanceOf: Observation
+Description: "An instance of SPLASCH hearing observation"
+
+* status = #final
+* category = SPLASCHCAT#hearing "Hearing"
+
+// Pre-load code 89025-1 - Do Not Remove from template
+* code = https://loinc.org/89015-2/#89025-1 "Hearing threshold Ear - right --500 Hz"
+
+* subject = Reference(BSJ-patientBSJ1)
+
+* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+
+* performer[0] = Reference(Practitioner-JillBradley)
+* performer[1] = Reference(provider-role-audiologist-JillBradley)
+* performer[2] = Reference(Organization-Happy-Nursing-Facility)
+
+* valueInteger = 45
 
 
 Instance: BSJ-ObservationSPLASCH-159
@@ -2973,6 +3124,216 @@ Description: "An instance of SPLASCH swallowing observation"
 
 // Pre-load value 76-90-percent-time - Do Not Remove from template
 * valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS#76-90-percent "76-90% of the time"
+
+
+Instance: BSJ-ObservationSPLASCH-171
+InstanceOf: Observation
+Description: "An instance of SPLASCH hearing observation"
+
+* status = #final
+* category = SPLASCHCAT#hearing "Hearing"
+
+// Pre-load code 89019-4 - Do Not Remove from template
+* code = https://loinc.org/89015-2/#89019-4 "Hearing threshold Ear - right --2000 Hz"
+
+* subject = Reference(BSJ-patientBSJ1)
+
+* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+
+* performer[0] = Reference(Practitioner-JillBradley)
+* performer[1] = Reference(provider-role-audiologist-JillBradley)
+* performer[2] = Reference(Organization-Happy-Nursing-Facility)
+
+* valueInteger = 55
+
+
+Instance: BSJ-ObservationSPLASCH-170
+InstanceOf: Observation
+Description: "An instance of SPLASCH hearing observation"
+
+* status = #final
+* category = SPLASCHCAT#hearing "Hearing"
+
+// Pre-load code 89017-8 - Do Not Remove from template
+* code = https://loinc.org/89015-2/#89017-8 "Hearing threshold Ear - right --1000 Hz"
+
+* subject = Reference(BSJ-patientBSJ1)
+
+* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+
+* performer[0] = Reference(Practitioner-JillBradley)
+* performer[1] = Reference(provider-role-audiologist-JillBradley)
+* performer[2] = Reference(Organization-Happy-Nursing-Facility)
+
+* valueInteger = 45
+
+
+Instance: BSJ-ObservationSPLASCH-173
+InstanceOf: Observation
+Description: "An instance of SPLASCH hearing observation"
+
+* status = #final
+* category = SPLASCHCAT#hearing "Hearing"
+
+// Pre-load code 89029-3 - Do Not Remove from template
+* code = https://loinc.org/89015-2/#89029-3 "Hearing threshold Ear - right --8000 Hz "
+
+* subject = Reference(BSJ-patientBSJ1)
+
+* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+
+* performer[0] = Reference(Practitioner-JillBradley)
+* performer[1] = Reference(provider-role-audiologist-JillBradley)
+* performer[2] = Reference(Organization-Happy-Nursing-Facility)
+
+* valueInteger = 55
+
+
+Instance: BSJ-ObservationSPLASCH-172
+InstanceOf: Observation
+Description: "An instance of SPLASCH hearing observation"
+
+* status = #final
+* category = SPLASCHCAT#hearing "Hearing"
+
+// Pre-load code 89023-6 - Do Not Remove from template
+* code = https://loinc.org/89015-2/#89023-6 "Hearing threshold Ear - right --4000 Hz"
+
+* subject = Reference(BSJ-patientBSJ1)
+
+* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+
+* performer[0] = Reference(Practitioner-JillBradley)
+* performer[1] = Reference(provider-role-audiologist-JillBradley)
+* performer[2] = Reference(Organization-Happy-Nursing-Facility)
+
+* valueInteger = 60
+
+
+Instance: BSJ-ObservationSPLASCH-175
+InstanceOf: Observation
+Description: "An instance of SPLASCH hearing observation"
+
+* status = #final
+* category = SPLASCHCAT#hearing "Hearing"
+
+// Pre-load code 89024-4 - Do Not Remove from template
+* code = https://loinc.org/89015-2/#89024-4 "Hearing threshold Ear - left --500 Hz"
+
+* subject = Reference(BSJ-patientBSJ1)
+
+* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+
+* performer[0] = Reference(Practitioner-JillBradley)
+* performer[1] = Reference(provider-role-audiologist-JillBradley)
+* performer[2] = Reference(Organization-Happy-Nursing-Facility)
+
+* valueInteger = 45
+
+
+Instance: BSJ-ObservationSPLASCH-174
+InstanceOf: Observation
+Description: "An instance of SPLASCH hearing observation"
+
+* status = #final
+* category = SPLASCHCAT#hearing "Hearing"
+
+// Pre-load code 91375-6 - Do Not Remove from template
+* code = https://loinc.org/89015-2/#91375-6 "Hearing threshold Ear - left --250 Hz"
+
+* subject = Reference(BSJ-patientBSJ1)
+
+* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+
+* performer[0] = Reference(Practitioner-JillBradley)
+* performer[1] = Reference(provider-role-audiologist-JillBradley)
+* performer[2] = Reference(Organization-Happy-Nursing-Facility)
+
+* valueInteger = 45
+
+
+Instance: BSJ-ObservationSPLASCH-177
+InstanceOf: Observation
+Description: "An instance of SPLASCH hearing observation"
+
+* status = #final
+* category = SPLASCHCAT#hearing "Hearing"
+
+// Pre-load code 89018-6 - Do Not Remove from template
+* code = https://loinc.org/89015-2/#89018-6 "Hearing threshold Ear - left --2000 Hz"
+
+* subject = Reference(BSJ-patientBSJ1)
+
+* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+
+* performer[0] = Reference(Practitioner-JillBradley)
+* performer[1] = Reference(provider-role-audiologist-JillBradley)
+* performer[2] = Reference(Organization-Happy-Nursing-Facility)
+
+* valueInteger = 55
+
+
+Instance: BSJ-ObservationSPLASCH-176
+InstanceOf: Observation
+Description: "An instance of SPLASCH hearing observation"
+
+* status = #final
+* category = SPLASCHCAT#hearing "Hearing"
+
+// Pre-load code 89016-0 - Do Not Remove from template
+* code = https://loinc.org/89015-2/#89016-0 "Hearing threshold Ear - left --1000 Hz"
+
+* subject = Reference(BSJ-patientBSJ1)
+
+* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+
+* performer[0] = Reference(Practitioner-JillBradley)
+* performer[1] = Reference(provider-role-audiologist-JillBradley)
+* performer[2] = Reference(Organization-Happy-Nursing-Facility)
+
+* valueInteger = 45
+
+
+Instance: BSJ-ObservationSPLASCH-179
+InstanceOf: Observation
+Description: "An instance of SPLASCH hearing observation"
+
+* status = #final
+* category = SPLASCHCAT#hearing "Hearing"
+
+// Pre-load code 89028-5 - Do Not Remove from template
+* code = https://loinc.org/89015-2/#89028-5 "Hearing threshold Ear - left --8000 Hz"
+
+* subject = Reference(BSJ-patientBSJ1)
+
+* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+
+* performer[0] = Reference(Practitioner-JillBradley)
+* performer[1] = Reference(provider-role-audiologist-JillBradley)
+* performer[2] = Reference(Organization-Happy-Nursing-Facility)
+
+* valueInteger = 55
+
+
+Instance: BSJ-ObservationSPLASCH-178
+InstanceOf: Observation
+Description: "An instance of SPLASCH hearing observation"
+
+* status = #final
+* category = SPLASCHCAT#hearing "Hearing"
+
+// Pre-load code 89022-8 - Do Not Remove from template
+* code = https://loinc.org/89015-2/#89022-8 "Hearing threshold Ear - left --4000 Hz"
+
+* subject = Reference(BSJ-patientBSJ1)
+
+* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+
+* performer[0] = Reference(Practitioner-JillBradley)
+* performer[1] = Reference(provider-role-audiologist-JillBradley)
+* performer[2] = Reference(Organization-Happy-Nursing-Facility)
+
+* valueInteger = 55
 
 
 Instance: BSJ-ObservationSPLASCH-002
