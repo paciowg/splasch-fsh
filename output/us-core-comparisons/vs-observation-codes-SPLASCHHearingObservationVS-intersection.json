@@ -1,9 +1,9 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "19c274a4-44a1-41a0-882b-a4f48d1cb01f-51",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/19c274a4-44a1-41a0-882b-a4f48d1cb01f-51",
+  "id" : "f846320e-580b-4498-a09b-513454763ce0-51",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/f846320e-580b-4498-a09b-513454763ce0-51",
   "name" : "IntersectionLOINCCodesAndSPLASCHHearingObservationVS",
   "title" : "Intersection of LOINC Codes And Hearing Observation",
   "status" : "draft",
-  "date" : "2022-04-05T12:12:27-04:00"
+  "date" : "2022-04-15T08:44:04-04:00"
 }

@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "19c274a4-44a1-41a0-882b-a4f48d1cb01f-56",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/19c274a4-44a1-41a0-882b-a4f48d1cb01f-56",
+  "id" : "f846320e-580b-4498-a09b-513454763ce0-56",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/f846320e-580b-4498-a09b-513454763ce0-56",
   "name" : "UnionUSCoreCommonSDOHAssessmentsAndSPLASCHHearingObservationVS",
   "title" : "Union of US Core Common SDOH Assessments ValueSet And Hearing Observation",
   "status" : "active",
-  "date" : "2022-04-05T12:12:27-04:00",
+  "date" : "2022-04-15T08:44:04-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -95,6 +95,9 @@
         "code" : "67242-8",
         "display" : "Do you hear better in one ear than the other [PhenX]"
       }]
+    },
+    {
+      "valueSet" : ["http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHPureToneThresholdAudiometryPanel"]
     }]
   },
   "expansion" : {
@@ -207,6 +210,160 @@
       "system" : "http://loinc.org",
       "code" : "67242-8",
       "display" : "Do you hear better in one ear than the other [PhenX]"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "91375-6",
+      "display" : "Hearing threshold Ear - left --250 Hz"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "89024-4",
+      "display" : "Hearing threshold Ear - left --500 Hz"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "91379-8",
+      "display" : "Hearing threshold Ear - left --750 Hz"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "89016-0",
+      "display" : "Hearing threshold Ear - left --1000 Hz"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "91373-1",
+      "display" : "Hearing threshold Ear - left --1500 Hz"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "89018-6",
+      "display" : "Hearing threshold Ear - left --2000 Hz"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "89020-2",
+      "display" : "Hearing threshold Ear - left --3000 Hz"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "89022-8",
+      "display" : "Hearing threshold Ear - left --4000 Hz"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "91377-2",
+      "display" : "Hearing threshold Ear - left --5000 Hz"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "89026-9",
+      "display" : "Hearing threshold Ear - left --6000 Hz"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "89028-5",
+      "display" : "Hearing threshold Ear - left --8000 Hz"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "91374-9",
+      "display" : "Hearing threshold Ear - right --250 Hz"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "89025-1",
+      "display" : "Hearing threshold Ear - right --500 Hz"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "91378-0",
+      "display" : "Hearing threshold Ear - right --750 Hz"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "89017-8",
+      "display" : "Hearing threshold Ear - right --1000 Hz"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "91372-3",
+      "display" : "Hearing threshold Ear - right --1500 Hz"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "89019-4",
+      "display" : "Hearing threshold Ear - right --2000 Hz"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "89021-0",
+      "display" : "Hearing threshold Ear - right --3000 Hz"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "89023-6",
+      "display" : "Hearing threshold Ear - right --4000 Hz"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "91376-4",
+      "display" : "Hearing threshold Ear - right --5000 Hz"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "89027-7",
+      "display" : "Hearing threshold Ear - right --6000 Hz"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "89029-3",
+      "display" : "Hearing threshold Ear - right --8000 Hz"
     }]
   }
 }

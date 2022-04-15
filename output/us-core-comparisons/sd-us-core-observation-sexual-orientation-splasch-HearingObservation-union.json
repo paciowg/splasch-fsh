@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "19c274a4-44a1-41a0-882b-a4f48d1cb01f-59",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/19c274a4-44a1-41a0-882b-a4f48d1cb01f-59",
+  "id" : "f846320e-580b-4498-a09b-513454763ce0-59",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f846320e-580b-4498-a09b-513454763ce0-59",
   "name" : "UnionUSCoreSexualOrientationObservationProfileAndHearingObservation",
   "title" : "Union of US Core Sexual Orientation Observation Profile And Hearing Observation",
   "status" : "active",
-  "date" : "2022-04-05T12:12:27-04:00",
+  "date" : "2022-04-15T08:44:04-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -569,7 +569,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/19c274a4-44a1-41a0-882b-a4f48d1cb01f-50"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/f846320e-580b-4498-a09b-513454763ce0-50"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -876,6 +876,9 @@
       "max" : "1",
       "type" : [{
         "code" : "CodeableConcept"
+      },
+      {
+        "code" : "integer"
       }],
       "constraint" : [{
         "key" : "ele-1",

@@ -30,7 +30,7 @@ Description:    "An exchange of hearing data for a patient."
 * code 1..1 MS
 * code from SPLASCHHearingObservationVS (required)
 
-* value[x] only CodeableConcept
+* value[x] only CodeableConcept or integer
 * valueCodeableConcept from SPLASCHHearingObservationValueVS (required)
 
 * effective[x] 1..1 MS
@@ -59,3 +59,5 @@ Invariant:  Observation-hear-better-in-one-ear-code-value-type
 Description: "Observation with codes indicating of a hear better in one ear value type have a hear better in one ear value"
 Expression: "where(code.memberOf('http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHHearBetterInOneEarTypeObservationVS')).exists() implies where(value.memberOf('http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearBetterInOneEarVS')).exists()"
 Severity:   #error
+
+//todo: invariants to validate SPLASCHPureToneThresholdAudiometryPanel and SPLASCHDiagnosticAudiologyResultsPanel

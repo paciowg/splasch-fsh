@@ -2,8 +2,8 @@
 =========================================
 
 err = 315, warn = 15, info = 162
-IG Publisher Version: 1.1.88 Out of date - current version is 1.1.114
-Generated Tue Apr 05 12:14:34 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio-splasch#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-splasch)
+IG Publisher Version: 1.1.88 Out of date - current version is 1.1.115
+Generated Fri Apr 15 08:46:19 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio-splasch#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-splasch)
  Build Errors : 1 / 1 / 0
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHCaloriePercentageCategoryCS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHLiquidDietCS : 0 / 0 / 1
@@ -219,6 +219,7 @@ Generated Tue Apr 05 12:14:34 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-LeftRightBothVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHAbilityToHearDuringAssessmentTypeObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHCaloriePercentageTypeObservationVS : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHDiagnosticAudiologyResultsPanel : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHFrequencyObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHFrequencyTypeObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHHearBetterInOneEarTypeObservationVS : 0 / 0 / 1
@@ -229,6 +230,7 @@ Generated Tue Apr 05 12:14:34 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHLiquidDietModifierTypeObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHMultiModalCommunicationObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHObservationCategoryVS : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHPureToneThresholdAudiometryPanel : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHSolidDietModifierTypeObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHSpeechComprehensionObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHSpeechExpressionObservationVS : 0 / 0 / 1
@@ -945,6 +947,7 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-splasch/S
 == fsh-generated\resources\ValueSet-LeftRightBothVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHAbilityToHearDuringAssessmentTypeObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHCaloriePercentageTypeObservationVS.json ==
+== fsh-generated\resources\ValueSet-SPLASCHDiagnosticAudiologyResultsPanel.json ==
 == fsh-generated\resources\ValueSet-SPLASCHFrequencyObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHFrequencyTypeObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHHearBetterInOneEarTypeObservationVS.json ==
@@ -955,6 +958,7 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-splasch/S
 == fsh-generated\resources\ValueSet-SPLASCHLiquidDietModifierTypeObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHMultiModalCommunicationObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHObservationCategoryVS.json ==
+== fsh-generated\resources\ValueSet-SPLASCHPureToneThresholdAudiometryPanel.json ==
 == fsh-generated\resources\ValueSet-SPLASCHSolidDietModifierTypeObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHSpeechComprehensionObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHSpeechExpressionObservationVS.json ==
