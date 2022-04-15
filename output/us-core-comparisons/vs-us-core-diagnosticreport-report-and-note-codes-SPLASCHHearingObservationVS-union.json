@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "f846320e-580b-4498-a09b-513454763ce0-41",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/f846320e-580b-4498-a09b-513454763ce0-41",
+  "id" : "1d40bfa7-46ad-4f2a-967e-da0870a73bd6-41",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/1d40bfa7-46ad-4f2a-967e-da0870a73bd6-41",
   "name" : "UnionUSCoreDiagnosticReportReportAndNoteCodesAndSPLASCHHearingObservationVS",
   "title" : "Union of US Core DiagnosticReport Report And Note Codes And Hearing Observation",
   "status" : "active",
-  "date" : "2022-04-15T08:44:04-04:00",
+  "date" : "2022-04-15T09:26:56-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -41,6 +41,9 @@
     },
     {
       "valueSet" : ["http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHPureToneThresholdAudiometryPanel"]
+    },
+    {
+      "valueSet" : ["http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHDiagnosticAudiologyResultsPanel"]
     }]
   },
   "expansion" : {
@@ -5227,6 +5230,125 @@
       "inactive" : false,
       "code" : "89029-3",
       "display" : "Hearing threshold Ear - right --8000 Hz"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "98419-5",
+      "display" : "Diagnostic audiology test performed"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "98480-7",
+      "display" : "Auditory brainstem response panel"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "98481-5",
+      "display" : "Auditory brainstem response threshold Ear - left --click"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "98482-3",
+      "display" : "Auditory brainstem response threshold Ear - right --click"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "98421-1",
+      "display" : "Hearing loss type Ear - left"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "98426-0",
+      "display" : "Hearing loss type Ear - right"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "98425-2",
+      "display" : "Hearing loss configuration Ear - left"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "98430-2",
+      "display" : "Hearing loss configuration Ear - right"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "98422-9",
+      "display" : "Hearing loss degree Ear - left"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "98427-8",
+      "display" : "Hearing loss degree Ear - right"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "98424-5",
+      "display" : "Hearing loss degree.max Ear - left"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "98429-4",
+      "display" : "Hearing loss degree.max Ear - right"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "98423-7",
+      "display" : "Hearing loss degree.min Ear - left"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "98428-6",
+      "display" : "Hearing loss degree.min Ear - right"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "98420-3",
+      "display" : "Audiology Comment Narrative"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "98431-0",
+      "display" : "Diagnostic audiology follow-up recommendation"
+    },
+    {
+      "system" : "http://loinc.org",
+      "abstract" : false,
+      "inactive" : false,
+      "code" : "98432-8",
+      "display" : "Reason diagnostic audiology assessment not performed"
     }]
   }
 }

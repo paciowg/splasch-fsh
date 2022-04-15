@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "f846320e-580b-4498-a09b-513454763ce0-207",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f846320e-580b-4498-a09b-513454763ce0-207",
+  "id" : "1d40bfa7-46ad-4f2a-967e-da0870a73bd6-207",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1d40bfa7-46ad-4f2a-967e-da0870a73bd6-207",
   "name" : "IntersectionUSCoreObservationScreeningResponseAndSpokenLanguageComprehensionObservation",
   "title" : "Intersection of US Core Screening Response Observation Profile And Spoken Language Comprehension Observation",
   "status" : "active",
-  "date" : "2022-04-15T08:44:05-04:00",
+  "date" : "2022-04-15T09:26:57-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

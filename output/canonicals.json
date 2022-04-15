@@ -126,6 +126,20 @@
     "name": "HearingAbilityToHearDuringAssessmentPeriodVS"
   },
   {
+    "id": "HearingLossDegree",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingLossDegree",
+    "version": "0.1.0",
+    "name": "HearingLossDegree"
+  },
+  {
+    "id": "HearingLossType",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingLossType",
+    "version": "0.1.0",
+    "name": "HearingLossType"
+  },
+  {
     "id": "LeftRightBothVS",
     "type": "ValueSet",
     "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/LeftRightBothVS",

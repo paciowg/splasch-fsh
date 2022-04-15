@@ -3,14 +3,14 @@
   "id": "SPLASCHHearingObservationVS",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/95744-9.html\">95744-9</a></td><td>Hearing ability to hear during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/54599-6.html\">54599-6</a></td><td>Hearing aid used during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/67235-2.html\">67235-2</a></td><td>Does the examinee have hearing aids that cannot be removed [PhenX]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/94900-8.html\">94900-8</a></td><td>Need for and availability of a hearing aid [CMS Assessment]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/67467-1.html\">67467-1</a></td><td>In which ear(s) do you have a hearing difficulty?</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/67242-8.html\">67242-8</a></td><td>Do you hear better in one ear than the other [PhenX]</td></tr></table></li><li>Import all the codes that are contained in <a href=\"ValueSet-SPLASCHPureToneThresholdAudiometryPanel.html\">http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHPureToneThresholdAudiometryPanel</a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/95744-9.html\">95744-9</a></td><td>Hearing ability to hear during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/54599-6.html\">54599-6</a></td><td>Hearing aid used during assessment period [CMS Assessment]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/67235-2.html\">67235-2</a></td><td>Does the examinee have hearing aids that cannot be removed [PhenX]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/94900-8.html\">94900-8</a></td><td>Need for and availability of a hearing aid [CMS Assessment]</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/67467-1.html\">67467-1</a></td><td>In which ear(s) do you have a hearing difficulty?</td></tr><tr><td><a href=\"http://details.loinc.org/LOINC/67242-8.html\">67242-8</a></td><td>Do you hear better in one ear than the other [PhenX]</td></tr></table></li><li>Import all the codes that are contained in <a href=\"ValueSet-SPLASCHPureToneThresholdAudiometryPanel.html\">http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHPureToneThresholdAudiometryPanel</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-SPLASCHDiagnosticAudiologyResultsPanel.html\">http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHDiagnosticAudiologyResultsPanel</a></li></ul></div>"
   },
   "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHHearingObservationVS",
   "version": "0.1.0",
   "name": "SPLASCHHearingObservationVS",
   "title": "Hearing Observation",
   "status": "active",
-  "date": "2022-04-15T08:42:50-04:00",
+  "date": "2022-04-15T09:25:37-04:00",
   "publisher": "HL7 Patient Care Working Group",
   "contact": [
     {
@@ -86,6 +86,11 @@
       {
         "valueSet": [
           "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHPureToneThresholdAudiometryPanel"
+        ]
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHDiagnosticAudiologyResultsPanel"
         ]
       }
     ]

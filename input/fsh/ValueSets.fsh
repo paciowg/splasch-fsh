@@ -157,6 +157,34 @@ Description: "Yes or No"
 * ^copyright = "This CodeSystem is not copyrighted."
 
 
+ValueSet: HearingLossType
+Title: "Hearing Loss - Type"
+Description: "Type of hearing loss"
+//note: from answer list LL6015-3
+* include $LOINC#LA32484-0 "No hearing loss"
+* include $LOINC#LA32485-7 "Sensorineural"
+* include $LOINC#LA32486-5 "Conductive - transient"
+* include $LOINC#LA32487-3 "Conductive - permanent"
+* include $LOINC#LA32488-1 "Conductive - undetermined"
+* include $LOINC#LA11840-8 "Mixed"
+* include $LOINC#LA32489-9 "Auditory neuropahty/Neural"
+* include $LOINC#LA32490-7 "Undetermined/Inconclusive"
+
+
+ValueSet: HearingLossDegree
+Title: "Hearing Loss - Degree"
+Description: "Degree of hearing loss"
+//note: from answer list LL6016-1
+* include $LOINC#LA32484-0 "No hearing loss"
+* include $LOINC#LA32491-5 "Slight (16-25 dB HL)"
+* include $LOINC#LA32492-3 "Mild (26-40 dB HL)"
+* include $LOINC#LA32493-1 "Moderate (41-55 dB HL)"
+* include $LOINC#LA32494-9 "Moderately severe (56-70 dB HL)"
+* include $LOINC#LA32495-6 "Severe (71-90 dB HL)"
+* include $LOINC#LA32496-4 "Profound (91+ dB HL)"
+* include $LOINC#LA14100-4 "Undetermined"
+
+
 ValueSet: CmsFasiAssistiveDevicesVS
 Title: "CMS FASI Assistive Devices" 
 Description: "SPLASCH hearing observation codes representing answers to need for and availability of a hearing aid"

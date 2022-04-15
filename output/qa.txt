@@ -3,7 +3,7 @@
 
 err = 315, warn = 15, info = 162
 IG Publisher Version: 1.1.88 Out of date - current version is 1.1.115
-Generated Fri Apr 15 08:46:19 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio-splasch#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-splasch)
+Generated Fri Apr 15 09:28:50 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio-splasch#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-splasch)
  Build Errors : 1 / 1 / 0
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHCaloriePercentageCategoryCS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHLiquidDietCS : 0 / 0 / 1
@@ -216,6 +216,8 @@ Generated Fri Apr 15 08:46:19 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-CmsFasiAssistiveDevicesVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-HearBetterInOneEarVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-HearingAbilityToHearDuringAssessmentPeriodVS : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-HearingLossDegree : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-HearingLossType : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-LeftRightBothVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHAbilityToHearDuringAssessmentTypeObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHCaloriePercentageTypeObservationVS : 0 / 0 / 1
@@ -944,6 +946,8 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-splasch/S
 == fsh-generated\resources\ValueSet-CmsFasiAssistiveDevicesVS.json ==
 == fsh-generated\resources\ValueSet-HearBetterInOneEarVS.json ==
 == fsh-generated\resources\ValueSet-HearingAbilityToHearDuringAssessmentPeriodVS.json ==
+== fsh-generated\resources\ValueSet-HearingLossDegree.json ==
+== fsh-generated\resources\ValueSet-HearingLossType.json ==
 == fsh-generated\resources\ValueSet-LeftRightBothVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHAbilityToHearDuringAssessmentTypeObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHCaloriePercentageTypeObservationVS.json ==

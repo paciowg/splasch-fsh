@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "73d1b5ca-30da-482b-ab2f-cab7583f3583",
+  "id" : "b5938f97-8447-4180-887a-01df1f35bbd4",
   "meta" : {
-    "lastUpdated" : "2022-04-15T08:42:50.865-04:00"
+    "lastUpdated" : "2022-04-15T09:25:37.595-04:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -145,6 +145,214 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingLossDegree",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "HearingLossDegree",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 8 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.72</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32484-0\"> </a><a href=\"http://details.loinc.org/LOINC/LA32484-0.html\">LA32484-0</a></td><td>No hearing loss</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32491-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA32491-5.html\">LA32491-5</a></td><td>Slight (16-25 dB HL)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32492-3\"> </a><a href=\"http://details.loinc.org/LOINC/LA32492-3.html\">LA32492-3</a></td><td>Mild (26-40 dB HL)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32493-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA32493-1.html\">LA32493-1</a></td><td>Moderate (41-55 dB HL)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32494-9\"> </a><a href=\"http://details.loinc.org/LOINC/LA32494-9.html\">LA32494-9</a></td><td>Moderately severe (56-70 dB HL)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32495-6\"> </a><a href=\"http://details.loinc.org/LOINC/LA32495-6.html\">LA32495-6</a></td><td>Severe (71-90 dB HL)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32496-4\"> </a><a href=\"http://details.loinc.org/LOINC/LA32496-4.html\">LA32496-4</a></td><td>Profound (91+ dB HL)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA14100-4\"> </a><a href=\"http://details.loinc.org/LOINC/LA14100-4.html\">LA14100-4</a></td><td>Undetermined</td><td/></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingLossDegree",
+      "version" : "0.1.0",
+      "name" : "HearingLossDegree",
+      "title" : "Hearing Loss - Degree",
+      "status" : "active",
+      "date" : "2022-04-15T09:25:37-04:00",
+      "publisher" : "HL7 Patient Care Working Group",
+      "contact" : [{
+        "name" : "HL7 Patient Care Working Group",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/patientcare"
+        },
+        {
+          "system" : "email",
+          "value" : "patients@lists.HL7.org"
+        }]
+      },
+      {
+        "name" : "PACIO project",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/patientcare"
+        },
+        {
+          "system" : "email",
+          "value" : "info@pacioproject.org"
+        }]
+      }],
+      "description" : "Degree of hearing loss",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:17205352-f15a-43f5-804b-0cc24fc611f5",
+        "timestamp" : "2022-04-15T09:27:33-04:00",
+        "total" : 8,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://loinc.org|2.72"
+        }],
+        "contains" : [{
+          "system" : "http://loinc.org",
+          "code" : "LA32484-0",
+          "display" : "No hearing loss"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA32491-5",
+          "display" : "Slight (16-25 dB HL)"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA32492-3",
+          "display" : "Mild (26-40 dB HL)"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA32493-1",
+          "display" : "Moderate (41-55 dB HL)"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA32494-9",
+          "display" : "Moderately severe (56-70 dB HL)"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA32495-6",
+          "display" : "Severe (71-90 dB HL)"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA32496-4",
+          "display" : "Profound (91+ dB HL)"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA14100-4",
+          "display" : "Undetermined"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingLossType",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "HearingLossType",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 8 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.72</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32484-0\"> </a><a href=\"http://details.loinc.org/LOINC/LA32484-0.html\">LA32484-0</a></td><td>No hearing loss</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32485-7\"> </a><a href=\"http://details.loinc.org/LOINC/LA32485-7.html\">LA32485-7</a></td><td>Sensorineural</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32486-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA32486-5.html\">LA32486-5</a></td><td>Conductive - transient</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32487-3\"> </a><a href=\"http://details.loinc.org/LOINC/LA32487-3.html\">LA32487-3</a></td><td>Conductive - permanent</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32488-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA32488-1.html\">LA32488-1</a></td><td>Conductive - undetermined</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA11840-8\"> </a><a href=\"http://details.loinc.org/LOINC/LA11840-8.html\">LA11840-8</a></td><td>Mixed</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32489-9\"> </a><a href=\"http://details.loinc.org/LOINC/LA32489-9.html\">LA32489-9</a></td><td>Auditory neuropahty/Neural</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA32490-7\"> </a><a href=\"http://details.loinc.org/LOINC/LA32490-7.html\">LA32490-7</a></td><td>Undetermined/Inconclusive</td><td/></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingLossType",
+      "version" : "0.1.0",
+      "name" : "HearingLossType",
+      "title" : "Hearing Loss - Type",
+      "status" : "active",
+      "date" : "2022-04-15T09:25:37-04:00",
+      "publisher" : "HL7 Patient Care Working Group",
+      "contact" : [{
+        "name" : "HL7 Patient Care Working Group",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/patientcare"
+        },
+        {
+          "system" : "email",
+          "value" : "patients@lists.HL7.org"
+        }]
+      },
+      {
+        "name" : "PACIO project",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/patientcare"
+        },
+        {
+          "system" : "email",
+          "value" : "info@pacioproject.org"
+        }]
+      }],
+      "description" : "Type of hearing loss",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:20a8b57f-2fa5-4d3d-90ce-fbc62986cbb0",
+        "timestamp" : "2022-04-15T09:27:33-04:00",
+        "total" : 8,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://loinc.org|2.72"
+        }],
+        "contains" : [{
+          "system" : "http://loinc.org",
+          "code" : "LA32484-0",
+          "display" : "No hearing loss"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA32485-7",
+          "display" : "Sensorineural"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA32486-5",
+          "display" : "Conductive - transient"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA32487-3",
+          "display" : "Conductive - permanent"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA32488-1",
+          "display" : "Conductive - undetermined"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA11840-8",
+          "display" : "Mixed"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA32489-9",
+          "display" : "Auditory neuropahty/Neural"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA32490-7",
+          "display" : "Undetermined/Inconclusive"
+        }]
+      }
+    }
+  },
+  {
     "resource" : {
       "resourceType" : "ValueSet",
       "language" : "en",
@@ -224,7 +432,7 @@
       "name" : "SPLASCHCaloriePercentageTypeObservationVS",
       "title" : "Calorie Percentage Type Observation",
       "status" : "active",
-      "date" : "2022-04-15T08:42:50-04:00",
+      "date" : "2022-04-15T09:25:37-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -257,8 +465,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:8ef76c23-0c04-4ce1-a829-a0e98d63d580",
-        "timestamp" : "2022-04-15T08:44:46-04:00",
+        "identifier" : "urn:uuid:09028372-3275-41bf-93a7-72712a0687ee",
+        "timestamp" : "2022-04-15T09:27:33-04:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -277,60 +485,18 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHDiagnosticAudiologyResultsPanel",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "SPLASCHDiagnosticAudiologyResultsPanel",
+      "language" : "en",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 27 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.72</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98419-5\"> </a><a href=\"http://details.loinc.org/LOINC/98419-5.html\">98419-5</a></td><td>Diagnostic audiology test performed</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98480-7\"> </a><a href=\"http://details.loinc.org/LOINC/98480-7.html\">98480-7</a></td><td>Auditory brainstem response panel</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98481-5\"> </a><a href=\"http://details.loinc.org/LOINC/98481-5.html\">98481-5</a></td><td>Auditory brainstem response threshold Ear - left --click</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98482-3\"> </a><a href=\"http://details.loinc.org/LOINC/98482-3.html\">98482-3</a></td><td>Auditory brainstem response threshold Ear - right --click</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89024-4\"> </a><a href=\"http://details.loinc.org/LOINC/89024-4.html\">89024-4</a></td><td>Hearing threshold Ear - left --500 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89025-1\"> </a><a href=\"http://details.loinc.org/LOINC/89025-1.html\">89025-1</a></td><td>Hearing threshold Ear - right --500 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89016-0\"> </a><a href=\"http://details.loinc.org/LOINC/89016-0.html\">89016-0</a></td><td>Hearing threshold Ear - left --1000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89017-8\"> </a><a href=\"http://details.loinc.org/LOINC/89017-8.html\">89017-8</a></td><td>Hearing threshold Ear - right --1000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89018-6\"> </a><a href=\"http://details.loinc.org/LOINC/89018-6.html\">89018-6</a></td><td>Hearing threshold Ear - left --2000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89019-4\"> </a><a href=\"http://details.loinc.org/LOINC/89019-4.html\">89019-4</a></td><td>Hearing threshold Ear - right --2000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89020-2\"> </a><a href=\"http://details.loinc.org/LOINC/89020-2.html\">89020-2</a></td><td>Hearing threshold Ear - left --3000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89021-0\"> </a><a href=\"http://details.loinc.org/LOINC/89021-0.html\">89021-0</a></td><td>Hearing threshold Ear - right --3000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89022-8\"> </a><a href=\"http://details.loinc.org/LOINC/89022-8.html\">89022-8</a></td><td>Hearing threshold Ear - left --4000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89023-6\"> </a><a href=\"http://details.loinc.org/LOINC/89023-6.html\">89023-6</a></td><td>Hearing threshold Ear - right --4000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98421-1\"> </a><a href=\"http://details.loinc.org/LOINC/98421-1.html\">98421-1</a></td><td>Hearing loss type Ear - left</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98426-0\"> </a><a href=\"http://details.loinc.org/LOINC/98426-0.html\">98426-0</a></td><td>Hearing loss type Ear - right</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98425-2\"> </a><a href=\"http://details.loinc.org/LOINC/98425-2.html\">98425-2</a></td><td>Hearing loss configuration Ear - left</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98430-2\"> </a><a href=\"http://details.loinc.org/LOINC/98430-2.html\">98430-2</a></td><td>Hearing loss configuration Ear - right</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98422-9\"> </a><a href=\"http://details.loinc.org/LOINC/98422-9.html\">98422-9</a></td><td>Hearing loss degree Ear - left</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98427-8\"> </a><a href=\"http://details.loinc.org/LOINC/98427-8.html\">98427-8</a></td><td>Hearing loss degree Ear - right</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98424-5\"> </a><a href=\"http://details.loinc.org/LOINC/98424-5.html\">98424-5</a></td><td>Hearing loss degree.max Ear - left</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98429-4\"> </a><a href=\"http://details.loinc.org/LOINC/98429-4.html\">98429-4</a></td><td>Hearing loss degree.max Ear - right</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98423-7\"> </a><a href=\"http://details.loinc.org/LOINC/98423-7.html\">98423-7</a></td><td>Hearing loss degree.min Ear - left</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98428-6\"> </a><a href=\"http://details.loinc.org/LOINC/98428-6.html\">98428-6</a></td><td>Hearing loss degree.min Ear - right</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98420-3\"> </a><a href=\"http://details.loinc.org/LOINC/98420-3.html\">98420-3</a></td><td>Audiology Comment Narrative</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98431-0\"> </a><a href=\"http://details.loinc.org/LOINC/98431-0.html\">98431-0</a></td><td>Diagnostic audiology follow-up recommendation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98432-8\"> </a><a href=\"http://details.loinc.org/LOINC/98432-8.html\">98432-8</a></td><td>Reason diagnostic audiology assessment not performed</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>This value set contains 27 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.72</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98419-5\"> </a><a href=\"http://details.loinc.org/LOINC/98419-5.html\">98419-5</a></td><td>Diagnostic audiology test performed</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98480-7\"> </a><a href=\"http://details.loinc.org/LOINC/98480-7.html\">98480-7</a></td><td>Auditory brainstem response panel</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98481-5\"> </a><a href=\"http://details.loinc.org/LOINC/98481-5.html\">98481-5</a></td><td>Auditory brainstem response threshold Ear - left --click</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98482-3\"> </a><a href=\"http://details.loinc.org/LOINC/98482-3.html\">98482-3</a></td><td>Auditory brainstem response threshold Ear - right --click</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89024-4\"> </a><a href=\"http://details.loinc.org/LOINC/89024-4.html\">89024-4</a></td><td>Hearing threshold Ear - left --500 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89025-1\"> </a><a href=\"http://details.loinc.org/LOINC/89025-1.html\">89025-1</a></td><td>Hearing threshold Ear - right --500 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89016-0\"> </a><a href=\"http://details.loinc.org/LOINC/89016-0.html\">89016-0</a></td><td>Hearing threshold Ear - left --1000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89017-8\"> </a><a href=\"http://details.loinc.org/LOINC/89017-8.html\">89017-8</a></td><td>Hearing threshold Ear - right --1000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89018-6\"> </a><a href=\"http://details.loinc.org/LOINC/89018-6.html\">89018-6</a></td><td>Hearing threshold Ear - left --2000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89019-4\"> </a><a href=\"http://details.loinc.org/LOINC/89019-4.html\">89019-4</a></td><td>Hearing threshold Ear - right --2000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89020-2\"> </a><a href=\"http://details.loinc.org/LOINC/89020-2.html\">89020-2</a></td><td>Hearing threshold Ear - left --3000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89021-0\"> </a><a href=\"http://details.loinc.org/LOINC/89021-0.html\">89021-0</a></td><td>Hearing threshold Ear - right --3000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89022-8\"> </a><a href=\"http://details.loinc.org/LOINC/89022-8.html\">89022-8</a></td><td>Hearing threshold Ear - left --4000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89023-6\"> </a><a href=\"http://details.loinc.org/LOINC/89023-6.html\">89023-6</a></td><td>Hearing threshold Ear - right --4000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98421-1\"> </a><a href=\"http://details.loinc.org/LOINC/98421-1.html\">98421-1</a></td><td>Hearing loss type Ear - left</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98426-0\"> </a><a href=\"http://details.loinc.org/LOINC/98426-0.html\">98426-0</a></td><td>Hearing loss type Ear - right</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98425-2\"> </a><a href=\"http://details.loinc.org/LOINC/98425-2.html\">98425-2</a></td><td>Hearing loss configuration Ear - left</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98430-2\"> </a><a href=\"http://details.loinc.org/LOINC/98430-2.html\">98430-2</a></td><td>Hearing loss configuration Ear - right</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98422-9\"> </a><a href=\"http://details.loinc.org/LOINC/98422-9.html\">98422-9</a></td><td>Hearing loss degree Ear - left</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98427-8\"> </a><a href=\"http://details.loinc.org/LOINC/98427-8.html\">98427-8</a></td><td>Hearing loss degree Ear - right</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98424-5\"> </a><a href=\"http://details.loinc.org/LOINC/98424-5.html\">98424-5</a></td><td>Hearing loss degree.max Ear - left</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98429-4\"> </a><a href=\"http://details.loinc.org/LOINC/98429-4.html\">98429-4</a></td><td>Hearing loss degree.max Ear - right</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98423-7\"> </a><a href=\"http://details.loinc.org/LOINC/98423-7.html\">98423-7</a></td><td>Hearing loss degree.min Ear - left</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98428-6\"> </a><a href=\"http://details.loinc.org/LOINC/98428-6.html\">98428-6</a></td><td>Hearing loss degree.min Ear - right</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98420-3\"> </a><a href=\"http://details.loinc.org/LOINC/98420-3.html\">98420-3</a></td><td>Audiology Comment Narrative</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98431-0\"> </a><a href=\"http://details.loinc.org/LOINC/98431-0.html\">98431-0</a></td><td>Diagnostic audiology follow-up recommendation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98432-8\"> </a><a href=\"http://details.loinc.org/LOINC/98432-8.html\">98432-8</a></td><td>Reason diagnostic audiology assessment not performed</td><td/></tr></table></div>"
       },
-      "url" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHDiagnosticAudiologyResultsPanel",
-      "version" : "0.1.0",
-      "name" : "SPLASCHDiagnosticAudiologyResultsPanel",
-      "title" : "Diagnostic Audiology Results Panel",
       "status" : "active",
-      "date" : "2022-04-15T08:42:50-04:00",
-      "publisher" : "HL7 Patient Care Working Group",
-      "contact" : [{
-        "name" : "HL7 Patient Care Working Group",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/patientcare"
-        },
-        {
-          "system" : "email",
-          "value" : "patients@lists.HL7.org"
-        }]
-      },
-      {
-        "name" : "PACIO project",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/patientcare"
-        },
-        {
-          "system" : "email",
-          "value" : "info@pacioproject.org"
-        }]
-      }],
-      "description" : "Codes representing panel LOINC 98418-7 Diagnostic Audiology Results Panel",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "US"
-        }]
-      }],
-      "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:97b324f6-a9ee-473c-89c4-f05646ad99a6",
-        "timestamp" : "2022-04-15T08:44:46-04:00",
-        "total" : 27,
+        "identifier" : "urn:uuid:ed9829eb-14aa-4026-b3d3-ade0e4e90dd2",
+        "timestamp" : "2022-04-15T12:44:46.283Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueBoolean" : true
         },
@@ -490,7 +656,7 @@
       "name" : "SPLASCHFrequencyObservationVS",
       "title" : "SPLASCH Frequency Observation Values",
       "status" : "active",
-      "date" : "2022-04-15T08:42:50-04:00",
+      "date" : "2022-04-15T09:25:37-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -523,8 +689,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:b425a1dd-0613-450d-a276-f60b15fdbfb4",
-        "timestamp" : "2022-04-15T08:44:46-04:00",
+        "identifier" : "urn:uuid:2ccdb9b6-4ae6-4d46-b32f-0f8eeb2604c4",
+        "timestamp" : "2022-04-15T09:27:34-04:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -613,7 +779,7 @@
       "name" : "SPLASCHFrequencyTypeObservationVS",
       "title" : "Frequency Type Observation",
       "status" : "active",
-      "date" : "2022-04-15T08:42:50-04:00",
+      "date" : "2022-04-15T09:25:37-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -646,8 +812,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:55dfa4e2-3f4a-41d4-b335-6290687041a6",
-        "timestamp" : "2022-04-15T08:44:46-04:00",
+        "identifier" : "urn:uuid:9059fafd-1688-473b-84a6-466e33826542",
+        "timestamp" : "2022-04-15T09:27:34-04:00",
         "total" : 15,
         "parameter" : [{
           "name" : "excludeNested",
@@ -813,7 +979,7 @@
       "name" : "SPLASCHHearingObservationValueVS",
       "title" : "Hearing Observation Value",
       "status" : "active",
-      "date" : "2022-04-15T08:42:50-04:00",
+      "date" : "2022-04-15T09:25:37-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -846,8 +1012,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:c9fea04f-c0eb-4804-8a18-91c8d074dca8",
-        "timestamp" : "2022-04-15T08:44:47-04:00",
+        "identifier" : "urn:uuid:26f8a6a2-57e1-4a9c-8313-1449ea2025cc",
+        "timestamp" : "2022-04-15T09:27:35-04:00",
         "total" : 18,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1017,14 +1183,14 @@
       "id" : "SPLASCHHearingObservationVS",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 28 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"ValueSet-SPLASCHPureToneThresholdAudiometryPanel.html\">Pure tone threshold audiometry panel v0.1.0 (ValueSet)</a></li><li>Loinc v2.72</li><li>Loinc v2.71</li></ul></div><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-95744-9\"> </a><a href=\"http://details.loinc.org/LOINC/95744-9.html\">95744-9</a></td><td>Hearing ability to hear during assessment period [CMS Assessment]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-54599-6\"> </a><a href=\"http://details.loinc.org/LOINC/54599-6.html\">54599-6</a></td><td>Hearing aid used during assessment period [CMS Assessment]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-67235-2\"> </a><a href=\"http://details.loinc.org/LOINC/67235-2.html\">67235-2</a></td><td>Does the examinee have hearing aids that cannot be removed [PhenX]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-94900-8\"> </a><a href=\"http://details.loinc.org/LOINC/94900-8.html\">94900-8</a></td><td>Need for and availability of a hearing aid [CMS Assessment]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-67467-1\"> </a><a href=\"http://details.loinc.org/LOINC/67467-1.html\">67467-1</a></td><td>In which ear(s) do you have a hearing difficulty?</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-67242-8\"> </a><a href=\"http://details.loinc.org/LOINC/67242-8.html\">67242-8</a></td><td>Do you hear better in one ear than the other [PhenX]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-91375-6\"> </a><a href=\"http://details.loinc.org/LOINC/91375-6.html\">91375-6</a></td><td>Hearing threshold Ear - left --250 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89024-4\"> </a><a href=\"http://details.loinc.org/LOINC/89024-4.html\">89024-4</a></td><td>Hearing threshold Ear - left --500 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-91379-8\"> </a><a href=\"http://details.loinc.org/LOINC/91379-8.html\">91379-8</a></td><td>Hearing threshold Ear - left --750 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89016-0\"> </a><a href=\"http://details.loinc.org/LOINC/89016-0.html\">89016-0</a></td><td>Hearing threshold Ear - left --1000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-91373-1\"> </a><a href=\"http://details.loinc.org/LOINC/91373-1.html\">91373-1</a></td><td>Hearing threshold Ear - left --1500 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89018-6\"> </a><a href=\"http://details.loinc.org/LOINC/89018-6.html\">89018-6</a></td><td>Hearing threshold Ear - left --2000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89020-2\"> </a><a href=\"http://details.loinc.org/LOINC/89020-2.html\">89020-2</a></td><td>Hearing threshold Ear - left --3000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89022-8\"> </a><a href=\"http://details.loinc.org/LOINC/89022-8.html\">89022-8</a></td><td>Hearing threshold Ear - left --4000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-91377-2\"> </a><a href=\"http://details.loinc.org/LOINC/91377-2.html\">91377-2</a></td><td>Hearing threshold Ear - left --5000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89026-9\"> </a><a href=\"http://details.loinc.org/LOINC/89026-9.html\">89026-9</a></td><td>Hearing threshold Ear - left --6000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89028-5\"> </a><a href=\"http://details.loinc.org/LOINC/89028-5.html\">89028-5</a></td><td>Hearing threshold Ear - left --8000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-91374-9\"> </a><a href=\"http://details.loinc.org/LOINC/91374-9.html\">91374-9</a></td><td>Hearing threshold Ear - right --250 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89025-1\"> </a><a href=\"http://details.loinc.org/LOINC/89025-1.html\">89025-1</a></td><td>Hearing threshold Ear - right --500 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-91378-0\"> </a><a href=\"http://details.loinc.org/LOINC/91378-0.html\">91378-0</a></td><td>Hearing threshold Ear - right --750 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89017-8\"> </a><a href=\"http://details.loinc.org/LOINC/89017-8.html\">89017-8</a></td><td>Hearing threshold Ear - right --1000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-91372-3\"> </a><a href=\"http://details.loinc.org/LOINC/91372-3.html\">91372-3</a></td><td>Hearing threshold Ear - right --1500 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89019-4\"> </a><a href=\"http://details.loinc.org/LOINC/89019-4.html\">89019-4</a></td><td>Hearing threshold Ear - right --2000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89021-0\"> </a><a href=\"http://details.loinc.org/LOINC/89021-0.html\">89021-0</a></td><td>Hearing threshold Ear - right --3000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89023-6\"> </a><a href=\"http://details.loinc.org/LOINC/89023-6.html\">89023-6</a></td><td>Hearing threshold Ear - right --4000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-91376-4\"> </a><a href=\"http://details.loinc.org/LOINC/91376-4.html\">91376-4</a></td><td>Hearing threshold Ear - right --5000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89027-7\"> </a><a href=\"http://details.loinc.org/LOINC/89027-7.html\">89027-7</a></td><td>Hearing threshold Ear - right --6000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89029-3\"> </a><a href=\"http://details.loinc.org/LOINC/89029-3.html\">89029-3</a></td><td>Hearing threshold Ear - right --8000 Hz</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 45 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"ValueSet-SPLASCHPureToneThresholdAudiometryPanel.html\">Pure tone threshold audiometry panel v0.1.0 (ValueSet)</a></li><li>Loinc v2.72</li><li>Loinc v2.71</li><li><a href=\"ValueSet-SPLASCHDiagnosticAudiologyResultsPanel.html\">Diagnostic Audiology Results Panel v0.1.0 (ValueSet)</a></li></ul></div><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-95744-9\"> </a><a href=\"http://details.loinc.org/LOINC/95744-9.html\">95744-9</a></td><td>Hearing ability to hear during assessment period [CMS Assessment]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-54599-6\"> </a><a href=\"http://details.loinc.org/LOINC/54599-6.html\">54599-6</a></td><td>Hearing aid used during assessment period [CMS Assessment]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-67235-2\"> </a><a href=\"http://details.loinc.org/LOINC/67235-2.html\">67235-2</a></td><td>Does the examinee have hearing aids that cannot be removed [PhenX]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-94900-8\"> </a><a href=\"http://details.loinc.org/LOINC/94900-8.html\">94900-8</a></td><td>Need for and availability of a hearing aid [CMS Assessment]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-67467-1\"> </a><a href=\"http://details.loinc.org/LOINC/67467-1.html\">67467-1</a></td><td>In which ear(s) do you have a hearing difficulty?</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-67242-8\"> </a><a href=\"http://details.loinc.org/LOINC/67242-8.html\">67242-8</a></td><td>Do you hear better in one ear than the other [PhenX]</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-91375-6\"> </a><a href=\"http://details.loinc.org/LOINC/91375-6.html\">91375-6</a></td><td>Hearing threshold Ear - left --250 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89024-4\"> </a><a href=\"http://details.loinc.org/LOINC/89024-4.html\">89024-4</a></td><td>Hearing threshold Ear - left --500 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-91379-8\"> </a><a href=\"http://details.loinc.org/LOINC/91379-8.html\">91379-8</a></td><td>Hearing threshold Ear - left --750 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89016-0\"> </a><a href=\"http://details.loinc.org/LOINC/89016-0.html\">89016-0</a></td><td>Hearing threshold Ear - left --1000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-91373-1\"> </a><a href=\"http://details.loinc.org/LOINC/91373-1.html\">91373-1</a></td><td>Hearing threshold Ear - left --1500 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89018-6\"> </a><a href=\"http://details.loinc.org/LOINC/89018-6.html\">89018-6</a></td><td>Hearing threshold Ear - left --2000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89020-2\"> </a><a href=\"http://details.loinc.org/LOINC/89020-2.html\">89020-2</a></td><td>Hearing threshold Ear - left --3000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89022-8\"> </a><a href=\"http://details.loinc.org/LOINC/89022-8.html\">89022-8</a></td><td>Hearing threshold Ear - left --4000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-91377-2\"> </a><a href=\"http://details.loinc.org/LOINC/91377-2.html\">91377-2</a></td><td>Hearing threshold Ear - left --5000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89026-9\"> </a><a href=\"http://details.loinc.org/LOINC/89026-9.html\">89026-9</a></td><td>Hearing threshold Ear - left --6000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89028-5\"> </a><a href=\"http://details.loinc.org/LOINC/89028-5.html\">89028-5</a></td><td>Hearing threshold Ear - left --8000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-91374-9\"> </a><a href=\"http://details.loinc.org/LOINC/91374-9.html\">91374-9</a></td><td>Hearing threshold Ear - right --250 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89025-1\"> </a><a href=\"http://details.loinc.org/LOINC/89025-1.html\">89025-1</a></td><td>Hearing threshold Ear - right --500 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-91378-0\"> </a><a href=\"http://details.loinc.org/LOINC/91378-0.html\">91378-0</a></td><td>Hearing threshold Ear - right --750 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89017-8\"> </a><a href=\"http://details.loinc.org/LOINC/89017-8.html\">89017-8</a></td><td>Hearing threshold Ear - right --1000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-91372-3\"> </a><a href=\"http://details.loinc.org/LOINC/91372-3.html\">91372-3</a></td><td>Hearing threshold Ear - right --1500 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89019-4\"> </a><a href=\"http://details.loinc.org/LOINC/89019-4.html\">89019-4</a></td><td>Hearing threshold Ear - right --2000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89021-0\"> </a><a href=\"http://details.loinc.org/LOINC/89021-0.html\">89021-0</a></td><td>Hearing threshold Ear - right --3000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89023-6\"> </a><a href=\"http://details.loinc.org/LOINC/89023-6.html\">89023-6</a></td><td>Hearing threshold Ear - right --4000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-91376-4\"> </a><a href=\"http://details.loinc.org/LOINC/91376-4.html\">91376-4</a></td><td>Hearing threshold Ear - right --5000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89027-7\"> </a><a href=\"http://details.loinc.org/LOINC/89027-7.html\">89027-7</a></td><td>Hearing threshold Ear - right --6000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-89029-3\"> </a><a href=\"http://details.loinc.org/LOINC/89029-3.html\">89029-3</a></td><td>Hearing threshold Ear - right --8000 Hz</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98419-5\"> </a><a href=\"http://details.loinc.org/LOINC/98419-5.html\">98419-5</a></td><td>Diagnostic audiology test performed</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98480-7\"> </a><a href=\"http://details.loinc.org/LOINC/98480-7.html\">98480-7</a></td><td>Auditory brainstem response panel</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98481-5\"> </a><a href=\"http://details.loinc.org/LOINC/98481-5.html\">98481-5</a></td><td>Auditory brainstem response threshold Ear - left --click</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98482-3\"> </a><a href=\"http://details.loinc.org/LOINC/98482-3.html\">98482-3</a></td><td>Auditory brainstem response threshold Ear - right --click</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98421-1\"> </a><a href=\"http://details.loinc.org/LOINC/98421-1.html\">98421-1</a></td><td>Hearing loss type Ear - left</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98426-0\"> </a><a href=\"http://details.loinc.org/LOINC/98426-0.html\">98426-0</a></td><td>Hearing loss type Ear - right</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98425-2\"> </a><a href=\"http://details.loinc.org/LOINC/98425-2.html\">98425-2</a></td><td>Hearing loss configuration Ear - left</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98430-2\"> </a><a href=\"http://details.loinc.org/LOINC/98430-2.html\">98430-2</a></td><td>Hearing loss configuration Ear - right</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98422-9\"> </a><a href=\"http://details.loinc.org/LOINC/98422-9.html\">98422-9</a></td><td>Hearing loss degree Ear - left</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98427-8\"> </a><a href=\"http://details.loinc.org/LOINC/98427-8.html\">98427-8</a></td><td>Hearing loss degree Ear - right</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98424-5\"> </a><a href=\"http://details.loinc.org/LOINC/98424-5.html\">98424-5</a></td><td>Hearing loss degree.max Ear - left</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98429-4\"> </a><a href=\"http://details.loinc.org/LOINC/98429-4.html\">98429-4</a></td><td>Hearing loss degree.max Ear - right</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98423-7\"> </a><a href=\"http://details.loinc.org/LOINC/98423-7.html\">98423-7</a></td><td>Hearing loss degree.min Ear - left</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98428-6\"> </a><a href=\"http://details.loinc.org/LOINC/98428-6.html\">98428-6</a></td><td>Hearing loss degree.min Ear - right</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98420-3\"> </a><a href=\"http://details.loinc.org/LOINC/98420-3.html\">98420-3</a></td><td>Audiology Comment Narrative</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98431-0\"> </a><a href=\"http://details.loinc.org/LOINC/98431-0.html\">98431-0</a></td><td>Diagnostic audiology follow-up recommendation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-98432-8\"> </a><a href=\"http://details.loinc.org/LOINC/98432-8.html\">98432-8</a></td><td>Reason diagnostic audiology assessment not performed</td><td/></tr></table></div>"
       },
       "url" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHHearingObservationVS",
       "version" : "0.1.0",
       "name" : "SPLASCHHearingObservationVS",
       "title" : "Hearing Observation",
       "status" : "active",
-      "date" : "2022-04-15T08:42:50-04:00",
+      "date" : "2022-04-15T09:25:37-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -1057,9 +1223,9 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:4e51a50e-a97e-4bc2-a4fe-77dcad6c50cf",
-        "timestamp" : "2022-04-15T08:44:47-04:00",
-        "total" : 28,
+        "identifier" : "urn:uuid:7bf35849-2d0f-4a47-90e7-d23aa24cf740",
+        "timestamp" : "2022-04-15T09:27:35-04:00",
+        "total" : 45,
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -1079,6 +1245,10 @@
         {
           "name" : "version",
           "valueUri" : "http://loinc.org|2.72"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHDiagnosticAudiologyResultsPanel|0.1.0"
         }],
         "contains" : [{
           "system" : "http://loinc.org",
@@ -1263,6 +1433,125 @@
           "inactive" : false,
           "code" : "89029-3",
           "display" : "Hearing threshold Ear - right --8000 Hz"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "98419-5",
+          "display" : "Diagnostic audiology test performed"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "98480-7",
+          "display" : "Auditory brainstem response panel"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "98481-5",
+          "display" : "Auditory brainstem response threshold Ear - left --click"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "98482-3",
+          "display" : "Auditory brainstem response threshold Ear - right --click"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "98421-1",
+          "display" : "Hearing loss type Ear - left"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "98426-0",
+          "display" : "Hearing loss type Ear - right"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "98425-2",
+          "display" : "Hearing loss configuration Ear - left"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "98430-2",
+          "display" : "Hearing loss configuration Ear - right"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "98422-9",
+          "display" : "Hearing loss degree Ear - left"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "98427-8",
+          "display" : "Hearing loss degree Ear - right"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "98424-5",
+          "display" : "Hearing loss degree.max Ear - left"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "98429-4",
+          "display" : "Hearing loss degree.max Ear - right"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "98423-7",
+          "display" : "Hearing loss degree.min Ear - left"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "98428-6",
+          "display" : "Hearing loss degree.min Ear - right"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "98420-3",
+          "display" : "Audiology Comment Narrative"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "98431-0",
+          "display" : "Diagnostic audiology follow-up recommendation"
+        },
+        {
+          "system" : "http://loinc.org",
+          "abstract" : false,
+          "inactive" : false,
+          "code" : "98432-8",
+          "display" : "Reason diagnostic audiology assessment not performed"
         }]
       }
     }
@@ -1309,7 +1598,7 @@
       "name" : "SPLASCHLiquidDietModifierTypeObservationVS",
       "title" : "Liquid Diet Modifier Type Observation",
       "status" : "active",
-      "date" : "2022-04-15T08:42:50-04:00",
+      "date" : "2022-04-15T09:25:37-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -1342,8 +1631,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:af81ba10-3ff3-478a-8500-b2a2df7aee01",
-        "timestamp" : "2022-04-15T08:44:47-04:00",
+        "identifier" : "urn:uuid:cc79c377-09a2-4a58-a739-ffce094d4db3",
+        "timestamp" : "2022-04-15T09:27:35-04:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1375,7 +1664,7 @@
       "name" : "SPLASCHMultiModalCommunicationObservationVS",
       "title" : "Multi-Modal Communication Observation",
       "status" : "active",
-      "date" : "2022-04-15T08:42:50-04:00",
+      "date" : "2022-04-15T09:25:37-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -1408,8 +1697,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:2d3db769-c0c0-434d-8e25-755a2e2d1176",
-        "timestamp" : "2022-04-15T08:44:47-04:00",
+        "identifier" : "urn:uuid:88b27e98-c539-44da-a086-4ca34aaf4fd5",
+        "timestamp" : "2022-04-15T09:27:35-04:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1476,7 +1765,7 @@
       "name" : "SPLASCHObservationCategoryVS",
       "title" : "SPLASCH Observation Category",
       "status" : "active",
-      "date" : "2022-04-15T08:42:50-04:00",
+      "date" : "2022-04-15T09:25:37-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -1509,8 +1798,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:28226b2d-3844-4d30-ad69-bd1640b56410",
-        "timestamp" : "2022-04-15T08:44:47-04:00",
+        "identifier" : "urn:uuid:24ca09a2-18ab-4e3a-b21e-a0d7533d49da",
+        "timestamp" : "2022-04-15T09:27:35-04:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1695,7 +1984,7 @@
       "name" : "SPLASCHSolidDietModifierTypeObservationVS",
       "title" : "Solid Diet Modifier Type Observation",
       "status" : "active",
-      "date" : "2022-04-15T08:42:50-04:00",
+      "date" : "2022-04-15T09:25:37-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -1728,8 +2017,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:c3ca4d81-fbfd-4cd5-ab1d-68b937fe11b2",
-        "timestamp" : "2022-04-15T08:44:47-04:00",
+        "identifier" : "urn:uuid:bebfeb55-3fce-4f2b-96de-5cc89d8a4431",
+        "timestamp" : "2022-04-15T09:27:36-04:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1761,7 +2050,7 @@
       "name" : "SPLASCHSpeechComprehensionObservationVS",
       "title" : "Speech Comprehension Observation",
       "status" : "active",
-      "date" : "2022-04-15T08:42:50-04:00",
+      "date" : "2022-04-15T09:25:37-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -1794,8 +2083,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:6dfcd838-adc9-4a34-95fa-9997f1127f54",
-        "timestamp" : "2022-04-15T08:44:47-04:00",
+        "identifier" : "urn:uuid:435ba087-47af-4530-9d54-dfcd9836e897",
+        "timestamp" : "2022-04-15T09:27:36-04:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1852,7 +2141,7 @@
       "name" : "SPLASCHSpeechExpressionObservationVS",
       "title" : "Speech Expression Observation",
       "status" : "active",
-      "date" : "2022-04-15T08:42:50-04:00",
+      "date" : "2022-04-15T09:25:37-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -1885,8 +2174,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:b20244a7-d602-4908-8e2c-e9a1b020d49a",
-        "timestamp" : "2022-04-15T08:44:48-04:00",
+        "identifier" : "urn:uuid:b1e78c9b-6193-4d24-ae7a-b33b2959510d",
+        "timestamp" : "2022-04-15T09:27:36-04:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1948,7 +2237,7 @@
       "name" : "SPLASCHSwallowingObservationValueVS",
       "title" : "Swallowing Observation Value",
       "status" : "active",
-      "date" : "2022-04-15T08:42:50-04:00",
+      "date" : "2022-04-15T09:25:37-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -1981,8 +2270,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:ceada3b4-934b-4774-8742-0dd4468c9e29",
-        "timestamp" : "2022-04-15T08:44:48-04:00",
+        "identifier" : "urn:uuid:2850f227-caab-4d3e-b69f-06b00903a314",
+        "timestamp" : "2022-04-15T09:27:36-04:00",
         "total" : 26,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2187,7 +2476,7 @@
       "name" : "SPLASCHSwallowingObservationVS",
       "title" : "Swallowing Observation",
       "status" : "active",
-      "date" : "2022-04-15T08:42:50-04:00",
+      "date" : "2022-04-15T09:25:37-04:00",
       "publisher" : "HL7 Patient Care Working Group",
       "contact" : [{
         "name" : "HL7 Patient Care Working Group",
@@ -2220,8 +2509,8 @@
       }],
       "copyright" : "This CodeSystem is not copyrighted.",
       "expansion" : {
-        "identifier" : "urn:uuid:ff7ccf64-dd79-4a76-a0a8-931801840c4a",
-        "timestamp" : "2022-04-15T08:44:48-04:00",
+        "identifier" : "urn:uuid:afc01d38-9c32-4ab8-bd8d-9ca5b76e11d8",
+        "timestamp" : "2022-04-15T09:27:36-04:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",

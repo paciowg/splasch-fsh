@@ -11,7 +11,7 @@
   <name value="PACIOReAssessmentTimepoints"/>
   <title value="PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide"/>
   <status value="draft"/>
-  <date value="2022-04-15T08:42:50-04:00"/>
+  <date value="2022-04-15T09:25:37-04:00"/>
   <publisher value="HL7 Patient Care Working Group"/>
   <contact>
     <name value="HL7 Patient Care Working Group"/>
@@ -337,6 +337,28 @@
       </reference>
       <name value="Hearing Ability to Hear During Assessment Period"/>
       <description value="SPLASCH hearing observation codes representing answers to ability to hear during assessment period"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/HearingLossDegree"/>
+      </reference>
+      <name value="Hearing Loss - Degree"/>
+      <description value="Degree of hearing loss"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/HearingLossType"/>
+      </reference>
+      <name value="Hearing Loss - Type"/>
+      <description value="Type of hearing loss"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

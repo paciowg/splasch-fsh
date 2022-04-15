@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "f846320e-580b-4498-a09b-513454763ce0-338",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f846320e-580b-4498-a09b-513454763ce0-338",
+  "id" : "1d40bfa7-46ad-4f2a-967e-da0870a73bd6-338",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1d40bfa7-46ad-4f2a-967e-da0870a73bd6-338",
   "name" : "UnionUSCoreHeartRateProfileAndSwallowingObservation",
   "title" : "Union of US Core Heart Rate Profile And Swallowing Observation",
   "status" : "active",
-  "date" : "2022-04-15T08:44:06-04:00",
+  "date" : "2022-04-15T09:26:57-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/f846320e-580b-4498-a09b-513454763ce0-311"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/1d40bfa7-46ad-4f2a-967e-da0870a73bd6-311"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1733,7 +1733,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/f846320e-580b-4498-a09b-513454763ce0-8"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/1d40bfa7-46ad-4f2a-967e-da0870a73bd6-8"
       },
       "mapping" : [{
         "identity" : "w5",

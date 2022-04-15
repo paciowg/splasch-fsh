@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="HearingLossDegree"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://details.loinc.org/LOINC/LA32484-0.html">LA32484-0</a></td><td>No hearing loss</td></tr><tr><td><a href="http://details.loinc.org/LOINC/LA32491-5.html">LA32491-5</a></td><td>Slight (16-25 dB HL)</td></tr><tr><td><a href="http://details.loinc.org/LOINC/LA32492-3.html">LA32492-3</a></td><td>Mild (26-40 dB HL)</td></tr><tr><td><a href="http://details.loinc.org/LOINC/LA32493-1.html">LA32493-1</a></td><td>Moderate (41-55 dB HL)</td></tr><tr><td><a href="http://details.loinc.org/LOINC/LA32494-9.html">LA32494-9</a></td><td>Moderately severe (56-70 dB HL)</td></tr><tr><td><a href="http://details.loinc.org/LOINC/LA32495-6.html">LA32495-6</a></td><td>Severe (71-90 dB HL)</td></tr><tr><td><a href="http://details.loinc.org/LOINC/LA32496-4.html">LA32496-4</a></td><td>Profound (91+ dB HL)</td></tr><tr><td><a href="http://details.loinc.org/LOINC/LA14100-4.html">LA14100-4</a></td><td>Undetermined</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingLossDegree"/>
+  <version value="0.1.0"/>
+  <name value="HearingLossDegree"/>
+  <title value="Hearing Loss - Degree"/>
+  <status value="active"/>
+  <date value="2022-04-15T09:25:37-04:00"/>
+  <publisher value="HL7 Patient Care Working Group"/>
+  <contact>
+    <name value="HL7 Patient Care Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patients@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="PACIO project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@pacioproject.org"/>
+    </telecom>
+  </contact>
+  <description value="Degree of hearing loss"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="LA32484-0"/>
+        <display value="No hearing loss"/>
+      </concept>
+      <concept>
+        <code value="LA32491-5"/>
+        <display value="Slight (16-25 dB HL)"/>
+      </concept>
+      <concept>
+        <code value="LA32492-3"/>
+        <display value="Mild (26-40 dB HL)"/>
+      </concept>
+      <concept>
+        <code value="LA32493-1"/>
+        <display value="Moderate (41-55 dB HL)"/>
+      </concept>
+      <concept>
+        <code value="LA32494-9"/>
+        <display value="Moderately severe (56-70 dB HL)"/>
+      </concept>
+      <concept>
+        <code value="LA32495-6"/>
+        <display value="Severe (71-90 dB HL)"/>
+      </concept>
+      <concept>
+        <code value="LA32496-4"/>
+        <display value="Profound (91+ dB HL)"/>
+      </concept>
+      <concept>
+        <code value="LA14100-4"/>
+        <display value="Undetermined"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

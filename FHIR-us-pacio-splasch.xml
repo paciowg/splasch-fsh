@@ -297,6 +297,8 @@
 <artifact deprecated="true" id="Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-7" key="Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-7" name="HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-7"/>
 <artifact deprecated="true" id="Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-9" key="Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-9" name="HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-9"/>
 <artifact id="ValueSet/HearingAbilityToHearDuringAssessmentPeriodVS" key="ValueSet-HearingAbilityToHearDuringAssessmentPeriodVS" name="Hearing Ability to Hear During Assessment Period"/>
+<artifact id="ValueSet/HearingLossDegree" key="ValueSet-HearingLossDegree" name="Hearing Loss - Degree"/>
+<artifact id="ValueSet/HearingLossType" key="ValueSet-HearingLossType" name="Hearing Loss - Type"/>
 <artifact id="StructureDefinition/splasch-HearingObservation" key="StructureDefinition-splasch-HearingObservation" name="Hearing Observation"/>
 <artifact id="ValueSet/SPLASCHHearingObservationVS" key="ValueSet-SPLASCHHearingObservationVS" name="Hearing Observation"/>
 <artifact id="ValueSet/SPLASCHHearingObservationValueVS" key="ValueSet-SPLASCHHearingObservationValueVS" name="Hearing Observation Value"/>
