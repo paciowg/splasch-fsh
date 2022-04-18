@@ -3,7 +3,7 @@
   "id": "BSJ-ObservationSPLASCH-164",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"BSJ-ObservationSPLASCH-164\" </p></div><p><b>status</b>: final</p><p><b>category</b>: Hearing <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHObservationCategoryCS.html\">SPLASCH Observation Category Codes</a>#hearing)</span></p><p><b>code</b>: Hearing loss type Ear - right <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SPLASCHDiagnosticAudiologyResultsPanel#98426-0)</span></p><p><b>subject</b>: <a href=\"Patient-BSJ-patientBSJ1.html\">Patient/BSJ-patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2021-11-06T11:00:00-05:00</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-JillBradley.html\">Practitioner/Practitioner-JillBradley</a> \" BRADLEY\"</li><li><a href=\"provider-role-audiologist-JillBradley\">provider-role-audiologist-JillBradley</a></li><li><a href=\"Organization-Organization-Happy-Nursing-Facility.html\">Organization/Organization-Happy-Nursing-Facility</a> \"Happy Nursing Facility\"</li></ul><p><b>value</b>: Sensorineural <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#LA32485-7)</span></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"BSJ-ObservationSPLASCH-164\" </p></div><p><b>status</b>: final</p><p><b>category</b>: Hearing <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHObservationCategoryCS.html\">SPLASCH Observation Category Codes</a>#hearing)</span></p><p><b>code</b>: Hearing loss type Ear - right <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SPLASCHDiagnosticAudiologyResultsPanel#98426-0)</span></p><p><b>subject</b>: <a href=\"Patient-BSJ-patientBSJ1.html\">Patient/BSJ-patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2020-11-06T11:00:00-05:00</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-JillBradley.html\">Practitioner/Practitioner-JillBradley</a> \" BRADLEY\"</li><li><a href=\"provider-role-audiologist-JillBradley\">provider-role-audiologist-JillBradley</a></li><li><a href=\"Organization-Organization-Happy-Nursing-Facility.html\">Organization/Organization-Happy-Nursing-Facility</a> \"Happy Nursing Facility\"</li></ul><p><b>value</b>: Sensorineural <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#LA32485-7)</span></p></div>"
   },
   "status": "final",
   "category": [
@@ -29,7 +29,7 @@
   "subject": {
     "reference": "Patient/BSJ-patientBSJ1"
   },
-  "effectiveDateTime": "2021-11-06T11:00:00-05:00",
+  "effectiveDateTime": "2020-11-06T11:00:00-05:00",
   "performer": [
     {
       "reference": "Practitioner/Practitioner-JillBradley"

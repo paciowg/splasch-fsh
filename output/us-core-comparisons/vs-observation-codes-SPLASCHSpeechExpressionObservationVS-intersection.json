@@ -1,9 +1,9 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "712bbd89-af5e-4897-a05c-832a092eddfa-279",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/712bbd89-af5e-4897-a05c-832a092eddfa-279",
+  "id" : "29ff355f-9b46-4c14-9013-0098f2036e29-279",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/29ff355f-9b46-4c14-9013-0098f2036e29-279",
   "name" : "IntersectionLOINCCodesAndSPLASCHSpeechExpressionObservationVS",
   "title" : "Intersection of LOINC Codes And Speech Expression Observation",
   "status" : "draft",
-  "date" : "2022-04-15T12:13:37-04:00"
+  "date" : "2022-04-18T11:36:40-04:00"
 }

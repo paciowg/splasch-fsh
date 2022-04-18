@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "712bbd89-af5e-4897-a05c-832a092eddfa-141",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/712bbd89-af5e-4897-a05c-832a092eddfa-141",
+  "id" : "29ff355f-9b46-4c14-9013-0098f2036e29-141",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/29ff355f-9b46-4c14-9013-0098f2036e29-141",
   "name" : "IntersectionUSCoreObservationSocialHistoryAssessmentAndMultiModalCommunicationObservation",
   "title" : "Intersection of US Core Social History Assessment Observation Profile And Multi-Modal Communication Observation",
   "status" : "active",
-  "date" : "2022-04-15T12:13:36-04:00",
+  "date" : "2022-04-18T11:36:39-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

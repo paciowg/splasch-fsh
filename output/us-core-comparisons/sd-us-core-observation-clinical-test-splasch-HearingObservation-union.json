@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "712bbd89-af5e-4897-a05c-832a092eddfa-38",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/712bbd89-af5e-4897-a05c-832a092eddfa-38",
+  "id" : "29ff355f-9b46-4c14-9013-0098f2036e29-38",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/29ff355f-9b46-4c14-9013-0098f2036e29-38",
   "name" : "UnionUSCoreClinicalTestResultObservationProfileAndHearingObservation",
   "title" : "Union of US Core Clinical Test Result Observation Profile And Hearing Observation",
   "status" : "active",
-  "date" : "2022-04-15T12:13:36-04:00",
+  "date" : "2022-04-18T11:36:39-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -560,7 +560,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/712bbd89-af5e-4897-a05c-832a092eddfa-41"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/29ff355f-9b46-4c14-9013-0098f2036e29-41"
       },
       "mapping" : [{
         "identity" : "workflow",

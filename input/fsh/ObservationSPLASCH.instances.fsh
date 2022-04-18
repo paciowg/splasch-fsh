@@ -2701,7 +2701,7 @@ Description: "An instance of SPLASCH hearing observation"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+* effectiveDateTime = "2020-11-06T11:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-JillBradley)
 * performer[1] = Reference(provider-role-audiologist-JillBradley)
@@ -2767,7 +2767,7 @@ Description: "An instance of SPLASCH hearing observation"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+* effectiveDateTime = "2020-11-06T11:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-JillBradley)
 * performer[1] = Reference(provider-role-audiologist-JillBradley)
@@ -2789,7 +2789,7 @@ Description: "An instance of SPLASCH hearing observation"
 
 * subject = Reference(BSJ-patientBSJ2)
 
-* effectiveDateTime = "2021-11-06T11:00:00-05:01"
+* effectiveDateTime = "2020-11-06T11:00:00-05:01"
 
 * performer[0] = Reference(Practitioner-JillBradley)
 * performer[1] = Reference(provider-role-audiologist-JillBradley)
@@ -2810,7 +2810,7 @@ Description: "An instance of SPLASCH hearing observation"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+* effectiveDateTime = "2020-11-06T11:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-JillBradley)
 * performer[1] = Reference(provider-role-audiologist-JillBradley)
@@ -2832,7 +2832,7 @@ Description: "An instance of SPLASCH hearing observation"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+* effectiveDateTime = "2020-11-06T11:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-JillBradley)
 * performer[1] = Reference(provider-role-audiologist-JillBradley)
@@ -2854,13 +2854,13 @@ Description: "An instance of SPLASCH hearing observation"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+* effectiveDateTime = "2020-11-06T11:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-JillBradley)
 * performer[1] = Reference(provider-role-audiologist-JillBradley)
 * performer[2] = Reference(Organization-Happy-Nursing-Facility)
 
-* valueInteger = 40
+* valueQuantity = 40 'dB' "dB"
 
 
 Instance: BSJ-ObservationSPLASCH-169
@@ -2875,13 +2875,13 @@ Description: "An instance of SPLASCH hearing observation"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+* effectiveDateTime = "2020-11-06T11:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-JillBradley)
 * performer[1] = Reference(provider-role-audiologist-JillBradley)
 * performer[2] = Reference(Organization-Happy-Nursing-Facility)
 
-* valueInteger = 45
+* valueQuantity = 45 'dB' "dB"
 
 
 Instance: BSJ-ObservationSPLASCH-159
@@ -3138,13 +3138,13 @@ Description: "An instance of SPLASCH hearing observation"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+* effectiveDateTime = "2020-11-06T11:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-JillBradley)
 * performer[1] = Reference(provider-role-audiologist-JillBradley)
 * performer[2] = Reference(Organization-Happy-Nursing-Facility)
 
-* valueInteger = 55
+* valueQuantity = 55 'dB' "dB"
 
 
 Instance: BSJ-ObservationSPLASCH-170
@@ -3159,13 +3159,13 @@ Description: "An instance of SPLASCH hearing observation"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+* effectiveDateTime = "2020-11-06T11:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-JillBradley)
 * performer[1] = Reference(provider-role-audiologist-JillBradley)
 * performer[2] = Reference(Organization-Happy-Nursing-Facility)
 
-* valueInteger = 45
+* valueQuantity = 45 'dB' "dB"
 
 
 Instance: BSJ-ObservationSPLASCH-173
@@ -3180,13 +3180,13 @@ Description: "An instance of SPLASCH hearing observation"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+* effectiveDateTime = "2020-11-06T11:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-JillBradley)
 * performer[1] = Reference(provider-role-audiologist-JillBradley)
 * performer[2] = Reference(Organization-Happy-Nursing-Facility)
 
-* valueInteger = 55
+* valueQuantity = 55 'dB' "dB"
 
 
 Instance: BSJ-ObservationSPLASCH-172
@@ -3201,13 +3201,13 @@ Description: "An instance of SPLASCH hearing observation"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+* effectiveDateTime = "2020-11-06T11:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-JillBradley)
 * performer[1] = Reference(provider-role-audiologist-JillBradley)
 * performer[2] = Reference(Organization-Happy-Nursing-Facility)
 
-* valueInteger = 60
+* valueQuantity = 60 'dB' "dB"
 
 
 Instance: BSJ-ObservationSPLASCH-175
@@ -3222,13 +3222,13 @@ Description: "An instance of SPLASCH hearing observation"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+* effectiveDateTime = "2020-11-06T11:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-JillBradley)
 * performer[1] = Reference(provider-role-audiologist-JillBradley)
 * performer[2] = Reference(Organization-Happy-Nursing-Facility)
 
-* valueInteger = 45
+* valueQuantity = 45 'dB' "dB"
 
 
 Instance: BSJ-ObservationSPLASCH-174
@@ -3243,13 +3243,13 @@ Description: "An instance of SPLASCH hearing observation"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+* effectiveDateTime = "2020-11-06T11:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-JillBradley)
 * performer[1] = Reference(provider-role-audiologist-JillBradley)
 * performer[2] = Reference(Organization-Happy-Nursing-Facility)
 
-* valueInteger = 45
+* valueQuantity = 45 'dB' "dB"
 
 
 Instance: BSJ-ObservationSPLASCH-177
@@ -3264,13 +3264,13 @@ Description: "An instance of SPLASCH hearing observation"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+* effectiveDateTime = "2020-11-06T11:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-JillBradley)
 * performer[1] = Reference(provider-role-audiologist-JillBradley)
 * performer[2] = Reference(Organization-Happy-Nursing-Facility)
 
-* valueInteger = 55
+* valueQuantity = 55 'dB' "dB"
 
 
 Instance: BSJ-ObservationSPLASCH-176
@@ -3285,13 +3285,13 @@ Description: "An instance of SPLASCH hearing observation"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+* effectiveDateTime = "2020-11-06T11:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-JillBradley)
 * performer[1] = Reference(provider-role-audiologist-JillBradley)
 * performer[2] = Reference(Organization-Happy-Nursing-Facility)
 
-* valueInteger = 45
+* valueQuantity = 45 'dB' "dB"
 
 
 Instance: BSJ-ObservationSPLASCH-179
@@ -3306,13 +3306,13 @@ Description: "An instance of SPLASCH hearing observation"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+* effectiveDateTime = "2020-11-06T11:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-JillBradley)
 * performer[1] = Reference(provider-role-audiologist-JillBradley)
 * performer[2] = Reference(Organization-Happy-Nursing-Facility)
 
-* valueInteger = 55
+* valueQuantity = 55 'dB' "dB"
 
 
 Instance: BSJ-ObservationSPLASCH-178
@@ -3327,13 +3327,13 @@ Description: "An instance of SPLASCH hearing observation"
 
 * subject = Reference(BSJ-patientBSJ1)
 
-* effectiveDateTime = "2021-11-06T11:00:00-05:00"
+* effectiveDateTime = "2020-11-06T11:00:00-05:00"
 
 * performer[0] = Reference(Practitioner-JillBradley)
 * performer[1] = Reference(provider-role-audiologist-JillBradley)
 * performer[2] = Reference(Organization-Happy-Nursing-Facility)
 
-* valueInteger = 55
+* valueQuantity = 55 'dB' "dB"
 
 
 Instance: BSJ-ObservationSPLASCH-002
