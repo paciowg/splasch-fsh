@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "29ff355f-9b46-4c14-9013-0098f2036e29-266",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/29ff355f-9b46-4c14-9013-0098f2036e29-266",
+  "id" : "f49b3946-18e0-4f3b-8b1d-bb0fafd3a28d-266",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f49b3946-18e0-4f3b-8b1d-bb0fafd3a28d-266",
   "name" : "UnionUSCoreClinicalTestResultObservationProfileAndSpokenLanguageExpressionObservation",
   "title" : "Union of US Core Clinical Test Result Observation Profile And Spoken Language Expression Observation",
   "status" : "active",
-  "date" : "2022-04-18T11:36:40-04:00",
+  "date" : "2022-04-18T14:58:59-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -560,7 +560,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/29ff355f-9b46-4c14-9013-0098f2036e29-269"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/f49b3946-18e0-4f3b-8b1d-bb0fafd3a28d-269"
       },
       "mapping" : [{
         "identity" : "workflow",

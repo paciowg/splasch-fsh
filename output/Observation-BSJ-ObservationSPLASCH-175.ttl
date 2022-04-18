@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "BSJ-ObservationSPLASCH-175"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"BSJ-ObservationSPLASCH-175\" </p></div><p><b>status</b>: final</p><p><b>category</b>: Hearing <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHObservationCategoryCS.html\">SPLASCH Observation Category Codes</a>#hearing)</span></p><p><b>code</b>: Hearing threshold Ear - left --500 Hz <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#89024-4)</span></p><p><b>subject</b>: <a href=\"Patient-BSJ-patientBSJ1.html\">Patient/BSJ-patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2020-11-06T11:00:00-05:00</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-JillBradley.html\">Practitioner/Practitioner-JillBradley</a> \" BRADLEY\"</li><li><a href=\"provider-role-audiologist-JillBradley\">provider-role-audiologist-JillBradley</a></li><li><a href=\"Organization-Organization-Happy-Nursing-Facility.html\">Organization/Organization-Happy-Nursing-Facility</a> \"Happy Nursing Facility\"</li></ul><p><b>value</b>: 45 dB<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code dB = 'dB')</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"BSJ-ObservationSPLASCH-175\" </p></div><p><b>status</b>: final</p><p><b>category</b>: Hearing <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHObservationCategoryCS.html\">SPLASCH Observation Category Codes</a>#hearing)</span></p><p><b>code</b>: Hearing threshold Ear - left --500 Hz <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#89024-4)</span></p><p><b>subject</b>: <a href=\"Patient-BSJ-patientBSJ1.html\">Patient/BSJ-patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2020-11-06T11:00:00-05:00</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-JillBradley.html\">Practitioner/Practitioner-JillBradley</a> \" BRADLEY\"</li><li><a href=\"PractitionerRole-provider-role-audiologist-JillBradley.html\">PractitionerRole/provider-role-audiologist-JillBradley</a></li><li><a href=\"Organization-Organization-Happy-Nursing-Facility.html\">Organization/Organization-Happy-Nursing-Facility</a> \"Happy Nursing Facility\"</li></ul><p><b>value</b>: 45 dB<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code dB = 'dB')</span></p></div>"
   ];
   fhir:Observation.status [ fhir:value "final"];
   fhir:Observation.category [
@@ -41,7 +41,8 @@
      fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-JillBradley" ]
   ], [
      fhir:index 1;
-     fhir:Reference.reference [ fhir:value "provider-role-audiologist-JillBradley" ]
+     fhir:link <http://hl7.org/fhir/us/pacio-splasch/PractitionerRole/provider-role-audiologist-JillBradley>;
+     fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-audiologist-JillBradley" ]
   ], [
      fhir:index 2;
      fhir:link <http://hl7.org/fhir/us/pacio-splasch/Organization/Organization-Happy-Nursing-Facility>;
@@ -57,6 +58,8 @@
 <http://hl7.org/fhir/us/pacio-splasch/Patient/BSJ-patientBSJ1> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-splasch/Practitioner/Practitioner-JillBradley> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/PractitionerRole/provider-role-audiologist-JillBradley> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-splasch/Organization/Organization-Happy-Nursing-Facility> a fhir:us .
 

@@ -12,7 +12,7 @@ Description: "An instance of Practitioner"
 * active = true
 * gender = Hl7FhirAdminGender#male
 * telecom.system = #phone
-* telecom.value = "(210) 555 1871"
+* telecom.value = "(210) 555-1871"
 * address.text = "8100 Pinebrook Dr, San Antonio, TX, 78230"
 
 
@@ -42,7 +42,7 @@ Description: "An instance of Practitioner"
 * active = true
 * gender = Hl7FhirAdminGender#female
 * telecom.system = #phone
-* telecom.value = "(210) 555 1871"
+* telecom.value = "(210) 555-1871"
 * address.text = "8100 Pinebrook Dr, San Antonio, TX, 78230"
 
 
@@ -57,7 +57,7 @@ Description: "An instance of Practitioner"
 * active = true
 * gender = Hl7FhirAdminGender#male
 * telecom.system = #phone
-* telecom.value = "(210) 555 1871"
+* telecom.value = "(210) 555-1871"
 * address.text = "8100 Pinebrook Dr, San Antonio, TX, 78230"
 
 
@@ -72,8 +72,8 @@ Description: "An instance of Practitioner"
 * active = true
 * gender = Hl7FhirAdminGender#female
 * telecom.system = #phone
-* telecom.value = "(210) 555 1871"
-* address.text = "8100 Pinebrook Dr, San Antonio, TX, 78230"
+* telecom.value = "(210) 555-3287"
+* address.text = "1901 Pillbug St, San Antonio, TX 78242"
 
 
 Instance: Practitioner-JennyGlass
@@ -102,7 +102,7 @@ Description: "An instance of Practitioner"
 * active = true
 * gender = Hl7FhirAdminGender#female
 * telecom.system = #phone
-* telecom.value = "(210) 555 1871"
+* telecom.value = "(210) 555-1871"
 * address.text = "8100 Pinebrook Dr, San Antonio, TX, 78230"
 
 
@@ -117,7 +117,7 @@ Description: "An instance of Practitioner"
 * active = true
 * gender = Hl7FhirAdminGender#female
 * telecom.system = #phone
-* telecom.value = "(210) 555 1871"
+* telecom.value = "(210) 555-1871"
 * address.text = "8100 Pinebrook Dr, San Antonio, TX, 78230"
 
 
@@ -132,7 +132,7 @@ Description: "An instance of Practitioner"
 * active = true
 * gender = Hl7FhirAdminGender#female
 * telecom.system = #phone
-* telecom.value = "(210) 555 1871"
+* telecom.value = "(210) 555-1871"
 * address.text = "8100 Pinebrook Dr, San Antonio, TX, 78230"
 
 
@@ -147,7 +147,7 @@ Description: "An instance of Practitioner"
 * active = true
 * gender = Hl7FhirAdminGender#male
 * telecom.system = #phone
-* telecom.value = "(210) 555 1871"
+* telecom.value = "(210) 555-1871"
 * address.text = "8100 Pinebrook Dr, San Antonio, TX, 78230"
 
 
@@ -162,7 +162,7 @@ Description: "An instance of Practitioner"
 * active = true
 * gender = Hl7FhirAdminGender#female
 * telecom.system = #phone
-* telecom.value = "(210) 555 1871"
+* telecom.value = "(210) 555-1871"
 * address.text = "8100 Pinebrook Dr, San Antonio, TX, 78230"
 
 

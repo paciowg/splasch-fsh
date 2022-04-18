@@ -10,7 +10,7 @@
   "name": "PACIOReAssessmentTimepoints",
   "title": "PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide",
   "status": "draft",
-  "date": "2022-04-18T11:35:28-04:00",
+  "date": "2022-04-18T14:57:29-04:00",
   "publisher": "HL7 Patient Care Working Group",
   "contact": [
     {
@@ -3495,6 +3495,20 @@
           }
         ],
         "reference": {
+          "reference": "Organization/Organization-Audiology-Advanced-Hearing-Care"
+        },
+        "name": "Organization-Audiology-Advanced-Hearing-Care",
+        "description": "An instance of Organization",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
           "reference": "Organization/Organization-Happy-Nursing-Facility"
         },
         "name": "Organization-Happy-Nursing-Facility",
@@ -3733,9 +3747,9 @@
           }
         ],
         "reference": {
-          "reference": "PractitionerRole/provider-role-audiologist"
+          "reference": "PractitionerRole/provider-role-audiologist-JillBradley"
         },
-        "name": "provider-role-audiologist",
+        "name": "provider-role-audiologist-JillBradley",
         "description": "An instance of PractitionerRole",
         "exampleBoolean": true
       },

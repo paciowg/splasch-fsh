@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "29ff355f-9b46-4c14-9013-0098f2036e29-377",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/29ff355f-9b46-4c14-9013-0098f2036e29-377",
+  "id" : "f49b3946-18e0-4f3b-8b1d-bb0fafd3a28d-377",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/f49b3946-18e0-4f3b-8b1d-bb0fafd3a28d-377",
   "name" : "UnionUSCoreSmokingStatusObservationCodesAndSPLASCHSwallowingObservationVS",
   "title" : "Union of US Core Smoking Status Observation Codes And Swallowing Observation",
   "status" : "active",
-  "date" : "2022-04-18T11:36:41-04:00",
+  "date" : "2022-04-18T14:59:00-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

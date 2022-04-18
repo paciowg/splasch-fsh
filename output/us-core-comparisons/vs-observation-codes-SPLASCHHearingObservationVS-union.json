@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "29ff355f-9b46-4c14-9013-0098f2036e29-50",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/29ff355f-9b46-4c14-9013-0098f2036e29-50",
+  "id" : "f49b3946-18e0-4f3b-8b1d-bb0fafd3a28d-50",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/f49b3946-18e0-4f3b-8b1d-bb0fafd3a28d-50",
   "name" : "UnionLOINCCodesAndSPLASCHHearingObservationVS",
   "title" : "Union of LOINC Codes And Hearing Observation",
   "status" : "draft",
-  "date" : "2022-04-18T11:36:39-04:00",
+  "date" : "2022-04-18T14:58:57-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "29ff355f-9b46-4c14-9013-0098f2036e29-21",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/29ff355f-9b46-4c14-9013-0098f2036e29-21",
+  "id" : "f49b3946-18e0-4f3b-8b1d-bb0fafd3a28d-21",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f49b3946-18e0-4f3b-8b1d-bb0fafd3a28d-21",
   "name" : "IntersectionUSCoreBMIProfileAndHearingObservation",
   "title" : "Intersection of US Core BMI Profile And Hearing Observation",
   "status" : "active",
-  "date" : "2022-04-18T11:36:39-04:00",
+  "date" : "2022-04-18T14:58:57-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/29ff355f-9b46-4c14-9013-0098f2036e29-6"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/f49b3946-18e0-4f3b-8b1d-bb0fafd3a28d-6"
       },
       "mapping" : [{
         "identity" : "workflow",

@@ -335,6 +335,7 @@
 <artifact id="CodeSystem/SPLASCHLiquidDietCS" key="CodeSystem-SPLASCHLiquidDietCS" name="Observation Value Liquid Diet Codes"/>
 <artifact id="CodeSystem/SPLASCHSolidDietCS" key="CodeSystem-SPLASCHSolidDietCS" name="Observation Value Solid Diet Codes"/>
 <artifact id="CodeSystem/SPLASCHTimePercentageCategoryCS" key="CodeSystem-SPLASCHTimePercentageCategoryCS" name="Observation Value Time Percentage Category Codes"/>
+<artifact id="Organization/Organization-Audiology-Advanced-Hearing-Care" key="Organization-Organization-Audiology-Advanced-Hearing-Care" name="Organization-Audiology-Advanced-Hearing-Care"/>
 <artifact id="Organization/Organization-Happy-Nursing-Facility" key="Organization-Organization-Happy-Nursing-Facility" name="Organization-Happy-Nursing-Facility"/>
 <artifact id="Organization/Organization-San-Antonio-General-Hospital" key="Organization-Organization-San-Antonio-General-Hospital" name="Organization-San-Antonio-General-Hospital"/>
 <artifact id="ValueSet/HearBetterInOneEarVS" key="ValueSet-HearBetterInOneEarVS" name="PhenX20_03_hear better in one ear"/>
@@ -480,7 +481,7 @@
 <artifact id="ValueSet/YesOrNoVS" key="ValueSet-YesOrNoVS" name="Y/N"/>
 <artifact id="ValueSet/SPLASCHYesOrNoTypeObservationVS" key="ValueSet-SPLASCHYesOrNoTypeObservationVS" name="Yes or No Type Observation"/>
 <artifact deprecated="true" id="Patient/patientBSJ1" key="Patient-patientBSJ1" name="patientBSJ1"/>
-<artifact id="PractitionerRole/provider-role-audiologist" key="PractitionerRole-provider-role-audiologist" name="provider-role-audiologist"/>
+<artifact id="PractitionerRole/provider-role-audiologist-JillBradley" key="PractitionerRole-provider-role-audiologist-JillBradley" name="provider-role-audiologist-JillBradley"/>
 <artifact id="PractitionerRole/provider-role-clinical-social-work-RayMancioni" key="PractitionerRole-provider-role-clinical-social-work-RayMancioni" name="provider-role-clinical-social-work-RayMancioni"/>
 <artifact id="PractitionerRole/provider-role-hospitalist-DonHopmed" key="PractitionerRole-provider-role-hospitalist-DonHopmed" name="provider-role-hospitalist-DonHopmed"/>
 <artifact deprecated="true" id="PractitionerRole/provider-role-neurologist-Practitioner-NoraOlogist" key="PractitionerRole-provider-role-neurologist-Practitioner-NoraOlogist" name="provider-role-neurologist-Practitioner-NoraOlogist"/>

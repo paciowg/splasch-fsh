@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "Practitioner-SummerJohnson"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Practitioner-SummerJohnson\" </p></div><p><b>identifier</b>: id: 9876543210</p><p><b>active</b>: true</p><p><b>name</b>: Summer Johnson</p><p><b>telecom</b>: ph: (210) 555 1871</p><p><b>address</b>: 8100 Pinebrook Dr, San Antonio, TX, 78230</p><p><b>gender</b>: female</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Practitioner-SummerJohnson\" </p></div><p><b>identifier</b>: id: 9876543210</p><p><b>active</b>: true</p><p><b>name</b>: Summer Johnson</p><p><b>telecom</b>: ph: (210) 555-1871</p><p><b>address</b>: 8100 Pinebrook Dr, San Antonio, TX, 78230</p><p><b>gender</b>: female</p></div>"
   ];
   fhir:Practitioner.identifier [
      fhir:index 0;
@@ -30,7 +30,7 @@
   fhir:Practitioner.telecom [
      fhir:index 0;
      fhir:ContactPoint.system [ fhir:value "phone" ];
-     fhir:ContactPoint.value [ fhir:value "(210) 555 1871" ]
+     fhir:ContactPoint.value [ fhir:value "(210) 555-1871" ]
   ];
   fhir:Practitioner.address [
      fhir:index 0;

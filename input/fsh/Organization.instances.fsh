@@ -16,3 +16,11 @@ InstanceOf: Organization
 Description: "An instance of Organization"
 * name = "Happy Nursing Facility"
 
+
+Instance: Organization-Audiology-Advanced-Hearing-Care
+InstanceOf: Organization
+Description: "An instance of Organization"
+* name = "Audiology Advanced Hearing Care"
+
+
+
