@@ -67,7 +67,7 @@
     "type": "ImplementationGuide",
     "url": "http://hl7.org/fhir/us/pacio-splasch/ImplementationGuide/hl7.fhir.us.pacio-splasch",
     "version": "0.1.0",
-    "name": "PACIOReAssessmentTimepoints"
+    "name": "PACIOSPLASCH"
   },
   {
     "id": "splasch-HearingObservation",

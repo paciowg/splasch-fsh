@@ -4,7 +4,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.us.pacio-splasch
 canonical: http://hl7.org/fhir/us/pacio-splasch
-name: PACIORe-AssessmentTimepoints
+name: PACIO-SPLASCH
 title: PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide
 description: PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide
 status: draft

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "f49b3946-18e0-4f3b-8b1d-bb0fafd3a28d-126",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f49b3946-18e0-4f3b-8b1d-bb0fafd3a28d-126",
+  "id" : "dbfd0fe6-7a8d-46b1-a84d-38e670425e70-126",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/dbfd0fe6-7a8d-46b1-a84d-38e670425e70-126",
   "name" : "IntersectionUSCoreLaboratoryResultObservationProfileAndMultiModalCommunicationObservation",
   "title" : "Intersection of US Core Laboratory Result Observation Profile And Multi-Modal Communication Observation",
   "status" : "active",
-  "date" : "2022-04-18T14:58:58-04:00",
+  "date" : "2022-04-27T11:55:47-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -591,7 +591,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "LOINC codes",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/f49b3946-18e0-4f3b-8b1d-bb0fafd3a28d-129"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/dbfd0fe6-7a8d-46b1-a84d-38e670425e70-129"
       },
       "mapping" : [{
         "identity" : "workflow",

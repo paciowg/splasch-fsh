@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "f49b3946-18e0-4f3b-8b1d-bb0fafd3a28d-212",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f49b3946-18e0-4f3b-8b1d-bb0fafd3a28d-212",
+  "id" : "dbfd0fe6-7a8d-46b1-a84d-38e670425e70-212",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/dbfd0fe6-7a8d-46b1-a84d-38e670425e70-212",
   "name" : "UnionUSCoreSexualOrientationObservationProfileAndSpokenLanguageComprehensionObservation",
   "title" : "Union of US Core Sexual Orientation Observation Profile And Spoken Language Comprehension Observation",
   "status" : "active",
-  "date" : "2022-04-18T14:58:58-04:00",
+  "date" : "2022-04-27T11:55:48-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -569,7 +569,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/f49b3946-18e0-4f3b-8b1d-bb0fafd3a28d-203"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/dbfd0fe6-7a8d-46b1-a84d-38e670425e70-203"
       },
       "mapping" : [{
         "identity" : "workflow",
