@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "dbfd0fe6-7a8d-46b1-a84d-38e670425e70-162",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/dbfd0fe6-7a8d-46b1-a84d-38e670425e70-162",
+  "id" : "3476524b-c765-4267-a85c-47e40e8e4ef0-162",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/3476524b-c765-4267-a85c-47e40e8e4ef0-162",
   "name" : "IntersectionUsCoreVitalSignsAndSPLASCHSpeechComprehensionObservationVS",
   "title" : "Intersection of US Core Vital Signs ValueSet And Speech Comprehension Observation",
   "status" : "active",
-  "date" : "2022-04-27T11:55:48-04:00",
+  "date" : "2022-04-29T14:31:08-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

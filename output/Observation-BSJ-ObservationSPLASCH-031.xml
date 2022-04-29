@@ -3,32 +3,32 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="BSJ-ObservationSPLASCH-031"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "BSJ-ObservationSPLASCH-031" </p></div><p><b>status</b>: final</p><p><b>category</b>: Multi-modal Communication <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-SPLASCHObservationCategoryCS.html">SPLASCH Observation Category Codes</a>#multi-modal-communication)</span></p><p><b>code</b>: How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations? <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SPLASCHMultiModalCommunicationObservationCS#99829-4)</span></p><p><b>subject</b>: <a href="Patient-BSJ-patientBSJ1.html">Patient/BSJ-patientBSJ1</a> " SMITH-JOHNSON"</p><p><b>effective</b>: 2020-07-08T08:40:00-05:00</p><p><b>performer</b>: </p><ul><li><a href="Practitioner-Practitioner-LisaGreene.html">Practitioner/Practitioner-LisaGreene</a> " GREENE"</li><li><a href="PractitionerRole-provider-role-occupational-therapist-LisaGreene.html">PractitionerRole/provider-role-occupational-therapist-LisaGreene</a></li><li><a href="Organization-Organization-San-Antonio-General-Hospital.html">Organization/Organization-San-Antonio-General-Hospital</a> "San Antonio General Hospital"</li></ul><p><b>value</b>: Sometimes <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SPLASCHFrequencyCS#LA10082-8)</span></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "BSJ-ObservationSPLASCH-031" </p></div><p><b>status</b>: final</p><p><b>category</b>: Spoken language comprehension <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-SPLASCHObservationCategoryCS.html">SPLASCH Observation Category Codes</a>#spoken-language-comprehension)</span></p><p><b>code</b>: Understand complex messages in high demand situations <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-SPLASCHSpeechComprehensionObservationCS.html">Speech Comprehension Observation Codes</a>#understand-complex-high-demand)</span></p><p><b>subject</b>: <a href="Patient-BSJ-patientBSJ1.html">Patient/BSJ-patientBSJ1</a> " SMITH-JOHNSON"</p><p><b>effective</b>: 2020-07-08T08:00:00-05:00</p><p><b>performer</b>: </p><ul><li><a href="Practitioner-Practitioner-RonMarble.html">Practitioner/Practitioner-RonMarble</a> " MARBLE"</li><li><a href="PractitionerRole-provider-role-physical-therapist-RonMarble.html">PractitionerRole/provider-role-physical-therapist-RonMarble</a></li><li><a href="Organization-Organization-San-Antonio-General-Hospital.html">Organization/Organization-San-Antonio-General-Hospital</a> "San Antonio General Hospital"</li></ul><p><b>value</b>: Rarely <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SPLASCHFrequencyCS#LA10066-1)</span></p></div>
   </text>
   <status value="final"/>
   <category>
     <coding>
       <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS"/>
-      <code value="multi-modal-communication"/>
-      <display value="Multi-modal Communication"/>
+      <code value="spoken-language-comprehension"/>
+      <display value="Spoken language comprehension"/>
     </coding>
   </category>
   <code>
     <coding>
-      <system value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS"/>
-      <code value="99829-4"/>
-      <display value="How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"/>
+      <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS"/>
+      <code value="understand-complex-high-demand"/>
+      <display value="Understand complex messages in high demand situations"/>
     </coding>
   </code>
   <subject>
     <reference value="Patient/BSJ-patientBSJ1"/>
   </subject>
-  <effectiveDateTime value="2020-07-08T08:40:00-05:00"/>
+  <effectiveDateTime value="2020-07-08T08:00:00-05:00"/>
   <performer>
-    <reference value="Practitioner/Practitioner-LisaGreene"/>
+    <reference value="Practitioner/Practitioner-RonMarble"/>
   </performer>
   <performer>
-    <reference value="PractitionerRole/provider-role-occupational-therapist-LisaGreene"/>
+    <reference value="PractitionerRole/provider-role-physical-therapist-RonMarble"/>
   </performer>
   <performer>
     <reference value="Organization/Organization-San-Antonio-General-Hospital"/>
@@ -36,8 +36,8 @@
   <valueCodeableConcept>
     <coding>
       <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
-      <code value="LA10082-8"/>
-      <display value="Sometimes"/>
+      <code value="LA10066-1"/>
+      <display value="Rarely"/>
     </coding>
   </valueCodeableConcept>
 </Observation>

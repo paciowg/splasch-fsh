@@ -3,41 +3,35 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="BSJ-ObservationSPLASCH-005"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "BSJ-ObservationSPLASCH-005" </p></div><p><b>status</b>: final</p><p><b>category</b>: Spoken language expression <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-SPLASCHObservationCategoryCS.html">SPLASCH Observation Category Codes</a>#spoken-language-expression)</span></p><p><b>code</b>: Produce verbal messages with appropriate content in high demand situations <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-SPLASCHSpeechExpressionObservationCS.html">Speech Expression Observation Codes</a>#verbal-content-high-demand)</span></p><p><b>subject</b>: <a href="Patient-BSJ-patientBSJ1.html">Patient/BSJ-patientBSJ1</a> " SMITH-JOHNSON"</p><p><b>effective</b>: 2020-07-07T19:30:00-05:00</p><p><b>performer</b>: </p><ul><li><a href="Practitioner-Practitioner-JudySmiley.html">Practitioner/Practitioner-JudySmiley</a> " SMILEY"</li><li><a href="PractitionerRole-provider-role-registered-nurse-JudySmiley.html">PractitionerRole/provider-role-registered-nurse-JudySmiley</a></li><li><a href="Organization-Organization-San-Antonio-General-Hospital.html">Organization/Organization-San-Antonio-General-Hospital</a> "San Antonio General Hospital"</li></ul><p><b>value</b>: Sometimes <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SPLASCHFrequencyCS#LA10082-8)</span></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "BSJ-ObservationSPLASCH-005" </p></div><p><b>status</b>: final</p><p><b>category</b>: Hearing <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-SPLASCHObservationCategoryCS.html">SPLASCH Observation Category Codes</a>#hearing)</span></p><p><b>code</b>: Audiology Comment Narrative <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (SPLASCHDiagnosticAudiologyResultsPanel#98420-3)</span></p><p><b>subject</b>: <a href="BSJ-patientBSJ2">BSJ-patientBSJ2</a></p><p><b>effective</b>: 2020-11-06T10:45:00-05:00</p><p><b>performer</b>: </p><ul><li><a href="Practitioner-Practitioner-JillBradley.html">Practitioner/Practitioner-JillBradley</a> " BRADLEY"</li><li><a href="PractitionerRole-provider-role-audiologist-JillBradley.html">PractitionerRole/provider-role-audiologist-JillBradley</a></li><li><a href="Organization-Organization-Audiology-Advanced-Hearing-Care.html">Organization/Organization-Audiology-Advanced-Hearing-Care</a> "Audiology Advanced Hearing Care"</li></ul><p><b>value</b>: Upon otoscopic examination, bilateral cerumen impaction was noted. Following cerumen removal, no additional abnormalities were noted. Both tympanic membranes were intact and translucent with no visible fluid in the middle ear cavity. Tympanometry revealed bilateral Type-A tympanograms, suggesting normal middle ear function. Audiometric test results revealed bilateral moderate sensorineural hearing loss with relatively poor speech understanding. Mrs. Johnson was fitted with binaural in-the-ear hearing aids, and was offered two weeks of aural rehabilitation therapy</p></div>
   </text>
   <status value="final"/>
   <category>
     <coding>
       <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS"/>
-      <code value="spoken-language-expression"/>
-      <display value="Spoken language expression"/>
+      <code value="hearing"/>
+      <display value="Hearing"/>
     </coding>
   </category>
   <code>
     <coding>
-      <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS"/>
-      <code value="verbal-content-high-demand"/>
-      <display value="Produce verbal messages with appropriate content in high demand situations"/>
+      <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanel"/>
+      <code value="98420-3"/>
+      <display value="Audiology Comment Narrative"/>
     </coding>
   </code>
   <subject>
-    <reference value="Patient/BSJ-patientBSJ1"/>
+    <reference value="BSJ-patientBSJ2"/>
   </subject>
-  <effectiveDateTime value="2020-07-07T19:30:00-05:00"/>
+  <effectiveDateTime value="2020-11-06T10:45:00-05:00"/>
   <performer>
-    <reference value="Practitioner/Practitioner-JudySmiley"/>
+    <reference value="Practitioner/Practitioner-JillBradley"/>
   </performer>
   <performer>
-    <reference value="PractitionerRole/provider-role-registered-nurse-JudySmiley"/>
+    <reference value="PractitionerRole/provider-role-audiologist-JillBradley"/>
   </performer>
   <performer>
-    <reference value="Organization/Organization-San-Antonio-General-Hospital"/>
+    <reference value="Organization/Organization-Audiology-Advanced-Hearing-Care"/>
   </performer>
-  <valueCodeableConcept>
-    <coding>
-      <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
-      <code value="LA10082-8"/>
-      <display value="Sometimes"/>
-    </coding>
-  </valueCodeableConcept>
+  <valueString value="Upon otoscopic examination, bilateral cerumen impaction was noted. Following cerumen removal, no additional abnormalities were noted. Both tympanic membranes were intact and translucent with no visible fluid in the middle ear cavity. Tympanometry revealed bilateral Type-A tympanograms, suggesting normal middle ear function. Audiometric test results revealed bilateral moderate sensorineural hearing loss with relatively poor speech understanding. Mrs. Johnson was fitted with binaural in-the-ear hearing aids, and was offered two weeks of aural rehabilitation therapy"/>
 </Observation>

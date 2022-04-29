@@ -10,7 +10,7 @@
   "name": "PACIOSPLASCH",
   "title": "PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide",
   "status": "draft",
-  "date": "2022-04-27T11:54:23-04:00",
+  "date": "2022-04-29T14:30:00-04:00",
   "publisher": "HL7 Patient Care Working Group",
   "contact": [
     {
@@ -978,7 +978,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-001"
         },
         "name": "BSJ-ObservationSPLASCH-001",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH hearing observation",
         "exampleBoolean": true
       },
       {
@@ -992,7 +992,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-002"
         },
         "name": "BSJ-ObservationSPLASCH-002",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH hearing observation",
         "exampleBoolean": true
       },
       {
@@ -1006,7 +1006,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-003"
         },
         "name": "BSJ-ObservationSPLASCH-003",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH hearing observation",
         "exampleBoolean": true
       },
       {
@@ -1020,7 +1020,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-004"
         },
         "name": "BSJ-ObservationSPLASCH-004",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH hearing observation",
         "exampleBoolean": true
       },
       {
@@ -1034,7 +1034,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-005"
         },
         "name": "BSJ-ObservationSPLASCH-005",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH hearing observation",
         "exampleBoolean": true
       },
       {
@@ -1048,7 +1048,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-006"
         },
         "name": "BSJ-ObservationSPLASCH-006",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH hearing observation",
         "exampleBoolean": true
       },
       {
@@ -1062,7 +1062,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-007"
         },
         "name": "BSJ-ObservationSPLASCH-007",
-        "description": "An instance of SPLASCH swallowing observation",
+        "description": "An instance of SPLASCH hearing observation",
         "exampleBoolean": true
       },
       {
@@ -1076,7 +1076,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-008"
         },
         "name": "BSJ-ObservationSPLASCH-008",
-        "description": "An instance of SPLASCH swallowing observation",
+        "description": "An instance of SPLASCH hearing observation",
         "exampleBoolean": true
       },
       {
@@ -1090,7 +1090,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-009"
         },
         "name": "BSJ-ObservationSPLASCH-009",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH hearing observation",
         "exampleBoolean": true
       },
       {
@@ -1104,7 +1104,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-010"
         },
         "name": "BSJ-ObservationSPLASCH-010",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH hearing observation",
         "exampleBoolean": true
       },
       {
@@ -1118,7 +1118,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-011"
         },
         "name": "BSJ-ObservationSPLASCH-011",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH hearing observation",
         "exampleBoolean": true
       },
       {
@@ -1132,7 +1132,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-012"
         },
         "name": "BSJ-ObservationSPLASCH-012",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH hearing observation",
         "exampleBoolean": true
       },
       {
@@ -1146,7 +1146,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-013"
         },
         "name": "BSJ-ObservationSPLASCH-013",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH hearing observation",
         "exampleBoolean": true
       },
       {
@@ -1160,7 +1160,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-014"
         },
         "name": "BSJ-ObservationSPLASCH-014",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH hearing observation",
         "exampleBoolean": true
       },
       {
@@ -1174,7 +1174,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-015"
         },
         "name": "BSJ-ObservationSPLASCH-015",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH hearing observation",
         "exampleBoolean": true
       },
       {
@@ -1188,7 +1188,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-016"
         },
         "name": "BSJ-ObservationSPLASCH-016",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH hearing observation",
         "exampleBoolean": true
       },
       {
@@ -1202,7 +1202,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-017"
         },
         "name": "BSJ-ObservationSPLASCH-017",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH hearing observation",
         "exampleBoolean": true
       },
       {
@@ -1216,7 +1216,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-018"
         },
         "name": "BSJ-ObservationSPLASCH-018",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -1230,7 +1230,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-019"
         },
         "name": "BSJ-ObservationSPLASCH-019",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -1244,7 +1244,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-020"
         },
         "name": "BSJ-ObservationSPLASCH-020",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -1258,7 +1258,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-021"
         },
         "name": "BSJ-ObservationSPLASCH-021",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -1272,7 +1272,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-022"
         },
         "name": "BSJ-ObservationSPLASCH-022",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -1286,7 +1286,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-023"
         },
         "name": "BSJ-ObservationSPLASCH-023",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -1300,7 +1300,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-024"
         },
         "name": "BSJ-ObservationSPLASCH-024",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH swallowing observation",
         "exampleBoolean": true
       },
       {
@@ -1314,7 +1314,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-025"
         },
         "name": "BSJ-ObservationSPLASCH-025",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH swallowing observation",
         "exampleBoolean": true
       },
       {
@@ -1328,7 +1328,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-026"
         },
         "name": "BSJ-ObservationSPLASCH-026",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -1342,7 +1342,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-027"
         },
         "name": "BSJ-ObservationSPLASCH-027",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -1356,7 +1356,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-028"
         },
         "name": "BSJ-ObservationSPLASCH-028",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -1384,7 +1384,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-030"
         },
         "name": "BSJ-ObservationSPLASCH-030",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -1398,7 +1398,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-031"
         },
         "name": "BSJ-ObservationSPLASCH-031",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -1412,7 +1412,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-032"
         },
         "name": "BSJ-ObservationSPLASCH-032",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -1426,7 +1426,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-033"
         },
         "name": "BSJ-ObservationSPLASCH-033",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -1440,7 +1440,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-034"
         },
         "name": "BSJ-ObservationSPLASCH-034",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -1454,7 +1454,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-035"
         },
         "name": "BSJ-ObservationSPLASCH-035",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -1468,7 +1468,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-036"
         },
         "name": "BSJ-ObservationSPLASCH-036",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -1482,7 +1482,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-037"
         },
         "name": "BSJ-ObservationSPLASCH-037",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -1496,7 +1496,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-038"
         },
         "name": "BSJ-ObservationSPLASCH-038",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -1510,7 +1510,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-039"
         },
         "name": "BSJ-ObservationSPLASCH-039",
-        "description": "An instance of SPLASCH swallowing observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -1524,7 +1524,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-040"
         },
         "name": "BSJ-ObservationSPLASCH-040",
-        "description": "An instance of SPLASCH swallowing observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -1538,7 +1538,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-041"
         },
         "name": "BSJ-ObservationSPLASCH-041",
-        "description": "An instance of SPLASCH swallowing observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -1552,7 +1552,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-042"
         },
         "name": "BSJ-ObservationSPLASCH-042",
-        "description": "An instance of SPLASCH swallowing observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -1566,7 +1566,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-043"
         },
         "name": "BSJ-ObservationSPLASCH-043",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -1580,7 +1580,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-044"
         },
         "name": "BSJ-ObservationSPLASCH-044",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -1594,7 +1594,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-045"
         },
         "name": "BSJ-ObservationSPLASCH-045",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -1622,7 +1622,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-047"
         },
         "name": "BSJ-ObservationSPLASCH-047",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -1636,7 +1636,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-048"
         },
         "name": "BSJ-ObservationSPLASCH-048",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -1650,7 +1650,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-049"
         },
         "name": "BSJ-ObservationSPLASCH-049",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -1664,7 +1664,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-050"
         },
         "name": "BSJ-ObservationSPLASCH-050",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -1678,7 +1678,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-051"
         },
         "name": "BSJ-ObservationSPLASCH-051",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -1692,7 +1692,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-052"
         },
         "name": "BSJ-ObservationSPLASCH-052",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -1706,7 +1706,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-053"
         },
         "name": "BSJ-ObservationSPLASCH-053",
-        "description": "An instance of SPLASCH swallowing observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -1720,7 +1720,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-054"
         },
         "name": "BSJ-ObservationSPLASCH-054",
-        "description": "An instance of SPLASCH swallowing observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -1734,7 +1734,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-055"
         },
         "name": "BSJ-ObservationSPLASCH-055",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -1748,7 +1748,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-056"
         },
         "name": "BSJ-ObservationSPLASCH-056",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH swallowing observation",
         "exampleBoolean": true
       },
       {
@@ -1762,7 +1762,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-057"
         },
         "name": "BSJ-ObservationSPLASCH-057",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH swallowing observation",
         "exampleBoolean": true
       },
       {
@@ -1776,7 +1776,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-058"
         },
         "name": "BSJ-ObservationSPLASCH-058",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH swallowing observation",
         "exampleBoolean": true
       },
       {
@@ -1790,7 +1790,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-059"
         },
         "name": "BSJ-ObservationSPLASCH-059",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH swallowing observation",
         "exampleBoolean": true
       },
       {
@@ -1804,7 +1804,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-060"
         },
         "name": "BSJ-ObservationSPLASCH-060",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -1818,7 +1818,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-061"
         },
         "name": "BSJ-ObservationSPLASCH-061",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -1832,7 +1832,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-062"
         },
         "name": "BSJ-ObservationSPLASCH-062",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -1846,7 +1846,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-063"
         },
         "name": "BSJ-ObservationSPLASCH-063",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -1860,7 +1860,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-064"
         },
         "name": "BSJ-ObservationSPLASCH-064",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -1874,7 +1874,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-065"
         },
         "name": "BSJ-ObservationSPLASCH-065",
-        "description": "An instance of SPLASCH swallowing observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -1888,7 +1888,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-066"
         },
         "name": "BSJ-ObservationSPLASCH-066",
-        "description": "An instance of SPLASCH swallowing observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -1902,7 +1902,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-067"
         },
         "name": "BSJ-ObservationSPLASCH-067",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -1916,7 +1916,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-068"
         },
         "name": "BSJ-ObservationSPLASCH-068",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -1930,7 +1930,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-069"
         },
         "name": "BSJ-ObservationSPLASCH-069",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -1944,7 +1944,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-070"
         },
         "name": "BSJ-ObservationSPLASCH-070",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH swallowing observation",
         "exampleBoolean": true
       },
       {
@@ -1958,7 +1958,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-071"
         },
         "name": "BSJ-ObservationSPLASCH-071",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH swallowing observation",
         "exampleBoolean": true
       },
       {
@@ -1972,7 +1972,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-072"
         },
         "name": "BSJ-ObservationSPLASCH-072",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -1986,7 +1986,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-073"
         },
         "name": "BSJ-ObservationSPLASCH-073",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2000,7 +2000,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-074"
         },
         "name": "BSJ-ObservationSPLASCH-074",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2014,7 +2014,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-075"
         },
         "name": "BSJ-ObservationSPLASCH-075",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2028,7 +2028,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-076"
         },
         "name": "BSJ-ObservationSPLASCH-076",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -2042,7 +2042,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-077"
         },
         "name": "BSJ-ObservationSPLASCH-077",
-        "description": "An instance of SPLASCH swallowing observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -2056,7 +2056,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-078"
         },
         "name": "BSJ-ObservationSPLASCH-078",
-        "description": "An instance of SPLASCH swallowing observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -2070,7 +2070,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-079"
         },
         "name": "BSJ-ObservationSPLASCH-079",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -2084,7 +2084,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-080"
         },
         "name": "BSJ-ObservationSPLASCH-080",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -2098,7 +2098,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-081"
         },
         "name": "BSJ-ObservationSPLASCH-081",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -2112,7 +2112,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-082"
         },
         "name": "BSJ-ObservationSPLASCH-082",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH swallowing observation",
         "exampleBoolean": true
       },
       {
@@ -2126,7 +2126,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-083"
         },
         "name": "BSJ-ObservationSPLASCH-083",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH swallowing observation",
         "exampleBoolean": true
       },
       {
@@ -2140,7 +2140,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-084"
         },
         "name": "BSJ-ObservationSPLASCH-084",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2154,7 +2154,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-085"
         },
         "name": "BSJ-ObservationSPLASCH-085",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2168,7 +2168,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-086"
         },
         "name": "BSJ-ObservationSPLASCH-086",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2182,7 +2182,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-087"
         },
         "name": "BSJ-ObservationSPLASCH-087",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2196,7 +2196,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-088"
         },
         "name": "BSJ-ObservationSPLASCH-088",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -2210,7 +2210,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-089"
         },
         "name": "BSJ-ObservationSPLASCH-089",
-        "description": "An instance of SPLASCH swallowing observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -2224,7 +2224,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-090"
         },
         "name": "BSJ-ObservationSPLASCH-090",
-        "description": "An instance of SPLASCH swallowing observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -2238,7 +2238,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-091"
         },
         "name": "BSJ-ObservationSPLASCH-091",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -2252,7 +2252,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-092"
         },
         "name": "BSJ-ObservationSPLASCH-092",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -2266,7 +2266,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-093"
         },
         "name": "BSJ-ObservationSPLASCH-093",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -2280,7 +2280,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-094"
         },
         "name": "BSJ-ObservationSPLASCH-094",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH swallowing observation",
         "exampleBoolean": true
       },
       {
@@ -2294,7 +2294,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-095"
         },
         "name": "BSJ-ObservationSPLASCH-095",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH swallowing observation",
         "exampleBoolean": true
       },
       {
@@ -2308,7 +2308,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-096"
         },
         "name": "BSJ-ObservationSPLASCH-096",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2322,7 +2322,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-097"
         },
         "name": "BSJ-ObservationSPLASCH-097",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2336,7 +2336,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-098"
         },
         "name": "BSJ-ObservationSPLASCH-098",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2350,7 +2350,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-099"
         },
         "name": "BSJ-ObservationSPLASCH-099",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2364,7 +2364,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-100"
         },
         "name": "BSJ-ObservationSPLASCH-100",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -2378,7 +2378,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-101"
         },
         "name": "BSJ-ObservationSPLASCH-101",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -2392,7 +2392,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-102"
         },
         "name": "BSJ-ObservationSPLASCH-102",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -2406,7 +2406,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-103"
         },
         "name": "BSJ-ObservationSPLASCH-103",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -2420,7 +2420,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-104"
         },
         "name": "BSJ-ObservationSPLASCH-104",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -2434,7 +2434,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-105"
         },
         "name": "BSJ-ObservationSPLASCH-105",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -2448,7 +2448,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-106"
         },
         "name": "BSJ-ObservationSPLASCH-106",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH swallowing observation",
         "exampleBoolean": true
       },
       {
@@ -2462,7 +2462,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-107"
         },
         "name": "BSJ-ObservationSPLASCH-107",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH swallowing observation",
         "exampleBoolean": true
       },
       {
@@ -2476,7 +2476,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-108"
         },
         "name": "BSJ-ObservationSPLASCH-108",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2490,7 +2490,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-109"
         },
         "name": "BSJ-ObservationSPLASCH-109",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2504,7 +2504,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-110"
         },
         "name": "BSJ-ObservationSPLASCH-110",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2518,7 +2518,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-111"
         },
         "name": "BSJ-ObservationSPLASCH-111",
-        "description": "An instance of SPLASCH swallowing observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2532,7 +2532,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-112"
         },
         "name": "BSJ-ObservationSPLASCH-112",
-        "description": "An instance of SPLASCH swallowing observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -2546,7 +2546,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-113"
         },
         "name": "BSJ-ObservationSPLASCH-113",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -2560,7 +2560,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-114"
         },
         "name": "BSJ-ObservationSPLASCH-114",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -2574,7 +2574,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-115"
         },
         "name": "BSJ-ObservationSPLASCH-115",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -2588,7 +2588,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-116"
         },
         "name": "BSJ-ObservationSPLASCH-116",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -2602,7 +2602,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-117"
         },
         "name": "BSJ-ObservationSPLASCH-117",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -2616,7 +2616,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-118"
         },
         "name": "BSJ-ObservationSPLASCH-118",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2630,7 +2630,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-119"
         },
         "name": "BSJ-ObservationSPLASCH-119",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2644,7 +2644,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-120"
         },
         "name": "BSJ-ObservationSPLASCH-120",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2658,7 +2658,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-121"
         },
         "name": "BSJ-ObservationSPLASCH-121",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2672,7 +2672,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-122"
         },
         "name": "BSJ-ObservationSPLASCH-122",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -2686,7 +2686,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-123"
         },
         "name": "BSJ-ObservationSPLASCH-123",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -2700,7 +2700,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-124"
         },
         "name": "BSJ-ObservationSPLASCH-124",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -2714,7 +2714,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-125"
         },
         "name": "BSJ-ObservationSPLASCH-125",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -2728,7 +2728,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-126"
         },
         "name": "BSJ-ObservationSPLASCH-126",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -2742,7 +2742,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-127"
         },
         "name": "BSJ-ObservationSPLASCH-127",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -2756,7 +2756,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-128"
         },
         "name": "BSJ-ObservationSPLASCH-128",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH swallowing observation",
         "exampleBoolean": true
       },
       {
@@ -2770,7 +2770,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-129"
         },
         "name": "BSJ-ObservationSPLASCH-129",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH swallowing observation",
         "exampleBoolean": true
       },
       {
@@ -2784,7 +2784,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-130"
         },
         "name": "BSJ-ObservationSPLASCH-130",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2798,7 +2798,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-131"
         },
         "name": "BSJ-ObservationSPLASCH-131",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2812,7 +2812,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-132"
         },
         "name": "BSJ-ObservationSPLASCH-132",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2826,7 +2826,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-133"
         },
         "name": "BSJ-ObservationSPLASCH-133",
-        "description": "An instance of SPLASCH swallowing observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2840,7 +2840,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-134"
         },
         "name": "BSJ-ObservationSPLASCH-134",
-        "description": "An instance of SPLASCH swallowing observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -2854,7 +2854,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-135"
         },
         "name": "BSJ-ObservationSPLASCH-135",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -2868,7 +2868,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-136"
         },
         "name": "BSJ-ObservationSPLASCH-136",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -2882,7 +2882,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-137"
         },
         "name": "BSJ-ObservationSPLASCH-137",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -2896,7 +2896,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-138"
         },
         "name": "BSJ-ObservationSPLASCH-138",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -2910,7 +2910,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-139"
         },
         "name": "BSJ-ObservationSPLASCH-139",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -2924,7 +2924,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-140"
         },
         "name": "BSJ-ObservationSPLASCH-140",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2938,7 +2938,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-141"
         },
         "name": "BSJ-ObservationSPLASCH-141",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2952,7 +2952,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-142"
         },
         "name": "BSJ-ObservationSPLASCH-142",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2966,7 +2966,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-143"
         },
         "name": "BSJ-ObservationSPLASCH-143",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -2980,7 +2980,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-144"
         },
         "name": "BSJ-ObservationSPLASCH-144",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -2994,7 +2994,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-145"
         },
         "name": "BSJ-ObservationSPLASCH-145",
-        "description": "An instance of SPLASCH swallowing observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -3008,7 +3008,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-146"
         },
         "name": "BSJ-ObservationSPLASCH-146",
-        "description": "An instance of SPLASCH swallowing observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -3022,7 +3022,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-147"
         },
         "name": "BSJ-ObservationSPLASCH-147",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -3036,7 +3036,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-148"
         },
         "name": "BSJ-ObservationSPLASCH-148",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -3050,7 +3050,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-149"
         },
         "name": "BSJ-ObservationSPLASCH-149",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -3064,7 +3064,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-150"
         },
         "name": "BSJ-ObservationSPLASCH-150",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH swallowing observation",
         "exampleBoolean": true
       },
       {
@@ -3078,7 +3078,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-151"
         },
         "name": "BSJ-ObservationSPLASCH-151",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH swallowing observation",
         "exampleBoolean": true
       },
       {
@@ -3092,7 +3092,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-152"
         },
         "name": "BSJ-ObservationSPLASCH-152",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -3106,7 +3106,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-153"
         },
         "name": "BSJ-ObservationSPLASCH-153",
-        "description": "An instance of SPLASCH spoken-language-comprehension observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -3120,7 +3120,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-154"
         },
         "name": "BSJ-ObservationSPLASCH-154",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -3134,7 +3134,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-155"
         },
         "name": "BSJ-ObservationSPLASCH-155",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -3148,7 +3148,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-156"
         },
         "name": "BSJ-ObservationSPLASCH-156",
-        "description": "An instance of SPLASCH spoken-language-expression observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -3162,7 +3162,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-157"
         },
         "name": "BSJ-ObservationSPLASCH-157",
-        "description": "An instance of SPLASCH swallowing observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -3176,7 +3176,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-158"
         },
         "name": "BSJ-ObservationSPLASCH-158",
-        "description": "An instance of SPLASCH swallowing observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -3190,7 +3190,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-159"
         },
         "name": "BSJ-ObservationSPLASCH-159",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -3204,7 +3204,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-160"
         },
         "name": "BSJ-ObservationSPLASCH-160",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -3218,7 +3218,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-161"
         },
         "name": "BSJ-ObservationSPLASCH-161",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -3232,7 +3232,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-162"
         },
         "name": "BSJ-ObservationSPLASCH-162",
-        "description": "An instance of SPLASCH multi-modal-communication observation",
+        "description": "An instance of SPLASCH swallowing observation",
         "exampleBoolean": true
       },
       {
@@ -3246,7 +3246,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-163"
         },
         "name": "BSJ-ObservationSPLASCH-163",
-        "description": "An instance of SPLASCH hearing observation",
+        "description": "An instance of SPLASCH swallowing observation",
         "exampleBoolean": true
       },
       {
@@ -3260,7 +3260,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-164"
         },
         "name": "BSJ-ObservationSPLASCH-164",
-        "description": "An instance of SPLASCH hearing observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -3274,7 +3274,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-165"
         },
         "name": "BSJ-ObservationSPLASCH-165",
-        "description": "An instance of SPLASCH hearing observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -3288,7 +3288,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-166"
         },
         "name": "BSJ-ObservationSPLASCH-166",
-        "description": "An instance of SPLASCH hearing observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -3302,7 +3302,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-167"
         },
         "name": "BSJ-ObservationSPLASCH-167",
-        "description": "An instance of SPLASCH hearing observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -3316,7 +3316,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-168"
         },
         "name": "BSJ-ObservationSPLASCH-168",
-        "description": "An instance of SPLASCH hearing observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -3330,7 +3330,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-169"
         },
         "name": "BSJ-ObservationSPLASCH-169",
-        "description": "An instance of SPLASCH hearing observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -3344,7 +3344,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-170"
         },
         "name": "BSJ-ObservationSPLASCH-170",
-        "description": "An instance of SPLASCH hearing observation",
+        "description": "An instance of SPLASCH spoken-language-comprehension observation",
         "exampleBoolean": true
       },
       {
@@ -3358,7 +3358,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-171"
         },
         "name": "BSJ-ObservationSPLASCH-171",
-        "description": "An instance of SPLASCH hearing observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -3372,7 +3372,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-172"
         },
         "name": "BSJ-ObservationSPLASCH-172",
-        "description": "An instance of SPLASCH hearing observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -3386,7 +3386,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-173"
         },
         "name": "BSJ-ObservationSPLASCH-173",
-        "description": "An instance of SPLASCH hearing observation",
+        "description": "An instance of SPLASCH spoken-language-expression observation",
         "exampleBoolean": true
       },
       {
@@ -3400,7 +3400,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-174"
         },
         "name": "BSJ-ObservationSPLASCH-174",
-        "description": "An instance of SPLASCH hearing observation",
+        "description": "An instance of SPLASCH swallowing observation",
         "exampleBoolean": true
       },
       {
@@ -3414,7 +3414,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-175"
         },
         "name": "BSJ-ObservationSPLASCH-175",
-        "description": "An instance of SPLASCH hearing observation",
+        "description": "An instance of SPLASCH swallowing observation",
         "exampleBoolean": true
       },
       {
@@ -3428,7 +3428,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-176"
         },
         "name": "BSJ-ObservationSPLASCH-176",
-        "description": "An instance of SPLASCH hearing observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -3442,7 +3442,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-177"
         },
         "name": "BSJ-ObservationSPLASCH-177",
-        "description": "An instance of SPLASCH hearing observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -3456,7 +3456,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-178"
         },
         "name": "BSJ-ObservationSPLASCH-178",
-        "description": "An instance of SPLASCH hearing observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {
@@ -3470,7 +3470,7 @@
           "reference": "Observation/BSJ-ObservationSPLASCH-179"
         },
         "name": "BSJ-ObservationSPLASCH-179",
-        "description": "An instance of SPLASCH hearing observation",
+        "description": "An instance of SPLASCH multi-modal-communication observation",
         "exampleBoolean": true
       },
       {

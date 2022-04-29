@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "BSJ-ObservationSPLASCH-103"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"BSJ-ObservationSPLASCH-103\" </p></div><p><b>status</b>: final</p><p><b>category</b>: Multi-modal Communication <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHObservationCategoryCS.html\">SPLASCH Observation Category Codes</a>#multi-modal-communication)</span></p><p><b>code</b>: How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations? <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SPLASCHMultiModalCommunicationObservationCS#99829-4)</span></p><p><b>subject</b>: <a href=\"Patient-BSJ-patientBSJ1.html\">Patient/BSJ-patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2020-07-12T15:00:00-05:00</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-DanielGranger.html\">Practitioner/Practitioner-DanielGranger</a> \" GRANGER\"</li><li><a href=\"PractitionerRole-provider-role-physical-therapist-DanielGranger.html\">PractitionerRole/provider-role-physical-therapist-DanielGranger</a></li><li><a href=\"Organization-Organization-Happy-Nursing-Facility.html\">Organization/Organization-Happy-Nursing-Facility</a> \"Happy Nursing Facility\"</li></ul><p><b>value</b>: Sometimes <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SPLASCHFrequencyCS#LA10082-8)</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"BSJ-ObservationSPLASCH-103\" </p></div><p><b>status</b>: final</p><p><b>category</b>: Spoken language expression <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHObservationCategoryCS.html\">SPLASCH Observation Category Codes</a>#spoken-language-expression)</span></p><p><b>code</b>: Produce verbal messages with appropriate form in high demand situations <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHSpeechExpressionObservationCS.html\">Speech Expression Observation Codes</a>#verbal-form-high-demand)</span></p><p><b>subject</b>: <a href=\"Patient-BSJ-patientBSJ1.html\">Patient/BSJ-patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2020-07-12T13:32:00-05:00</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-LiaNguyen.html\">Practitioner/Practitioner-LiaNguyen</a> \" NGUYEN\"</li><li><a href=\"PractitionerRole-provider-role-registered-nurse-LiaNguyen.html\">PractitionerRole/provider-role-registered-nurse-LiaNguyen</a></li><li><a href=\"Organization-Organization-Happy-Nursing-Facility.html\">Organization/Organization-Happy-Nursing-Facility</a> \"Happy Nursing Facility\"</li></ul><p><b>value</b>: Rarely <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SPLASCHFrequencyCS#LA10066-1)</span></p></div>"
   ];
   fhir:Observation.status [ fhir:value "final"];
   fhir:Observation.category [
@@ -18,31 +18,31 @@
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS" ];
-       fhir:Coding.code [ fhir:value "multi-modal-communication" ];
-       fhir:Coding.display [ fhir:value "Multi-modal Communication" ]
+       fhir:Coding.code [ fhir:value "spoken-language-expression" ];
+       fhir:Coding.display [ fhir:value "Spoken language expression" ]
      ]
   ];
   fhir:Observation.code [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS" ];
-       fhir:Coding.code [ fhir:value "99829-4" ];
-       fhir:Coding.display [ fhir:value "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?" ]
+       fhir:Coding.system [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS" ];
+       fhir:Coding.code [ fhir:value "verbal-form-high-demand" ];
+       fhir:Coding.display [ fhir:value "Produce verbal messages with appropriate form in high demand situations" ]
      ]
   ];
   fhir:Observation.subject [
      fhir:link <http://hl7.org/fhir/us/pacio-splasch/Patient/BSJ-patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/BSJ-patientBSJ1" ]
   ];
-  fhir:Observation.effectiveDateTime [ fhir:value "2020-07-12T15:00:00-05:00"^^xsd:dateTime];
+  fhir:Observation.effectiveDateTime [ fhir:value "2020-07-12T13:32:00-05:00"^^xsd:dateTime];
   fhir:Observation.performer [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/pacio-splasch/Practitioner/Practitioner-DanielGranger>;
-     fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-DanielGranger" ]
+     fhir:link <http://hl7.org/fhir/us/pacio-splasch/Practitioner/Practitioner-LiaNguyen>;
+     fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-LiaNguyen" ]
   ], [
      fhir:index 1;
-     fhir:link <http://hl7.org/fhir/us/pacio-splasch/PractitionerRole/provider-role-physical-therapist-DanielGranger>;
-     fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-physical-therapist-DanielGranger" ]
+     fhir:link <http://hl7.org/fhir/us/pacio-splasch/PractitionerRole/provider-role-registered-nurse-LiaNguyen>;
+     fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-registered-nurse-LiaNguyen" ]
   ], [
      fhir:index 2;
      fhir:link <http://hl7.org/fhir/us/pacio-splasch/Organization/Organization-Happy-Nursing-Facility>;
@@ -52,16 +52,16 @@
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS" ];
-       fhir:Coding.code [ fhir:value "LA10082-8" ];
-       fhir:Coding.display [ fhir:value "Sometimes" ]
+       fhir:Coding.code [ fhir:value "LA10066-1" ];
+       fhir:Coding.display [ fhir:value "Rarely" ]
      ]
   ] .
 
 <http://hl7.org/fhir/us/pacio-splasch/Patient/BSJ-patientBSJ1> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-splasch/Practitioner/Practitioner-DanielGranger> a fhir:us .
+<http://hl7.org/fhir/us/pacio-splasch/Practitioner/Practitioner-LiaNguyen> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-splasch/PractitionerRole/provider-role-physical-therapist-DanielGranger> a fhir:us .
+<http://hl7.org/fhir/us/pacio-splasch/PractitionerRole/provider-role-registered-nurse-LiaNguyen> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-splasch/Organization/Organization-Happy-Nursing-Facility> a fhir:us .
 

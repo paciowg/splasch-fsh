@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "BSJ-ObservationSPLASCH-010"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"BSJ-ObservationSPLASCH-010\" </p></div><p><b>status</b>: final</p><p><b>category</b>: Multi-modal Communication <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHObservationCategoryCS.html\">SPLASCH Observation Category Codes</a>#multi-modal-communication)</span></p><p><b>code</b>: How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations? <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SPLASCHMultiModalCommunicationObservationCS#99833-6)</span></p><p><b>subject</b>: <a href=\"Patient-BSJ-patientBSJ1.html\">Patient/BSJ-patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2020-07-07T19:30:00-05:00</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-JudySmiley.html\">Practitioner/Practitioner-JudySmiley</a> \" SMILEY\"</li><li><a href=\"PractitionerRole-provider-role-registered-nurse-JudySmiley.html\">PractitionerRole/provider-role-registered-nurse-JudySmiley</a></li><li><a href=\"Organization-Organization-San-Antonio-General-Hospital.html\">Organization/Organization-San-Antonio-General-Hospital</a> \"San Antonio General Hospital\"</li></ul><p><b>value</b>: Sometimes <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (SPLASCHFrequencyCS#LA10082-8)</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"BSJ-ObservationSPLASCH-010\" </p></div><p><b>status</b>: final</p><p><b>category</b>: Hearing <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-SPLASCHObservationCategoryCS.html\">SPLASCH Observation Category Codes</a>#hearing)</span></p><p><b>code</b>: Hearing threshold Ear - right --4000 Hz <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#89023-6)</span></p><p><b>subject</b>: <a href=\"Patient-BSJ-patientBSJ1.html\">Patient/BSJ-patientBSJ1</a> \" SMITH-JOHNSON\"</p><p><b>effective</b>: 2020-11-06T10:45:00-05:00</p><p><b>performer</b>: </p><ul><li><a href=\"Practitioner-Practitioner-JillBradley.html\">Practitioner/Practitioner-JillBradley</a> \" BRADLEY\"</li><li><a href=\"PractitionerRole-provider-role-audiologist-JillBradley.html\">PractitionerRole/provider-role-audiologist-JillBradley</a></li><li><a href=\"Organization-Organization-Audiology-Advanced-Hearing-Care.html\">Organization/Organization-Audiology-Advanced-Hearing-Care</a> \"Audiology Advanced Hearing Care\"</li></ul><p><b>value</b>: 40 dB<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code dB = 'dB')</span></p></div>"
   ];
   fhir:Observation.status [ fhir:value "final"];
   fhir:Observation.category [
@@ -18,52 +18,50 @@
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS" ];
-       fhir:Coding.code [ fhir:value "multi-modal-communication" ];
-       fhir:Coding.display [ fhir:value "Multi-modal Communication" ]
+       fhir:Coding.code [ fhir:value "hearing" ];
+       fhir:Coding.display [ fhir:value "Hearing" ]
      ]
   ];
   fhir:Observation.code [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS" ];
-       fhir:Coding.code [ fhir:value "99833-6" ];
-       fhir:Coding.display [ fhir:value "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?" ]
+       fhir:Coding.system [ fhir:value "https://loinc.org/89015-2/" ];
+       fhir:Coding.code [ fhir:value "89023-6" ];
+       fhir:Coding.display [ fhir:value "Hearing threshold Ear - right --4000 Hz" ]
      ]
   ];
   fhir:Observation.subject [
      fhir:link <http://hl7.org/fhir/us/pacio-splasch/Patient/BSJ-patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/BSJ-patientBSJ1" ]
   ];
-  fhir:Observation.effectiveDateTime [ fhir:value "2020-07-07T19:30:00-05:00"^^xsd:dateTime];
+  fhir:Observation.effectiveDateTime [ fhir:value "2020-11-06T10:45:00-05:00"^^xsd:dateTime];
   fhir:Observation.performer [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/pacio-splasch/Practitioner/Practitioner-JudySmiley>;
-     fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-JudySmiley" ]
+     fhir:link <http://hl7.org/fhir/us/pacio-splasch/Practitioner/Practitioner-JillBradley>;
+     fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-JillBradley" ]
   ], [
      fhir:index 1;
-     fhir:link <http://hl7.org/fhir/us/pacio-splasch/PractitionerRole/provider-role-registered-nurse-JudySmiley>;
-     fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-registered-nurse-JudySmiley" ]
+     fhir:link <http://hl7.org/fhir/us/pacio-splasch/PractitionerRole/provider-role-audiologist-JillBradley>;
+     fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-audiologist-JillBradley" ]
   ], [
      fhir:index 2;
-     fhir:link <http://hl7.org/fhir/us/pacio-splasch/Organization/Organization-San-Antonio-General-Hospital>;
-     fhir:Reference.reference [ fhir:value "Organization/Organization-San-Antonio-General-Hospital" ]
+     fhir:link <http://hl7.org/fhir/us/pacio-splasch/Organization/Organization-Audiology-Advanced-Hearing-Care>;
+     fhir:Reference.reference [ fhir:value "Organization/Organization-Audiology-Advanced-Hearing-Care" ]
   ];
-  fhir:Observation.valueCodeableConcept [
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS" ];
-       fhir:Coding.code [ fhir:value "LA10082-8" ];
-       fhir:Coding.display [ fhir:value "Sometimes" ]
-     ]
+  fhir:Observation.valueQuantity [
+     fhir:Quantity.value [ fhir:value "40"^^xsd:decimal ];
+     fhir:Quantity.unit [ fhir:value "dB" ];
+     fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
+     fhir:Quantity.code [ fhir:value "dB" ]
   ] .
 
 <http://hl7.org/fhir/us/pacio-splasch/Patient/BSJ-patientBSJ1> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-splasch/Practitioner/Practitioner-JudySmiley> a fhir:us .
+<http://hl7.org/fhir/us/pacio-splasch/Practitioner/Practitioner-JillBradley> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-splasch/PractitionerRole/provider-role-registered-nurse-JudySmiley> a fhir:us .
+<http://hl7.org/fhir/us/pacio-splasch/PractitionerRole/provider-role-audiologist-JillBradley> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-splasch/Organization/Organization-San-Antonio-General-Hospital> a fhir:us .
+<http://hl7.org/fhir/us/pacio-splasch/Organization/Organization-Audiology-Advanced-Hearing-Care> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 

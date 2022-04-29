@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOSPLASCH"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-04-27T11:54:23-04:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-04-29T14:30:00-04:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Patient Care Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -957,7 +957,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-001" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-001" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 42;
@@ -971,7 +971,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-002" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-002" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 43;
@@ -985,7 +985,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-003" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-003" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 44;
@@ -999,7 +999,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-004" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-004" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 45;
@@ -1013,7 +1013,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-005" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-005" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 46;
@@ -1027,7 +1027,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-006" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-006" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 47;
@@ -1041,7 +1041,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-007" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-007" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 48;
@@ -1055,7 +1055,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-008" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-008" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 49;
@@ -1069,7 +1069,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-009" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-009" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 50;
@@ -1083,7 +1083,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-010" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-010" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 51;
@@ -1097,7 +1097,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-011" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-011" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 52;
@@ -1111,7 +1111,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-012" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-012" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 53;
@@ -1125,7 +1125,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-013" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-013" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 54;
@@ -1139,7 +1139,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-014" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-014" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 55;
@@ -1153,7 +1153,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-015" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-015" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 56;
@@ -1167,7 +1167,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-016" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-016" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 57;
@@ -1181,7 +1181,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-017" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-017" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 58;
@@ -1195,7 +1195,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-018" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-018" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 59;
@@ -1209,7 +1209,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-019" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-019" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 60;
@@ -1223,7 +1223,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-020" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-020" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 61;
@@ -1237,7 +1237,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-021" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-021" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 62;
@@ -1251,7 +1251,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-022" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-022" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 63;
@@ -1265,7 +1265,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-023" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-023" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 64;
@@ -1279,7 +1279,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-024" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-024" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 65;
@@ -1293,7 +1293,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-025" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-025" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 66;
@@ -1307,7 +1307,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-026" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-026" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 67;
@@ -1321,7 +1321,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-027" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-027" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 68;
@@ -1335,7 +1335,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-028" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-028" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 69;
@@ -1363,7 +1363,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-030" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-030" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 71;
@@ -1377,7 +1377,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-031" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-031" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 72;
@@ -1391,7 +1391,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-032" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-032" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 73;
@@ -1405,7 +1405,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-033" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-033" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 74;
@@ -1419,7 +1419,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-034" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-034" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 75;
@@ -1433,7 +1433,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-035" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-035" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 76;
@@ -1447,7 +1447,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-036" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-036" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 77;
@@ -1461,7 +1461,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-037" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-037" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 78;
@@ -1475,7 +1475,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-038" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-038" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 79;
@@ -1489,7 +1489,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-039" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-039" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 80;
@@ -1503,7 +1503,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-040" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-040" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 81;
@@ -1517,7 +1517,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-041" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-041" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 82;
@@ -1531,7 +1531,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-042" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-042" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 83;
@@ -1545,7 +1545,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-043" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-043" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 84;
@@ -1559,7 +1559,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-044" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-044" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 85;
@@ -1573,7 +1573,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-045" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-045" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 86;
@@ -1601,7 +1601,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-047" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-047" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 88;
@@ -1615,7 +1615,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-048" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-048" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 89;
@@ -1629,7 +1629,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-049" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-049" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 90;
@@ -1643,7 +1643,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-050" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-050" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 91;
@@ -1657,7 +1657,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-051" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-051" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 92;
@@ -1671,7 +1671,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-052" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-052" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 93;
@@ -1685,7 +1685,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-053" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-053" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 94;
@@ -1699,7 +1699,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-054" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-054" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 95;
@@ -1713,7 +1713,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-055" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-055" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 96;
@@ -1727,7 +1727,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-056" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-056" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 97;
@@ -1741,7 +1741,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-057" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-057" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 98;
@@ -1755,7 +1755,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-058" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-058" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 99;
@@ -1769,7 +1769,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-059" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-059" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 100;
@@ -1783,7 +1783,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-060" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-060" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 101;
@@ -1797,7 +1797,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-061" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-061" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 102;
@@ -1811,7 +1811,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-062" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-062" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 103;
@@ -1825,7 +1825,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-063" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-063" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 104;
@@ -1839,7 +1839,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-064" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-064" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 105;
@@ -1853,7 +1853,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-065" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-065" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 106;
@@ -1867,7 +1867,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-066" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-066" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 107;
@@ -1881,7 +1881,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-067" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-067" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 108;
@@ -1895,7 +1895,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-068" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-068" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 109;
@@ -1909,7 +1909,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-069" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-069" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 110;
@@ -1923,7 +1923,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-070" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-070" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 111;
@@ -1937,7 +1937,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-071" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-071" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 112;
@@ -1951,7 +1951,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-072" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-072" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 113;
@@ -1965,7 +1965,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-073" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-073" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 114;
@@ -1979,7 +1979,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-074" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-074" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 115;
@@ -1993,7 +1993,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-075" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-075" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 116;
@@ -2007,7 +2007,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-076" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-076" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 117;
@@ -2021,7 +2021,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-077" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-077" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 118;
@@ -2035,7 +2035,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-078" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-078" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 119;
@@ -2049,7 +2049,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-079" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-079" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 120;
@@ -2063,7 +2063,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-080" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-080" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 121;
@@ -2077,7 +2077,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-081" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-081" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 122;
@@ -2091,7 +2091,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-082" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-082" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 123;
@@ -2105,7 +2105,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-083" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-083" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 124;
@@ -2119,7 +2119,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-084" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-084" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 125;
@@ -2133,7 +2133,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-085" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-085" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 126;
@@ -2147,7 +2147,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-086" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-086" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 127;
@@ -2161,7 +2161,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-087" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-087" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 128;
@@ -2175,7 +2175,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-088" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-088" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 129;
@@ -2189,7 +2189,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-089" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-089" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 130;
@@ -2203,7 +2203,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-090" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-090" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 131;
@@ -2217,7 +2217,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-091" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-091" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 132;
@@ -2231,7 +2231,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-092" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-092" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 133;
@@ -2245,7 +2245,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-093" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-093" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 134;
@@ -2259,7 +2259,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-094" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-094" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 135;
@@ -2273,7 +2273,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-095" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-095" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 136;
@@ -2287,7 +2287,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-096" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-096" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 137;
@@ -2301,7 +2301,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-097" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-097" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 138;
@@ -2315,7 +2315,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-098" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-098" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 139;
@@ -2329,7 +2329,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-099" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-099" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 140;
@@ -2343,7 +2343,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-100" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-100" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 141;
@@ -2357,7 +2357,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-101" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-101" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 142;
@@ -2371,7 +2371,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-102" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-102" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 143;
@@ -2385,7 +2385,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-103" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-103" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 144;
@@ -2399,7 +2399,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-104" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-104" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 145;
@@ -2413,7 +2413,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-105" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-105" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 146;
@@ -2427,7 +2427,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-106" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-106" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 147;
@@ -2441,7 +2441,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-107" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-107" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 148;
@@ -2455,7 +2455,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-108" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-108" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 149;
@@ -2469,7 +2469,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-109" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-109" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 150;
@@ -2483,7 +2483,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-110" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-110" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 151;
@@ -2497,7 +2497,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-111" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-111" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 152;
@@ -2511,7 +2511,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-112" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-112" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 153;
@@ -2525,7 +2525,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-113" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-113" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 154;
@@ -2539,7 +2539,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-114" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-114" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 155;
@@ -2553,7 +2553,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-115" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-115" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 156;
@@ -2567,7 +2567,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-116" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-116" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 157;
@@ -2581,7 +2581,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-117" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-117" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 158;
@@ -2595,7 +2595,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-118" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-118" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 159;
@@ -2609,7 +2609,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-119" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-119" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 160;
@@ -2623,7 +2623,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-120" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-120" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 161;
@@ -2637,7 +2637,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-121" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-121" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 162;
@@ -2651,7 +2651,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-122" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-122" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 163;
@@ -2665,7 +2665,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-123" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-123" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 164;
@@ -2679,7 +2679,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-124" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-124" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 165;
@@ -2693,7 +2693,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-125" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-125" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 166;
@@ -2707,7 +2707,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-126" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-126" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 167;
@@ -2721,7 +2721,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-127" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-127" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 168;
@@ -2735,7 +2735,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-128" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-128" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 169;
@@ -2749,7 +2749,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-129" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-129" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 170;
@@ -2763,7 +2763,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-130" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-130" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 171;
@@ -2777,7 +2777,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-131" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-131" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 172;
@@ -2791,7 +2791,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-132" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-132" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 173;
@@ -2805,7 +2805,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-133" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-133" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 174;
@@ -2819,7 +2819,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-134" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-134" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 175;
@@ -2833,7 +2833,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-135" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-135" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 176;
@@ -2847,7 +2847,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-136" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-136" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 177;
@@ -2861,7 +2861,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-137" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-137" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 178;
@@ -2875,7 +2875,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-138" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-138" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 179;
@@ -2889,7 +2889,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-139" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-139" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 180;
@@ -2903,7 +2903,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-140" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-140" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 181;
@@ -2917,7 +2917,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-141" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-141" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 182;
@@ -2931,7 +2931,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-142" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-142" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 183;
@@ -2945,7 +2945,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-143" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-143" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 184;
@@ -2959,7 +2959,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-144" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-144" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 185;
@@ -2973,7 +2973,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-145" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-145" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 186;
@@ -2987,7 +2987,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-146" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-146" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 187;
@@ -3001,7 +3001,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-147" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-147" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 188;
@@ -3015,7 +3015,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-148" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-148" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 189;
@@ -3029,7 +3029,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-149" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-149" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 190;
@@ -3043,7 +3043,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-150" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-150" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 191;
@@ -3057,7 +3057,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-151" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-151" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 192;
@@ -3071,7 +3071,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-152" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-152" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 193;
@@ -3085,7 +3085,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-153" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-153" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 194;
@@ -3099,7 +3099,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-154" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-154" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 195;
@@ -3113,7 +3113,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-155" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-155" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 196;
@@ -3127,7 +3127,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-156" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-156" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 197;
@@ -3141,7 +3141,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-157" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-157" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 198;
@@ -3155,7 +3155,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-158" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-158" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 199;
@@ -3169,7 +3169,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-159" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-159" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 200;
@@ -3183,7 +3183,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-160" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-160" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 201;
@@ -3197,7 +3197,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-161" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-161" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 202;
@@ -3211,7 +3211,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-162" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-162" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 203;
@@ -3225,7 +3225,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-163" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-163" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 204;
@@ -3239,7 +3239,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-164" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-164" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 205;
@@ -3253,7 +3253,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-165" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-165" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 206;
@@ -3267,7 +3267,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-166" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-166" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 207;
@@ -3281,7 +3281,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-167" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-167" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 208;
@@ -3295,7 +3295,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-168" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-168" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 209;
@@ -3309,7 +3309,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-169" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-169" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 210;
@@ -3323,7 +3323,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-170" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-170" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-comprehension observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 211;
@@ -3337,7 +3337,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-171" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-171" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 212;
@@ -3351,7 +3351,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-172" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-172" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 213;
@@ -3365,7 +3365,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-173" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-173" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH spoken-language-expression observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 214;
@@ -3379,7 +3379,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-174" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-174" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 215;
@@ -3393,7 +3393,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-175" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-175" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH swallowing observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 216;
@@ -3407,7 +3407,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-176" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-176" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 217;
@@ -3421,7 +3421,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-177" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-177" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 218;
@@ -3435,7 +3435,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-178" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-178" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 219;
@@ -3449,7 +3449,7 @@
          fhir:Reference.reference [ fhir:value "Observation/BSJ-ObservationSPLASCH-179" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-ObservationSPLASCH-179" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH hearing observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of SPLASCH multi-modal-communication observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 220;

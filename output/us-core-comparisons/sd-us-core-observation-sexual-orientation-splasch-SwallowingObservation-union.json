@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "dbfd0fe6-7a8d-46b1-a84d-38e670425e70-362",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/dbfd0fe6-7a8d-46b1-a84d-38e670425e70-362",
+  "id" : "3476524b-c765-4267-a85c-47e40e8e4ef0-362",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3476524b-c765-4267-a85c-47e40e8e4ef0-362",
   "name" : "UnionUSCoreSexualOrientationObservationProfileAndSwallowingObservation",
   "title" : "Union of US Core Sexual Orientation Observation Profile And Swallowing Observation",
   "status" : "active",
-  "date" : "2022-04-27T11:55:49-04:00",
+  "date" : "2022-04-29T14:31:09-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -569,7 +569,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/dbfd0fe6-7a8d-46b1-a84d-38e670425e70-353"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/3476524b-c765-4267-a85c-47e40e8e4ef0-353"
       },
       "mapping" : [{
         "identity" : "workflow",
