@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "5a5327c3-6897-4b06-85b8-0b9eb9c649bd-68",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5a5327c3-6897-4b06-85b8-0b9eb9c649bd-68",
+  "id" : "ac269e14-b48d-42ee-9e9d-060e4b1d0bcc-68",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ac269e14-b48d-42ee-9e9d-060e4b1d0bcc-68",
   "name" : "UnionUSCoreRespiratoryRateProfileAndHearingObservation",
   "title" : "Union of US Core Respiratory Rate Profile And Hearing Observation",
   "status" : "active",
-  "date" : "2022-05-03T12:47:14-04:00",
+  "date" : "2022-05-03T15:08:02-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/5a5327c3-6897-4b06-85b8-0b9eb9c649bd-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ac269e14-b48d-42ee-9e9d-060e4b1d0bcc-5"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1736,7 +1736,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/5a5327c3-6897-4b06-85b8-0b9eb9c649bd-8"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ac269e14-b48d-42ee-9e9d-060e4b1d0bcc-8"
       },
       "mapping" : [{
         "identity" : "w5",

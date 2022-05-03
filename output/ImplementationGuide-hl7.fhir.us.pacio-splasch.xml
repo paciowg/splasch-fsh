@@ -11,7 +11,7 @@
   <name value="PACIOSPLASCH"/>
   <title value="PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide"/>
   <status value="draft"/>
-  <date value="2022-05-03T12:45:05-04:00"/>
+  <date value="2022-05-03T15:05:17-04:00"/>
   <publisher value="HL7 Patient Care Working Group"/>
   <contact>
     <name value="HL7 Patient Care Working Group"/>
@@ -399,17 +399,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/SPLASCHDiagnosticAudiologyResultsPanel"/>
-      </reference>
-      <name value="Diagnostic Audiology Results Panel"/>
-      <description value="Codes representing panel LOINC 98418-7 Diagnostic Audiology Results Panel"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/SPLASCHFrequencyObservationVS"/>
       </reference>
       <name value="SPLASCH Frequency Observation Values"/>
@@ -520,17 +509,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/SPLASCHPureToneThresholdAudiometryPanel"/>
-      </reference>
-      <name value="Pure tone threshold audiometry panel"/>
-      <description value="Codes representing panel LOINC 89015-2 Pure tone threshold audiometry panel"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/SPLASCHSolidDietModifierTypeObservationVS"/>
       </reference>
       <name value="Solid Diet Modifier Type Observation"/>
@@ -619,6 +597,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
+      </reference>
+      <name value="Diagnostic Audiology Results Panel"/>
+      <description value="Codes representing panel LOINC 98418-7 Diagnostic Audiology Results Panel"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/SPLASCHFrequencyCS"/>
       </reference>
       <name value="Observation Value Frequency Codes"/>
@@ -656,6 +645,17 @@
       </reference>
       <name value="SPLASCH Observation Category Codes"/>
       <description value="Categories for SPLASCH observations"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
+      </reference>
+      <name value="Pure tone threshold audiometry panel"/>
+      <description value="Codes representing panel LOINC 89015-2 Pure tone threshold audiometry panel"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

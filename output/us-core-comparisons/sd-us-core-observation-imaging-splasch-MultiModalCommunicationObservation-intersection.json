@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "5a5327c3-6897-4b06-85b8-0b9eb9c649bd-123",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5a5327c3-6897-4b06-85b8-0b9eb9c649bd-123",
+  "id" : "ac269e14-b48d-42ee-9e9d-060e4b1d0bcc-123",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ac269e14-b48d-42ee-9e9d-060e4b1d0bcc-123",
   "name" : "IntersectionUSCoreImagingResultObservationProfileAndMultiModalCommunicationObservation",
   "title" : "Intersection of US Core Imaging Result Observation Profile And Multi-Modal Communication Observation",
   "status" : "active",
-  "date" : "2022-05-03T12:47:15-04:00",
+  "date" : "2022-05-03T15:08:02-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -576,7 +576,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/5a5327c3-6897-4b06-85b8-0b9eb9c649bd-120"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ac269e14-b48d-42ee-9e9d-060e4b1d0bcc-120"
       },
       "mapping" : [{
         "identity" : "workflow",

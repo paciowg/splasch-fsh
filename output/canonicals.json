@@ -7,6 +7,13 @@
     "name": "SPLASCHCaloriePercentageCategoryCS"
   },
   {
+    "id": "SPLASCHDiagnosticAudiologyResultsPanelCS",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS",
+    "version": "0.1.0",
+    "name": "SPLASCHDiagnosticAudiologyResultsPanelCS"
+  },
+  {
     "id": "SPLASCHFrequencyCS",
     "type": "CodeSystem",
     "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS",
@@ -33,6 +40,13 @@
     "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS",
     "version": "0.1.0",
     "name": "SPLASCHObservationCategoryCS"
+  },
+  {
+    "id": "SPLASCHPureToneThresholdAudiometryPanelCS",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS",
+    "version": "0.1.0",
+    "name": "SPLASCHPureToneThresholdAudiometryPanelCS"
   },
   {
     "id": "SPLASCHSolidDietCS",
@@ -168,13 +182,6 @@
     "name": "SPLASCHCaloriePercentageTypeObservationVS"
   },
   {
-    "id": "SPLASCHDiagnosticAudiologyResultsPanel",
-    "type": "ValueSet",
-    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHDiagnosticAudiologyResultsPanel",
-    "version": "0.1.0",
-    "name": "SPLASCHDiagnosticAudiologyResultsPanel"
-  },
-  {
     "id": "SPLASCHFrequencyObservationVS",
     "type": "ValueSet",
     "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHFrequencyObservationVS",
@@ -243,13 +250,6 @@
     "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHObservationCategoryVS",
     "version": "0.1.0",
     "name": "SPLASCHObservationCategoryVS"
-  },
-  {
-    "id": "SPLASCHPureToneThresholdAudiometryPanel",
-    "type": "ValueSet",
-    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHPureToneThresholdAudiometryPanel",
-    "version": "0.1.0",
-    "name": "SPLASCHPureToneThresholdAudiometryPanel"
   },
   {
     "id": "SPLASCHSolidDietModifierTypeObservationVS",

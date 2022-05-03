@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="923ed314-f5b1-4214-9bc1-66421756d45a"/>
+  <id value="43804e20-d467-4f42-abed-10a9adb3e8fa"/>
   <meta>
-    <lastUpdated value="2022-05-03T12:45:05.530-04:00"/>
+    <lastUpdated value="2022-05-03T15:05:17.671-04:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -808,7 +808,7 @@
         <name value="SPLASCHCaloriePercentageTypeObservationVS"/>
         <title value="Calorie Percentage Type Observation"/>
         <status value="active"/>
-        <date value="2022-05-03T12:45:05-04:00"/>
+        <date value="2022-05-03T15:05:17-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -841,8 +841,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:317b688d-0943-4bdb-afdd-b687b047031f"/>
-          <timestamp value="2022-05-03T12:48:08-04:00"/>
+          <identifier value="urn:uuid:bcca2037-761d-4a40-bf42-7b15e3aed0fd"/>
+          <timestamp value="2022-05-03T15:08:59-04:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -856,402 +856,6 @@
             <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS"/>
             <code value="non-oral-diet-sustenance"/>
             <display value="Nutrition and hydration diet delivered through non-oral means"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <resource>
-      <ValueSet>
-        <language value="en"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-            <p>This value set contains 27 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.72</p>
-            <p>All codes in this table are from the system 
-              <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html">
-                <code>http://loinc.org</code>
-              </a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-                <td>
-                  <b>Definition</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98419-5"> </a>
-                  <a href="http://details.loinc.org/LOINC/98419-5.html">98419-5</a>
-                </td>
-                <td>Diagnostic audiology test performed</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98480-7"> </a>
-                  <a href="http://details.loinc.org/LOINC/98480-7.html">98480-7</a>
-                </td>
-                <td>Auditory brainstem response panel</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98481-5"> </a>
-                  <a href="http://details.loinc.org/LOINC/98481-5.html">98481-5</a>
-                </td>
-                <td>Auditory brainstem response threshold Ear - left --click</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98482-3"> </a>
-                  <a href="http://details.loinc.org/LOINC/98482-3.html">98482-3</a>
-                </td>
-                <td>Auditory brainstem response threshold Ear - right --click</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89024-4"> </a>
-                  <a href="http://details.loinc.org/LOINC/89024-4.html">89024-4</a>
-                </td>
-                <td>Hearing threshold Ear - left --500 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89025-1"> </a>
-                  <a href="http://details.loinc.org/LOINC/89025-1.html">89025-1</a>
-                </td>
-                <td>Hearing threshold Ear - right --500 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89016-0"> </a>
-                  <a href="http://details.loinc.org/LOINC/89016-0.html">89016-0</a>
-                </td>
-                <td>Hearing threshold Ear - left --1000 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89017-8"> </a>
-                  <a href="http://details.loinc.org/LOINC/89017-8.html">89017-8</a>
-                </td>
-                <td>Hearing threshold Ear - right --1000 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89018-6"> </a>
-                  <a href="http://details.loinc.org/LOINC/89018-6.html">89018-6</a>
-                </td>
-                <td>Hearing threshold Ear - left --2000 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89019-4"> </a>
-                  <a href="http://details.loinc.org/LOINC/89019-4.html">89019-4</a>
-                </td>
-                <td>Hearing threshold Ear - right --2000 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89020-2"> </a>
-                  <a href="http://details.loinc.org/LOINC/89020-2.html">89020-2</a>
-                </td>
-                <td>Hearing threshold Ear - left --3000 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89021-0"> </a>
-                  <a href="http://details.loinc.org/LOINC/89021-0.html">89021-0</a>
-                </td>
-                <td>Hearing threshold Ear - right --3000 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89022-8"> </a>
-                  <a href="http://details.loinc.org/LOINC/89022-8.html">89022-8</a>
-                </td>
-                <td>Hearing threshold Ear - left --4000 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89023-6"> </a>
-                  <a href="http://details.loinc.org/LOINC/89023-6.html">89023-6</a>
-                </td>
-                <td>Hearing threshold Ear - right --4000 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98421-1"> </a>
-                  <a href="http://details.loinc.org/LOINC/98421-1.html">98421-1</a>
-                </td>
-                <td>Hearing loss type Ear - left</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98426-0"> </a>
-                  <a href="http://details.loinc.org/LOINC/98426-0.html">98426-0</a>
-                </td>
-                <td>Hearing loss type Ear - right</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98425-2"> </a>
-                  <a href="http://details.loinc.org/LOINC/98425-2.html">98425-2</a>
-                </td>
-                <td>Hearing loss configuration Ear - left</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98430-2"> </a>
-                  <a href="http://details.loinc.org/LOINC/98430-2.html">98430-2</a>
-                </td>
-                <td>Hearing loss configuration Ear - right</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98422-9"> </a>
-                  <a href="http://details.loinc.org/LOINC/98422-9.html">98422-9</a>
-                </td>
-                <td>Hearing loss degree Ear - left</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98427-8"> </a>
-                  <a href="http://details.loinc.org/LOINC/98427-8.html">98427-8</a>
-                </td>
-                <td>Hearing loss degree Ear - right</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98424-5"> </a>
-                  <a href="http://details.loinc.org/LOINC/98424-5.html">98424-5</a>
-                </td>
-                <td>Hearing loss degree.max Ear - left</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98429-4"> </a>
-                  <a href="http://details.loinc.org/LOINC/98429-4.html">98429-4</a>
-                </td>
-                <td>Hearing loss degree.max Ear - right</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98423-7"> </a>
-                  <a href="http://details.loinc.org/LOINC/98423-7.html">98423-7</a>
-                </td>
-                <td>Hearing loss degree.min Ear - left</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98428-6"> </a>
-                  <a href="http://details.loinc.org/LOINC/98428-6.html">98428-6</a>
-                </td>
-                <td>Hearing loss degree.min Ear - right</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98420-3"> </a>
-                  <a href="http://details.loinc.org/LOINC/98420-3.html">98420-3</a>
-                </td>
-                <td>Audiology Comment Narrative</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98431-0"> </a>
-                  <a href="http://details.loinc.org/LOINC/98431-0.html">98431-0</a>
-                </td>
-                <td>Diagnostic audiology follow-up recommendation</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98432-8"> </a>
-                  <a href="http://details.loinc.org/LOINC/98432-8.html">98432-8</a>
-                </td>
-                <td>Reason diagnostic audiology assessment not performed</td>
-                <td/>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <status value="active"/>
-        <expansion>
-          <identifier value="urn:uuid:ed9829eb-14aa-4026-b3d3-ade0e4e90dd2"/>
-          <timestamp value="2022-04-15T12:44:46.283Z"/>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://loinc.org|2.72"/>
-          </parameter>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="98419-5"/>
-            <display value="Diagnostic audiology test performed"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="98480-7"/>
-            <display value="Auditory brainstem response panel"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="98481-5"/>
-            <display value="Auditory brainstem response threshold Ear - left --click"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="98482-3"/>
-            <display value="Auditory brainstem response threshold Ear - right --click"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89024-4"/>
-            <display value="Hearing threshold Ear - left --500 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89025-1"/>
-            <display value="Hearing threshold Ear - right --500 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89016-0"/>
-            <display value="Hearing threshold Ear - left --1000 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89017-8"/>
-            <display value="Hearing threshold Ear - right --1000 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89018-6"/>
-            <display value="Hearing threshold Ear - left --2000 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89019-4"/>
-            <display value="Hearing threshold Ear - right --2000 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89020-2"/>
-            <display value="Hearing threshold Ear - left --3000 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89021-0"/>
-            <display value="Hearing threshold Ear - right --3000 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89022-8"/>
-            <display value="Hearing threshold Ear - left --4000 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89023-6"/>
-            <display value="Hearing threshold Ear - right --4000 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="98421-1"/>
-            <display value="Hearing loss type Ear - left"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="98426-0"/>
-            <display value="Hearing loss type Ear - right"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="98425-2"/>
-            <display value="Hearing loss configuration Ear - left"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="98430-2"/>
-            <display value="Hearing loss configuration Ear - right"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="98422-9"/>
-            <display value="Hearing loss degree Ear - left"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="98427-8"/>
-            <display value="Hearing loss degree Ear - right"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="98424-5"/>
-            <display value="Hearing loss degree.max Ear - left"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="98429-4"/>
-            <display value="Hearing loss degree.max Ear - right"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="98423-7"/>
-            <display value="Hearing loss degree.min Ear - left"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="98428-6"/>
-            <display value="Hearing loss degree.min Ear - right"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="98420-3"/>
-            <display value="Audiology Comment Narrative"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="98431-0"/>
-            <display value="Diagnostic audiology follow-up recommendation"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="98432-8"/>
-            <display value="Reason diagnostic audiology assessment not performed"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -1390,7 +994,7 @@
         <name value="SPLASCHFrequencyObservationVS"/>
         <title value="SPLASCH Frequency Observation Values"/>
         <status value="active"/>
-        <date value="2022-05-03T12:45:05-04:00"/>
+        <date value="2022-05-03T15:05:17-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -1423,8 +1027,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:3a76f743-f813-4b39-8089-a6925bb6acfa"/>
-          <timestamp value="2022-05-03T12:48:08-04:00"/>
+          <identifier value="urn:uuid:a3f4fabc-b18c-48f0-8a26-a5ae6dc5085b"/>
+          <timestamp value="2022-05-03T15:09:00-04:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1673,7 +1277,7 @@
         <name value="SPLASCHFrequencyTypeObservationVS"/>
         <title value="Frequency Type Observation"/>
         <status value="active"/>
-        <date value="2022-05-03T12:45:05-04:00"/>
+        <date value="2022-05-03T15:05:17-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -1706,8 +1310,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:82a1460d-80f4-492a-be95-5de9fad6b4a4"/>
-          <timestamp value="2022-05-03T12:48:08-04:00"/>
+          <identifier value="urn:uuid:e0ecef8e-bc20-4898-a39d-acae8b65da79"/>
+          <timestamp value="2022-05-03T15:09:00-04:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2119,7 +1723,7 @@
         <name value="SPLASCHHearingObservationValueVS"/>
         <title value="Hearing Observation Value"/>
         <status value="active"/>
-        <date value="2022-05-03T12:45:05-04:00"/>
+        <date value="2022-05-03T15:05:17-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -2152,8 +1756,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:9014f2bd-930d-4df9-bdf9-89364a49e417"/>
-          <timestamp value="2022-05-03T12:48:09-04:00"/>
+          <identifier value="urn:uuid:38260a3e-3c57-440c-84f0-1602a0c9087e"/>
+          <timestamp value="2022-05-03T15:09:00-04:00"/>
           <total value="18"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2325,29 +1929,26 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 45 concepts</p>
+            <p>This value set contains 55 concepts</p>
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
                 <li>
-                  <a href="ValueSet-SPLASCHPureToneThresholdAudiometryPanel.html">Pure tone threshold audiometry panel v0.1.0 (ValueSet)</a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html">Pure tone threshold audiometry panel v0.1.0 (CodeSystem)</a>
                 </li>
-                <li>Loinc v2.72</li>
-                <li>Loinc v2.71</li>
                 <li>
-                  <a href="ValueSet-SPLASCHDiagnosticAudiologyResultsPanel.html">Diagnostic Audiology Results Panel v0.1.0 (ValueSet)</a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html">Diagnostic Audiology Results Panel v0.1.0 (CodeSystem)</a>
                 </li>
+                <li>Loinc v2.71</li>
               </ul>
             </div>
-            <p>All codes in this table are from the system 
-              <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html">
-                <code>http://loinc.org</code>
-              </a>
-            </p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
                   <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
                 </td>
                 <td>
                   <b>Display</b>
@@ -2361,6 +1962,7 @@
                   <a name="http---loinc.org-95744-9"> </a>
                   <a href="http://details.loinc.org/LOINC/95744-9.html">95744-9</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>Hearing ability to hear during assessment period [CMS Assessment]</td>
                 <td/>
               </tr>
@@ -2369,6 +1971,7 @@
                   <a name="http---loinc.org-54599-6"> </a>
                   <a href="http://details.loinc.org/LOINC/54599-6.html">54599-6</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>Hearing aid used during assessment period [CMS Assessment]</td>
                 <td/>
               </tr>
@@ -2377,6 +1980,7 @@
                   <a name="http---loinc.org-67235-2"> </a>
                   <a href="http://details.loinc.org/LOINC/67235-2.html">67235-2</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>Does the examinee have hearing aids that cannot be removed [PhenX]</td>
                 <td/>
               </tr>
@@ -2385,6 +1989,7 @@
                   <a name="http---loinc.org-94900-8"> </a>
                   <a href="http://details.loinc.org/LOINC/94900-8.html">94900-8</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>Need for and availability of a hearing aid [CMS Assessment]</td>
                 <td/>
               </tr>
@@ -2393,6 +1998,7 @@
                   <a name="http---loinc.org-67467-1"> </a>
                   <a href="http://details.loinc.org/LOINC/67467-1.html">67467-1</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>In which ear(s) do you have a hearing difficulty?</td>
                 <td/>
               </tr>
@@ -2401,318 +2007,448 @@
                   <a name="http---loinc.org-67242-8"> </a>
                   <a href="http://details.loinc.org/LOINC/67242-8.html">67242-8</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>Do you hear better in one ear than the other [PhenX]</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-91375-6"> </a>
-                  <a href="http://details.loinc.org/LOINC/91375-6.html">91375-6</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS-91375-6"> </a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html#SPLASCHPureToneThresholdAudiometryPanelCS-91375-6">91375-6</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS</td>
                 <td>Hearing threshold Ear - left --250 Hz</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89024-4"> </a>
-                  <a href="http://details.loinc.org/LOINC/89024-4.html">89024-4</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS-89024-4"> </a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html#SPLASCHPureToneThresholdAudiometryPanelCS-89024-4">89024-4</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS</td>
                 <td>Hearing threshold Ear - left --500 Hz</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-91379-8"> </a>
-                  <a href="http://details.loinc.org/LOINC/91379-8.html">91379-8</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS-91379-8"> </a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html#SPLASCHPureToneThresholdAudiometryPanelCS-91379-8">91379-8</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS</td>
                 <td>Hearing threshold Ear - left --750 Hz</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89016-0"> </a>
-                  <a href="http://details.loinc.org/LOINC/89016-0.html">89016-0</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS-89016-0"> </a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html#SPLASCHPureToneThresholdAudiometryPanelCS-89016-0">89016-0</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS</td>
                 <td>Hearing threshold Ear - left --1000 Hz</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-91373-1"> </a>
-                  <a href="http://details.loinc.org/LOINC/91373-1.html">91373-1</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS-91373-1"> </a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html#SPLASCHPureToneThresholdAudiometryPanelCS-91373-1">91373-1</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS</td>
                 <td>Hearing threshold Ear - left --1500 Hz</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89018-6"> </a>
-                  <a href="http://details.loinc.org/LOINC/89018-6.html">89018-6</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS-89018-6"> </a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html#SPLASCHPureToneThresholdAudiometryPanelCS-89018-6">89018-6</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS</td>
                 <td>Hearing threshold Ear - left --2000 Hz</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89020-2"> </a>
-                  <a href="http://details.loinc.org/LOINC/89020-2.html">89020-2</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS-89020-2"> </a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html#SPLASCHPureToneThresholdAudiometryPanelCS-89020-2">89020-2</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS</td>
                 <td>Hearing threshold Ear - left --3000 Hz</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89022-8"> </a>
-                  <a href="http://details.loinc.org/LOINC/89022-8.html">89022-8</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS-89022-8"> </a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html#SPLASCHPureToneThresholdAudiometryPanelCS-89022-8">89022-8</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS</td>
                 <td>Hearing threshold Ear - left --4000 Hz</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-91377-2"> </a>
-                  <a href="http://details.loinc.org/LOINC/91377-2.html">91377-2</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS-91377-2"> </a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html#SPLASCHPureToneThresholdAudiometryPanelCS-91377-2">91377-2</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS</td>
                 <td>Hearing threshold Ear - left --5000 Hz</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89026-9"> </a>
-                  <a href="http://details.loinc.org/LOINC/89026-9.html">89026-9</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS-89026-9"> </a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html#SPLASCHPureToneThresholdAudiometryPanelCS-89026-9">89026-9</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS</td>
                 <td>Hearing threshold Ear - left --6000 Hz</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89028-5"> </a>
-                  <a href="http://details.loinc.org/LOINC/89028-5.html">89028-5</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS-89028-5"> </a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html#SPLASCHPureToneThresholdAudiometryPanelCS-89028-5">89028-5</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS</td>
                 <td>Hearing threshold Ear - left --8000 Hz</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-91374-9"> </a>
-                  <a href="http://details.loinc.org/LOINC/91374-9.html">91374-9</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS-91374-9"> </a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html#SPLASCHPureToneThresholdAudiometryPanelCS-91374-9">91374-9</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS</td>
                 <td>Hearing threshold Ear - right --250 Hz</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89025-1"> </a>
-                  <a href="http://details.loinc.org/LOINC/89025-1.html">89025-1</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS-89025-1"> </a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html#SPLASCHPureToneThresholdAudiometryPanelCS-89025-1">89025-1</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS</td>
                 <td>Hearing threshold Ear - right --500 Hz</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-91378-0"> </a>
-                  <a href="http://details.loinc.org/LOINC/91378-0.html">91378-0</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS-91378-0"> </a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html#SPLASCHPureToneThresholdAudiometryPanelCS-91378-0">91378-0</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS</td>
                 <td>Hearing threshold Ear - right --750 Hz</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89017-8"> </a>
-                  <a href="http://details.loinc.org/LOINC/89017-8.html">89017-8</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS-89017-8"> </a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html#SPLASCHPureToneThresholdAudiometryPanelCS-89017-8">89017-8</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS</td>
                 <td>Hearing threshold Ear - right --1000 Hz</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-91372-3"> </a>
-                  <a href="http://details.loinc.org/LOINC/91372-3.html">91372-3</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS-91372-3"> </a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html#SPLASCHPureToneThresholdAudiometryPanelCS-91372-3">91372-3</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS</td>
                 <td>Hearing threshold Ear - right --1500 Hz</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89019-4"> </a>
-                  <a href="http://details.loinc.org/LOINC/89019-4.html">89019-4</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS-89019-4"> </a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html#SPLASCHPureToneThresholdAudiometryPanelCS-89019-4">89019-4</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS</td>
                 <td>Hearing threshold Ear - right --2000 Hz</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89021-0"> </a>
-                  <a href="http://details.loinc.org/LOINC/89021-0.html">89021-0</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS-89021-0"> </a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html#SPLASCHPureToneThresholdAudiometryPanelCS-89021-0">89021-0</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS</td>
                 <td>Hearing threshold Ear - right --3000 Hz</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89023-6"> </a>
-                  <a href="http://details.loinc.org/LOINC/89023-6.html">89023-6</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS-89023-6"> </a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html#SPLASCHPureToneThresholdAudiometryPanelCS-89023-6">89023-6</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS</td>
                 <td>Hearing threshold Ear - right --4000 Hz</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-91376-4"> </a>
-                  <a href="http://details.loinc.org/LOINC/91376-4.html">91376-4</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS-91376-4"> </a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html#SPLASCHPureToneThresholdAudiometryPanelCS-91376-4">91376-4</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS</td>
                 <td>Hearing threshold Ear - right --5000 Hz</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89027-7"> </a>
-                  <a href="http://details.loinc.org/LOINC/89027-7.html">89027-7</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS-89027-7"> </a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html#SPLASCHPureToneThresholdAudiometryPanelCS-89027-7">89027-7</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS</td>
                 <td>Hearing threshold Ear - right --6000 Hz</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89029-3"> </a>
-                  <a href="http://details.loinc.org/LOINC/89029-3.html">89029-3</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS-89029-3"> </a>
+                  <a href="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS.html#SPLASCHPureToneThresholdAudiometryPanelCS-89029-3">89029-3</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS</td>
                 <td>Hearing threshold Ear - right --8000 Hz</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98419-5"> </a>
-                  <a href="http://details.loinc.org/LOINC/98419-5.html">98419-5</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-98419-5"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-98419-5">98419-5</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
                 <td>Diagnostic audiology test performed</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98480-7"> </a>
-                  <a href="http://details.loinc.org/LOINC/98480-7.html">98480-7</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-98480-7"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-98480-7">98480-7</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
                 <td>Auditory brainstem response panel</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98481-5"> </a>
-                  <a href="http://details.loinc.org/LOINC/98481-5.html">98481-5</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-98481-5"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-98481-5">98481-5</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
                 <td>Auditory brainstem response threshold Ear - left --click</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98482-3"> </a>
-                  <a href="http://details.loinc.org/LOINC/98482-3.html">98482-3</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-98482-3"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-98482-3">98482-3</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
                 <td>Auditory brainstem response threshold Ear - right --click</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98421-1"> </a>
-                  <a href="http://details.loinc.org/LOINC/98421-1.html">98421-1</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-89024-4"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-89024-4">89024-4</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
+                <td>Hearing threshold Ear - left --500 Hz</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-89025-1"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-89025-1">89025-1</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
+                <td>Hearing threshold Ear - right --500 Hz</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-89016-0"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-89016-0">89016-0</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
+                <td>Hearing threshold Ear - left --1000 Hz</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-89017-8"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-89017-8">89017-8</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
+                <td>Hearing threshold Ear - right --1000 Hz</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-89018-6"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-89018-6">89018-6</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
+                <td>Hearing threshold Ear - left --2000 Hz</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-89019-4"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-89019-4">89019-4</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
+                <td>Hearing threshold Ear - right --2000 Hz</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-89020-2"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-89020-2">89020-2</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
+                <td>Hearing threshold Ear - left --3000 Hz</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-89021-0"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-89021-0">89021-0</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
+                <td>Hearing threshold Ear - right --3000 Hz</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-89022-8"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-89022-8">89022-8</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
+                <td>Hearing threshold Ear - left --4000 Hz</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-89023-6"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-89023-6">89023-6</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
+                <td>Hearing threshold Ear - right --4000 Hz</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-98421-1"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-98421-1">98421-1</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
                 <td>Hearing loss type Ear - left</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98426-0"> </a>
-                  <a href="http://details.loinc.org/LOINC/98426-0.html">98426-0</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-98426-0"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-98426-0">98426-0</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
                 <td>Hearing loss type Ear - right</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98425-2"> </a>
-                  <a href="http://details.loinc.org/LOINC/98425-2.html">98425-2</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-98425-2"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-98425-2">98425-2</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
                 <td>Hearing loss configuration Ear - left</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98430-2"> </a>
-                  <a href="http://details.loinc.org/LOINC/98430-2.html">98430-2</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-98430-2"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-98430-2">98430-2</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
                 <td>Hearing loss configuration Ear - right</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98422-9"> </a>
-                  <a href="http://details.loinc.org/LOINC/98422-9.html">98422-9</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-98422-9"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-98422-9">98422-9</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
                 <td>Hearing loss degree Ear - left</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98427-8"> </a>
-                  <a href="http://details.loinc.org/LOINC/98427-8.html">98427-8</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-98427-8"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-98427-8">98427-8</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
                 <td>Hearing loss degree Ear - right</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98424-5"> </a>
-                  <a href="http://details.loinc.org/LOINC/98424-5.html">98424-5</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-98424-5"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-98424-5">98424-5</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
                 <td>Hearing loss degree.max Ear - left</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98429-4"> </a>
-                  <a href="http://details.loinc.org/LOINC/98429-4.html">98429-4</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-98429-4"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-98429-4">98429-4</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
                 <td>Hearing loss degree.max Ear - right</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98423-7"> </a>
-                  <a href="http://details.loinc.org/LOINC/98423-7.html">98423-7</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-98423-7"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-98423-7">98423-7</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
                 <td>Hearing loss degree.min Ear - left</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98428-6"> </a>
-                  <a href="http://details.loinc.org/LOINC/98428-6.html">98428-6</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-98428-6"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-98428-6">98428-6</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
                 <td>Hearing loss degree.min Ear - right</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98420-3"> </a>
-                  <a href="http://details.loinc.org/LOINC/98420-3.html">98420-3</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-98420-3"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-98420-3">98420-3</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
                 <td>Audiology Comment Narrative</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98431-0"> </a>
-                  <a href="http://details.loinc.org/LOINC/98431-0.html">98431-0</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-98431-0"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-98431-0">98431-0</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
                 <td>Diagnostic audiology follow-up recommendation</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-98432-8"> </a>
-                  <a href="http://details.loinc.org/LOINC/98432-8.html">98432-8</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS-98432-8"> </a>
+                  <a href="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.html#SPLASCHDiagnosticAudiologyResultsPanelCS-98432-8">98432-8</a>
                 </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS</td>
                 <td>Reason diagnostic audiology assessment not performed</td>
                 <td/>
               </tr>
@@ -2724,7 +2460,7 @@
         <name value="SPLASCHHearingObservationVS"/>
         <title value="Hearing Observation"/>
         <status value="active"/>
-        <date value="2022-05-03T12:45:05-04:00"/>
+        <date value="2022-05-03T15:05:17-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -2757,9 +2493,9 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:222d273f-85aa-44e0-b03b-06ce0a0b4779"/>
-          <timestamp value="2022-05-03T12:48:09-04:00"/>
-          <total value="45"/>
+          <identifier value="urn:uuid:1243cc2b-4cb3-42be-b974-2fbc6eda5d0c"/>
+          <timestamp value="2022-05-03T15:09:00-04:00"/>
+          <total value="55"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -2774,15 +2510,11 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHPureToneThresholdAudiometryPanel|0.1.0"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS|0.1.0"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://loinc.org|2.72"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHDiagnosticAudiologyResultsPanel|0.1.0"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS|0.1.0"/>
           </parameter>
           <contains>
             <system value="http://loinc.org"/>
@@ -2815,275 +2547,247 @@
             <display value="Do you hear better in one ear than the other [PhenX]"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
             <code value="91375-6"/>
             <display value="Hearing threshold Ear - left --250 Hz"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
             <code value="89024-4"/>
             <display value="Hearing threshold Ear - left --500 Hz"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
             <code value="91379-8"/>
             <display value="Hearing threshold Ear - left --750 Hz"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
             <code value="89016-0"/>
             <display value="Hearing threshold Ear - left --1000 Hz"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
             <code value="91373-1"/>
             <display value="Hearing threshold Ear - left --1500 Hz"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
             <code value="89018-6"/>
             <display value="Hearing threshold Ear - left --2000 Hz"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
             <code value="89020-2"/>
             <display value="Hearing threshold Ear - left --3000 Hz"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
             <code value="89022-8"/>
             <display value="Hearing threshold Ear - left --4000 Hz"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
             <code value="91377-2"/>
             <display value="Hearing threshold Ear - left --5000 Hz"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
             <code value="89026-9"/>
             <display value="Hearing threshold Ear - left --6000 Hz"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
             <code value="89028-5"/>
             <display value="Hearing threshold Ear - left --8000 Hz"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
             <code value="91374-9"/>
             <display value="Hearing threshold Ear - right --250 Hz"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
             <code value="89025-1"/>
             <display value="Hearing threshold Ear - right --500 Hz"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
             <code value="91378-0"/>
             <display value="Hearing threshold Ear - right --750 Hz"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
             <code value="89017-8"/>
             <display value="Hearing threshold Ear - right --1000 Hz"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
             <code value="91372-3"/>
             <display value="Hearing threshold Ear - right --1500 Hz"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
             <code value="89019-4"/>
             <display value="Hearing threshold Ear - right --2000 Hz"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
             <code value="89021-0"/>
             <display value="Hearing threshold Ear - right --3000 Hz"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
             <code value="89023-6"/>
             <display value="Hearing threshold Ear - right --4000 Hz"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
             <code value="91376-4"/>
             <display value="Hearing threshold Ear - right --5000 Hz"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
             <code value="89027-7"/>
             <display value="Hearing threshold Ear - right --6000 Hz"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
             <code value="89029-3"/>
             <display value="Hearing threshold Ear - right --8000 Hz"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
             <code value="98419-5"/>
             <display value="Diagnostic audiology test performed"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
             <code value="98480-7"/>
             <display value="Auditory brainstem response panel"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
             <code value="98481-5"/>
             <display value="Auditory brainstem response threshold Ear - left --click"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
             <code value="98482-3"/>
             <display value="Auditory brainstem response threshold Ear - right --click"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
+            <code value="89024-4"/>
+            <display value="Hearing threshold Ear - left --500 Hz"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
+            <code value="89025-1"/>
+            <display value="Hearing threshold Ear - right --500 Hz"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
+            <code value="89016-0"/>
+            <display value="Hearing threshold Ear - left --1000 Hz"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
+            <code value="89017-8"/>
+            <display value="Hearing threshold Ear - right --1000 Hz"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
+            <code value="89018-6"/>
+            <display value="Hearing threshold Ear - left --2000 Hz"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
+            <code value="89019-4"/>
+            <display value="Hearing threshold Ear - right --2000 Hz"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
+            <code value="89020-2"/>
+            <display value="Hearing threshold Ear - left --3000 Hz"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
+            <code value="89021-0"/>
+            <display value="Hearing threshold Ear - right --3000 Hz"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
+            <code value="89022-8"/>
+            <display value="Hearing threshold Ear - left --4000 Hz"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
+            <code value="89023-6"/>
+            <display value="Hearing threshold Ear - right --4000 Hz"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
             <code value="98421-1"/>
             <display value="Hearing loss type Ear - left"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
             <code value="98426-0"/>
             <display value="Hearing loss type Ear - right"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
             <code value="98425-2"/>
             <display value="Hearing loss configuration Ear - left"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
             <code value="98430-2"/>
             <display value="Hearing loss configuration Ear - right"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
             <code value="98422-9"/>
             <display value="Hearing loss degree Ear - left"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
             <code value="98427-8"/>
             <display value="Hearing loss degree Ear - right"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
             <code value="98424-5"/>
             <display value="Hearing loss degree.max Ear - left"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
             <code value="98429-4"/>
             <display value="Hearing loss degree.max Ear - right"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
             <code value="98423-7"/>
             <display value="Hearing loss degree.min Ear - left"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
             <code value="98428-6"/>
             <display value="Hearing loss degree.min Ear - right"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
             <code value="98420-3"/>
             <display value="Audiology Comment Narrative"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
             <code value="98431-0"/>
             <display value="Diagnostic audiology follow-up recommendation"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
-            <abstract value="false"/>
-            <inactive value="false"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"/>
             <code value="98432-8"/>
             <display value="Reason diagnostic audiology assessment not performed"/>
           </contains>
@@ -3194,7 +2898,7 @@
         <name value="SPLASCHLiquidDietModifierTypeObservationVS"/>
         <title value="Liquid Diet Modifier Type Observation"/>
         <status value="active"/>
-        <date value="2022-05-03T12:45:05-04:00"/>
+        <date value="2022-05-03T15:05:17-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -3227,8 +2931,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:621443c5-98c2-4df5-98b6-fcd3c89f7308"/>
-          <timestamp value="2022-05-03T12:48:09-04:00"/>
+          <identifier value="urn:uuid:a43da746-485b-4589-b752-0af5060df351"/>
+          <timestamp value="2022-05-03T15:09:01-04:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3348,7 +3052,7 @@
         <name value="SPLASCHMultiModalCommunicationObservationVS"/>
         <title value="Multi-Modal Communication Observation"/>
         <status value="active"/>
-        <date value="2022-05-03T12:45:05-04:00"/>
+        <date value="2022-05-03T15:05:17-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -3381,8 +3085,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:e54454b8-44ef-4e7a-b888-ef6e80403a64"/>
-          <timestamp value="2022-05-03T12:48:09-04:00"/>
+          <identifier value="urn:uuid:f96e5ebb-95f6-4a74-98a4-face565ed4c4"/>
+          <timestamp value="2022-05-03T15:09:01-04:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3513,7 +3217,7 @@
         <name value="SPLASCHObservationCategoryVS"/>
         <title value="SPLASCH Observation Category"/>
         <status value="active"/>
-        <date value="2022-05-03T12:45:05-04:00"/>
+        <date value="2022-05-03T15:05:17-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -3546,8 +3250,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:2aebaf03-07f3-4d5f-bc3b-b188ca1efe32"/>
-          <timestamp value="2022-05-03T12:48:09-04:00"/>
+          <identifier value="urn:uuid:06c8bcc7-435a-4041-8fa9-de47fdc77bfb"/>
+          <timestamp value="2022-05-03T15:09:01-04:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3581,337 +3285,6 @@
             <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS"/>
             <code value="hearing"/>
             <display value="Hearing"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <resource>
-      <ValueSet>
-        <language value="en"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-            <p>This value set contains 22 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.72</p>
-            <p>All codes in this table are from the system 
-              <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html">
-                <code>http://loinc.org</code>
-              </a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-                <td>
-                  <b>Definition</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-91375-6"> </a>
-                  <a href="http://details.loinc.org/LOINC/91375-6.html">91375-6</a>
-                </td>
-                <td>Hearing threshold Ear - left --250 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89024-4"> </a>
-                  <a href="http://details.loinc.org/LOINC/89024-4.html">89024-4</a>
-                </td>
-                <td>Hearing threshold Ear - left --500 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-91379-8"> </a>
-                  <a href="http://details.loinc.org/LOINC/91379-8.html">91379-8</a>
-                </td>
-                <td>Hearing threshold Ear - left --750 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89016-0"> </a>
-                  <a href="http://details.loinc.org/LOINC/89016-0.html">89016-0</a>
-                </td>
-                <td>Hearing threshold Ear - left --1000 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-91373-1"> </a>
-                  <a href="http://details.loinc.org/LOINC/91373-1.html">91373-1</a>
-                </td>
-                <td>Hearing threshold Ear - left --1500 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89018-6"> </a>
-                  <a href="http://details.loinc.org/LOINC/89018-6.html">89018-6</a>
-                </td>
-                <td>Hearing threshold Ear - left --2000 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89020-2"> </a>
-                  <a href="http://details.loinc.org/LOINC/89020-2.html">89020-2</a>
-                </td>
-                <td>Hearing threshold Ear - left --3000 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89022-8"> </a>
-                  <a href="http://details.loinc.org/LOINC/89022-8.html">89022-8</a>
-                </td>
-                <td>Hearing threshold Ear - left --4000 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-91377-2"> </a>
-                  <a href="http://details.loinc.org/LOINC/91377-2.html">91377-2</a>
-                </td>
-                <td>Hearing threshold Ear - left --5000 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89026-9"> </a>
-                  <a href="http://details.loinc.org/LOINC/89026-9.html">89026-9</a>
-                </td>
-                <td>Hearing threshold Ear - left --6000 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89028-5"> </a>
-                  <a href="http://details.loinc.org/LOINC/89028-5.html">89028-5</a>
-                </td>
-                <td>Hearing threshold Ear - left --8000 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-91374-9"> </a>
-                  <a href="http://details.loinc.org/LOINC/91374-9.html">91374-9</a>
-                </td>
-                <td>Hearing threshold Ear - right --250 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89025-1"> </a>
-                  <a href="http://details.loinc.org/LOINC/89025-1.html">89025-1</a>
-                </td>
-                <td>Hearing threshold Ear - right --500 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-91378-0"> </a>
-                  <a href="http://details.loinc.org/LOINC/91378-0.html">91378-0</a>
-                </td>
-                <td>Hearing threshold Ear - right --750 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89017-8"> </a>
-                  <a href="http://details.loinc.org/LOINC/89017-8.html">89017-8</a>
-                </td>
-                <td>Hearing threshold Ear - right --1000 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-91372-3"> </a>
-                  <a href="http://details.loinc.org/LOINC/91372-3.html">91372-3</a>
-                </td>
-                <td>Hearing threshold Ear - right --1500 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89019-4"> </a>
-                  <a href="http://details.loinc.org/LOINC/89019-4.html">89019-4</a>
-                </td>
-                <td>Hearing threshold Ear - right --2000 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89021-0"> </a>
-                  <a href="http://details.loinc.org/LOINC/89021-0.html">89021-0</a>
-                </td>
-                <td>Hearing threshold Ear - right --3000 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89023-6"> </a>
-                  <a href="http://details.loinc.org/LOINC/89023-6.html">89023-6</a>
-                </td>
-                <td>Hearing threshold Ear - right --4000 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-91376-4"> </a>
-                  <a href="http://details.loinc.org/LOINC/91376-4.html">91376-4</a>
-                </td>
-                <td>Hearing threshold Ear - right --5000 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89027-7"> </a>
-                  <a href="http://details.loinc.org/LOINC/89027-7.html">89027-7</a>
-                </td>
-                <td>Hearing threshold Ear - right --6000 Hz</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-89029-3"> </a>
-                  <a href="http://details.loinc.org/LOINC/89029-3.html">89029-3</a>
-                </td>
-                <td>Hearing threshold Ear - right --8000 Hz</td>
-                <td/>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <status value="active"/>
-        <expansion>
-          <identifier value="urn:uuid:82502d14-5cdf-4296-b06b-59b2595047af"/>
-          <timestamp value="2022-04-15T12:20:34.063Z"/>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://loinc.org|2.72"/>
-          </parameter>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="91375-6"/>
-            <display value="Hearing threshold Ear - left --250 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89024-4"/>
-            <display value="Hearing threshold Ear - left --500 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="91379-8"/>
-            <display value="Hearing threshold Ear - left --750 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89016-0"/>
-            <display value="Hearing threshold Ear - left --1000 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="91373-1"/>
-            <display value="Hearing threshold Ear - left --1500 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89018-6"/>
-            <display value="Hearing threshold Ear - left --2000 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89020-2"/>
-            <display value="Hearing threshold Ear - left --3000 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89022-8"/>
-            <display value="Hearing threshold Ear - left --4000 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="91377-2"/>
-            <display value="Hearing threshold Ear - left --5000 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89026-9"/>
-            <display value="Hearing threshold Ear - left --6000 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89028-5"/>
-            <display value="Hearing threshold Ear - left --8000 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="91374-9"/>
-            <display value="Hearing threshold Ear - right --250 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89025-1"/>
-            <display value="Hearing threshold Ear - right --500 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="91378-0"/>
-            <display value="Hearing threshold Ear - right --750 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89017-8"/>
-            <display value="Hearing threshold Ear - right --1000 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="91372-3"/>
-            <display value="Hearing threshold Ear - right --1500 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89019-4"/>
-            <display value="Hearing threshold Ear - right --2000 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89021-0"/>
-            <display value="Hearing threshold Ear - right --3000 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89023-6"/>
-            <display value="Hearing threshold Ear - right --4000 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="91376-4"/>
-            <display value="Hearing threshold Ear - right --5000 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89027-7"/>
-            <display value="Hearing threshold Ear - right --6000 Hz"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="89029-3"/>
-            <display value="Hearing threshold Ear - right --8000 Hz"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -3962,7 +3335,7 @@
         <name value="SPLASCHSolidDietModifierTypeObservationVS"/>
         <title value="Solid Diet Modifier Type Observation"/>
         <status value="active"/>
-        <date value="2022-05-03T12:45:05-04:00"/>
+        <date value="2022-05-03T15:05:17-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -3995,8 +3368,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:4e133c44-ec5f-4d3f-9cf2-556e756f5427"/>
-          <timestamp value="2022-05-03T12:48:10-04:00"/>
+          <identifier value="urn:uuid:ade1b177-850d-4f26-8a78-a0a5093c5cf3"/>
+          <timestamp value="2022-05-03T15:09:01-04:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4100,7 +3473,7 @@
         <name value="SPLASCHSpeechComprehensionObservationVS"/>
         <title value="Speech Comprehension Observation"/>
         <status value="active"/>
-        <date value="2022-05-03T12:45:05-04:00"/>
+        <date value="2022-05-03T15:05:17-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -4133,8 +3506,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:818f2102-e030-401c-a907-56bf7d375504"/>
-          <timestamp value="2022-05-03T12:48:10-04:00"/>
+          <identifier value="urn:uuid:8f7ab720-e1eb-43ea-b35e-6db5d4913cb3"/>
+          <timestamp value="2022-05-03T15:09:01-04:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4271,7 +3644,7 @@
         <name value="SPLASCHSpeechExpressionObservationVS"/>
         <title value="Speech Expression Observation"/>
         <status value="active"/>
-        <date value="2022-05-03T12:45:05-04:00"/>
+        <date value="2022-05-03T15:05:17-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -4304,8 +3677,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:b7fe5270-60b5-4a70-b2fb-456e7e3f9d5d"/>
-          <timestamp value="2022-05-03T12:48:10-04:00"/>
+          <identifier value="urn:uuid:8b8afd28-9dc1-4596-9bdd-da0944d9b30f"/>
+          <timestamp value="2022-05-03T15:09:01-04:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4643,7 +4016,7 @@
         <name value="SPLASCHSwallowingObservationValueVS"/>
         <title value="Swallowing Observation Value"/>
         <status value="active"/>
-        <date value="2022-05-03T12:45:05-04:00"/>
+        <date value="2022-05-03T15:05:17-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -4676,8 +4049,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:3556f18b-e133-4751-b0ae-d81843153e3e"/>
-          <timestamp value="2022-05-03T12:48:10-04:00"/>
+          <identifier value="urn:uuid:063cd9e7-ab36-4c4c-9974-5ab11768211f"/>
+          <timestamp value="2022-05-03T15:09:01-04:00"/>
           <total value="26"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4938,7 +4311,7 @@
         <name value="SPLASCHSwallowingObservationVS"/>
         <title value="Swallowing Observation"/>
         <status value="active"/>
-        <date value="2022-05-03T12:45:05-04:00"/>
+        <date value="2022-05-03T15:05:17-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -4971,8 +4344,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:19a38581-eba0-462c-893f-da117be45f9e"/>
-          <timestamp value="2022-05-03T12:48:10-04:00"/>
+          <identifier value="urn:uuid:85134b7d-2d3c-4be8-94ef-e171078ecbbc"/>
+          <timestamp value="2022-05-03T15:09:01-04:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>

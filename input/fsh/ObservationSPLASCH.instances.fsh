@@ -621,7 +621,7 @@ Description: "An instance of SPLASCH hearing observation"
 * category = SPLASCHCAT#hearing "Hearing"
 
 // Pre-load code 98421-1 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanel#98421-1 "Hearing loss type Ear - left"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS#98421-1 "Hearing loss type Ear - left"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -643,7 +643,7 @@ Description: "An instance of SPLASCH hearing observation"
 * category = SPLASCHCAT#hearing "Hearing"
 
 // Pre-load code 98422-9 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanel#98422-9 "Hearing loss degree Ear - left"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS#98422-9 "Hearing loss degree Ear - left"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -687,9 +687,9 @@ Description: "An instance of SPLASCH hearing observation"
 * category = SPLASCHCAT#hearing "Hearing"
 
 // Pre-load code 98420-3 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanel#98420-3 "Audiology Comment Narrative"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS#98420-3 "Audiology Comment Narrative"
 
-* subject = Reference(BSJ-patientBSJ2)
+* subject = Reference(BSJ-patientBSJ1)
 
 * effectiveDateTime = "2020-11-06T10:45:00-05:00"
 
@@ -708,7 +708,7 @@ Description: "An instance of SPLASCH hearing observation"
 * category = SPLASCHCAT#hearing "Hearing"
 
 // Pre-load code 98427-8 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanel#98427-8 "Hearing loss degree Ear - right"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS#98427-8 "Hearing loss degree Ear - right"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -3344,7 +3344,7 @@ Description: "An instance of SPLASCH hearing observation"
 * category = SPLASCHCAT#hearing "Hearing"
 
 // Pre-load code 98426-0 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanel#98426-0 "Hearing loss type Ear - right"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS#98426-0 "Hearing loss type Ear - right"
 
 * subject = Reference(BSJ-patientBSJ1)
 

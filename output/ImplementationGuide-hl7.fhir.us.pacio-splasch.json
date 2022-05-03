@@ -10,7 +10,7 @@
   "name": "PACIOSPLASCH",
   "title": "PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide",
   "status": "draft",
-  "date": "2022-05-03T12:45:05-04:00",
+  "date": "2022-05-03T15:05:17-04:00",
   "publisher": "HL7 Patient Care Working Group",
   "contact": [
     {
@@ -583,20 +583,6 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/SPLASCHDiagnosticAudiologyResultsPanel"
-        },
-        "name": "Diagnostic Audiology Results Panel",
-        "description": "Codes representing panel LOINC 98418-7 Diagnostic Audiology Results Panel",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
           "reference": "ValueSet/SPLASCHFrequencyObservationVS"
         },
         "name": "SPLASCH Frequency Observation Values",
@@ -737,20 +723,6 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/SPLASCHPureToneThresholdAudiometryPanel"
-        },
-        "name": "Pure tone threshold audiometry panel",
-        "description": "Codes representing panel LOINC 89015-2 Pure tone threshold audiometry panel",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
           "reference": "ValueSet/SPLASCHSolidDietModifierTypeObservationVS"
         },
         "name": "Solid Diet Modifier Type Observation",
@@ -863,6 +835,20 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS"
+        },
+        "name": "Diagnostic Audiology Results Panel",
+        "description": "Codes representing panel LOINC 98418-7 Diagnostic Audiology Results Panel",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/SPLASCHFrequencyCS"
         },
         "name": "Observation Value Frequency Codes",
@@ -909,6 +895,20 @@
         },
         "name": "SPLASCH Observation Category Codes",
         "description": "Categories for SPLASCH observations",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"
+        },
+        "name": "Pure tone threshold audiometry panel",
+        "description": "Codes representing panel LOINC 89015-2 Pure tone threshold audiometry panel",
         "exampleBoolean": false
       },
       {

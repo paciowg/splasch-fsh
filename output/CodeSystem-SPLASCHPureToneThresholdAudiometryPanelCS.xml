@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="SPLASCHPureToneThresholdAudiometryPanelCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">91375-6<a name="SPLASCHPureToneThresholdAudiometryPanelCS-91375-6"> </a></td><td>Hearing threshold Ear - left --250 Hz</td></tr><tr><td style="white-space:nowrap">89024-4<a name="SPLASCHPureToneThresholdAudiometryPanelCS-89024-4"> </a></td><td>Hearing threshold Ear - left --500 Hz</td></tr><tr><td style="white-space:nowrap">91379-8<a name="SPLASCHPureToneThresholdAudiometryPanelCS-91379-8"> </a></td><td>Hearing threshold Ear - left --750 Hz</td></tr><tr><td style="white-space:nowrap">89016-0<a name="SPLASCHPureToneThresholdAudiometryPanelCS-89016-0"> </a></td><td>Hearing threshold Ear - left --1000 Hz</td></tr><tr><td style="white-space:nowrap">91373-1<a name="SPLASCHPureToneThresholdAudiometryPanelCS-91373-1"> </a></td><td>Hearing threshold Ear - left --1500 Hz</td></tr><tr><td style="white-space:nowrap">89018-6<a name="SPLASCHPureToneThresholdAudiometryPanelCS-89018-6"> </a></td><td>Hearing threshold Ear - left --2000 Hz</td></tr><tr><td style="white-space:nowrap">89020-2<a name="SPLASCHPureToneThresholdAudiometryPanelCS-89020-2"> </a></td><td>Hearing threshold Ear - left --3000 Hz</td></tr><tr><td style="white-space:nowrap">89022-8<a name="SPLASCHPureToneThresholdAudiometryPanelCS-89022-8"> </a></td><td>Hearing threshold Ear - left --4000 Hz</td></tr><tr><td style="white-space:nowrap">91377-2<a name="SPLASCHPureToneThresholdAudiometryPanelCS-91377-2"> </a></td><td>Hearing threshold Ear - left --5000 Hz</td></tr><tr><td style="white-space:nowrap">89026-9<a name="SPLASCHPureToneThresholdAudiometryPanelCS-89026-9"> </a></td><td>Hearing threshold Ear - left --6000 Hz</td></tr><tr><td style="white-space:nowrap">89028-5<a name="SPLASCHPureToneThresholdAudiometryPanelCS-89028-5"> </a></td><td>Hearing threshold Ear - left --8000 Hz</td></tr><tr><td style="white-space:nowrap">91374-9<a name="SPLASCHPureToneThresholdAudiometryPanelCS-91374-9"> </a></td><td>Hearing threshold Ear - right --250 Hz</td></tr><tr><td style="white-space:nowrap">89025-1<a name="SPLASCHPureToneThresholdAudiometryPanelCS-89025-1"> </a></td><td>Hearing threshold Ear - right --500 Hz</td></tr><tr><td style="white-space:nowrap">91378-0<a name="SPLASCHPureToneThresholdAudiometryPanelCS-91378-0"> </a></td><td>Hearing threshold Ear - right --750 Hz</td></tr><tr><td style="white-space:nowrap">89017-8<a name="SPLASCHPureToneThresholdAudiometryPanelCS-89017-8"> </a></td><td>Hearing threshold Ear - right --1000 Hz</td></tr><tr><td style="white-space:nowrap">91372-3<a name="SPLASCHPureToneThresholdAudiometryPanelCS-91372-3"> </a></td><td>Hearing threshold Ear - right --1500 Hz</td></tr><tr><td style="white-space:nowrap">89019-4<a name="SPLASCHPureToneThresholdAudiometryPanelCS-89019-4"> </a></td><td>Hearing threshold Ear - right --2000 Hz</td></tr><tr><td style="white-space:nowrap">89021-0<a name="SPLASCHPureToneThresholdAudiometryPanelCS-89021-0"> </a></td><td>Hearing threshold Ear - right --3000 Hz</td></tr><tr><td style="white-space:nowrap">89023-6<a name="SPLASCHPureToneThresholdAudiometryPanelCS-89023-6"> </a></td><td>Hearing threshold Ear - right --4000 Hz</td></tr><tr><td style="white-space:nowrap">91376-4<a name="SPLASCHPureToneThresholdAudiometryPanelCS-91376-4"> </a></td><td>Hearing threshold Ear - right --5000 Hz</td></tr><tr><td style="white-space:nowrap">89027-7<a name="SPLASCHPureToneThresholdAudiometryPanelCS-89027-7"> </a></td><td>Hearing threshold Ear - right --6000 Hz</td></tr><tr><td style="white-space:nowrap">89029-3<a name="SPLASCHPureToneThresholdAudiometryPanelCS-89029-3"> </a></td><td>Hearing threshold Ear - right --8000 Hz</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS"/>
+  <version value="0.1.0"/>
+  <name value="SPLASCHPureToneThresholdAudiometryPanelCS"/>
+  <title value="Pure tone threshold audiometry panel"/>
+  <status value="active"/>
+  <date value="2022-05-03T15:05:17-04:00"/>
+  <publisher value="HL7 Patient Care Working Group"/>
+  <contact>
+    <name value="HL7 Patient Care Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patients@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="PACIO project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@pacioproject.org"/>
+    </telecom>
+  </contact>
+  <description value="Codes representing panel LOINC 89015-2 Pure tone threshold audiometry panel"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This CodeSystem is not copyrighted."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="22"/>
+  <concept>
+    <code value="91375-6"/>
+    <display value="Hearing threshold Ear - left --250 Hz"/>
+  </concept>
+  <concept>
+    <code value="89024-4"/>
+    <display value="Hearing threshold Ear - left --500 Hz"/>
+  </concept>
+  <concept>
+    <code value="91379-8"/>
+    <display value="Hearing threshold Ear - left --750 Hz"/>
+  </concept>
+  <concept>
+    <code value="89016-0"/>
+    <display value="Hearing threshold Ear - left --1000 Hz"/>
+  </concept>
+  <concept>
+    <code value="91373-1"/>
+    <display value="Hearing threshold Ear - left --1500 Hz"/>
+  </concept>
+  <concept>
+    <code value="89018-6"/>
+    <display value="Hearing threshold Ear - left --2000 Hz"/>
+  </concept>
+  <concept>
+    <code value="89020-2"/>
+    <display value="Hearing threshold Ear - left --3000 Hz"/>
+  </concept>
+  <concept>
+    <code value="89022-8"/>
+    <display value="Hearing threshold Ear - left --4000 Hz"/>
+  </concept>
+  <concept>
+    <code value="91377-2"/>
+    <display value="Hearing threshold Ear - left --5000 Hz"/>
+  </concept>
+  <concept>
+    <code value="89026-9"/>
+    <display value="Hearing threshold Ear - left --6000 Hz"/>
+  </concept>
+  <concept>
+    <code value="89028-5"/>
+    <display value="Hearing threshold Ear - left --8000 Hz"/>
+  </concept>
+  <concept>
+    <code value="91374-9"/>
+    <display value="Hearing threshold Ear - right --250 Hz"/>
+  </concept>
+  <concept>
+    <code value="89025-1"/>
+    <display value="Hearing threshold Ear - right --500 Hz"/>
+  </concept>
+  <concept>
+    <code value="91378-0"/>
+    <display value="Hearing threshold Ear - right --750 Hz"/>
+  </concept>
+  <concept>
+    <code value="89017-8"/>
+    <display value="Hearing threshold Ear - right --1000 Hz"/>
+  </concept>
+  <concept>
+    <code value="91372-3"/>
+    <display value="Hearing threshold Ear - right --1500 Hz"/>
+  </concept>
+  <concept>
+    <code value="89019-4"/>
+    <display value="Hearing threshold Ear - right --2000 Hz"/>
+  </concept>
+  <concept>
+    <code value="89021-0"/>
+    <display value="Hearing threshold Ear - right --3000 Hz"/>
+  </concept>
+  <concept>
+    <code value="89023-6"/>
+    <display value="Hearing threshold Ear - right --4000 Hz"/>
+  </concept>
+  <concept>
+    <code value="91376-4"/>
+    <display value="Hearing threshold Ear - right --5000 Hz"/>
+  </concept>
+  <concept>
+    <code value="89027-7"/>
+    <display value="Hearing threshold Ear - right --6000 Hz"/>
+  </concept>
+  <concept>
+    <code value="89029-3"/>
+    <display value="Hearing threshold Ear - right --8000 Hz"/>
+  </concept>
+</CodeSystem>

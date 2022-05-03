@@ -193,7 +193,7 @@
 <artifact id="ValueSet/SPLASCHCaloriePercentageTypeObservationVS" key="ValueSet-SPLASCHCaloriePercentageTypeObservationVS" name="Calorie Percentage Type Observation"/>
 <artifact deprecated="true" id="ClinicalImpression/ClinicalImpression-1" key="ClinicalImpression-ClinicalImpression-1" name="ClinicalImpression-1"/>
 <artifact deprecated="true" id="ClinicalImpression/ClinicalImpression-2" key="ClinicalImpression-ClinicalImpression-2" name="ClinicalImpression-2"/>
-<artifact id="ValueSet/SPLASCHDiagnosticAudiologyResultsPanel" key="ValueSet-SPLASCHDiagnosticAudiologyResultsPanel" name="Diagnostic Audiology Results Panel"/>
+<artifact id="CodeSystem/SPLASCHDiagnosticAudiologyResultsPanelCS" key="CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS" name="Diagnostic Audiology Results Panel"/>
 <artifact deprecated="true" id="Encounter/Encounter-1-SNF-Stay" key="Encounter-Encounter-1-SNF-Stay" name="Encounter-1-SNF-Stay"/>
 <artifact deprecated="true" id="Encounter/Encounter-2-HHA-Stay" key="Encounter-Encounter-2-HHA-Stay" name="Encounter-2-HHA-Stay"/>
 <artifact deprecated="true" id="EpisodeOfCare/Episodecare-1-SNF-Stay" key="EpisodeOfCare-Episodecare-1-SNF-Stay" name="Episodecare-1-SNF-Stay"/>
@@ -365,7 +365,7 @@
 <artifact deprecated="true" id="Organization/Provider-Org-2" key="Organization-Provider-Org-2" name="Provider-Org-2"/>
 <artifact deprecated="true" id="Location/Provider-Org-Loc-1" key="Location-Provider-Org-Loc-1" name="Provider-Org-Loc-1"/>
 <artifact deprecated="true" id="Location/Provider-Org-Loc-2" key="Location-Provider-Org-Loc-2" name="Provider-Org-Loc-2"/>
-<artifact id="ValueSet/SPLASCHPureToneThresholdAudiometryPanel" key="ValueSet-SPLASCHPureToneThresholdAudiometryPanel" name="Pure tone threshold audiometry panel"/>
+<artifact id="CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS" key="CodeSystem-SPLASCHPureToneThresholdAudiometryPanelCS" name="Pure tone threshold audiometry panel"/>
 <artifact deprecated="true" id="CapabilityStatement/rt-cs" key="CapabilityStatement-pacio-rt-cs" name="Re-assessment Timepoints Capability Statement"/>
 <artifact deprecated="true" id="StructureDefinition/reassessment-timepoints-encounter" key="StructureDefinition-reassessment-timepoints-encounter" name="Re-assessment Timepoints Encounter"/>
 <artifact deprecated="true" id="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A" key="Observation-SNF-MOB-AP-MDS-5-Day-NC-1A" name="SNF-MOB-AP-MDS-5-Day-NC-1A"/>
