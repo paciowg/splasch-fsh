@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="SPLASCHFrequencyCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">LA6270-8<a name="SPLASCHFrequencyCS-LA6270-8"> </a></td><td>Never</td></tr><tr><td style="white-space:nowrap">LA10066-1<a name="SPLASCHFrequencyCS-LA10066-1"> </a></td><td>Rarely</td></tr><tr><td style="white-space:nowrap">LA10082-8<a name="SPLASCHFrequencyCS-LA10082-8"> </a></td><td>Sometimes</td></tr><tr><td style="white-space:nowrap">LA10044-8<a name="SPLASCHFrequencyCS-LA10044-8"> </a></td><td>Often</td></tr><tr><td style="white-space:nowrap">LA9933-8<a name="SPLASCHFrequencyCS-LA9933-8"> </a></td><td>Always</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
+  <version value="0.1.0"/>
+  <name value="SPLASCHFrequencyCS"/>
+  <title value="Observation Value Frequency Codes"/>
+  <status value="active"/>
+  <date value="2022-05-03T12:45:05-04:00"/>
+  <publisher value="HL7 Patient Care Working Group"/>
+  <contact>
+    <name value="HL7 Patient Care Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patients@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="PACIO project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@pacioproject.org"/>
+    </telecom>
+  </contact>
+  <description value="Category codes for frequency values"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This CodeSystem is not copyrighted."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="LA6270-8"/>
+    <display value="Never"/>
+  </concept>
+  <concept>
+    <code value="LA10066-1"/>
+    <display value="Rarely"/>
+  </concept>
+  <concept>
+    <code value="LA10082-8"/>
+    <display value="Sometimes"/>
+  </concept>
+  <concept>
+    <code value="LA10044-8"/>
+    <display value="Often"/>
+  </concept>
+  <concept>
+    <code value="LA9933-8"/>
+    <display value="Always"/>
+  </concept>
+</CodeSystem>

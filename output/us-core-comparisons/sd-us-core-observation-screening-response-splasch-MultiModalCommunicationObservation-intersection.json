@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "3476524b-c765-4267-a85c-47e40e8e4ef0-132",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3476524b-c765-4267-a85c-47e40e8e4ef0-132",
+  "id" : "5a5327c3-6897-4b06-85b8-0b9eb9c649bd-132",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5a5327c3-6897-4b06-85b8-0b9eb9c649bd-132",
   "name" : "IntersectionUSCoreObservationScreeningResponseAndMultiModalCommunicationObservation",
   "title" : "Intersection of US Core Screening Response Observation Profile And Multi-Modal Communication Observation",
   "status" : "active",
-  "date" : "2022-04-29T14:31:08-04:00",
+  "date" : "2022-05-03T12:47:15-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

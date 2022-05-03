@@ -181,7 +181,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99833-6 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -203,7 +203,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99830-2 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -313,7 +313,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99832-8 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -335,7 +335,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99829-4 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -379,7 +379,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99829-4 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -401,7 +401,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99832-8 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -511,7 +511,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99830-2 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -533,7 +533,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99833-6 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -946,7 +946,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99833-6 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -968,7 +968,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99830-2 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -990,7 +990,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99832-8 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -1012,7 +1012,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99829-4 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -1210,7 +1210,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99829-4 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -1232,7 +1232,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99832-8 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -1254,7 +1254,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99829-4 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -1276,7 +1276,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99832-8 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -1342,7 +1342,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99830-2 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -1364,7 +1364,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99833-6 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -1474,7 +1474,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99832-8 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -1496,7 +1496,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99829-4 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -1650,7 +1650,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99833-6 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -1672,7 +1672,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99830-2 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -1694,7 +1694,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99832-8 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -1716,7 +1716,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99829-4 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -1738,7 +1738,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99832-8 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -1760,7 +1760,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99829-4 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -1870,7 +1870,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99833-6 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -1892,7 +1892,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99830-2 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -2002,7 +2002,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99830-2 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -2024,7 +2024,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99833-6 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -2354,7 +2354,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99832-8 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -2376,7 +2376,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99829-4 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -2398,7 +2398,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99833-6 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -2420,7 +2420,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99830-2 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -2750,7 +2750,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99829-4 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -2772,7 +2772,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99832-8 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -2794,7 +2794,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99830-2 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -2816,7 +2816,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99833-6 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -2904,7 +2904,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99832-8 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -2926,7 +2926,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99829-4 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -2992,7 +2992,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99833-6 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -3014,7 +3014,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99830-2 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -3256,7 +3256,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99833-6 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -3278,7 +3278,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99830-2 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -3300,7 +3300,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99832-8 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -3322,7 +3322,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99829-4 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -3454,7 +3454,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99830-2 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -3476,7 +3476,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99833-6 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -3498,7 +3498,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99829-4 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -3520,7 +3520,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99832-8 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -3718,7 +3718,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99833-6 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -3740,7 +3740,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99830-2 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -3850,7 +3850,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99830-2 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99830-2 "How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -3872,7 +3872,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99833-6 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99833-6 "How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -3894,7 +3894,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99829-4 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99829-4 "How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -3916,7 +3916,7 @@ Description: "An instance of SPLASCH multi-modal-communication observation"
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
 
 // Pre-load code 99832-8 - Do Not Remove from template
-* code = http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHMultiModalCommunicationObservationCS#99832-8 "How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
 
 * subject = Reference(BSJ-patientBSJ1)
 

@@ -9,12 +9,7 @@ ValueSet: SPLASCHFrequencyObservationVS
 Title: "SPLASCH Frequency Observation Values"
 Description: "Frequency values for SPLASCH observations"
 * codes from system SPLASCHTimePercentageCategoryCS
-* include $LOINC#LA6270-8 "Never"
-* include $LOINC#LA10066-1 "Rarely"
-* include $LOINC#LA10082-8 "Sometimes"
-* include $LOINC#LA10044-8 "Often"
-* include $LOINC#LA9933-8 "Always"
-//* codes from system SPLASCHFrequencyCS
+* codes from system SPLASCHFrequencyCS
 * ^copyright = "This CodeSystem is not copyrighted."
 
 

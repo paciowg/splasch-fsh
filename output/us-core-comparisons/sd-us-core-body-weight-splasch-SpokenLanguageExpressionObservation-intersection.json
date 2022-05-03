@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "3476524b-c765-4267-a85c-47e40e8e4ef0-258",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3476524b-c765-4267-a85c-47e40e8e4ef0-258",
+  "id" : "5a5327c3-6897-4b06-85b8-0b9eb9c649bd-258",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5a5327c3-6897-4b06-85b8-0b9eb9c649bd-258",
   "name" : "IntersectionUSCoreBodyWeightProfileAndSpokenLanguageExpressionObservation",
   "title" : "Intersection of US Core Body Weight Profile And Spoken Language Expression Observation",
   "status" : "active",
-  "date" : "2022-04-29T14:31:09-04:00",
+  "date" : "2022-05-03T12:47:16-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/3476524b-c765-4267-a85c-47e40e8e4ef0-237"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/5a5327c3-6897-4b06-85b8-0b9eb9c649bd-237"
       },
       "mapping" : [{
         "identity" : "workflow",

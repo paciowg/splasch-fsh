@@ -1,0 +1,89 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "SPLASCHFrequencyCS"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">LA6270-8<a name=\"SPLASCHFrequencyCS-LA6270-8\"> </a></td><td>Never</td></tr><tr><td style=\"white-space:nowrap\">LA10066-1<a name=\"SPLASCHFrequencyCS-LA10066-1\"> </a></td><td>Rarely</td></tr><tr><td style=\"white-space:nowrap\">LA10082-8<a name=\"SPLASCHFrequencyCS-LA10082-8\"> </a></td><td>Sometimes</td></tr><tr><td style=\"white-space:nowrap\">LA10044-8<a name=\"SPLASCHFrequencyCS-LA10044-8\"> </a></td><td>Often</td></tr><tr><td style=\"white-space:nowrap\">LA9933-8<a name=\"SPLASCHFrequencyCS-LA9933-8\"> </a></td><td>Always</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "SPLASCHFrequencyCS"];
+  fhir:CodeSystem.title [ fhir:value "Observation Value Frequency Codes"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2022-05-03T12:45:05-04:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "HL7 Patient Care Working Group"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "HL7 Patient Care Working Group" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/patientcare" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "patients@lists.HL7.org" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "PACIO project" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/patientcare" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "info@pacioproject.org" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Category codes for frequency values"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "US" ]
+     ]
+  ];
+  fhir:CodeSystem.copyright [ fhir:value "This CodeSystem is not copyrighted."];
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "5"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "LA6270-8" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Never" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "LA10066-1" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Rarely" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "LA10082-8" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Sometimes" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "LA10044-8" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Often" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "LA9933-8" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Always" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS.ttl> .
+
+# -------------------------------------------------------------------------------------
+

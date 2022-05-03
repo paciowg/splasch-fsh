@@ -81,18 +81,16 @@ Description: "Catgegory codes for time percentage observations"
 * ^copyright = "This CodeSystem is not copyrighted."
 
 
-/*
 CodeSystem: SPLASCHFrequencyCS
 Title: "Observation Value Frequency Codes"
-Description: "todo"
-* #never "Never" "Never"
-* #rarely "Rarely" "Rarely"
-* #sometimes "Sometimes" "Sometimes"
-* #often "Often" "Often"
-* #always "Always" "Always"
+Description: "Category codes for frequency values"
+* #LA6270-8 "Never"
+* #LA10066-1 "Rarely"
+* #LA10082-8 "Sometimes"
+* #LA10044-8 "Often"
+* #LA9933-8 "Always"
 * ^caseSensitive = true
 * ^copyright = "This CodeSystem is not copyrighted."
-*/
 
 
 CodeSystem: SPLASCHSolidDietCS

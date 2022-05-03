@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="dc4455a1-6707-4fe1-90da-4efff4d15561"/>
+  <id value="923ed314-f5b1-4214-9bc1-66421756d45a"/>
   <meta>
-    <lastUpdated value="2022-04-29T14:30:00.163-04:00"/>
+    <lastUpdated value="2022-05-03T12:45:05.530-04:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -808,7 +808,7 @@
         <name value="SPLASCHCaloriePercentageTypeObservationVS"/>
         <title value="Calorie Percentage Type Observation"/>
         <status value="active"/>
-        <date value="2022-04-29T14:30:00-04:00"/>
+        <date value="2022-05-03T12:45:05-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -841,8 +841,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:c9152afb-8fe6-4479-8dcc-c4ac5369c65f"/>
-          <timestamp value="2022-04-29T14:31:48-04:00"/>
+          <identifier value="urn:uuid:317b688d-0943-4bdb-afdd-b687b047031f"/>
+          <timestamp value="2022-05-03T12:48:08-04:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1269,7 +1269,9 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>Loinc v2.71</li>
+                <li>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html">Observation Value Frequency Codes v0.1.0 (CodeSystem)</a>
+                </li>
                 <li>
                   <a href="CodeSystem-SPLASCHTimePercentageCategoryCS.html">Observation Value Time Percentage Category Codes v0.1.0 (CodeSystem)</a>
                 </li>
@@ -1337,46 +1339,46 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-LA6270-8"> </a>
-                  <a href="http://details.loinc.org/LOINC/LA6270-8.html">LA6270-8</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-LA6270-8"> </a>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-LA6270-8">LA6270-8</a>
                 </td>
-                <td>http://loinc.org</td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td>
                 <td>Never</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-LA10066-1"> </a>
-                  <a href="http://details.loinc.org/LOINC/LA10066-1.html">LA10066-1</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-LA10066-1"> </a>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-LA10066-1">LA10066-1</a>
                 </td>
-                <td>http://loinc.org</td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td>
                 <td>Rarely</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-LA10082-8"> </a>
-                  <a href="http://details.loinc.org/LOINC/LA10082-8.html">LA10082-8</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-LA10082-8"> </a>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-LA10082-8">LA10082-8</a>
                 </td>
-                <td>http://loinc.org</td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td>
                 <td>Sometimes</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-LA10044-8"> </a>
-                  <a href="http://details.loinc.org/LOINC/LA10044-8.html">LA10044-8</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-LA10044-8"> </a>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-LA10044-8">LA10044-8</a>
                 </td>
-                <td>http://loinc.org</td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td>
                 <td>Often</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-LA9933-8"> </a>
-                  <a href="http://details.loinc.org/LOINC/LA9933-8.html">LA9933-8</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-LA9933-8"> </a>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-LA9933-8">LA9933-8</a>
                 </td>
-                <td>http://loinc.org</td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td>
                 <td>Always</td>
                 <td/>
               </tr>
@@ -1388,7 +1390,7 @@
         <name value="SPLASCHFrequencyObservationVS"/>
         <title value="SPLASCH Frequency Observation Values"/>
         <status value="active"/>
-        <date value="2022-04-29T14:30:00-04:00"/>
+        <date value="2022-05-03T12:45:05-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -1421,8 +1423,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:f3921a3f-9985-44ff-b131-aa1ba645db35"/>
-          <timestamp value="2022-04-29T14:31:49-04:00"/>
+          <identifier value="urn:uuid:3a76f743-f813-4b39-8089-a6925bb6acfa"/>
+          <timestamp value="2022-05-03T12:48:08-04:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1433,16 +1435,8 @@
             <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS|0.1.0"/>
           </parameter>
           <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
             <name value="version"/>
-            <valueUri value="http://loinc.org|2.71"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS|0.1.0"/>
           </parameter>
           <contains>
             <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS"/>
@@ -1470,27 +1464,27 @@
             <display value="91-100% of the time"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
             <code value="LA6270-8"/>
             <display value="Never"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
             <code value="LA10066-1"/>
             <display value="Rarely"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
             <code value="LA10082-8"/>
             <display value="Sometimes"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
             <code value="LA10044-8"/>
             <display value="Often"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
             <code value="LA9933-8"/>
             <display value="Always"/>
           </contains>
@@ -1679,7 +1673,7 @@
         <name value="SPLASCHFrequencyTypeObservationVS"/>
         <title value="Frequency Type Observation"/>
         <status value="active"/>
-        <date value="2022-04-29T14:30:00-04:00"/>
+        <date value="2022-05-03T12:45:05-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -1712,8 +1706,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:03a20bda-c58d-4acf-9e30-26fa2df817ae"/>
-          <timestamp value="2022-04-29T14:31:49-04:00"/>
+          <identifier value="urn:uuid:82a1460d-80f4-492a-be95-5de9fad6b4a4"/>
+          <timestamp value="2022-05-03T12:48:08-04:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2125,7 +2119,7 @@
         <name value="SPLASCHHearingObservationValueVS"/>
         <title value="Hearing Observation Value"/>
         <status value="active"/>
-        <date value="2022-04-29T14:30:00-04:00"/>
+        <date value="2022-05-03T12:45:05-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -2158,8 +2152,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:b0c9272d-4704-4b17-8f90-0f7f14ea00c1"/>
-          <timestamp value="2022-04-29T14:31:49-04:00"/>
+          <identifier value="urn:uuid:9014f2bd-930d-4df9-bdf9-89364a49e417"/>
+          <timestamp value="2022-05-03T12:48:09-04:00"/>
           <total value="18"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2730,7 +2724,7 @@
         <name value="SPLASCHHearingObservationVS"/>
         <title value="Hearing Observation"/>
         <status value="active"/>
-        <date value="2022-04-29T14:30:00-04:00"/>
+        <date value="2022-05-03T12:45:05-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -2763,8 +2757,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:16f1ef8c-f5a2-442d-a64f-aff0520f3f99"/>
-          <timestamp value="2022-04-29T14:31:49-04:00"/>
+          <identifier value="urn:uuid:222d273f-85aa-44e0-b03b-06ce0a0b4779"/>
+          <timestamp value="2022-05-03T12:48:09-04:00"/>
           <total value="45"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3200,7 +3194,7 @@
         <name value="SPLASCHLiquidDietModifierTypeObservationVS"/>
         <title value="Liquid Diet Modifier Type Observation"/>
         <status value="active"/>
-        <date value="2022-04-29T14:30:00-04:00"/>
+        <date value="2022-05-03T12:45:05-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -3233,8 +3227,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:6320a41d-bb01-4198-b5b6-ce2da85140fa"/>
-          <timestamp value="2022-04-29T14:31:50-04:00"/>
+          <identifier value="urn:uuid:621443c5-98c2-4df5-98b6-fcd3c89f7308"/>
+          <timestamp value="2022-05-03T12:48:09-04:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3354,7 +3348,7 @@
         <name value="SPLASCHMultiModalCommunicationObservationVS"/>
         <title value="Multi-Modal Communication Observation"/>
         <status value="active"/>
-        <date value="2022-04-29T14:30:00-04:00"/>
+        <date value="2022-05-03T12:45:05-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -3387,8 +3381,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:d19cae6c-77c0-4e81-8d27-02dd71c953ba"/>
-          <timestamp value="2022-04-29T14:31:50-04:00"/>
+          <identifier value="urn:uuid:e54454b8-44ef-4e7a-b888-ef6e80403a64"/>
+          <timestamp value="2022-05-03T12:48:09-04:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3519,7 +3513,7 @@
         <name value="SPLASCHObservationCategoryVS"/>
         <title value="SPLASCH Observation Category"/>
         <status value="active"/>
-        <date value="2022-04-29T14:30:00-04:00"/>
+        <date value="2022-05-03T12:45:05-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -3552,8 +3546,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:765b0a89-18ff-4b5a-8f09-8b7a4938f86c"/>
-          <timestamp value="2022-04-29T14:31:50-04:00"/>
+          <identifier value="urn:uuid:2aebaf03-07f3-4d5f-bc3b-b188ca1efe32"/>
+          <timestamp value="2022-05-03T12:48:09-04:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3968,7 +3962,7 @@
         <name value="SPLASCHSolidDietModifierTypeObservationVS"/>
         <title value="Solid Diet Modifier Type Observation"/>
         <status value="active"/>
-        <date value="2022-04-29T14:30:00-04:00"/>
+        <date value="2022-05-03T12:45:05-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -4001,8 +3995,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:6792285d-8001-4309-85fe-81a4b01044db"/>
-          <timestamp value="2022-04-29T14:31:50-04:00"/>
+          <identifier value="urn:uuid:4e133c44-ec5f-4d3f-9cf2-556e756f5427"/>
+          <timestamp value="2022-05-03T12:48:10-04:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4106,7 +4100,7 @@
         <name value="SPLASCHSpeechComprehensionObservationVS"/>
         <title value="Speech Comprehension Observation"/>
         <status value="active"/>
-        <date value="2022-04-29T14:30:00-04:00"/>
+        <date value="2022-05-03T12:45:05-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -4139,8 +4133,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:e0ca2ba0-17ad-467f-b41c-c3cb5f8ce53d"/>
-          <timestamp value="2022-04-29T14:31:50-04:00"/>
+          <identifier value="urn:uuid:818f2102-e030-401c-a907-56bf7d375504"/>
+          <timestamp value="2022-05-03T12:48:10-04:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4277,7 +4271,7 @@
         <name value="SPLASCHSpeechExpressionObservationVS"/>
         <title value="Speech Expression Observation"/>
         <status value="active"/>
-        <date value="2022-04-29T14:30:00-04:00"/>
+        <date value="2022-05-03T12:45:05-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -4310,8 +4304,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:4ca7a170-a406-4abe-b66e-b898183e3424"/>
-          <timestamp value="2022-04-29T14:31:50-04:00"/>
+          <identifier value="urn:uuid:b7fe5270-60b5-4a70-b2fb-456e7e3f9d5d"/>
+          <timestamp value="2022-05-03T12:48:10-04:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4373,6 +4367,9 @@
               <p>Expansion based on: </p>
               <ul>
                 <li>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html">Observation Value Frequency Codes v0.1.0 (CodeSystem)</a>
+                </li>
+                <li>
                   <a href="CodeSystem-SPLASCHSolidDietCS.html">Observation Value Solid Diet Codes v0.1.0 (CodeSystem)</a>
                 </li>
                 <li>
@@ -4381,7 +4378,6 @@
                 <li>
                   <a href="ValueSet-SPLASCHFrequencyObservationVS.html">SPLASCH Frequency Observation Values v0.1.0 (ValueSet)</a>
                 </li>
-                <li>Loinc v2.71</li>
                 <li>
                   <a href="CodeSystem-SPLASCHTimePercentageCategoryCS.html">Observation Value Time Percentage Category Codes v0.1.0 (CodeSystem)</a>
                 </li>
@@ -4452,46 +4448,46 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-LA6270-8"> </a>
-                  <a href="http://details.loinc.org/LOINC/LA6270-8.html">LA6270-8</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-LA6270-8"> </a>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-LA6270-8">LA6270-8</a>
                 </td>
-                <td>http://loinc.org</td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td>
                 <td>Never</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-LA10066-1"> </a>
-                  <a href="http://details.loinc.org/LOINC/LA10066-1.html">LA10066-1</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-LA10066-1"> </a>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-LA10066-1">LA10066-1</a>
                 </td>
-                <td>http://loinc.org</td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td>
                 <td>Rarely</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-LA10082-8"> </a>
-                  <a href="http://details.loinc.org/LOINC/LA10082-8.html">LA10082-8</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-LA10082-8"> </a>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-LA10082-8">LA10082-8</a>
                 </td>
-                <td>http://loinc.org</td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td>
                 <td>Sometimes</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-LA10044-8"> </a>
-                  <a href="http://details.loinc.org/LOINC/LA10044-8.html">LA10044-8</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-LA10044-8"> </a>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-LA10044-8">LA10044-8</a>
                 </td>
-                <td>http://loinc.org</td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td>
                 <td>Often</td>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---loinc.org-LA9933-8"> </a>
-                  <a href="http://details.loinc.org/LOINC/LA9933-8.html">LA9933-8</a>
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-SPLASCHFrequencyCS-LA9933-8"> </a>
+                  <a href="CodeSystem-SPLASCHFrequencyCS.html#SPLASCHFrequencyCS-LA9933-8">LA9933-8</a>
                 </td>
-                <td>http://loinc.org</td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS</td>
                 <td>Always</td>
                 <td/>
               </tr>
@@ -4647,7 +4643,7 @@
         <name value="SPLASCHSwallowingObservationValueVS"/>
         <title value="Swallowing Observation Value"/>
         <status value="active"/>
-        <date value="2022-04-29T14:30:00-04:00"/>
+        <date value="2022-05-03T12:45:05-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -4680,8 +4676,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:a1fa3ba6-93d6-485b-8adb-8a8d58154a20"/>
-          <timestamp value="2022-04-29T14:31:50-04:00"/>
+          <identifier value="urn:uuid:3556f18b-e133-4751-b0ae-d81843153e3e"/>
+          <timestamp value="2022-05-03T12:48:10-04:00"/>
           <total value="26"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4696,16 +4692,8 @@
             <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS|0.1.0"/>
           </parameter>
           <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
             <name value="version"/>
-            <valueUri value="http://loinc.org|2.71"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS|0.1.0"/>
           </parameter>
           <parameter>
             <name value="version"/>
@@ -4755,35 +4743,35 @@
             <display value="91-100% of the time"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
             <abstract value="false"/>
             <inactive value="false"/>
             <code value="LA6270-8"/>
             <display value="Never"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
             <abstract value="false"/>
             <inactive value="false"/>
             <code value="LA10066-1"/>
             <display value="Rarely"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
             <abstract value="false"/>
             <inactive value="false"/>
             <code value="LA10082-8"/>
             <display value="Sometimes"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
             <abstract value="false"/>
             <inactive value="false"/>
             <code value="LA10044-8"/>
             <display value="Often"/>
           </contains>
           <contains>
-            <system value="http://loinc.org"/>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS"/>
             <abstract value="false"/>
             <inactive value="false"/>
             <code value="LA9933-8"/>
@@ -4950,7 +4938,7 @@
         <name value="SPLASCHSwallowingObservationVS"/>
         <title value="Swallowing Observation"/>
         <status value="active"/>
-        <date value="2022-04-29T14:30:00-04:00"/>
+        <date value="2022-05-03T12:45:05-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -4983,8 +4971,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:3617e557-e73a-4254-9154-b494fb512663"/>
-          <timestamp value="2022-04-29T14:31:50-04:00"/>
+          <identifier value="urn:uuid:19a38581-eba0-462c-893f-da117be45f9e"/>
+          <timestamp value="2022-05-03T12:48:10-04:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
