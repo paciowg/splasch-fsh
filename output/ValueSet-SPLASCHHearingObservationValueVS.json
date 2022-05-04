@@ -3,14 +3,14 @@
   "id": "SPLASCHHearingObservationValueVS",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"ValueSet-HearingAbilityToHearDuringAssessmentPeriodVS.html\">http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingAbilityToHearDuringAssessmentPeriodVS</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-YesOrNoVS.html\">http://hl7.org/fhir/us/pacio-splasch/ValueSet/YesOrNoVS</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-CmsFasiAssistiveDevicesVS.html\">http://hl7.org/fhir/us/pacio-splasch/ValueSet/CmsFasiAssistiveDevicesVS</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-LeftRightBothVS.html\">http://hl7.org/fhir/us/pacio-splasch/ValueSet/LeftRightBothVS</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-HearBetterInOneEarVS.html\">http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearBetterInOneEarVS</a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-HearingLossTypeCS.html\"><code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS</code></a></li><li>Include all codes defined in <a href=\"CodeSystem-HearingLossDegreeCS.html\"><code>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS</code></a></li><li>Import all the codes that are contained in <a href=\"ValueSet-HearingAbilityToHearDuringAssessmentPeriodVS.html\">http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingAbilityToHearDuringAssessmentPeriodVS</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-YesOrNoVS.html\">http://hl7.org/fhir/us/pacio-splasch/ValueSet/YesOrNoVS</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-CmsFasiAssistiveDevicesVS.html\">http://hl7.org/fhir/us/pacio-splasch/ValueSet/CmsFasiAssistiveDevicesVS</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-LeftRightBothVS.html\">http://hl7.org/fhir/us/pacio-splasch/ValueSet/LeftRightBothVS</a></li><li>Import all the codes that are contained in <a href=\"ValueSet-HearBetterInOneEarVS.html\">http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearBetterInOneEarVS</a></li></ul></div>"
   },
   "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHHearingObservationValueVS",
   "version": "0.1.0",
   "name": "SPLASCHHearingObservationValueVS",
   "title": "Hearing Observation Value",
   "status": "active",
-  "date": "2022-05-04T09:54:10-04:00",
+  "date": "2022-05-04T12:01:11-04:00",
   "publisher": "HL7 Patient Care Working Group",
   "contact": [
     {
@@ -54,6 +54,12 @@
   "copyright": "This CodeSystem is not copyrighted.",
   "compose": {
     "include": [
+      {
+        "system": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS"
+      },
+      {
+        "system": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS"
+      },
       {
         "valueSet": [
           "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingAbilityToHearDuringAssessmentPeriodVS"

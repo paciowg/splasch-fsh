@@ -63,6 +63,8 @@ Description: "SPLASCH hearing observation profile: codes representing hearing qu
 ValueSet: SPLASCHHearingObservationValueVS
 Title: "Hearing Observation Value"
 Description: "SPLASCH hearing observation values: codes representing answers to the hearing questions asked by the ValueSet SPLASCHHearingObservationCodeVS"
+* codes from system HearingLossTypeCS
+* codes from system HearingLossDegreeCS
 * codes from valueset HearingAbilityToHearDuringAssessmentPeriodVS
 * codes from valueset YesOrNoVS
 * codes from valueset CmsFasiAssistiveDevicesVS

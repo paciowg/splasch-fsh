@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="16764917-0628-4fba-bf45-4bac6e1b51ee"/>
+  <id value="5bad6351-aa77-41ae-babb-78973e7edc7b"/>
   <meta>
-    <lastUpdated value="2022-05-04T09:54:10.248-04:00"/>
+    <lastUpdated value="2022-05-04T12:01:11.871-04:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -510,7 +510,7 @@
         <name value="SPLASCHCaloriePercentageTypeObservationVS"/>
         <title value="Calorie Percentage Type Observation"/>
         <status value="active"/>
-        <date value="2022-05-04T09:54:10-04:00"/>
+        <date value="2022-05-04T12:01:11-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -543,8 +543,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:b7358f7f-0c6d-4f32-84c0-0aa6362a7fec"/>
-          <timestamp value="2022-05-04T09:57:32-04:00"/>
+          <identifier value="urn:uuid:702d3e9b-cec5-40db-89b5-8f9014061817"/>
+          <timestamp value="2022-05-04T12:06:02-04:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -696,7 +696,7 @@
         <name value="SPLASCHFrequencyObservationVS"/>
         <title value="SPLASCH Frequency Observation Values"/>
         <status value="active"/>
-        <date value="2022-05-04T09:54:10-04:00"/>
+        <date value="2022-05-04T12:01:11-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -729,8 +729,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:3e88aead-cd5d-4717-bc40-a9aaa79dd8cd"/>
-          <timestamp value="2022-05-04T09:57:32-04:00"/>
+          <identifier value="urn:uuid:b38d18fc-546a-417e-a533-13a1b7caa629"/>
+          <timestamp value="2022-05-04T12:06:03-04:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -979,7 +979,7 @@
         <name value="SPLASCHFrequencyTypeObservationVS"/>
         <title value="Frequency Type Observation"/>
         <status value="active"/>
-        <date value="2022-05-04T09:54:10-04:00"/>
+        <date value="2022-05-04T12:01:11-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -1012,8 +1012,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:f71b314c-e015-4d97-9201-ca7365356a48"/>
-          <timestamp value="2022-05-04T09:57:32-04:00"/>
+          <identifier value="urn:uuid:c4de0df4-16a3-40c4-8107-497f57ec5cfa"/>
+          <timestamp value="2022-05-04T12:06:03-04:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1234,10 +1234,13 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 18 concepts</p>
+            <p>This value set contains 34 concepts</p>
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
+                <li>
+                  <a href="CodeSystem-HearingLossTypeCS.html">Hearing Loss - Type v0.1.0 (CodeSystem)</a>
+                </li>
                 <li>
                   <a href="ValueSet-YesOrNoVS.html">Y/N v0.1.0 (ValueSet)</a>
                 </li>
@@ -1250,21 +1253,22 @@
                 <li>
                   <a href="ValueSet-LeftRightBothVS.html">Left / Right / Both v0.1.0 (ValueSet)</a>
                 </li>
+                <li>
+                  <a href="CodeSystem-HearingLossDegreeCS.html">Hearing Loss - Degree v0.1.0 (CodeSystem)</a>
+                </li>
                 <li>Loinc v2.71</li>
                 <li>
                   <a href="ValueSet-HearBetterInOneEarVS.html">PhenX20_03_hear better in one ear v0.1.0 (ValueSet)</a>
                 </li>
               </ul>
             </div>
-            <p>All codes in this table are from the system 
-              <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-loinc.html">
-                <code>http://loinc.org</code>
-              </a>
-            </p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
                   <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
                 </td>
                 <td>
                   <b>Display</b>
@@ -1275,9 +1279,154 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-HearingLossTypeCS-LA32484-0"> </a>
+                  <a href="CodeSystem-HearingLossTypeCS.html#HearingLossTypeCS-LA32484-0">LA32484-0</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS</td>
+                <td>No hearing loss</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-HearingLossTypeCS-LA32485-7"> </a>
+                  <a href="CodeSystem-HearingLossTypeCS.html#HearingLossTypeCS-LA32485-7">LA32485-7</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS</td>
+                <td>Sensorineural</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-HearingLossTypeCS-LA32486-5"> </a>
+                  <a href="CodeSystem-HearingLossTypeCS.html#HearingLossTypeCS-LA32486-5">LA32486-5</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS</td>
+                <td>Conductive - transient</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-HearingLossTypeCS-LA32487-3"> </a>
+                  <a href="CodeSystem-HearingLossTypeCS.html#HearingLossTypeCS-LA32487-3">LA32487-3</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS</td>
+                <td>Conductive - permanent</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-HearingLossTypeCS-LA32488-1"> </a>
+                  <a href="CodeSystem-HearingLossTypeCS.html#HearingLossTypeCS-LA32488-1">LA32488-1</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS</td>
+                <td>Conductive - undetermined</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-HearingLossTypeCS-LA11840-8"> </a>
+                  <a href="CodeSystem-HearingLossTypeCS.html#HearingLossTypeCS-LA11840-8">LA11840-8</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS</td>
+                <td>Mixed</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-HearingLossTypeCS-LA32489-9"> </a>
+                  <a href="CodeSystem-HearingLossTypeCS.html#HearingLossTypeCS-LA32489-9">LA32489-9</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS</td>
+                <td>Auditory neuropahty/Neural</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-HearingLossTypeCS-LA32490-7"> </a>
+                  <a href="CodeSystem-HearingLossTypeCS.html#HearingLossTypeCS-LA32490-7">LA32490-7</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS</td>
+                <td>Undetermined/Inconclusive</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-HearingLossDegreeCS-LA32484-0"> </a>
+                  <a href="CodeSystem-HearingLossDegreeCS.html#HearingLossDegreeCS-LA32484-0">LA32484-0</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS</td>
+                <td>No hearing loss</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-HearingLossDegreeCS-LA32491-5"> </a>
+                  <a href="CodeSystem-HearingLossDegreeCS.html#HearingLossDegreeCS-LA32491-5">LA32491-5</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS</td>
+                <td>Slight (16-25 dB HL)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-HearingLossDegreeCS-LA32492-3"> </a>
+                  <a href="CodeSystem-HearingLossDegreeCS.html#HearingLossDegreeCS-LA32492-3">LA32492-3</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS</td>
+                <td>Mild (26-40 dB HL)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-HearingLossDegreeCS-LA32493-1"> </a>
+                  <a href="CodeSystem-HearingLossDegreeCS.html#HearingLossDegreeCS-LA32493-1">LA32493-1</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS</td>
+                <td>Moderate (41-55 dB HL)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-HearingLossDegreeCS-LA32494-9"> </a>
+                  <a href="CodeSystem-HearingLossDegreeCS.html#HearingLossDegreeCS-LA32494-9">LA32494-9</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS</td>
+                <td>Moderately severe (56-70 dB HL)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-HearingLossDegreeCS-LA32495-6"> </a>
+                  <a href="CodeSystem-HearingLossDegreeCS.html#HearingLossDegreeCS-LA32495-6">LA32495-6</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS</td>
+                <td>Severe (71-90 dB HL)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-HearingLossDegreeCS-LA32496-4"> </a>
+                  <a href="CodeSystem-HearingLossDegreeCS.html#HearingLossDegreeCS-LA32496-4">LA32496-4</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS</td>
+                <td>Profound (91+ dB HL)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-splasch-CodeSystem-HearingLossDegreeCS-LA14100-4"> </a>
+                  <a href="CodeSystem-HearingLossDegreeCS.html#HearingLossDegreeCS-LA14100-4">LA14100-4</a>
+                </td>
+                <td>http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS</td>
+                <td>Undetermined</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
                   <a name="http---loinc.org-LA10941-5"> </a>
                   <a href="http://details.loinc.org/LOINC/LA10941-5.html">LA10941-5</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>Adequate - no difficulty in normal conversation, social interaction, listening to TV</td>
                 <td/>
               </tr>
@@ -1286,6 +1435,7 @@
                   <a name="http---loinc.org-LA10942-3"> </a>
                   <a href="http://details.loinc.org/LOINC/LA10942-3.html">LA10942-3</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>Minimal difficulty - difficulty in some environments (e.g. when person speaks softly or setting is noisy)</td>
                 <td/>
               </tr>
@@ -1294,6 +1444,7 @@
                   <a name="http---loinc.org-LA10943-1"> </a>
                   <a href="http://details.loinc.org/LOINC/LA10943-1.html">LA10943-1</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>Moderate difficulty - speaker has to increase volume and speak distinctly</td>
                 <td/>
               </tr>
@@ -1302,6 +1453,7 @@
                   <a name="http---loinc.org-LA10944-9"> </a>
                   <a href="http://details.loinc.org/LOINC/LA10944-9.html">LA10944-9</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>Highly impaired - absence of useful hearing</td>
                 <td/>
               </tr>
@@ -1310,6 +1462,7 @@
                   <a name="http---loinc.org-LA32-8"> </a>
                   <a href="http://details.loinc.org/LOINC/LA32-8.html">LA32-8</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>No</td>
                 <td/>
               </tr>
@@ -1318,6 +1471,7 @@
                   <a name="http---loinc.org-LA33-6"> </a>
                   <a href="http://details.loinc.org/LOINC/LA33-6.html">LA33-6</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>Yes</td>
                 <td/>
               </tr>
@@ -1326,6 +1480,7 @@
                   <a name="http---loinc.org-LA30918-9"> </a>
                   <a href="http://details.loinc.org/LOINC/LA30918-9.html">LA30918-9</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>Assistive device needed and available - Person needs this device to complete daily activities and has the device in the home.</td>
                 <td/>
               </tr>
@@ -1334,6 +1489,7 @@
                   <a name="http---loinc.org-LA30919-7"> </a>
                   <a href="http://details.loinc.org/LOINC/LA30919-7.html">LA30919-7</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>Assistive device needed but current device unsuitable - Device is in home but no longer meets person&#39;s needs.</td>
                 <td/>
               </tr>
@@ -1342,6 +1498,7 @@
                   <a name="http---loinc.org-LA30920-5"> </a>
                   <a href="http://details.loinc.org/LOINC/LA30920-5.html">LA30920-5</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>Assistive device needed but not available - Person needs the device but it is not available in the home.</td>
                 <td/>
               </tr>
@@ -1350,6 +1507,7 @@
                   <a name="http---loinc.org-LA30921-3"> </a>
                   <a href="http://details.loinc.org/LOINC/LA30921-3.html">LA30921-3</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>Person refused - Person chooses to not use needed device.</td>
                 <td/>
               </tr>
@@ -1358,6 +1516,7 @@
                   <a name="http---loinc.org-LA30922-1"> </a>
                   <a href="http://details.loinc.org/LOINC/LA30922-1.html">LA30922-1</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>Not applicable - Person does not need this device.</td>
                 <td/>
               </tr>
@@ -1366,6 +1525,7 @@
                   <a name="http---loinc.org-LA4585-1"> </a>
                   <a href="http://details.loinc.org/LOINC/LA4585-1.html">LA4585-1</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>Left</td>
                 <td/>
               </tr>
@@ -1374,6 +1534,7 @@
                   <a name="http---loinc.org-LA4306-2"> </a>
                   <a href="http://details.loinc.org/LOINC/LA4306-2.html">LA4306-2</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>Right</td>
                 <td/>
               </tr>
@@ -1382,6 +1543,7 @@
                   <a name="http---loinc.org-LA14331-5"> </a>
                   <a href="http://details.loinc.org/LOINC/LA14331-5.html">LA14331-5</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>Both</td>
                 <td/>
               </tr>
@@ -1390,6 +1552,7 @@
                   <a name="http---loinc.org-LA15472-6"> </a>
                   <a href="http://details.loinc.org/LOINC/LA15472-6.html">LA15472-6</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>Yes, right ear</td>
                 <td/>
               </tr>
@@ -1398,6 +1561,7 @@
                   <a name="http---loinc.org-LA15473-4"> </a>
                   <a href="http://details.loinc.org/LOINC/LA15473-4.html">LA15473-4</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>Yes, left ear</td>
                 <td/>
               </tr>
@@ -1406,6 +1570,7 @@
                   <a name="http---loinc.org-LA4389-8"> </a>
                   <a href="http://details.loinc.org/LOINC/LA4389-8.html">LA4389-8</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>Refused</td>
                 <td/>
               </tr>
@@ -1414,6 +1579,7 @@
                   <a name="http---loinc.org-LA12688-0"> </a>
                   <a href="http://details.loinc.org/LOINC/LA12688-0.html">LA12688-0</a>
                 </td>
+                <td>http://loinc.org</td>
                 <td>Don&#39;t know</td>
                 <td/>
               </tr>
@@ -1425,7 +1591,7 @@
         <name value="SPLASCHHearingObservationValueVS"/>
         <title value="Hearing Observation Value"/>
         <status value="active"/>
-        <date value="2022-05-04T09:54:10-04:00"/>
+        <date value="2022-05-04T12:01:11-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -1458,12 +1624,20 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:5c5dcf32-a06d-4837-b145-d627c23e7816"/>
-          <timestamp value="2022-05-04T09:57:33-04:00"/>
-          <total value="18"/>
+          <identifier value="urn:uuid:27573d44-751c-49e8-a574-ff81272a1057"/>
+          <timestamp value="2022-05-04T12:06:04-04:00"/>
+          <total value="34"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS|0.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS|0.1.0"/>
           </parameter>
           <parameter>
             <name value="version"/>
@@ -1493,6 +1667,86 @@
             <name value="version"/>
             <valueUri value="http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearBetterInOneEarVS|0.1.0"/>
           </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS"/>
+            <code value="LA32484-0"/>
+            <display value="No hearing loss"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS"/>
+            <code value="LA32485-7"/>
+            <display value="Sensorineural"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS"/>
+            <code value="LA32486-5"/>
+            <display value="Conductive - transient"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS"/>
+            <code value="LA32487-3"/>
+            <display value="Conductive - permanent"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS"/>
+            <code value="LA32488-1"/>
+            <display value="Conductive - undetermined"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS"/>
+            <code value="LA11840-8"/>
+            <display value="Mixed"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS"/>
+            <code value="LA32489-9"/>
+            <display value="Auditory neuropahty/Neural"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS"/>
+            <code value="LA32490-7"/>
+            <display value="Undetermined/Inconclusive"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS"/>
+            <code value="LA32484-0"/>
+            <display value="No hearing loss"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS"/>
+            <code value="LA32491-5"/>
+            <display value="Slight (16-25 dB HL)"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS"/>
+            <code value="LA32492-3"/>
+            <display value="Mild (26-40 dB HL)"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS"/>
+            <code value="LA32493-1"/>
+            <display value="Moderate (41-55 dB HL)"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS"/>
+            <code value="LA32494-9"/>
+            <display value="Moderately severe (56-70 dB HL)"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS"/>
+            <code value="LA32495-6"/>
+            <display value="Severe (71-90 dB HL)"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS"/>
+            <code value="LA32496-4"/>
+            <display value="Profound (91+ dB HL)"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS"/>
+            <code value="LA14100-4"/>
+            <display value="Undetermined"/>
+          </contains>
           <contains>
             <system value="http://loinc.org"/>
             <abstract value="false"/>
@@ -2162,7 +2416,7 @@
         <name value="SPLASCHHearingObservationVS"/>
         <title value="Hearing Observation"/>
         <status value="active"/>
-        <date value="2022-05-04T09:54:10-04:00"/>
+        <date value="2022-05-04T12:01:11-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -2195,8 +2449,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:aebe2393-c9d2-4a70-a9f2-82ea19bd9620"/>
-          <timestamp value="2022-05-04T09:57:33-04:00"/>
+          <identifier value="urn:uuid:7902946c-9d23-47e5-a397-e53babf620c5"/>
+          <timestamp value="2022-05-04T12:06:04-04:00"/>
           <total value="55"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2600,7 +2854,7 @@
         <name value="SPLASCHLiquidDietModifierTypeObservationVS"/>
         <title value="Liquid Diet Modifier Type Observation"/>
         <status value="active"/>
-        <date value="2022-05-04T09:54:10-04:00"/>
+        <date value="2022-05-04T12:01:11-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -2633,8 +2887,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:be3fbbc9-f75b-42ea-8915-8c8706da3c1e"/>
-          <timestamp value="2022-05-04T09:57:34-04:00"/>
+          <identifier value="urn:uuid:94a96999-4c33-44da-84f3-793d2277eaab"/>
+          <timestamp value="2022-05-04T12:06:05-04:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2754,7 +3008,7 @@
         <name value="SPLASCHMultiModalCommunicationObservationVS"/>
         <title value="Multi-Modal Communication Observation"/>
         <status value="active"/>
-        <date value="2022-05-04T09:54:10-04:00"/>
+        <date value="2022-05-04T12:01:11-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -2787,8 +3041,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:1c915dd8-1d3c-48eb-9446-8abc3b78ea1a"/>
-          <timestamp value="2022-05-04T09:57:34-04:00"/>
+          <identifier value="urn:uuid:e3357e69-c7eb-41f8-8259-7384d90b22aa"/>
+          <timestamp value="2022-05-04T12:06:05-04:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2919,7 +3173,7 @@
         <name value="SPLASCHObservationCategoryVS"/>
         <title value="SPLASCH Observation Category"/>
         <status value="active"/>
-        <date value="2022-05-04T09:54:10-04:00"/>
+        <date value="2022-05-04T12:01:11-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -2952,8 +3206,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:3656554d-2ee9-4520-997f-a155d6d4a937"/>
-          <timestamp value="2022-05-04T09:57:34-04:00"/>
+          <identifier value="urn:uuid:2866b008-b351-4a28-adb3-49ec75cce327"/>
+          <timestamp value="2022-05-04T12:06:05-04:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3037,7 +3291,7 @@
         <name value="SPLASCHSolidDietModifierTypeObservationVS"/>
         <title value="Solid Diet Modifier Type Observation"/>
         <status value="active"/>
-        <date value="2022-05-04T09:54:10-04:00"/>
+        <date value="2022-05-04T12:01:11-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -3070,8 +3324,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:ae041788-6fe9-4b14-b174-360037efccdf"/>
-          <timestamp value="2022-05-04T09:57:34-04:00"/>
+          <identifier value="urn:uuid:7986bae1-af60-45dc-87bb-987d11415ea5"/>
+          <timestamp value="2022-05-04T12:06:05-04:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3175,7 +3429,7 @@
         <name value="SPLASCHSpeechComprehensionObservationVS"/>
         <title value="Speech Comprehension Observation"/>
         <status value="active"/>
-        <date value="2022-05-04T09:54:10-04:00"/>
+        <date value="2022-05-04T12:01:11-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -3208,8 +3462,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:a4a85d60-aaab-4e24-a6af-e0ae0b483564"/>
-          <timestamp value="2022-05-04T09:57:34-04:00"/>
+          <identifier value="urn:uuid:55f1c9c8-93fb-44f6-9be7-fcd51d9a66bd"/>
+          <timestamp value="2022-05-04T12:06:06-04:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3346,7 +3600,7 @@
         <name value="SPLASCHSpeechExpressionObservationVS"/>
         <title value="Speech Expression Observation"/>
         <status value="active"/>
-        <date value="2022-05-04T09:54:10-04:00"/>
+        <date value="2022-05-04T12:01:11-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -3379,8 +3633,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:742d946f-5236-47f3-b026-2836b6e02bd3"/>
-          <timestamp value="2022-05-04T09:57:34-04:00"/>
+          <identifier value="urn:uuid:02e2f485-ff6e-47c0-aeef-6237afacdf10"/>
+          <timestamp value="2022-05-04T12:06:06-04:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3718,7 +3972,7 @@
         <name value="SPLASCHSwallowingObservationValueVS"/>
         <title value="Swallowing Observation Value"/>
         <status value="active"/>
-        <date value="2022-05-04T09:54:10-04:00"/>
+        <date value="2022-05-04T12:01:11-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -3751,8 +4005,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:d3811eca-fa7e-4ed2-ba19-03f9810d476e"/>
-          <timestamp value="2022-05-04T09:57:35-04:00"/>
+          <identifier value="urn:uuid:1d0df91c-2f01-4ae9-adca-3d4ee3a8f7a1"/>
+          <timestamp value="2022-05-04T12:06:06-04:00"/>
           <total value="26"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4013,7 +4267,7 @@
         <name value="SPLASCHSwallowingObservationVS"/>
         <title value="Swallowing Observation"/>
         <status value="active"/>
-        <date value="2022-05-04T09:54:10-04:00"/>
+        <date value="2022-05-04T12:01:11-04:00"/>
         <publisher value="HL7 Patient Care Working Group"/>
         <contact>
           <name value="HL7 Patient Care Working Group"/>
@@ -4046,8 +4300,8 @@
         </jurisdiction>
         <copyright value="This CodeSystem is not copyrighted."/>
         <expansion>
-          <identifier value="urn:uuid:83aa9d9d-46a9-4bd1-8563-d3132fc36f19"/>
-          <timestamp value="2022-05-04T09:57:35-04:00"/>
+          <identifier value="urn:uuid:5a343aeb-1bf2-46aa-bd64-edb234e51833"/>
+          <timestamp value="2022-05-04T12:06:06-04:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
