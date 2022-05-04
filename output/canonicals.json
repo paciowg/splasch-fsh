@@ -1,5 +1,19 @@
 [
   {
+    "id": "HearingLossDegreeCS",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS",
+    "version": "0.1.0",
+    "name": "HearingLossDegreeCS"
+  },
+  {
+    "id": "HearingLossTypeCS",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS",
+    "version": "0.1.0",
+    "name": "HearingLossTypeCS"
+  },
+  {
     "id": "SPLASCHCaloriePercentageCategoryCS",
     "type": "CodeSystem",
     "url": "http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS",
@@ -145,20 +159,6 @@
     "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingAbilityToHearDuringAssessmentPeriodVS",
     "version": "0.1.0",
     "name": "HearingAbilityToHearDuringAssessmentPeriodVS"
-  },
-  {
-    "id": "HearingLossDegree",
-    "type": "ValueSet",
-    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingLossDegree",
-    "version": "0.1.0",
-    "name": "HearingLossDegree"
-  },
-  {
-    "id": "HearingLossType",
-    "type": "ValueSet",
-    "url": "http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingLossType",
-    "version": "0.1.0",
-    "name": "HearingLossType"
   },
   {
     "id": "LeftRightBothVS",

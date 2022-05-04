@@ -13,7 +13,7 @@ Description: "An instance of SPLASCH hearing observation"
 * category = SPLASCHCAT#hearing "Hearing"
 
 // Pre-load code 91375-6 - Do Not Remove from template
-* code = https://loinc.org/89015-2/#91375-6 "Hearing threshold Ear - left --250 Hz"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS#91375-6 "Hearing threshold Ear - left --250 Hz"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -34,7 +34,7 @@ Description: "An instance of SPLASCH hearing observation"
 * category = SPLASCHCAT#hearing "Hearing"
 
 // Pre-load code 89024-4 - Do Not Remove from template
-* code = https://loinc.org/89015-2/#89024-4 "Hearing threshold Ear - left --500 Hz"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS#89024-4 "Hearing threshold Ear - left --500 Hz"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -55,7 +55,7 @@ Description: "An instance of SPLASCH hearing observation"
 * category = SPLASCHCAT#hearing "Hearing"
 
 // Pre-load code 89023-6 - Do Not Remove from template
-* code = https://loinc.org/89015-2/#89023-6 "Hearing threshold Ear - right --4000 Hz"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS#89023-6 "Hearing threshold Ear - right --4000 Hz"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -76,7 +76,7 @@ Description: "An instance of SPLASCH hearing observation"
 * category = SPLASCHCAT#hearing "Hearing"
 
 // Pre-load code 89029-3 - Do Not Remove from template
-* code = https://loinc.org/89015-2/#89029-3 "Hearing threshold Ear - right --8000 Hz "
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS#89029-3 "Hearing threshold Ear - right --8000 Hz "
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -97,7 +97,7 @@ Description: "An instance of SPLASCH hearing observation"
 * category = SPLASCHCAT#hearing "Hearing"
 
 // Pre-load code 89022-8 - Do Not Remove from template
-* code = https://loinc.org/89015-2/#89022-8 "Hearing threshold Ear - left --4000 Hz"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS#89022-8 "Hearing threshold Ear - left --4000 Hz"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -118,7 +118,7 @@ Description: "An instance of SPLASCH hearing observation"
 * category = SPLASCHCAT#hearing "Hearing"
 
 // Pre-load code 89028-5 - Do Not Remove from template
-* code = https://loinc.org/89015-2/#89028-5 "Hearing threshold Ear - left --8000 Hz"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS#89028-5 "Hearing threshold Ear - left --8000 Hz"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -139,7 +139,7 @@ Description: "An instance of SPLASCH hearing observation"
 * category = SPLASCHCAT#hearing "Hearing"
 
 // Pre-load code 89016-0 - Do Not Remove from template
-* code = https://loinc.org/89015-2/#89016-0 "Hearing threshold Ear - left --1000 Hz"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS#89016-0 "Hearing threshold Ear - left --1000 Hz"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -160,7 +160,7 @@ Description: "An instance of SPLASCH hearing observation"
 * category = SPLASCHCAT#hearing "Hearing"
 
 // Pre-load code 89018-6 - Do Not Remove from template
-* code = https://loinc.org/89015-2/#89018-6 "Hearing threshold Ear - left --2000 Hz"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS#89018-6 "Hearing threshold Ear - left --2000 Hz"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -632,7 +632,7 @@ Description: "An instance of SPLASCH hearing observation"
 * performer[2] = Reference(Organization-Audiology-Advanced-Hearing-Care)
 
 // Pre-load value LA32485-7 - Do Not Remove from template
-* valueCodeableConcept = https://loinc.org/LL6015-3/#LA32485-7 "Sensorineural"
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS#LA32485-7 "Sensorineural"
 
 
 Instance: BSJ-ObservationSPLASCH-003
@@ -654,7 +654,7 @@ Description: "An instance of SPLASCH hearing observation"
 * performer[2] = Reference(Organization-Audiology-Advanced-Hearing-Care)
 
 // Pre-load value LA32493-1 - Do Not Remove from template
-* valueCodeableConcept = https://loinc.org/LL6016-1/#LA32493-1 "Moderate (41-55 dB HL)"
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS#LA32493-1 "Moderate (41-55 dB HL)"
 
 
 Instance: BSJ-ObservationSPLASCH-150
@@ -719,7 +719,7 @@ Description: "An instance of SPLASCH hearing observation"
 * performer[2] = Reference(Organization-Audiology-Advanced-Hearing-Care)
 
 // Pre-load value LA32493-1 - Do Not Remove from template
-* valueCodeableConcept = https://loinc.org/LL6016-1/#LA32493-1 "Moderate (41-55 dB HL)"
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS#LA32493-1 "Moderate (41-55 dB HL)"
 
 
 Instance: BSJ-ObservationSPLASCH-007
@@ -730,7 +730,7 @@ Description: "An instance of SPLASCH hearing observation"
 * category = SPLASCHCAT#hearing "Hearing"
 
 // Pre-load code 89025-1 - Do Not Remove from template
-* code = https://loinc.org/89015-2/#89025-1 "Hearing threshold Ear - right --500 Hz"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS#89025-1 "Hearing threshold Ear - right --500 Hz"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -751,7 +751,7 @@ Description: "An instance of SPLASCH hearing observation"
 * category = SPLASCHCAT#hearing "Hearing"
 
 // Pre-load code 91374-9 - Do Not Remove from template
-* code = https://loinc.org/89015-2/#91374-9 "Hearing threshold Ear - right --250 Hz"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS#91374-9 "Hearing threshold Ear - right --250 Hz"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -772,7 +772,7 @@ Description: "An instance of SPLASCH hearing observation"
 * category = SPLASCHCAT#hearing "Hearing"
 
 // Pre-load code 89019-4 - Do Not Remove from template
-* code = https://loinc.org/89015-2/#89019-4 "Hearing threshold Ear - right --2000 Hz"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS#89019-4 "Hearing threshold Ear - right --2000 Hz"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -793,7 +793,7 @@ Description: "An instance of SPLASCH hearing observation"
 * category = SPLASCHCAT#hearing "Hearing"
 
 // Pre-load code 89017-8 - Do Not Remove from template
-* code = https://loinc.org/89015-2/#89017-8 "Hearing threshold Ear - right --1000 Hz"
+* code = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS#89017-8 "Hearing threshold Ear - right --1000 Hz"
 
 * subject = Reference(BSJ-patientBSJ1)
 
@@ -3355,7 +3355,7 @@ Description: "An instance of SPLASCH hearing observation"
 * performer[2] = Reference(Organization-Audiology-Advanced-Hearing-Care)
 
 // Pre-load value LA32485-7 - Do Not Remove from template
-* valueCodeableConcept = https://loinc.org/LL6015-3/#LA32485-7 "Sensorineural"
+* valueCodeableConcept = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS#LA32485-7 "Sensorineural"
 
 
 Instance: BSJ-ObservationSPLASCH-078

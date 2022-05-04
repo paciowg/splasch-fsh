@@ -192,3 +192,35 @@ Description: "Codes representing panel LOINC 89015-2 Pure tone threshold audiome
 * #89029-3 "Hearing threshold Ear - right --8000 Hz" 
 * ^caseSensitive = true
 * ^copyright = "This CodeSystem is not copyrighted."
+
+
+CodeSystem: HearingLossTypeCS
+Title: "Hearing Loss - Type"
+Description: "Type of hearing loss"
+//note: from answer list LL6015-3
+* #LA32484-0 "No hearing loss"
+* #LA32485-7 "Sensorineural"
+* #LA32486-5 "Conductive - transient"
+* #LA32487-3 "Conductive - permanent"
+* #LA32488-1 "Conductive - undetermined"
+* #LA11840-8 "Mixed"
+* #LA32489-9 "Auditory neuropahty/Neural"
+* #LA32490-7 "Undetermined/Inconclusive"
+* ^caseSensitive = true
+* ^copyright = "This CodeSystem is not copyrighted."
+
+
+CodeSystem: HearingLossDegreeCS
+Title: "Hearing Loss - Degree"
+Description: "Degree of hearing loss"
+//note: from answer list LL6016-1
+* #LA32484-0 "No hearing loss"
+* #LA32491-5 "Slight (16-25 dB HL)"
+* #LA32492-3 "Mild (26-40 dB HL)"
+* #LA32493-1 "Moderate (41-55 dB HL)"
+* #LA32494-9 "Moderately severe (56-70 dB HL)"
+* #LA32495-6 "Severe (71-90 dB HL)"
+* #LA32496-4 "Profound (91+ dB HL)"
+* #LA14100-4 "Undetermined"
+* ^caseSensitive = true
+* ^copyright = "This CodeSystem is not copyrighted."

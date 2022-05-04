@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "ac269e14-b48d-42ee-9e9d-060e4b1d0bcc-192",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ac269e14-b48d-42ee-9e9d-060e4b1d0bcc-192",
+  "id" : "acdb010f-f609-476c-ad4f-d18a9ba60c01-192",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/acdb010f-f609-476c-ad4f-d18a9ba60c01-192",
   "name" : "IntersectionUSCoreClinicalTestResultObservationProfileAndSpokenLanguageComprehensionObservation",
   "title" : "Intersection of US Core Clinical Test Result Observation Profile And Spoken Language Comprehension Observation",
   "status" : "active",
-  "date" : "2022-05-03T15:08:03-04:00",
+  "date" : "2022-05-04T09:56:16-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -576,7 +576,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ac269e14-b48d-42ee-9e9d-060e4b1d0bcc-195"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/acdb010f-f609-476c-ad4f-d18a9ba60c01-195"
       },
       "mapping" : [{
         "identity" : "workflow",

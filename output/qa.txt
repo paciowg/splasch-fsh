@@ -1,10 +1,12 @@
 ﻿PACIOSPLASCH : Validation Results
 =========================================
 
-err = 3, warn = 16, info = 195
+err = 2, warn = 17, info = 179
 IG Publisher Version: 1.1.88 Out of date - current version is 1.1.116
-Generated Tue May 03 15:11:09 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio-splasch#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-splasch)
- Build Errors : 1 / 1 / 0
+Generated Wed May 04 10:00:11 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio-splasch#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-splasch)
+ Build Errors : 0 / 1 / 0
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-HearingLossDegreeCS : 0 / 0 / 1
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-HearingLossTypeCS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHCaloriePercentageCategoryCS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHFrequencyCS : 0 / 0 / 1
@@ -18,23 +20,23 @@ Generated Tue May 03 15:11:09 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHSwallowingObservationCS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\CodeSystem-SPLASCHTimePercentageCategoryCS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ImplementationGuide-hl7.fhir.us.pacio-splasch : 0 / 0 / 1
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-001 : 0 / 0 / 3
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-002 : 0 / 0 / 3
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-003 : 0 / 0 / 3
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-004 : 0 / 0 / 3
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-001 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-002 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-003 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-004 : 0 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-005 : 0 / 0 / 2
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-006 : 0 / 0 / 3
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-007 : 0 / 0 / 3
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-008 : 0 / 0 / 3
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-009 : 0 / 0 / 3
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-010 : 0 / 0 / 3
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-011 : 0 / 1 / 3
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-012 : 0 / 0 / 3
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-013 : 0 / 0 / 3
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-014 : 0 / 0 / 3
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-015 : 0 / 0 / 3
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-016 : 0 / 0 / 3
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-017 : 0 / 0 / 3
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-006 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-007 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-008 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-009 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-010 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-011 : 0 / 2 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-012 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-013 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-014 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-015 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-016 : 0 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-017 : 0 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-018 : 0 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-019 : 0 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-020 : 0 / 0 / 2
@@ -200,7 +202,7 @@ Generated Tue May 03 15:11:09 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Organization-Organization-Audiology-Advanced-Hearing-Care : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Organization-Organization-Happy-Nursing-Facility : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Organization-Organization-San-Antonio-General-Hospital : 0 / 0 / 1
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Patient-BSJ-patientBSJ1 : 3 / 0 / 2
+ C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Patient-BSJ-patientBSJ1 : 2 / 0 / 2
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Practitioner-Practitioner-AlexanderKuikhoff : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Practitioner-Practitioner-CheriseLangford : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\Practitioner-Practitioner-DanielGranger : 0 / 0 / 1
@@ -239,8 +241,6 @@ Generated Tue May 03 15:11:09 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-CmsFasiAssistiveDevicesVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-HearBetterInOneEarVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-HearingAbilityToHearDuringAssessmentPeriodVS : 0 / 0 / 1
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-HearingLossDegree : 0 / 0 / 1
- C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-HearingLossType : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-LeftRightBothVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHAbilityToHearDuringAssessmentTypeObservationVS : 0 / 0 / 1
  C:\Users\bmeshell\Documents\PACIO\splasch-fsh\fsh-generated\resources\ValueSet-SPLASCHCaloriePercentageTypeObservationVS : 0 / 0 / 1
@@ -264,7 +264,8 @@ Generated Tue May 03 15:11:09 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.pacio
 </table>
 == n/a ==
 WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
-ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Patient-BSJ-patientBSJ1.html#/html/body/div/div/div/div/div/div/p/a at Line 211, column 2480: The link 'pcp-John-Smith' for "pcp-John-Smith" cannot be resolved
+== fsh-generated\resources\CodeSystem-HearingLossDegreeCS.json ==
+== fsh-generated\resources\CodeSystem-HearingLossTypeCS.json ==
 == fsh-generated\resources\CodeSystem-SPLASCHCaloriePercentageCategoryCS.json ==
 == fsh-generated\resources\CodeSystem-SPLASCHDiagnosticAudiologyResultsPanelCS.json ==
 == fsh-generated\resources\CodeSystem-SPLASCHFrequencyCS.json ==
@@ -280,55 +281,40 @@ ERROR: C:\Users\bmeshell\Documents\PACIO\splasch-fsh\output\Patient-BSJ-patientB
 == fsh-generated\resources\ImplementationGuide-hl7.fhir.us.pacio-splasch.json ==
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-001.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-001: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
-INFORMATION: Observation/BSJ-ObservationSPLASCH-001: Observation.value.ofType(CodeableConcept).coding[0]: Code System URI 'https://loinc.org/LL6015-3/' is unknown so the code cannot be validated
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-002.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-002: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
-INFORMATION: Observation/BSJ-ObservationSPLASCH-002: Observation.value.ofType(CodeableConcept).coding[0]: Code System URI 'https://loinc.org/LL6015-3/' is unknown so the code cannot be validated
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-003.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-003: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
-INFORMATION: Observation/BSJ-ObservationSPLASCH-003: Observation.value.ofType(CodeableConcept).coding[0]: Code System URI 'https://loinc.org/LL6016-1/' is unknown so the code cannot be validated
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-004.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-004: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
-INFORMATION: Observation/BSJ-ObservationSPLASCH-004: Observation.value.ofType(CodeableConcept).coding[0]: Code System URI 'https://loinc.org/LL6016-1/' is unknown so the code cannot be validated
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-005.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-005: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-006.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-006: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
-INFORMATION: Observation/BSJ-ObservationSPLASCH-006: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-007.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-007: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
-INFORMATION: Observation/BSJ-ObservationSPLASCH-007: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-008.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-008: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
-INFORMATION: Observation/BSJ-ObservationSPLASCH-008: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-009.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-009: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
-INFORMATION: Observation/BSJ-ObservationSPLASCH-009: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-010.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-010: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
-INFORMATION: Observation/BSJ-ObservationSPLASCH-010: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-011.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-011: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
-INFORMATION: Observation/BSJ-ObservationSPLASCH-011: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
+WARNING: Observation/BSJ-ObservationSPLASCH-011: Observation.code.coding[0]: Display Name for http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS#89029-3 should be one of 'Hearing threshold Ear - right --8000 Hz' instead of 'Hearing threshold Ear - right --8000 Hz ' for 'http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHPureToneThresholdAudiometryPanelCS#89029-3'
 WARNING: Observation/BSJ-ObservationSPLASCH-011: Observation.code.coding[0].display: value should not start or finish with whitespace
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-012.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-012: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
-INFORMATION: Observation/BSJ-ObservationSPLASCH-012: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-013.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-013: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
-INFORMATION: Observation/BSJ-ObservationSPLASCH-013: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-014.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-014: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
-INFORMATION: Observation/BSJ-ObservationSPLASCH-014: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-015.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-015: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
-INFORMATION: Observation/BSJ-ObservationSPLASCH-015: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-016.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-016: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
-INFORMATION: Observation/BSJ-ObservationSPLASCH-016: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-017.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-017: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#hearing)
-INFORMATION: Observation/BSJ-ObservationSPLASCH-017: Observation.code.coding[0]: Code System URI 'https://loinc.org/89015-2/' is unknown so the code cannot be validated
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-018.json ==
 INFORMATION: Observation/BSJ-ObservationSPLASCH-018: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category), and a coding is recommended to come from this value set) (codes = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObservationCategoryCS#spoken-language-comprehension)
 == fsh-generated\resources\Observation-BSJ-ObservationSPLASCH-019.json ==
@@ -659,7 +645,6 @@ INFORMATION: Observation/BSJ-ObservationSPLASCH-179: Observation.category[0]: No
 == fsh-generated\resources\Patient-BSJ-patientBSJ1.json ==
 ERROR: Patient/BSJ-patientBSJ1: Patient.contact[0].relationship[1].coding[0]: Unknown Code System 'http://hl7.org/fhir/v2/0131'
 ERROR: Patient/BSJ-patientBSJ1: Patient.contact[0].relationship[1].coding[0].system: URL value 'http://hl7.org/fhir/v2/0131' does not resolve
-ERROR: Patient/BSJ-patientBSJ1: Patient.generalPractitioner[0]: Unable to resolve resource 'pcp-John-Smith'
 == fsh-generated\resources\Practitioner-Practitioner-AlexanderKuikhoff.json ==
 == fsh-generated\resources\Practitioner-Practitioner-CheriseLangford.json ==
 == fsh-generated\resources\Practitioner-Practitioner-DanielGranger.json ==
@@ -712,8 +697,6 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-splasch/S
 == fsh-generated\resources\ValueSet-CmsFasiAssistiveDevicesVS.json ==
 == fsh-generated\resources\ValueSet-HearBetterInOneEarVS.json ==
 == fsh-generated\resources\ValueSet-HearingAbilityToHearDuringAssessmentPeriodVS.json ==
-== fsh-generated\resources\ValueSet-HearingLossDegree.json ==
-== fsh-generated\resources\ValueSet-HearingLossType.json ==
 == fsh-generated\resources\ValueSet-LeftRightBothVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHAbilityToHearDuringAssessmentTypeObservationVS.json ==
 == fsh-generated\resources\ValueSet-SPLASCHCaloriePercentageTypeObservationVS.json ==

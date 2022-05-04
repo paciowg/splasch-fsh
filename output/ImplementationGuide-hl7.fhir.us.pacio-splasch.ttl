@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOSPLASCH"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Speech Language Swallowing Cognitive Communication and Hearing (SPLASCH) Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-05-03T15:05:17-04:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-05-04T09:54:10-04:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Patient Care Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -491,34 +491,6 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingLossDegree>;
-         fhir:Reference.reference [ fhir:value "ValueSet/HearingLossDegree" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Hearing Loss - Degree" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Degree of hearing loss" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 9;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingLossType>;
-         fhir:Reference.reference [ fhir:value "ValueSet/HearingLossType" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Hearing Loss - Type" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Type of hearing loss" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 10;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <http://hl7.org/fhir/us/pacio-splasch/ValueSet/LeftRightBothVS>;
          fhir:Reference.reference [ fhir:value "ValueSet/LeftRightBothVS" ]
        ];
@@ -526,7 +498,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Left / Right / Both" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 11;
+       fhir:index 9;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -540,7 +512,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet identifying observation codes that have an ability to hear value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 12;
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -554,7 +526,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet identifying observation codes that have a calorie percentage value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 13;
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -568,7 +540,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Frequency values for SPLASCH observations" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 14;
+       fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -582,7 +554,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet identifying observation codes that have a frequency value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 15;
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -596,7 +568,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet identifying observation codes that have an ability to hear better in one ear value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 16;
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -610,7 +582,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet identifying observation codes that have a hearing aid need and availability value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 17;
+       fhir:index 15;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -624,7 +596,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "SPLASCH hearing observation profile: codes representing hearing questions that are answered by the ValueSet SPLASCHHearingObservationValueCodeableConceptVS" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 18;
+       fhir:index 16;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -638,7 +610,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "SPLASCH hearing observation values: codes representing answers to the hearing questions asked by the ValueSet SPLASCHHearingObservationCodeVS" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 19;
+       fhir:index 17;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -652,7 +624,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet identifying observation codes that have a left / right / both value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 20;
+       fhir:index 18;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -666,7 +638,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet identifying observation codes that have a liquid diet modifier value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 21;
+       fhir:index 19;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -680,7 +652,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "SPLASCH multi-modal communication observation profile" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 22;
+       fhir:index 20;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -694,7 +666,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Categories for SPLASCH observation profiles" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 23;
+       fhir:index 21;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -708,7 +680,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet identifying observation codes that have a solid diet modifier value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 24;
+       fhir:index 22;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -722,7 +694,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "SPLASCH spoken language comprehension observation profile" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 25;
+       fhir:index 23;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -736,7 +708,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "SPLASCH spoken language expression observation profile" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 26;
+       fhir:index 24;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -750,7 +722,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "SPLASCH swallowing observation profile" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 27;
+       fhir:index 25;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -764,7 +736,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Values for swallowing observations" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 28;
+       fhir:index 26;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -778,7 +750,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet identifying observation codes that have a yes or no value. This ValueSet can be used for creating a pick-list or value validation appropriate for a particular observation." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 29;
+       fhir:index 27;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -790,6 +762,34 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Y/N" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes or No" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 28;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/HearingLossDegreeCS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Hearing Loss - Degree" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Degree of hearing loss" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 29;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/HearingLossTypeCS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Hearing Loss - Type" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Type of hearing loss" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 30;
@@ -4037,10 +4037,6 @@
 
 <http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingAbilityToHearDuringAssessmentPeriodVS> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingLossDegree> a fhir:us .
-
-<http://hl7.org/fhir/us/pacio-splasch/ValueSet/HearingLossType> a fhir:us .
-
 <http://hl7.org/fhir/us/pacio-splasch/ValueSet/LeftRightBothVS> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHAbilityToHearDuringAssessmentTypeObservationVS> a fhir:us .
@@ -4080,6 +4076,10 @@
 <http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHYesOrNoTypeObservationVS> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-splasch/ValueSet/YesOrNoVS> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossDegreeCS> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS> a fhir:us .
 

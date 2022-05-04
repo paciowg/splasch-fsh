@@ -45,4 +45,4 @@ Description: "An instance of USCorePatientProfile"
 * contact[0].telecom.value = "(210) 222-3333"
 * contact[1].telecom.value = "(410) 444-5555"
 
-* generalPractitioner = Reference(pcp-John-Smith)
+

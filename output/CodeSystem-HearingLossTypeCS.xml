@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="HearingLossTypeCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">LA32484-0<a name="HearingLossTypeCS-LA32484-0"> </a></td><td>No hearing loss</td></tr><tr><td style="white-space:nowrap">LA32485-7<a name="HearingLossTypeCS-LA32485-7"> </a></td><td>Sensorineural</td></tr><tr><td style="white-space:nowrap">LA32486-5<a name="HearingLossTypeCS-LA32486-5"> </a></td><td>Conductive - transient</td></tr><tr><td style="white-space:nowrap">LA32487-3<a name="HearingLossTypeCS-LA32487-3"> </a></td><td>Conductive - permanent</td></tr><tr><td style="white-space:nowrap">LA32488-1<a name="HearingLossTypeCS-LA32488-1"> </a></td><td>Conductive - undetermined</td></tr><tr><td style="white-space:nowrap">LA11840-8<a name="HearingLossTypeCS-LA11840-8"> </a></td><td>Mixed</td></tr><tr><td style="white-space:nowrap">LA32489-9<a name="HearingLossTypeCS-LA32489-9"> </a></td><td>Auditory neuropahty/Neural</td></tr><tr><td style="white-space:nowrap">LA32490-7<a name="HearingLossTypeCS-LA32490-7"> </a></td><td>Undetermined/Inconclusive</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/pacio-splasch/CodeSystem/HearingLossTypeCS"/>
+  <version value="0.1.0"/>
+  <name value="HearingLossTypeCS"/>
+  <title value="Hearing Loss - Type"/>
+  <status value="active"/>
+  <date value="2022-05-04T09:54:10-04:00"/>
+  <publisher value="HL7 Patient Care Working Group"/>
+  <contact>
+    <name value="HL7 Patient Care Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patients@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="PACIO project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@pacioproject.org"/>
+    </telecom>
+  </contact>
+  <description value="Type of hearing loss"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This CodeSystem is not copyrighted."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="8"/>
+  <concept>
+    <code value="LA32484-0"/>
+    <display value="No hearing loss"/>
+  </concept>
+  <concept>
+    <code value="LA32485-7"/>
+    <display value="Sensorineural"/>
+  </concept>
+  <concept>
+    <code value="LA32486-5"/>
+    <display value="Conductive - transient"/>
+  </concept>
+  <concept>
+    <code value="LA32487-3"/>
+    <display value="Conductive - permanent"/>
+  </concept>
+  <concept>
+    <code value="LA32488-1"/>
+    <display value="Conductive - undetermined"/>
+  </concept>
+  <concept>
+    <code value="LA11840-8"/>
+    <display value="Mixed"/>
+  </concept>
+  <concept>
+    <code value="LA32489-9"/>
+    <display value="Auditory neuropahty/Neural"/>
+  </concept>
+  <concept>
+    <code value="LA32490-7"/>
+    <display value="Undetermined/Inconclusive"/>
+  </concept>
+</CodeSystem>

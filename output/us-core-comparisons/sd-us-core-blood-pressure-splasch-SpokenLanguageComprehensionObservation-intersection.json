@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "ac269e14-b48d-42ee-9e9d-060e4b1d0bcc-171",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ac269e14-b48d-42ee-9e9d-060e4b1d0bcc-171",
+  "id" : "acdb010f-f609-476c-ad4f-d18a9ba60c01-171",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/acdb010f-f609-476c-ad4f-d18a9ba60c01-171",
   "name" : "IntersectionUSCoreBloodPressureProfileAndSpokenLanguageComprehensionObservation",
   "title" : "Intersection of US Core Blood Pressure Profile And Spoken Language Comprehension Observation",
   "status" : "active",
-  "date" : "2022-05-03T15:08:03-04:00",
+  "date" : "2022-05-04T09:56:15-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -578,7 +578,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "The vital sign codes from the base FHIR and US Core Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ac269e14-b48d-42ee-9e9d-060e4b1d0bcc-162"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/acdb010f-f609-476c-ad4f-d18a9ba60c01-162"
       },
       "mapping" : [{
         "identity" : "workflow",
